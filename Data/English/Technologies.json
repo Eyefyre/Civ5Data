@@ -1,0 +1,1557 @@
+[
+    {
+        "id": 1,
+        "Name": "Agriculture",
+        "civilopedia": "Agriculture is the production of plants and animals, most notably for food, but also for clothing, shelter, medicine, recreation, and other diverse uses. Crop cultivation probably developed independently in numerous places. The earliest evidence of agriculture thus far discovered dates back to the end of the last ice age, approximately 11,000 years ago. Interestingly, it appears that agriculture was not invented by starving hunter-gatherers desperately seeking new sources of sustenance; instead, evidence suggests that the earliest agriculturalists were successful and wealthy hunter-gatherers who probably had plenty of food already on hand. This makes some sense: people with a surplus of food can afford to experiment on new technologies, while those who are hungry are going to expend all of their energy on tried and true methods of gaining sustenance.In its infancy, agriculture was a slow, cyclical process. Seeds were sown in the spring, the fields were tended and watered until the crops were ready to be harvested, often many months later. Since very few places have climates suitable for year-round agricultural production, farmers had to be able to store food for the lean winter months or they had to trade with those who could gather food year-round from hunting, fishing, and so forth. Farmers have always been at the mercy of nature and the weather: if it didn't rain one year or pests ate the crop, a family might simply starve.Modern agriculture (or \"agribusiness\") is a complicated and exacting science of genetic manipulation, advanced fertilizer and insecticides, and computerized irrigation systems and robotic harvesters. Advances in the technology have greatly increased the output of food from a given acre of soil, so much so that some countries - including the United States - occasionally suffer not from famine, but from a glut of food, resulting in chronic obesity in their citizenry and prices so cheap as to threaten the livelihood of the very farmers who are growing all the food.",
+        "help_text": "Allows Workers to construct Farms, vital for increasing the  Food output of map tiles.",
+        "era_requirement": "Ancient Era",
+        "quote": "\"Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.\"  - Daniel Webster",
+        "prereq_techs": [],
+        "cost": 20,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Settler",
+            "Worker",
+            "Scout",
+            "Warrior",
+            "Jaguar",
+            "Maori Warrior",
+            "Atlatlist",
+            "Pathfinder"
+        ]
+    },
+    {
+        "id": 2,
+        "Name": "Pottery",
+        "civilopedia": "Pottery is one of the oldest and most useful of all of the arts. In pottery, objects are built out of clay and then placed in an oven and subjected to extremely high temperatures. The resulting product is extremely brittle but is also airtight and virtually impervious to corrosion, oxidation, infestation, and the other destructive forces that would attack items made of metal, wood or cloth. The earliest pottery objects include jugs and containers to hold liquids or grains, as well as cooking pots, serving bowls, plates, and cups.The first kind of pottery discovered was earthenware, dating back some 9,000 years. This pottery is somewhat porous and is usually covered with a more watertight material (called \"slip\"), or it can be glazed. Earthenware pottery is extremely durable and remains in wide use today. Stoneware is pottery that has been baked (\"fired\") at extremely high temperatures until the clay is \"vitrified\" - glasslike and nonporous. This process was discovered in China around 1400 BC. Porcelain was invented in China around the sixth century AD. It is similar to stoneware (in fact, a line of demarcation between the two is open to debate), but porcelain products are generally more translucent and delicate.",
+        "help_text": "Allows your cities to build the Granary, which provides  Food, helping your cities grow larger. Also allows you to build the Shrine, the first  Faith producing building in the game.",
+        "era_requirement": "Ancient Era",
+        "quote": "\"Shall the clay say to him that fashioneth it, What makest thou?\"  - The Bible, Isaiah, 45:9",
+        "prereq_techs": [
+            "Agriculture"
+        ],
+        "cost": 35,
+        "building_unlocks": [
+            "Granary",
+            "Pyramid",
+            "Shrine"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 3,
+        "Name": "Animal Husbandry",
+        "civilopedia": "Animal husbandry appears to have occurred at about the same time as the invention of agriculture. The dog appears to be the earliest domesticated animal, probably bred to assist in hunting and killing game. Evidence suggests that they were first tamed and bred in China - in fact, geneticists believe that about 95% of the dogs living today are descended from just a few common Chinese animals. Goats and sheep were domesticated in the Middle East perhaps by about 10,000 BC.To be successfully domesticated, an animal must fit certain criteria: it should be able to consume food that is less attractive to humans, say, grass or vermin or leftover table scraps. It should mature rapidly, so that it becomes useful quickly and so that it can be genetically altered through repeated generations of breeding. It should have a pleasant disposition. It shouldn't panic easily, or if it does, it should stay together with others of its kind, making it possible for humans or dogs to herd them in a group. Finally, it's extremely useful if the animal can be trained to think of a human as its pack leader.Scientists believe that the horse was first domesticated in the Ukraine region in approximately 4000-3500 BC. It is possible that the first horses were kept for their meat rather than as working animals. Within about half a millennium, the horse was being employed as a draft animal across much of Europe and Asia. Over the several thousands of years, intensive breeding programs resulted in a domesticated animal which was much larger and stronger than the original wild horse. And with the invention of the horse collar and later the saddle and stirrups, the horse became the most important domesticated animal in human history. (At least in Eurasia and Northern Africa, that is: the aboriginal North, Central and South Americans ate all of their horses before they domesticated them.)",
+        "help_text": "Allows you to build the Caravan, used to establish lucrative Trade Routes. Also allows Workers to construct Pastures on  Cows and  Sheep. Also reveals  Horses, which are used to build powerful mounted units.",
+        "era_requirement": "Ancient Era",
+        "quote": "\"Thou shalt not muzzle the ox when he treadeth out the corn.\"  - The Bible, Deuteronomy, 25:4",
+        "prereq_techs": [
+            "Agriculture"
+        ],
+        "cost": 35,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Caravan"
+        ]
+    },
+    {
+        "id": 4,
+        "Name": "Archery",
+        "civilopedia": "Archery is the technology by which a person uses the spring power stored in a bent stick (or \"bow\") to shoot a slender pointed projectile (an \"arrow\") a great distance at rapid speed. Throughout history bows and arrows have been employed in the hunt and in war. Their earliest use is lost in the mists of time, but probably dates from the Paleolithic era (which ended some 14,000 years ago) or even earlier (archaeologists have found stone points in Africa dating 60,000 years ago that may have been arrowheads). Virtually every early culture employed bows and arrows, excepting for the Aboriginal Australians, who appear never to have invented them.Archers have been used in war about as long as there has been war. The early Greeks and Egyptians deployed ranks of archers, as did the earliest known armies from India, Asia, Japan, and the Americas. By the Middle Ages the crossbow and firearms began to replace the bow and arrow in warfare and hunting, and by the 16th century it had all but disappeared from most modern armies. Today target archery survives as a sport in many cultures around the world. Some enthusiasts still hunt with the bow and arrow which, despite its great antiquity, can take down a deer as effectively as it did ten thousand years ago.",
+        "help_text": "Allows you to build the Archer, the first ranged unit in the game.",
+        "era_requirement": "Ancient Era",
+        "quote": "\"The haft of the arrow had been feathered with one of the eagle's own plumes. We often give our enemies the means of our own destruction.\"  - Aesop",
+        "prereq_techs": [
+            "Agriculture"
+        ],
+        "cost": 35,
+        "building_unlocks": [
+            "Temple of Artemis"
+        ],
+        "unit_unlocks": [
+            "Archer",
+            "Slinger",
+            "Bowman"
+        ]
+    },
+    {
+        "id": 5,
+        "Name": "Mining",
+        "civilopedia": "Mining is the process of extracting various useful substances from beneath the earth's surface. The earliest mined elements include copper, iron, diamonds, gold, silver, salt and coal. Since one can't eat any of that stuff (except for salt, of course, but you see where we're heading here), miners must be part of a community that grows enough excess food to support them and their families.The oldest mine yet discovered was found in Swaziland, Africa. It was dug some 40,000 years ago to mine ochre, a mineral used in burial ceremonies and for body art. Flint, a brittle and easily-sharpened mineral used by early man for scrapers, knives and arrowheads may have been the first item mined on a large scale in Europe. Flint mine shafts some 100 feet deep and dating back to the Neolithic Period (8000 - 2000 BC) have been discovered in France and England.Modern miners employ a variety of methods to harvest a plethora of materials from under the ground. Coal miners sometimes pulverize the tops of entire mountains to extract the precious black mineral. In Africa, a few great mining companies have dug literally miles into the ground in search of diamonds. And companies are sinking mines everywhere - from the ocean's floor to the permafrost of the frozen north - in search of the most sought after liquid of all, petroleum.",
+        "help_text": "Allows Workers to construct Mines to increase the  Production of map tiles, and Chop Forests, allowing the construction of other improvements.",
+        "era_requirement": "Ancient Era",
+        "quote": "\"The meek shall inherit the Earth, but not its mineral rights.\"  - J. Paul Getty",
+        "prereq_techs": [
+            "Agriculture"
+        ],
+        "cost": 35,
+        "building_unlocks": [],
+        "unit_unlocks": []
+    },
+    {
+        "id": 6,
+        "Name": "Sailing",
+        "civilopedia": "Sailing is the art of harnessing the power of the wind to move a boat over the water. To be successful, sailing required the mastery of a number of diverse skills. First, the culture must be able to construct a seaworthy craft. Second, they must be able to construct some sort of sturdy sheets (sails) which can catch the wind and transmit its energy to the hull. Third they must be able to build the various ropes and cleats and pulleys used to control the ship's sails, and finally they must be able to successfully navigate the vessel from point to point without getting lost or capsizing or suffering some other misfortune.The earliest recorded evidence of watercraft can be found in illustrations in Egypt which date from around 4,000 BC. As a riparian (river-based) civilization, the Egyptians were excellent sailors. Many of their vessels contained both oars and sails, the former being used when the winds weren't strong enough or weren't coming from a favorable direction.By 3000 BC the Egyptians were venturing out into the Mediterranean Sea in their vessels, steering the lengthy journey across the open water to Crete and later Phoenicia. The Egyptians also sailed down the coast of Africa, looking for knowledge, trade and treasure.The earliest warships - biremes and triremes and the like - were powered by oar and sail and possessed rams or beaks on their prows. During battle the helmsman would attempt to ram the enemy vessel at high speed, while avoiding the enemy's earnest attempts to do the same thing. Some vessels were equipped with archers to fire at enemy craft from longer distance, while others had soldiers aboard; these vessels sought to come alongside the enemy craft so that their soldiers could board the other ship and take it by storm.The Greeks - especially the Athenians and the island colonies - were masters at naval warfare. One of the reasons that they were able to defeat their much larger and more powerful neighbor, Persia, was that the Athenian navy dominated the Aegean Sea and thus constantly threatened the Persians' increasingly lengthy supply chain.",
+        "help_text": "Allows you to build the Cargo Ship, used to establish lucrative sea-based Trade Routes. Also allows you to build military and economic ships, useful for exploration and harvesting resources in the water like  Fish and  Pearls.",
+        "era_requirement": "Ancient Era",
+        "quote": "\"He who commands the sea has command of everything.\"  - Themistocles",
+        "prereq_techs": [
+            "Pottery"
+        ],
+        "cost": 55,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Work Boat",
+            "Trireme",
+            "Dromon",
+            "Quinquereme",
+            "Cargo Ship"
+        ]
+    },
+    {
+        "id": 7,
+        "Name": "Calendar",
+        "civilopedia": "A calendar is a method of keeping track of the days. In many ancient cultures calendars served both religious and practical purposes: certain days of the year were dedicated to the worship of certain deities, and it was very bad to offend the gods by failing to give them their due. More prosaically, of course, calendars allowed people to track the weather in an area, telling them when to plant crops, when to harvest, and so forth.The Egyptians appear to have developed the first practical calendar, and this was appropriated and further refined by the Romans into the Julian calendar. The Gregorian calendar that is almost universally used today was based on the Julian calendar. Proclaimed in 1582 by Pope Gregory XIII, the Gregorian calendar more accurately defines a solar year, correcting a slight inaccuracy in the Julian. In the Julian calendar a solar year was 365 days and 6 hours in length, while in the Gregorian calendar the year was 12 minutes shorter, or 365 days, 5 hours and 48 minutes. This error accumulated over the centuries, and by Gregory's day the Julian calendar was 14 days out of sync with the seasons.",
+        "help_text": "Allows Workers to construct Plantations on many Luxury Resources, which are extremely important for  growth and  Happiness. (Note: Many resources require you to have chopped a forest or jungle first, which requires other Technologies.)",
+        "era_requirement": "Ancient Era",
+        "quote": "\"So teach us to number our days, so that we may apply our hearts unto wisdom.\"  - The Bible, Psalms, 90:12",
+        "prereq_techs": [
+            "Pottery"
+        ],
+        "cost": 55,
+        "building_unlocks": [
+            "Stonehenge",
+            "Stone Works"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 8,
+        "Name": "Writing",
+        "civilopedia": "Writing is the art of recording information on material (paper, stone, clay, animal skins) so that others who look at the material can discern its meaning. Invented sometime around the fourth millennium BC, the earliest form of writing was \"pictography,\" in which the writer draws little pictures representing the subject matter. This may work adequately for very simple subjects, but other methods become necessary when more esoteric topics are discussed. (Drawing a picture of a sheep may be easy, but how about a picture of a thousand sheep, or a picture of the sound a sheep makes when it falls off of a pyramid? Not so easy.)Logography probably came after pictography. In logography, symbols stand for individual words. There's a symbol for sheep, and another symbol for a thousand sheep, and yet another symbol for the sound a sheep makes when falling off of a pyramid. However, a full language may have tens of thousands of words in it, and learning the symbol for each word may be problematic.A phonographic system provides a unique symbol for each different-sounding word. \"Sheep\" would have a unique symbol, but \"there,\" \"their,\" and \"they're\" would all share the same symbol. This results in a smaller number of symbols to memorize, but also in greater chances of misunderstanding.In an alphabetic system, the language provides a set of symbols (the alphabet) which represent the various sounds which may occur in a language. These symbols can be strung together to replicate any spoken word in the language. Theoretically, anybody who can spell should be able to accurately \"sound out\" any written word. This is the system used in the English language, and is generally believed (especially by English-speakers) to be the most useful and flexible writing system yet devised.",
+        "help_text": "Allows you to build the first  Science building, the Library, helping your empire research new technologies more quickly. Also allows you to establish Embassies in other civilizations.",
+        "era_requirement": "Ancient Era",
+        "quote": "\"He who destroys a good book kills reason itself.\"  - John Milton",
+        "prereq_techs": [
+            "Pottery"
+        ],
+        "cost": 55,
+        "building_unlocks": [
+            "Paper Maker",
+            "Library",
+            "Great Library",
+            "Royal Library"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 9,
+        "Name": "Trapping",
+        "civilopedia": "Humans have been trapping animals for millennia. It's a form of hunting that is nearly as old as man himself. Throughout history hunters have used a huge variety of traps to ensnare their prey - employing everything from covered pits to hidden nets to spring-jawed metal contraptions. In 17th-18th century North America, French-Canadian trappers would spend years in the wilderness trapping huge quantities of fur-bearing animals before bringing them to an eastern settlement for sale, with many of the valuable pelts ending up as hats and other garments adorning wealthy Europeans. Russian hunters did much the same in Siberia and other remote Eurasian territories.",
+        "help_text": "Allows your Workers to construct Camps on sources of  Deer,  Ivory,  Fur and  Truffles.",
+        "era_requirement": "Ancient Era",
+        "quote": "\"Even brute beasts and wandering birds do not fall into the same traps or nets twice.\" - Saint Jerome",
+        "prereq_techs": [
+            "Animal Husbandry"
+        ],
+        "cost": 55,
+        "building_unlocks": [
+            "Circus"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 10,
+        "Name": "The Wheel",
+        "civilopedia": "The wheel is a round object with a hole or an axle through its center. Taken alone it's of little use, but when part of a transportation system including roads and draft animals, it is of extraordinary value to human civilization. The earliest depiction of a vehicle with wheels is found in ancient Sumer, from approximately 3500 BC. The first wheels were of solid wood; spoked wheels first appear around 2000 BC in Asia Minor, where they were used on horse-drawn chariots. Later improvements included iron hubs which turned on greased axles, and the addition of springs or some other sort of shock absorber.Contrary to popular myth, the wheel was known in the New World prior to the arrival of the Spanish. However North, Central and South America lacked draft animals, so pretty much everything was transported by people. Humans are not designed to pull for long distances: they are more efficient carrying weights on their shoulders - in backpacks, for example - so carts were not developed. Once horses and other draft animals arrived, the Native American people happily used wheeled vehicles just like everybody else.",
+        "help_text": "Allows you to build the Chariot Archer, a fast and powerful ranged unit which requires  Horses, and the Water Mill, which gives your city a  Food and  Production boost if it's next to a river. Also allows Workers to construct Roads, which allow units to move across the map faster and provide extra  Gold when connecting cities to your capital.",
+        "era_requirement": "Ancient Era",
+        "quote": "\"Wisdom and virtue are like the two wheels of a cart.\"  - Japanese Proverb",
+        "prereq_techs": [
+            "Animal Husbandry",
+            "Archery"
+        ],
+        "cost": 55,
+        "building_unlocks": [
+            "Floating Gardens",
+            "Water Mill"
+        ],
+        "unit_unlocks": [
+            "Chariot Archer",
+            "War Chariot",
+            "War Elephant",
+            "Horse Archer"
+        ]
+    },
+    {
+        "id": 11,
+        "Name": "Masonry",
+        "civilopedia": "Masonry is the construction of structures from individual blocks bound together by some kind of mortar. The blocks may be made of stone, concrete, cinder, or they may be clay bricks. The mortar is some kind of workable paste that dries into an extremely durable material. It is usually composed of a mixture of sand, cement or lime, and water.The ancient Egyptians mastered the art of masonry as early as the fourth millennium BC, constructing their temples, palaces and pyramids from the large veins of limestone, sandstone, granite and basalt found in the hills of the Nile River. The ancient Assyrians of the Fertile Crescent lacked such easy access to stone but possessed rich deposits of clay, which they sun-dried into bricks. Since sun-dried bricks can be vulnerable to moisture, they often covered their structures with more water-resistant kiln-baked or glazed tiles.The ancient Romans invented concrete, which was a far superior mortar to that used by earlier civilizations (usually clay-based), and which could be used as a construction material in itself. This so-called \"concrete revolution\" allowed the Romans to construct buildings that were impossible using more primitive materials. In the 19th century a Parisian gardener thought to imbed iron mesh into his concrete tubs and pots; his invention of reinforced concrete greatly increased the \"tensile strength\" of the material, making it more suitable for tall structures that might be subject to stress from wind, vibration, or even earthquakes. More recent innovations have greatly increased the strength and flexibility of this most useful of all construction materials. And though many modern buildings are constructed of glass and steel, they all rest upon foundations built using the ancient construction techniques of masonry.",
+        "help_text": "Allows you to build Walls, which greatly improve the defense of cities from attack. Also allows Workers to construct Quarries on  Marble and Clear Marshes, allowing other improvements to be constructed.",
+        "era_requirement": "Ancient Era",
+        "quote": "\"How happy are those whose walls already rise!\"  - Virgil",
+        "prereq_techs": [
+            "Mining"
+        ],
+        "cost": 55,
+        "building_unlocks": [
+            "Walls",
+            "Pyramids",
+            "Mausoleum of Halicarnassus",
+            "Walls of Babylon"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 12,
+        "Name": "Bronze Working",
+        "civilopedia": "Bronze is a metal \"alloy\" (mixture) of copper and tin. The resulting material is harder and tougher than either of the original metals and it is easier to melt and cast (e.g., pour into molds to make spear tips and other useful items). Copper was probably first used in Egypt before 5,000 BC. The first evidence of bronze appears some 1,300 years later in the form of a bronze rod found in a pyramid dating from 3700 BC. Bronze appeared in Asia much later, around 1,500 BC, and in the Americas later still, between 100-200 AD.",
+        "help_text": "Reveals  Iron and allows your Workers to Chop Jungle, clearing the map tile so other improvements can be constructed. Also allows you to build the Spearman, a military unit strong against mounted enemies.",
+        "era_requirement": "Ancient Era",
+        "quote": "\"Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.\"  - Homer",
+        "prereq_techs": [
+            "Mining"
+        ],
+        "cost": 55,
+        "building_unlocks": [
+            "Krepost",
+            "Barracks",
+            "Statue of Zeus",
+            "Ikanda"
+        ],
+        "unit_unlocks": [
+            "Spearman",
+            "Hoplite",
+            "Immortal",
+            "Pictish Warrior",
+            "Battering Ram"
+        ]
+    },
+    {
+        "id": 13,
+        "Name": "Optics",
+        "civilopedia": "Optics is the study of light and vision. The earliest and most important optical challenges were centered upon aiding the perception of the human eye - letting it see greater distances, or allowing it to look at very small objects, or in darkness. The first lenses were developed by the ancient Egyptians and the Mesopotamians. The oldest lenses, made from polished crystal, date back to 700 BC. The Greeks and Romans created crude lenses by filling glass spheres with water. In \"Optics,\" Euclid described the mathematical rules of perception and examined refraction. In the eighth century AD Islamic scholars studied optics in depth, writing learned treatises on refraction and the construction of lenses and mirrors.The first wearable eyeglasses were invented in Italy in the 12th century, and the first primitive telescopes in the 15th, as was the first microscope. Though not very good by today's standards, these instruments greatly expanded man's ability to perceive the world around him and to navigate the world's uncharted oceans.",
+        "help_text": "Allows land units to Embark onto water tiles and travel the ocean. Also allows you to build the Lighthouse in coastal cities, improving  Food output from water tiles, speeding their growth.",
+        "era_requirement": "Classical Era",
+        "quote": "\"He made an instrument to know  If the moon shine at full or no.\"  - Samuel Butler",
+        "prereq_techs": [
+            "Sailing"
+        ],
+        "cost": 85,
+        "building_unlocks": [
+            "Lighthouse",
+            "Great Lighthouse"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 14,
+        "Name": "Horseback Riding",
+        "civilopedia": "Horseback riding was developed in the second millennium BC (possibly earlier), probably by the nomadic people of Central Asia. The horse had been domesticated for some time by then, but the original animal was too small. It wasn't until a large enough animal had been bred that horseback riding became practical. One early group of nomads, the Scythians, were particularly accomplished riders; they might have invented the first saddle and stirrup (although they may have used the stirrup only for mounting and dismounting the horse). According to the Greek historians the Scythians were the first to \"geld\" (castrate) unruly male horses, making them much more docile and controllable.By about 1500 BC many people of the Fertile Crescent - the Hittites, the Assyrians and the Babylonians - were fighting from horseback, and at the same time horses were introduced into Egypt. By the time of Alexander the Great cavalry tactics were quite advanced, and Alexander's \"Companion Cavalry\" were perhaps the most effective and powerful military unit in the Mediterranean world.",
+        "help_text": "Allows you to build the Horseman, a fast and powerful mounted unit.",
+        "era_requirement": "Classical Era",
+        "quote": "\"My kingdom for a horse!\"  - Shakespeare (Richard III)",
+        "prereq_techs": [
+            "The Wheel",
+            "Trapping"
+        ],
+        "cost": 105,
+        "building_unlocks": [
+            "Stable",
+            "Circus Maximus",
+            "Ducal Stable",
+            "Caravansary"
+        ],
+        "unit_unlocks": [
+            "Horseman",
+            "Companion Cavalry",
+            "Cataphract",
+            "African Forest Elephant"
+        ]
+    },
+    {
+        "id": 15,
+        "Name": "Mathematics",
+        "civilopedia": "Mathematics may be defined as the science of order, structure and relation that has evolved from counting, measuring and describing objects and their shapes. Mathematics is the most basic building block upon which all physical science is based. The Sumerians had a remarkably robust and complex mathematical system which was \"base-ten\" (like the modern system) and \"base-60\" as well. Remnants of the \"base-60\" system survive today primarily in modern time-keeping - 60 seconds to the minute, 60 minutes to the hour.The Egyptians had a somewhat simpler system, developed by the scribes/tax collectors, which was capable of performing the calculations needed to support huge engineering works like the pyramids (plus, one assumes, to keep track of uncollected taxes). The Greeks divided mathematics into two spheres, \"arithmetic,\" the study of quantity, and \"geometry,\" the study of magnitude, or area. Their primary contribution, however, lay in the application of theory and proof to mathematics. Previous mathematical systems were based upon measurement and observation of the real world, while the Greeks looked for the mathematical rules behind the reality.The Islamic world added much to mathematics in the 8th to 15th centuries AD. Perhaps most important was the invention of the decimal system for whole numbers, and the invention of the \"0\" (the number zero) some time around 600 AD in India. This replaced the extremely clunky and awkward \"Roman\" numerical system, which now survives only in horror movie sequel enumeration.Mathematics has grown geometrically since its earliest beginnings, and through it man has split the atom, built the Internet, and constructed elaborate fantasy football leagues. Who knows what secrets it will unlock in the future?",
+        "help_text": "Allows you to build the Catapult, a powerful siege weapon. Also allows you to build the Courthouse, a building which reduces the  Unhappiness from  Occupied Cities.",
+        "era_requirement": "Classical Era",
+        "quote": "\"Mathematics is the gate and key to the sciences.\"  - Roger Bacon",
+        "prereq_techs": [
+            "The Wheel"
+        ],
+        "cost": 105,
+        "building_unlocks": [
+            "Courthouse",
+            "Hanging Gardens"
+        ],
+        "unit_unlocks": [
+            "Catapult",
+            "Ballista",
+            "Siege Tower"
+        ]
+    },
+    {
+        "id": 16,
+        "Name": "Construction",
+        "civilopedia": "Construction represents the advancement of the study of masonry, primarily by adding iron and other metals to the builder's toolbox. Although remarkably durable, stone and brick are also quite heavy and inflexible. It's impossible to construct very tall structures out of these materials - unless the structure in question is solid stone or brick and is pyramid-shaped - otherwise they will collapse under their own weight or in the face of a strong wind.Metal structures, on the other hand, or masonry reinforced with metal - can be quite tall and beautiful, and structurally sound. Using metal one can create soaring bridges, deep tunnels, great skyscrapers and elevated roadways. Without construction none of the world's great cities could exist, nor could its most beautiful architecture.",
+        "help_text": "Allows you to build the Composite Bowman, a powerful ranged unit, and the Colosseum, which improves  Happiness in the empire, which in turn helps your city growth and makes  Golden Ages more likely. Also allows Workers to construct Lumbermills on forested map tiles, increasing their  Production.",
+        "era_requirement": "Classical Era",
+        "quote": "\"Three things are to be looked to in a building: that it stand on the right spot; that it be securely founded; that it be successfully executed.\"  - Johann Wolfgang von Goethe",
+        "prereq_techs": [
+            "Masonry",
+            "The Wheel"
+        ],
+        "cost": 105,
+        "building_unlocks": [
+            "Colosseum",
+            "Terracotta Army"
+        ],
+        "unit_unlocks": [
+            "Composite Bowman"
+        ]
+    },
+    {
+        "id": 17,
+        "Name": "Philosophy",
+        "civilopedia": "Philosophy is the study of reality and man's place in it. The word comes from the Greek/Latin \"philosophia,\" or love of wisdom. It is somewhat separate from religion, which seeks to define and understand some supernatural system - philosophy takes a step back and asks if that supernatural system even exists. Philosophy deals with logic, morality, observation, realism, happiness, life, death, and all of the other big questions.The Greeks are generally credited with the invention of philosophy in western civilization. In the 6th century BC Thales of Miletus was the first man known to give a purely natural (non-religious) explanation for the origin of the world. He believed that everything came out of water; this theory was based upon his viewing of fossilized sea animals far inland. This explanation required no creative action by a supernatural being; it was a result of natural properties. Later philosophers would expand upon this most basic theory - except of course for those philosophers who chose to deny that anything exists at all, and those who decided that the world was but a reflection of some other place anyway, and so forth. The problem with examining reality is that the deeper one looks, the more confusing everything gets.At its best, philosophy provides tools which one can use to observe and make judgments about the world around them, to think about things that haven't been considered before. Like any other tool it can be used for good or for evil, but philosophy at least seeks to provide the intellectual structure to help one decide which is which.",
+        "help_text": "Allows you to build the Temple, which increases the  Faith output of a city.",
+        "era_requirement": "Classical Era",
+        "quote": "\"There is only one good, knowledge, and one evil, ignorance.\"  - Socrates",
+        "prereq_techs": [
+            "Calendar",
+            "Writing"
+        ],
+        "cost": 175,
+        "building_unlocks": [
+            "Mud Pyramid Mosque",
+            "Burial Tomb",
+            "Temple",
+            "National College",
+            "Oracle"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 18,
+        "Name": "Drama and Poetry",
+        "civilopedia": "Drama and poetry are both forms of artistic expression, the former expressed through the use of visual performance, the latter through the written word. Drama is most commonly associated with theatrical performances - plays, musicals, and operas - although in modern times these traditional forms have been surpassed by television and movie productions. Poetry focuses on the use of written language to express both a literal meaning, and often a thought-provoking underlying message.",
+        "help_text": "Allows you to build the Amphitheater, which provides a boost to  Culture.",
+        "era_requirement": "Classical Era",
+        "quote": "\"What is\u00a0drama\u00a0but life with the dull bits cut out.\" - Alfred Hitchcock",
+        "prereq_techs": [
+            "Writing"
+        ],
+        "cost": 175,
+        "building_unlocks": [
+            "National Epic",
+            "Amphitheater",
+            "Writers' Guild",
+            "Parthenon"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 19,
+        "Name": "Currency",
+        "civilopedia": "Currency is a remarkable innovation by which pieces of paper or small discs represent a certain amount of wealth and can be traded to others in return for goods and services. The earliest currencies were metal coins; these were worth whatever was the current value of the metal out of which they were carved. Later on, the currency itself might have little or no intrinsic value - on a desert island, a dollar bill is nothing more than a small rectangular piece of paper - but the currency's issuer (usually a government) assigned it a value, and as long as the issuer remained solvent, the currency was as good as gold, so to speak.In the 4th millennium BC, Ancient Egypt used gold bars of a set weight as currency; elsewhere in the Middle East copper ingots were similarly used. In many places in the world metal rings, bracelets and bangles (of gold, silver and jewels) served as both ornamentation and currency.Throughout history, forgers have always sought to create bogus replicas of the currency at hand. Forgers might create duplicate coins of inferior and cheaper metal than the legal tender, or they might \"shave\" a bit of metal off of a coin made of precious material. When paper money became the norm for currency the forgers quickly learned how to duplicate the size, color and feel of the paper and copy the pictures and writing on the bills. Forgers are so proficient that most modern currency now comes complete with many advanced security measures, and the time is not far away when each bill will have its own computer chip embedded in the paper.",
+        "help_text": "Allows you to build various  Gold-boosting buildings like the Mint and Market.",
+        "era_requirement": "Classical Era",
+        "quote": "\"Better is bread with a happy heart  Than wealth with vexation.\"  - Amenemope",
+        "prereq_techs": [
+            "Mathematics"
+        ],
+        "cost": 175,
+        "building_unlocks": [
+            "Bazaar",
+            "Mint",
+            "Market",
+            "Petra"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 20,
+        "Name": "Engineering",
+        "civilopedia": "Engineering is the science (or art perhaps) of designing complex materials, structures, devices, and systems. In modern parlance it has a fairly wide reach - bioengineers design cells, software engineers create computer programs, and so forth - but historically the term was applied to the construction of physical stuff, like machines, bridges, railroads, factories, and so forth. (Originally the term \"engineer\" referred specifically to those who created military engines.)Engineering came into its own in the 19th century, as countries around the world embarked on huge construction projects. Completed by the French in 1869, the Suez Canal connected the Mediterranean Sea and the Red Sea, making it possible to sail from Europe to India without the long and arduous journey around Africa. The United States completed the transcontinental railroad in the same year, and the Brooklyn Bridge was constructed in 1883.",
+        "help_text": "Allows your cities to build Aqueducts, increasing the  Food that is carried over as your city grows. Also allows Workers to construct Forts on map tiles, increasing the defense of units stationed there. Additionally, bridges are automatically added to roads which cross rivers, allowing units to pass over them without slowing down.",
+        "era_requirement": "Classical Era",
+        "quote": "\"Instrumental or mechanical science is the noblest and, above all others, the most useful.\"  - Leonardo da Vinci",
+        "prereq_techs": [
+            "Mathematics",
+            "Construction"
+        ],
+        "cost": 175,
+        "building_unlocks": [
+            "Great Wall",
+            "Aqueduct"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 21,
+        "Name": "Iron Working",
+        "civilopedia": "Iron working is older than history itself. The first iron worked probably came from meteorites; when this useful material was not to be found, the ancient people probably looked elsewhere for similar materials. Iron \"smelting\" - the extraction of the metal from iron ore - appears to have been discovered in the 12th century BC, in the Caucasus Mountains, Asia Minor, or possibly India. The production of wrought iron dates from approximately 1,000 BC.The oldest examples of objects made from meteor iron are found in Ancient Egypt and Sumer and date back to 4,000 BC. Iron was extremely rare at that time, and historians speculate that it may have been more valued than gold.By the 12th century BC, iron largely replaced bronze as the metal preferred for tools and weapons in the Eastern Mediterranean. The iron of the time was not a better metal than the bronze it replaced, but it was far more abundant and could be found in many places where copper and tin weren't available, making it a whole lot cheaper.The \"modern\" metal steel was first produced in prehistoric times, but the technology for large-scale production lagged far behind until the 17th century AD. Once steel became cheap and plentiful, it supplanted iron for most uses.",
+        "help_text": "Allows you to build the Swordsman, an extremely powerful melee unit.",
+        "era_requirement": "Classical Era",
+        "quote": "\"Do not wait to strike 'til the iron is hot; but make it hot by striking.\"  - William Butler Yeats",
+        "prereq_techs": [
+            "Bronze Working"
+        ],
+        "cost": 175,
+        "building_unlocks": [
+            "Heroic Epic",
+            "Colossus"
+        ],
+        "unit_unlocks": [
+            "Swordsman",
+            "Mohawk Warrior",
+            "Legion",
+            "Kris Swordsman"
+        ]
+    },
+    {
+        "id": 22,
+        "Name": "Theology",
+        "civilopedia": "Theology is the study of religion. Theologians study religious traditions and beliefs. The practice goes at least as far back in history as the Classical Greeks, who had an extremely rich mythology and religious tradition to observe. In the first and second century AD, Jewish religious scholarship flourished. The Jerusalem Talmud, a collection of Rabbinic notes about Jewish Oral tradition, was published around 200 AD and added to and expanded upon over the next two centuries.Theology is important. It has had an incredibly powerful effect upon world history. Countless millions have died over religious disputes, and they continue to do so today. The Romans killed Christians over their radical new theology which denied the existence of the Roman gods. Christians killed Jews and Muslims and Christians over religious disputes. Theologian and Christian revolutionary Martin Luther triggered hundreds of years of brutal religious conflict in Europe with his \"95 Theses\" questioning, among other things, the selling of papal indulgences (divine forgiveness of sins) to pay for the construction of St. Peter's Basilica. If it is ever to end, theology will be of critical importance in solving the current religious war between radical Muslims and the Western World.",
+        "help_text": "Allows you to build a handful of specialized buildings and Wonders which improve your  Faith output and ability to create new  Great People.",
+        "era_requirement": "Medieval Era",
+        "quote": "\"Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do.\"  - St. Thomas Aquinas",
+        "prereq_techs": [
+            "Philosophy",
+            "Drama and Poetry"
+        ],
+        "cost": 275,
+        "building_unlocks": [
+            "Garden",
+            "Hagia Sophia",
+            "Great Mosque of Djenne",
+            "Grand Temple",
+            "Candi",
+            "Borobudur"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 23,
+        "Name": "Civil Service",
+        "civilopedia": "The term \"civil service\" is generally used to describe the parts of a government in which individuals are employed on the basis of merit rather than because of political patronage or being born into a certain class or because the person is related to the current ruler. In the United States federal government, for instance, the highest posts in the bureaucracy are appointed by the president. They are \"political appointments\" and will likely change with each new administration. Ranks below the highest points are filled with permanent \"civil servants,\" who generally hold their positions from administration to administration, no matter which party wins.One of the earliest examples of a civil service can be found in the Qin Dynasty of China (ca. 210 BC), under which employment in the bureaucracy was merit-based. Over time this system gradually was corrupted and employment in the bureaucracy once again became based upon class rather than merit. Three hundred years later the merit system was reapplied (under the Sui and Tang Dynasties), and it remained in effect for some centuries.Historically, many civilizations have followed a similar pattern to the Chinese: over time the bureaucracy becomes increasingly corrupt and inefficient until eventually stringent reforms are enacted to improve the government's efficiency. These make things better for a while until standards begin to be relaxed in favor of family or connections, and the cycle begins all over again.",
+        "help_text": "Farms next to rivers and lakes produce +1  Food, an extremely useful bonus. Also allows you to build the Pikeman, a unit deadly against mounted enemies like the Horseman and Knight.",
+        "era_requirement": "Medieval Era",
+        "quote": "\"The only thing that saves us from the bureaucracy is its inefficiency.\"  - Eugene McCarthy",
+        "prereq_techs": [
+            "Drama and Poetry",
+            "Horseback Riding",
+            "Currency"
+        ],
+        "cost": 275,
+        "building_unlocks": [
+            "Chichen Itza"
+        ],
+        "unit_unlocks": [
+            "Pikeman",
+            "Landsknecht",
+            "Impi"
+        ]
+    },
+    {
+        "id": 24,
+        "Name": "Guilds",
+        "civilopedia": "In pre-industrial cities, craftsmen tended to form associations - or trade guilds - based upon their profession; these guilds were intended to both protect craft secrets as well as promote the influence and income of the craftsmen. Predecessors of the trade guilds were found as early as the 3rd Century BC in Rome and Han China. By 300 AD, the practice of craftsmen banding together had spread into Gupta India and Ptolemaic Egypt. In the Middle Ages, guild organizations spread rapidly from Italy throughout Europe; 12th Century records in Paris and London each list over 100 guilds chartered by the cities. In some cases, so powerful were some guilds that they became the governing body of cities, indicated by the guildhalls found in Germany, Switzerland and Holland.Over time, the guilds took on the task of safeguarding quality and of instruction in the craft, with a life-long progression from apprentice to grandmaster. To insure product quality, the system of trademarks indicating that the item had passed both guild and government standards evolved. However, over time the influence and power of the guilds declined as they fragmented with the coming of new trades, government concerns, and mass production methods. In France, for instance, the guilds were abolished in 1791 AD by the Le Chapelier Law; other countries followed soon did the same. Although largely supplanted by unions in the Industrial Age, there are still examples of guilds in existence, notably in the realms of film, literature and other artistic professions.",
+        "help_text": "Allows Workers to construct the Trading Post, which increases the  Gold output of map tiles. Also allows your cities to convert  Production into  Gold instead of working on units or buildings.",
+        "era_requirement": "Medieval Era",
+        "quote": "\"The merchants and the traders have come; their profits are pre-ordained...\" - Sri Guru Granth Sahib",
+        "prereq_techs": [
+            "Currency"
+        ],
+        "cost": 275,
+        "building_unlocks": [
+            "East India Company",
+            "Machu Picchu",
+            "Artists' Guild"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 25,
+        "Name": "Metal Casting",
+        "civilopedia": "Metal casting is the process by which a craftsman can make one or more metal objects by pouring molten metal into a mold. One of the oldest methods of making a mold is the \"lost wax\" procedure, which dates back at least to the third millennium BC. In this process, the craftsman creates a wax duplicate of the object around which is built the mold; the wax is then melted and flows out of the mold and is replaced by molten metal. Once the metal cools the mold is opened and the object is removed.Historically, sand and clay have been popular materials from which to construct molds. In later times molds have been constructed out of plastics and latex-like substances.",
+        "help_text": "Allows you to build the Workshop, which speeds up the production of buildings, and the Forge, which speeds the production of units.",
+        "era_requirement": "Medieval Era",
+        "quote": "\"When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.\"  - Sri Guru Granth Sahib",
+        "prereq_techs": [
+            "Engineering",
+            "Iron Working"
+        ],
+        "cost": 275,
+        "building_unlocks": [
+            "Longhouse",
+            "Forge",
+            "Workshop"
+        ],
+        "unit_unlocks": [
+            "Berserker"
+        ]
+    },
+    {
+        "id": 26,
+        "Name": "Compass",
+        "civilopedia": "A basic compass is a device which uses a lodestone or magnetized needle to point out the direction of \"magnetic\" north. Although magnetic north is not identical with \"true\" north, the two are close enough to make magnets extremely useful tools when navigating the world. The first compasses were invented in China and Europe (apparently independently) in the 12th century. Compasses allowed sailors to closely monitor and track their ship's \"bearing\" (direction) when at sea, something that in the years before compasses was all but impossible in overcast or stormy days and nights. They were equally useful to landsmen traveling in trackless deserts or during snowstorms or deep beneath the canopies of ancient jungles.Modern travelers still carry compasses, but these devices are now seen as somewhat quaint and old-fashioned, especially when compared to global positioning satellites, which can tell not only where you are, but can also provide you with directions to the nearest coffee shop, something that even the best and most accurate compass cannot do.",
+        "help_text": "Allows you to build the Galleass, the first ranged naval unit. Also allows you to build the Harbor, which creates city connections from cities to the capital over the water, producing  Gold. Additionally, the  Gold yield from Fishing Boats is increased.",
+        "era_requirement": "Medieval Era",
+        "quote": "\"I find the great thing in this world is not so much where we stand, as in what direction we are moving...\"  - Oliver Wendell Holmes",
+        "prereq_techs": [
+            "Optics",
+            "Theology"
+        ],
+        "cost": 375,
+        "building_unlocks": [
+            "Harbor"
+        ],
+        "unit_unlocks": [
+            "Galleass",
+            "Great Galleass"
+        ]
+    },
+    {
+        "id": 27,
+        "Name": "Education",
+        "civilopedia": "Education is the process by which people learn things. Obviously it has been around as long as man has. Throughout much of history, education has been an informal affair, parents teaching their children what they need to know to survive in between household chores and hunting expeditions and dodging tigers and so forth. As a tribe expanded and grew more prosperous, village elders and cripples might educate the children while the more healthy adults gathered food, built stuff or made war. Eventually a very wealthy tribe or village might have formal classes for the more important children, and once a civilization matured enough it might see the great value in education for everybody.In ancient Egypt, the priestly class served as teachers for the children of nobility. In these Egyptian schools the children were taught reading, writing, religion, history, science, medicine, mathematics and other advanced topics. In competition with Egypt, Mesopotamia had a similar educational setup for its priests and scribes - who might be copyists, librarians, or teachers. The Mesopotamian students learned reading, writing, religion, law, medicine and astrology. Education first appeared in China some three thousand years ago. Reading, writing, civic responsibility, rituals, and music formed the core curriculum.In Mayan culture, education was in the hands of the priests. The priestly class was the educated class, and they served as important advisors to the chiefs and other citizens. To become a priest a student received a rigorous education in history, writing, divination, medicine, and the calendar system.",
+        "help_text": "Allows you to build the University, which boosts  Science. Also provides new  Science-related abilities, like the Research Agreement, which is a special deal that may be made with other players in the game.",
+        "era_requirement": "Medieval Era",
+        "quote": "\"Education is the best provision for old age.\"  - Aristotle",
+        "prereq_techs": [
+            "Theology",
+            "Civil Service"
+        ],
+        "cost": 485,
+        "building_unlocks": [
+            "Wat",
+            "University",
+            "Oxford University",
+            "Angkor Wat"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 28,
+        "Name": "Chivalry",
+        "civilopedia": "Chivalry describes the honorable behavior expected of \"knights\" - the armed nobility of a culture. It is very roughly akin to \"bushido\" (way of the warrior) code of conduct of Japanese samurai. The chivalric code was at its height in the 12th century, fueled by the Crusades, in which the knights believed that they were doing God's work by smiting the unbelievers in the Middle East. To earn God's favor one must act in a godly manner; unchivalrous behavior might very well result in failure, death, and damnation. The Muslim knights opposing the Christians had similar and in some ways even more \"civilized\" codes.Some form of chivalric code is crucial in a civilization where one privileged class has access to weapons that lower classes are denied. Otherwise the people with the weapons may lean too hard on the lower classes, resulting in oppression, escalating civil unrest and potentially devastating revolution.",
+        "help_text": "Allows you to build the Knight, a fast and powerful mounted unit. Also allows you to build the Castle to improve the  Defense of your cities. Additionally, this also allows for Defensive Pact treaties.",
+        "era_requirement": "Medieval Era",
+        "quote": "\"Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.\"  - Malory",
+        "prereq_techs": [
+            "Civil Service",
+            "Guilds"
+        ],
+        "cost": 485,
+        "building_unlocks": [
+            "Mughal Fort",
+            "Castle",
+            "Alhambra"
+        ],
+        "unit_unlocks": [
+            "Knight",
+            "Camel Archer",
+            "Naresuan's Elephant",
+            "Mandekalu Cavalry",
+            "Keshik",
+            "Conquistador"
+        ]
+    },
+    {
+        "id": 29,
+        "Name": "Machinery",
+        "civilopedia": "A machine is a device with moving parts (this is true during the pre-Electronics Age, anyway) that uses energy to perform tasks. A printing press is a machine, as is a loom, a clock and a watermill. Mastery of machinery requires design and engineering skill, of course, but also the ability to manufacture machine parts to precise measurements. A steam engine will leak if it's constructed poorly - that is, if it doesn't explode. The early Machine Age was a hugely dangerous time to work around the devices - if the fumes didn't kill you then you stood a fair chance of getting scalded, sucked into the works or blown to pieces.On the other hand, once a civilization began to master complex machinery, it gave them unrivaled wealth and power. England went early into the Industrial Revolution, and by so doing the small island nation dominated world trade for nearly three centuries.",
+        "help_text": "Allows you to build the Crossbowman, a strong medieval ranged unit. Also increases the movement rate of units traveling along Roads.",
+        "era_requirement": "Medieval Era",
+        "quote": "\"The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.\"  - Thomas Jefferson",
+        "prereq_techs": [
+            "Engineering",
+            "Guilds"
+        ],
+        "cost": 485,
+        "building_unlocks": [
+            "Ironworks"
+        ],
+        "unit_unlocks": [
+            "Crossbowman",
+            "Chu-Ko-Nu",
+            "Longbowman"
+        ]
+    },
+    {
+        "id": 30,
+        "Name": "Physics",
+        "civilopedia": "Physics is the study of matter and it is the basic physical science. Originally termed \"natural science,\" it is concerned with everything in the observable universe, from the smallest particle to the largest galaxy. Physics is concerned with gravity, light, heat, and magnetism. Over time, as human knowledge has expanded exponentially, physics has split into numerous sub-disciplines such as astronomy, chemistry, geology, biology and engineering, but all are basically concerned with measuring and explaining natural phenomena.In 1687, Isaac Newton published his masterwork \"Philosophiae Naturalis Principia Mathematica,\" which revolutionized physics. In simple terms, Newton's first law, known as the law of inertia, states that an object at rest will remain at rest while an object in motion will remain in motion unless acted upon by an external force. His second law describes the changes that force can produce on the motions of a body as a formula, force equals mass times acceleration. His third law, known as the law of action and reaction, states that when two objects interact, they apply forces to one another that are equal in magnitude and opposite in direction, or more popularly, \"for every action, there is an equal and opposite reaction.\"Newton's laws ruled physics until the 20th century, when they were replaced by the laws of relativity and quantum mechanics, breakthroughs which have changed the world as much as Newton's discoveries did back in the 17th century.",
+        "help_text": "Allows you to build the Trebuchet, a very useful siege unit specialized in weakening enemy cities.",
+        "era_requirement": "Medieval Era",
+        "quote": "\"Measure what is measurable, and make measurable what is not so.\"  - Galileo",
+        "prereq_techs": [
+            "Metal Casting"
+        ],
+        "cost": 485,
+        "building_unlocks": [
+            "Notre Dame"
+        ],
+        "unit_unlocks": [
+            "Trebuchet",
+            "Hwach'a"
+        ]
+    },
+    {
+        "id": 31,
+        "Name": "Steel",
+        "civilopedia": "Steel is an alloy (mixture) of iron and carbon. Depending upon the ratio of iron to carbon, the resulting metal may be far stronger, more flexible, and possess a greater ability to resist corrosion. Iron was first worked as early as 2000 BC, and from the very beginning small quantities of steel were also produced. Generally iron was produced in two forms: wrought iron and cast iron, the former being more flexible, the latter harder and more brittle, but far cheaper to make.In 1751, the English inventor Benjamin Huntsman established a steelworks factory in Sheffield, England. Huntsman's factory employed the \"crucible process\" to make steel, and this methodology quickly spread across Europe and the United States and eventually into Asia and the rest of the world. The next big advance came in the United States of America in 1855, when American inventor Henry Bessemer came up with the so-called \"Bessemer process\" of making steel. With some refinements this allowed for a dramatic increase in steel production worldwide. By the beginning of the 20th century world steel production had reached some 50 million tons annually.",
+        "help_text": "Allows you to build the Longswordsman, a deadly medieval melee unit, and the Armory, which gives all your Units an experience boost.",
+        "era_requirement": "Medieval Era",
+        "quote": "\"John Henry said to his Captain,'A man ain't nothin' but a man,  And before I'll let your steam drill beat me down,  I'll die with the hammer in my hand.'\"  - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man",
+        "prereq_techs": [
+            "Metal Casting"
+        ],
+        "cost": 485,
+        "building_unlocks": [
+            "Armory"
+        ],
+        "unit_unlocks": [
+            "Longswordsman",
+            "Samurai"
+        ]
+    },
+    {
+        "id": 32,
+        "Name": "Astronomy",
+        "civilopedia": "Astronomy is the study of objects in space - from space dust to asteroids to moons, planets, stars, and galaxies - as well as other more esoteric objects like black holes and wormholes. Astronomy is the oldest of the natural sciences, with its roots in the religious and astrological practices of pre-history.Much of early astronomy is related to religion. Stars and other celestial objects were associated with gods, and it was believed that they had direct control over man and his physical universe. A certain star or cluster of stars might appear each year around harvest time, and eventually ancient man might decide that the star is the home of the god governing the harvest. Perhaps if one sacrifices a goat on the day that the star first appears, that god would bless the upcoming harvest. This kind of thinking lies at the root of ancient astronomical studies as well as ancient calendar-making, with which astronomy has been historically allied.During the Renaissance astronomy shed much of its religious, astronomical trappings, becoming a pure science in its own right. In 1543 Nicolaus Copernicus published \"De Revolutionibus Orbium Coelestium,\"  which postulated that the sun was at the center of the universe, not the earth, and that the planets orbited the sun, and the moon orbited the earth. In addition to the triumph of scientific research over dogma, Copernicus' book also argued that the use of mathematics would greatly help mankind to understand the world around him. Although this work was deeply controversial in his day, today Copernicus is acknowledged as one of the great scientists of history, and one of the fathers of the Scientific Revolution.",
+        "help_text": "Allows you to build the Caravel, the first Naval Unit capable of exploring the world's oceans, and the Observatory, which provides a significant  Science boost. Also allows embarked land units to cross ocean tiles.",
+        "era_requirement": "Renaissance Era",
+        "quote": "\"Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.\"  - Homer",
+        "prereq_techs": [
+            "Compass",
+            "Education"
+        ],
+        "cost": 780,
+        "building_unlocks": [
+            "Observatory"
+        ],
+        "unit_unlocks": [
+            "Caravel",
+            "Turtle Ship",
+            "Nau"
+        ]
+    },
+    {
+        "id": 33,
+        "Name": "Acoustics",
+        "civilopedia": "Acoustics is the study of sound. Sounds are waves of energy transmitted through gases, liquids and solids. The most important aspect of acoustics of course is that humans can \"hear\" sounds, and much of the current research involves improving human reception of sounds, especially for the deaf. Acoustics is used in other applications as well, including sonar. Sonar allows equipment to \"hear\" undersea vessels, animals and geological formations.Since acoustics require a medium in which the waves of energy can be transmitted, sound does not travel in the vacuum outside of Earth's atmosphere. It is a creepy but true statement that, \"in space, no one can hear you scream.\"",
+        "help_text": "Allows you to build the Opera House, which provides a large boost to  Culture.",
+        "era_requirement": "Renaissance Era",
+        "quote": "\"Their rising all at once was as the sound of thunder heard remote.\" - Milton",
+        "prereq_techs": [
+            "Education"
+        ],
+        "cost": 780,
+        "building_unlocks": [
+            "Opera House",
+            "Sistine Chapel",
+            "Ceilidh Hall",
+            "Musicians' Guild"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 34,
+        "Name": "Banking",
+        "civilopedia": "The first banks in history were probably religious temples, established around 3,000 BC. Actually, banks may predate money: the first deposits may very well have been in the form of grain. In 18th century BC Babylon, the great leader Hammurabi wrote laws regulating banks in his famous Code. The Greeks further advanced banking, and there are records of temples and other financial institutions making loans, accepting deposits, exchanging currency, and validating coins (to ensure that they're not forgeries). The Romans continued banking in the Greek model with some further improvements, but when the Roman Empire fell, so too did most of the banking institutions in Europe. Banks did not reappear in much of Europe until the Middle Ages, rediscovered by people looking for ways to fund the Crusades.Today, banks generally perform many of the same functions that they did in ancient Greece. They take in deposits of money, which they give back with interest when the depositor wants it. They loan out some of the money to borrowers, who pay them back (again with interest). They also exchange currency, issue checks, and so on.The value of banking in society is that it allows many people to pool their money to invest in big projects. Say I wanted to build a printing shop and the cost was 1000 pieces of gold, far more than I had available to me. Before banking the only people who might have been able to afford to back me were royalty and perhaps important members of the Church, and if they weren't interested, my project was going nowhere. Once banks were invented, however, I could go to a bank for a loan. If they decided that my project was reasonable and that I was of good character, I was golden.Without banks, it is extremely difficult for a single citizen of society to get much of anything done.",
+        "help_text": "Allows you to build the Bank, a building which increases the  Gold produced by a city, as well as the Constabulary, which hinders a spies' ability to steal your technology.",
+        "era_requirement": "Renaissance Era",
+        "quote": "\"Happiness: a good bank account, a good cook and a good digestion.\"  - Jean Jacques Rousseau",
+        "prereq_techs": [
+            "Education",
+            "Chivalry"
+        ],
+        "cost": 780,
+        "building_unlocks": [
+            "Satrap's Court",
+            "Bank",
+            "Forbidden Palace",
+            "Constabulary",
+            "Hanse"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 35,
+        "Name": "Printing Press",
+        "civilopedia": "While movable type was invented in China, as far as can be determined, the first mechanized printing press was invented in the mid-fifteenth century by German printer Johannes Gutenberg. The earliest printing presses were wooden machines, very similar in design to the wine and olive oil presses which had been used around the Mediterranean for centuries.In the original presses, the type was laid out in reverse on a wooden \"platen\" which held it tightly in position. Ink was applied to the type on the platen, then the paper was placed atop the platen in the press. The craftsmen turned the screw to put pressure on the paper and bring it into contact with the inked type. The printer then removed the paper and reinked the type, and the process began once again. Gutenberg's press could turn out some 250 sheets per hour (printed on one side). His design remained unchanged for some three hundred years, until it was supplanted by metal machines. By the nineteenth century, presses were powered by steam, and capable of producing some 7500 sheets per hour.The value of the printing press to human knowledge cannot be overstated. Before the press, few books were in print, and those that were might cost more than the average worker made in a year. Cambridge University Library had just over 100 books when the press was invented; within an astonishingly short time common folks could afford to have bibles and other books in their homes. Within 60 years the first printed \"news book\" (forerunner to the newspaper) appeared in England.",
+        "help_text": "Allows you to build the Zoo, a building which increases  Happiness in the empire and makes  Golden Ages more likely. Also unlocks the ability to found the World Congress.",
+        "era_requirement": "Renaissance Era",
+        "quote": "\"It is a newspaper's duty to print the news and raise hell.\"  - The Chicago Times",
+        "prereq_techs": [
+            "Machinery",
+            "Physics",
+            "Chivalry"
+        ],
+        "cost": 780,
+        "building_unlocks": [
+            "Zoo",
+            "Leaning Tower of Pisa",
+            "Globe Theatre"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 36,
+        "Name": "Gunpowder",
+        "civilopedia": "Gunpowder, also known as \"black powder,\" was invented in China, possibly as far back as the 9th century AD, by alchemists looking for an elixir of immortality (which it isn't). A mixture of sulfur, charcoal, and potassium nitrate, gunpowder burns very rapidly when exposed to flame, producing a great quantity of gasses and solids which can be employed as a propellant in firearms and in fireworks. The Chinese used gunpowder in primitive bombs and rockets against the Mongol invaders, and once they conquered China, the Mongols used them against everybody else.By the first half of the 12th century AD the Arabic world acquired knowledge of gunpowder. Some historical texts state that the Mamluks used the first cannon in history against the Mongols during the Battle of Ain Jalut in 1260 AD, but this is open to debate. The first \"hand cannon\" appears in an Arabic manuscript from the 14th century.Europe too gained knowledge of gunpowder towards the middle of the 12th century. They improved the quality of the powder by \"corning\" it, adding liquid to the powder to create larger grains (corns), increasing the explosive's stability.Gunpowder remained the explosive of choice in cannon and firearms until the creation of \"smokeless\" powder in the 19th century. The new product burned cleaner and produced far less smoke, making it superior to the old black powder.",
+        "help_text": "Allows you to build the Musketman, the first unit in the game which wields firearms.",
+        "era_requirement": "Renaissance Era",
+        "quote": "\"The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.\"  - Alfred Nobel",
+        "prereq_techs": [
+            "Physics",
+            "Steel"
+        ],
+        "cost": 780,
+        "building_unlocks": [
+            "Himeji Castle"
+        ],
+        "unit_unlocks": [
+            "Musketman",
+            "Minuteman",
+            "Musketeer",
+            "Janissary",
+            "Tercio"
+        ]
+    },
+    {
+        "id": 37,
+        "Name": "Navigation",
+        "civilopedia": "Navigation is the science of finding one's way across the ocean. Early vessels rarely left sight of the coastline, which made navigation fairly simple but limited the places one could go, and also made the ships vulnerable to being driven ashore or onto dangerous rocks by contrary winds. There are few things more terrifying to a sailing vessel's captain (pre-steam engine) than being on a \"lee shore\" - that is, being blown directly towards a nearby shore by strong wind.Before the advent of satellites and radios and radar, ships at sea navigated by tracking their movement on a chart, or \"dead reckoning.\" If one knew the speed and precise direction that one was moving, then one could have a pretty certain idea of where one was. However, after several weeks at sea even the minutest error in speed or direction could accumulate into big errors. If one were in the middle of the Pacific, getting low on water and sailing to the only speck of an island within a thousand miles purported to have water, a dead reckoning error could easily result in a very unpleasant end.A ship's captain could also look to the heavens to aid in navigation. If it were sunny out, Captains had delicate instruments which could tell the precise moment that the sun reached its zenith (highest point) above the ship. If they also possessed an accurate clock which was set with the correct time, they could use this information to determine their precise longitude (or distance, east or west, from the Prime Meridian - which runs through Greenwich, England). This of course required good weather, an accurate clock, and the ability to determine high noon while aboard a ship which may be rocking about in an alarming fashion. On clear nights the captains could often use the rise and fall of certain stars to give them similar information.Eventually, of course, the inventions of radio, radar, and satellites made the entire process much easier and far safer. But even today captains routinely drive their ships aground or crash them into bridge abutments - and these are ships with engines. Imagine the skill needed to keep a sailing vessel on the correct course.",
+        "help_text": "Allows you to build the Frigate, a powerful Renaissance-era warship, and the Privateer, a unique Naval Unit that can earn  Gold from attacking coastal cities as well as capture enemy ships. Also allows coastal cities to build the Seaport, which provides  Production from sea resources.",
+        "era_requirement": "Renaissance Era",
+        "quote": "\"The winds and the waves are always on the side of the ablest navigators.\"  - Edward Gibbon",
+        "prereq_techs": [
+            "Astronomy"
+        ],
+        "cost": 1150,
+        "building_unlocks": [
+            "Seaport"
+        ],
+        "unit_unlocks": [
+            "Frigate",
+            "Ship of the Line",
+            "Sea Beggar",
+            "Privateer"
+        ]
+    },
+    {
+        "id": 38,
+        "Name": "Architecture",
+        "civilopedia": "Architecture can be considered both an art and a science. Encompassing everything from the initial planning and design of a structure, to the actual construction process, architecture has been a crucial element of the building process since ancient times. One of the earliest known discussions of architecture and its principles, \"De Architectura,\" was written by the Roman architect Vitruvius in the first century BC. A ten volume set comprising all of the most intricate details of Roman construction methods, Vitruvius's work is widely recognized today as a crucial development in the evolution of the architectural design process.",
+        "help_text": "Allows you to construct multiple Wonders that can boost  Culture,  Science and  Happiness.",
+        "era_requirement": "Renaissance Era",
+        "quote": "\"Architecture begins where engineering ends.\" - Walter Gropius",
+        "prereq_techs": [
+            "Acoustics",
+            "Banking"
+        ],
+        "cost": 1150,
+        "building_unlocks": [
+            "Hermitage",
+            "Porcelain Tower",
+            "Taj Mahal",
+            "Uffizi"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 39,
+        "Name": "Economics",
+        "civilopedia": "Economics is the study of money, or more precisely, the study of \"the production, distribution and consumption of goods and services.\" While in older times goods might have been distributed via barter, for most of the last several thousand years money has been the medium of exchange.Modern economics dates back to 1776, when Scottish philosopher Adam Smith published his seminal work, \"The Wealth of Nations.\" In \"Wealth,\" Smith argues that the free market is the most efficient of all means of assigning values to and distributing goods and services. A totally free market, Smith contends, will naturally produce the right amount of goods at the right price, that any government interference or regulation distorts the market, making it less efficient and more wasteful. Further, Smith was a big believer in self-interest, because when a person pursues his own self-interest, he automatically is promoting the good of society in general. In other words, Smith believes that pure capitalism is the best economic form available to a civilization.Smith's works were not without their detractors, and many later economists have sought to modify his thesis, and some have repudiated them in their entirety. In the 19th century Karl Marx wrote \"Das Kapital: Kritik der politischen Okonomie\" (Capital: A Critique of Political Economy), in which he stated that the driving force of capitalism is the exploitation of labor by employers.Smith is considered the father of modern capitalism, and Marx the father of communism. Their economic heirs have been fighting it out ever since.",
+        "help_text": "Allows you to build the Windmill in cities built on flat land, increasing  Production.",
+        "era_requirement": "Renaissance Era",
+        "quote": "\"Compound interest is the most powerful force in the universe.\"  - Albert Einstein",
+        "prereq_techs": [
+            "Banking",
+            "Printing Press"
+        ],
+        "cost": 1150,
+        "building_unlocks": [
+            "Windmill",
+            "Coffee House"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 40,
+        "Name": "Metallurgy",
+        "civilopedia": "Metallurgy is the science of metals and metallic alloys. In Civilization V the \"metallurgy\" technology covers the advancements in this field since the 19th century AD. In the 19th and 20th centuries, great strides have been made in all facets of metallurgy, from extraction, to the creation of new alloys, to the production of cheap, high-quality metals.Metal remains at the heart of modern civilization. Much of the world is built of steel, and what isn't is made of aluminum or titanium. Our communications networks are made of metal, and so are our vehicles, weapons, satellites and spacecraft. Without modern metallurgy 90% of the Earth's population would starve within a year.",
+        "help_text": "Allows you to build the Lancer, a fast mounted unit designed to hunt down other mounted units, and the Arsenal, which boosts City defense.",
+        "era_requirement": "Renaissance Era",
+        "quote": "\"There never was a good knife made of bad steel.\"  - Benjamin Franklin",
+        "prereq_techs": [
+            "Gunpowder",
+            "Printing Press"
+        ],
+        "cost": 1150,
+        "building_unlocks": [
+            "Arsenal",
+            "Red Fort"
+        ],
+        "unit_unlocks": [
+            "Lancer",
+            "Sipahi",
+            "Hakkapeliitta",
+            "Winged Hussar"
+        ]
+    },
+    {
+        "id": 41,
+        "Name": "Chemistry",
+        "civilopedia": "The offspring of alchemy and mathematics, Chemistry is the science of matter, its structure, behavior, composition, and how it behaves during chemical reactions. Physicists drop balls off of towers and time how long it takes them to fall; chemists study the balls themselves and try to figure out why some shatter and some bounce.While scientists, doctors and philosophers have been interested in chemistry throughout history, it achieved the dignified status of science in 1789, when Antoine Lavoisier published a paper describing the law of conservation of mass. In \"Elements of Chemistry,\" Lavoisier discovered the composition of air and water, coining the term \"oxygen.\" He also debunked the phlogiston theory, which had been hanging around confusing scientists for over 100 years.Lavoisier is considered the father of modern chemistry. His example led other chemists to employ scientific methods to the study of chemicals. By so doing, they were able to disprove theories that had been taken as gospel since they were put forth by the Greeks thousands of years ago.",
+        "help_text": "Allows you to build the Cannon, a Renaissance-era siege unit.",
+        "era_requirement": "Renaissance Era",
+        "quote": "\"Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.\"  - Calvin Coolidge",
+        "prereq_techs": [
+            "Gunpowder"
+        ],
+        "cost": 1150,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Cannon"
+        ]
+    },
+    {
+        "id": 42,
+        "Name": "Archaeology",
+        "civilopedia": "Archaeology is the study of the remnants of ancient people to learn about their culture, art, architecture, and history. Archaeologists study building ruins, burial mounds, trash heaps, ancient carvings hidden in caves, and long drowned ships on the bottom of the ocean.Although people have no doubt been interested in the lives of those who came before them for as long as there have been people, archaeology as a science began in 15th century Renaissance Europe, when people began to study and emulate the art and architecture of Ancient Greece and Rome and the wealthy nobility of Italy - popes, merchants and heads of state - began to collect antiquities. As these became more scarce, they sponsored excavations to find more loot.Archaeology was put on a more scientific basis in the 19th century through the efforts of German scholars like Heinrich Schliemann, who examined early Greek civilization in Troy and Mycenae.Today archaeologists are studying every aspect of ancient humanity, from our earliest ancestor almost up to our great-great grandparents. Their tools are incredibly sophisticated, allowing ever more insight into the lives of our forebears.",
+        "help_text": "Allows you to build the Museum, which provides a large boost to  Culture when built in a city. Also provides other bonuses relating to  Culture.",
+        "era_requirement": "Industrial Era",
+        "quote": "\"Those who cannot remember the past are condemned to repeat it.\"  - George Santayana",
+        "prereq_techs": [
+            "Navigation",
+            "Architecture"
+        ],
+        "cost": 1600,
+        "building_unlocks": [
+            "Museum",
+            "Louvre"
+        ],
+        "unit_unlocks": [
+            "Archaeologist"
+        ]
+    },
+    {
+        "id": 43,
+        "Name": "Scientific Theory",
+        "civilopedia": "Scientific theory is a way to view the world, in which the viewer uses the \"scientific method\" to learn about the universe. Through careful observation and experiments a scientist creates a theory to explain some phenomenon. If other scientists can through experimentation confirm the scientist's theory, it is then accepted as \"empirical\" (experimental) law (at least until some new observation or experimentation successfully challenges it). If a scientist's experiments cannot be duplicated by others, then his or her theories must be regarded with deep skepticism. Although prevalent in most advanced countries in the world today, scientific theory is not the only way that people look at the world. Some people look to divine revelation - as written down in a holy book, say - to explain the universe. If observation or experimentation conflicts with the revelation, then the observation or experimentation must have been flawed or corrupted. These two different methods of seeing the world have been in tension for centuries, and will probably continue to be so for years to come.",
+        "help_text": "Allows you to build the Public School, which increases  Science in Cities.",
+        "era_requirement": "Industrial Era",
+        "quote": "\"Every great advance in science has issued from a new audacity of imagination.\"  - John Dewey",
+        "prereq_techs": [
+            "Economics",
+            "Architecture"
+        ],
+        "cost": 1600,
+        "building_unlocks": [
+            "Public School"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 44,
+        "Name": "Industrialization",
+        "civilopedia": "Industrialization is viewed as the transition from an agrarian society into an industrial one, which is typically accompanied by widespread social and economic change throughout the community. The Industrial Revolution, beginning in Europe during the 18th century, brought about immense changes in the way people lived their daily lives. With increasingly complex machinery and tools available, many trades that were once left to talented craftsmen became obsolete with the advent of assembly lines operated by droves of unskilled factory laborers.",
+        "help_text": "Reveals  Coal and allows you to build the Factory, a building which greatly improves the  Production of a city.",
+        "era_requirement": "Industrial Era",
+        "quote": "\"Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.\" - Emily Greene Balch",
+        "prereq_techs": [
+            "Economics"
+        ],
+        "cost": 1600,
+        "building_unlocks": [
+            "Factory",
+            "Big Ben"
+        ],
+        "unit_unlocks": [
+            "Gatling Gun"
+        ]
+    },
+    {
+        "id": 45,
+        "Name": "Rifling",
+        "civilopedia": "Rifling is the process of making spiral grooves in the barrel of a cannon or firearm which imparts a spin on the projectile. The spin stabilizes the projectile, greatly increasing its accuracy. Rifling was invented in Vienna in the 15th century. However, the early process was extremely expensive and time-consuming, and it did not see popular use for some three centuries. By the early eighteenth century rifles were used by sharpshooters in armies across Europe and the world.By mid-century the Minie rifle and ball were making rifled muskets more accurate and deadly. These guns and others like them saw extensive use during the American Civil War, and probably inflicted more casualties than all other rifle or musket types combined.By the end of the American Civil War the Minies were being replaced by breech-loading cartridge-firing rifles, which were far faster to load and fire than the muskets. These rifles, like the Springfield Model 1865 and its heirs, would remain the American infantryman's rifle right up to World War I, when the first automatic rifles were invented. During the modern era most infantrymen carry some version of an assault rifle like the American M16 or the Russian AK-47. These deadly weapons give today's soldiers firepower equal to dozens of Civil War veterans.",
+        "help_text": "Allows you to build the Rifleman, a front-line infantry unit of the mid-game eras.",
+        "era_requirement": "Industrial Era",
+        "quote": "\"It is well that war is so terrible, or we should grow too fond of it.\"  - Robert E. Lee",
+        "prereq_techs": [
+            "Economics",
+            "Metallurgy"
+        ],
+        "cost": 1600,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Rifleman",
+            "Norwegian Ski Infantry",
+            "Mehal Sefari",
+            "Carolean"
+        ]
+    },
+    {
+        "id": 46,
+        "Name": "Military Science",
+        "civilopedia": "Military Science is the science of using military power to achieve one's political goals. It has many branches and areas of expertise, and is generally taught in a military academy. For instance, how far can an army march in a day and how many calories does each soldier need to remain in top fighting condition? Or, how does one fight against an insurgency in our own country? Suppose we're an occupying army in another country; how does that change the approach to an insurgency? Or what's the expected survival rate from a nuclear war if we launch first?Sun Tzu's \"The Art of War\" is a classic book of military science. Although first published in the 6th century BC, it is still widely studied today (and remains a hugely entertaining and informative read for any amateur historian). Machiavelli's \"The Prince,\" published posthumously in 1532, examines in detail the interaction between war and politics. In 1832, Prussian general Carl von Clausewitz published \"On War,\" which also studies the effects of politics and economics on war.Published in 1890, Alfred Thayer Mahan's brilliant work, \"The Influence of Sea Power Upon History, 1660-1783,\" greatly influenced many American military officers and politicians and was largely responsible for the expansion of the US Navy in the early 20th century. Without this book, the United States might very well have found itself even more woefully unprepared for the World Wars, with possibly disastrous results for that country and its overseas allies.",
+        "help_text": "Allows you to build Cavalry, a mounted unit which can hold its own against strong infantry units, and the Military Academy, which gives all your Units an experience boost.",
+        "era_requirement": "Industrial Era",
+        "quote": "\"Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.\"  - George S. Patton",
+        "prereq_techs": [
+            "Chemistry",
+            "Metallurgy"
+        ],
+        "cost": 1600,
+        "building_unlocks": [
+            "Military Academy",
+            "Brandenburg Gate"
+        ],
+        "unit_unlocks": [
+            "Cavalry",
+            "Cossack",
+            "Hussar",
+            "Berber Cavalry",
+            "Comanche Riders"
+        ]
+    },
+    {
+        "id": 47,
+        "Name": "Fertilizer",
+        "civilopedia": "Fertilizer is a substance that feeds and speeds the growth of plants. Fertilizer has been around for as long as human civilization, dating back to the time when the first farmer realized that grass grew taller where the oxen had pooped. From that point on farmers have been collecting animal by-products and applying them to the soil, increasing the crop yield, especially from fields that have been farmed continuously for generations and thus have been stripped of most nutrients.Fertilizers generally contain nitrogen, phosphorous, and potassium as their active ingredients. While historically most of the fertilizers have been organic and animal-based, many modern fertilizers are actually mined from beneath the earth's surface or chemically manufactured in vast factories.As the world's population has increased, so has the need for ever more potent fertilizers, and today's farms are far more productive than at any other time in history. However, this productivity has come at a price: rainwater from farms carries the fertilizer into streams and rivers, causing explosive growth in certain microorganisms which grow so fast they almost literally choke the life out of the waterway. Also, many modern fertilizers are created at least in part from petrochemicals, and their price can fluctuate dramatically along with the price of oil. In short, fertilizers are extremely useful and can greatly increase the world's food supply, but care must be taken to ensure that they don't do more harm to the environment than good.",
+        "help_text": "Increases the  Food from Farmed tiles without Fresh Water, providing a massive boost to growth.",
+        "era_requirement": "Industrial Era",
+        "quote": "\"The nation that destroys its soil destroys itself.\"  - Franklin Delano Roosevelt",
+        "prereq_techs": [
+            "Chemistry"
+        ],
+        "cost": 1600,
+        "building_unlocks": [],
+        "unit_unlocks": []
+    },
+    {
+        "id": 48,
+        "Name": "Biology",
+        "civilopedia": "Biology is the study of living organisms. It's a wide field, ranging from the study of the largest whale to the smallest bacterium. Much of pre-nineteenth century biology was concerned with discovering and categorizing all of the plants, insects and animals in existence on the Earth. As the science advanced and the equipment improved, scientists began to dig into the building blocks of biology - cells, and later, genes and DNA. Today, much is known about the biology of all living organisms on the planet. Biologists have become so successful at manipulating life that the science has moved into areas that only a few years ago would have been considered science fiction. Sheep have been cloned, and sooner or later perhaps so will be people. Nanobiology is a real field of study. Specific genes can be activated for selective breeding.  If progress continues it's possible to foresee a time in the not too distant future when most diseases have been conquered, bionic body parts are common and human lifespan has increased by decades.",
+        "help_text": "Reveals  Oil, a vital late-game resource. Also allows you to build the Hospital, a building which increases the  growth rate of Cities.",
+        "era_requirement": "Industrial Era",
+        "quote": "\"If the brain were so simple we could understand it, we would be so simple we couldn't.\" - Lyall Watson",
+        "prereq_techs": [
+            "Archaeology",
+            "Scientific Theory"
+        ],
+        "cost": 2350,
+        "building_unlocks": [
+            "Hospital"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 49,
+        "Name": "Electricity",
+        "civilopedia": "The first experience mankind had with electricity was in the form of shocks from electric fish, recorded by Egyptian authors as far back as 2750 BC. In the 15th century AD, the Arabs discovered that lightning was another form of electricity, and this was later confirmed by a British-American scientist named Ben Franklin in 1752. The first semi-reliable battery was made in 1800 by Alessandro Volta, and in 1821 Michael Faraday invented the electric motor.Advances in electricity in the second half of the 19th century by geniuses like Nikola Tesla, Thomas Edison, George Westinghouse, Alexander Graham Bell and Lord Kelvin revolutionized life around the world. The telegraph, followed shortly by the telephone and then the radio, radically increased the speed and accuracy with which information could be transmitted. Once a transatlantic cable was laid, a message from New York could reach London in seconds. Before electricity, a message carried on the fastest boat would take weeks. The electric light revolutionized home and workplace, and the phonograph, radio and movie camera did the same for entertainment. The creation of power plants that pushed energy in the form of electricity into people's homes has changed human living conditions almost beyond comprehension. Driven by electricity, the \"Second Industrial Revolution\" saw the greatest improvement in human life since the printing press.",
+        "help_text": "Reveals  Aluminum, a resource used for many late-game units. Also allows Cities to build the Stock Exchange, a building which boosts  Gold. Also allows you to build the Hydro Plant, which increases  Production from tiles next to a River, and the Police Station, which hinders a spies' ability to steal your technology.",
+        "era_requirement": "Industrial Era",
+        "quote": "\"Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?\"  - Nathaniel Hawthorne",
+        "prereq_techs": [
+            "Scientific Theory"
+        ],
+        "cost": 2350,
+        "building_unlocks": [
+            "Hydro Plant",
+            "Stock Exchange",
+            "Police Station"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 50,
+        "Name": "Steam Power",
+        "civilopedia": "When heated, water produces steam. Steam expands under pressure, and in a steam engine part of the heat energy is captured and used to raise and lower a piston or turn a rotor. The principles behind steam power were known by the ancient Greeks, but no one had figured out how to put it to practical use until the late 17th century, when Englishman Thomas Savery created a steam-powered pump designed to raise water from mines. In 1765 James Watt greatly improved the steam engine to the point that it could be used in a wide variety of applications. By 1802 steam engines were being installed in boats, and by 1825, steam railroads were in operation.Steam power revolutionized industry and transportation across the world. Within a century the globe was crisscrossed by rail lines and steamship routes. Massive steam-powered factories were turning out tens of millions of tons of commercial goods (as well as military hardware). The industrialized countries enjoyed a huge increase in productivity and wealth (and pollution). Coal, the primary energy source used in steam engines, was being feverishly mined around the planet. A large portion of Great Britain's global military strategy centered upon protecting naval coaling stations at strategic locations across the world's oceans.Eventually steam engines would be replaced by internal combustion engines, which were far more efficient and emitted less pollution. But before petroleum, steam was king, and the modern world would never have existed without it.",
+        "help_text": "Allows you to build the Ironclad, a powerful warship especially suited to combat in coastal waters.",
+        "era_requirement": "Industrial Era",
+        "quote": "\"The nations of the West hope that by means of steam communication all the world will become as one family.\"  - Townsend Harris",
+        "prereq_techs": [
+            "Rifling",
+            "Industrialization",
+            "Scientific Theory"
+        ],
+        "cost": 2350,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Ironclad"
+        ]
+    },
+    {
+        "id": 51,
+        "Name": "Dynamite",
+        "civilopedia": "Dynamite is an explosive material invented by Swedish chemist and engineer Alfred Nobel in 1867. Dynamite is created by soaking an absorbent material like diatomaceous earth (interestingly, the same material used in many pool filters) in nitroglycerin. Nitroglycerin is an extremely powerful but terrifyingly unstable explosive; dynamite is less powerful but a lot more stable.Dynamite is primarily used in mining and construction. Historically, it has been used in military applications, but the explosive component nitroglycerin remains too unstable for the rather volatile conditions found in a battlefield, so generally militaries prefer a modified product called \"military dynamite\" which contains no nitroglycerin but instead uses other chemicals including TNT to create a product which is 60% less powerful but much less apt to explode when it's not supposed to.",
+        "help_text": "Allows you to build the Artillery, a deadly siege unit capable of shooting further than any previous ranged unit.",
+        "era_requirement": "Industrial Era",
+        "quote": "\"As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.\" - Christopher Dawson",
+        "prereq_techs": [
+            "Fertilizer",
+            "Military Science"
+        ],
+        "cost": 2350,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Artillery"
+        ]
+    },
+    {
+        "id": 52,
+        "Name": "Refrigeration",
+        "civilopedia": "Refrigeration is the process of removing heat from an enclosed space or from a substance. The primary purpose for refrigeration has always been to preserve food, with air conditioning a strong second in developed nations in the latter decades of the 20th century.Before mechanical methods were invented, many wealthier cultures refrigerated their foodstuffs in cellars insulated with straw, using ice brought down from mountains. Ancient India and Egypt used evaporative cooling, in which large shallow trays were filled with water. As the water evaporated, the remaining water in the tray cooled rapidly. In fact, a well-designed evaporative system could be used to create ice, even in the warmest climates.Mechanical refrigeration relies on the cooling effect of the rapid expansion of gas, typically Freon or some other inert substance. The first known artificial refrigeration was demonstrated in 1748 in Scotland by William Cullen, but it would be over a century before an American, Alexander C. Twinning, would create the first practical commercial application of refrigeration in 1856. Several years later refrigerators were introduced in the meatpacking and brewing industries, and by 1914 their use was widespread. By the middle of the 20th century mechanical refrigeration trucks replaced the old ice-carrying vehicles. Home-use refrigerators were introduced in the 1920s, and by 1950 \"ice boxes\" were all but extinct.The modern air conditioner was invented in 1902 by Willis Carrier in Buffalo, New York. Originally used to keep the air at a specific temperature in factories where delicate manufacturing processes took place, by the 1920s the size and expense of the units had declined significantly, to the point where they began to be installed in movie theatres in large numbers. Window units began to appear in American houses following World War II, and by the '50s over a million units were installed across the country.Often taken for granted, refrigeration is one of the most important technological innovations in human history, and much of modern life would be impossible - or at least a lot sweatier - without it.",
+        "help_text": "Allows you to build the Submarine, a ship invisible to all units except Destroyers and other Submarines, and Stadiums, which increases  Happiness within the City. Also allows Work Boats to construct an Offshore Platform.",
+        "era_requirement": "Modern Era",
+        "quote": "\"And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.\"  - William Wordsworth",
+        "prereq_techs": [
+            "Electricity",
+            "Biology"
+        ],
+        "cost": 3100,
+        "building_unlocks": [
+            "Stadium",
+            "Hotel"
+        ],
+        "unit_unlocks": [
+            "Submarine"
+        ]
+    },
+    {
+        "id": 53,
+        "Name": "Radio",
+        "civilopedia": "Radio is the technology of transmitting information to a remote receiver by modifying a \"carrier wave's\" amplitude, frequency, or duration. In less technical terms, somewhere a transmitter translates sounds into waves which it broadcasts into the atmosphere. Distant radio receivers can pick up these waves and translate them back into sound.A radio is a complicated and intricate machine. It required hundreds of years of research and development by scientists and physicists like Michael Faraday, James Maxwell, Heinrich Hertz, and Guglielmo Marconi.Marconi was an Italian physicist working on creating a wireless telegraph. In 1894 Marconi managed to send a signal some 30 yards. He continued to refine the technology and by 1901 he successfully transmitted a signal across the Atlantic Ocean. He continued to work in the field, and by the '20s began development of shortwave wireless, which would become the basis for most modern long-distance radio communication.The first radio program was broadcast on Christmas Eve, 1906. The first newscast was made on August 31, 1920, in Detroit, Michigan. By the end of the '20s radios were becoming ubiquitous in the United States and Europe.Radios played an important role in the Second World War. In addition to allowing communication between airplanes and ships, they also allowed the combatant governments to broadcast news and propaganda to their own citizens and to enemies alike. Hitler, Churchill, and Roosevelt were all masters of the medium. Radio remained wildly popular in the postwar years, particularly in the United States, which saw a huge growth of networks and transmitting stations. It remained the dominant form of entertainment until the advent of television in the 1950s.Although diminished by the upstart technologies of TV and the Internet, radio remains a viable and important source of news and entertainment for people around the world. Like rock and roll, it's here to stay.",
+        "help_text": "Allows you to build the Broadcast Tower, a building which greatly increases the  Cultural output of a city.",
+        "era_requirement": "Modern Era",
+        "quote": "\"The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.\"  - Woody Allen",
+        "prereq_techs": [
+            "Electricity"
+        ],
+        "cost": 3100,
+        "building_unlocks": [
+            "Broadcast Tower",
+            "Eiffel Tower",
+            "National Intelligence Agency",
+            "Broadway"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 54,
+        "Name": "Replaceable Parts",
+        "civilopedia": "Replaceable parts is a kind of manufacturing process by which many duplicate copies of an item are fabricated, each of them identical component parts. This process allows for a tremendous increase in the speed and profitability of manufacturing, which in turn helped fuel the Industrial Revolution of the 19th Century.One of the major impetuses for replaceable parts was the desire to issue firearms to soldiers. Originally, muskets were created by craftsmen, and each might differ slightly from the next - one craftsman might make his rifle slightly longer, while another might give his a larger or smaller trigger. For the individual this was not necessarily a problem - if his musket broke he could return it to the craftsman who first made it for repairs. Of course this was not feasible for an army with a thousand muskets.However, if all were identical then a part from a broken musket could be used to repair another. Further, a soldier who had trained with one musket could pick up another and expect it to perform in much the same fashion, without having to get used to a new weapon's particular design features.Now, almost every manufactured good on the planet is constructed of replaceable parts. Craftsmen have become artists, their wares too expensive for most average consumers.",
+        "help_text": "Allows you to build the basic land unit Great War Infantry, and the Military Base, which boosts City defense.",
+        "era_requirement": "Modern Era",
+        "quote": "\"Nothing is particularly hard if you divide it into small jobs.\"  - Henry Ford",
+        "prereq_techs": [
+            "Steam Power",
+            "Electricity"
+        ],
+        "cost": 3100,
+        "building_unlocks": [
+            "Military Base",
+            "Statue of Liberty"
+        ],
+        "unit_unlocks": [
+            "Foreign Legion",
+            "Great War Infantry"
+        ]
+    },
+    {
+        "id": 55,
+        "Name": "Flight",
+        "civilopedia": "Throughout history, man has dreamed of conquering the skies. Leonardo da Vinci's visions of flight are well-known, of course, and there were many other lesser visionaries as well. The early theorists looked at the natural masters of the air, birds, and they proposed machines that emulated their wing shape and flapping motions (ornithopters). But the early designers lacked the materials, engines, and knowledge of aerodynamics to bring their visions to life.The study of aerodynamics was advanced over the 16th, 17th, 18th and 19th centuries by brilliant scientists like da Vinci, Galileo, Huygens, Newton, Bernoulli, Euler and Smeaton. In 1804 Englishman George Cayley flew a fixed-wing glider model, and in 1853 he created a full-scale model which carried his (reluctant) coachman in the first known manned glider flight.In 1902 the Wright brothers constructed their own glider with an advanced wing shape. Unable to find an experienced manufacturer to construct a light gasoline-powered engine to their specifications, they designed and built their own. On December 17, 1903 the Wright flyer flew four times, at distances up to 852 feet. The years following the Wright brothers' breakthrough saw huge and rapid improvements in the technology of flying. By 1908 American Glenn Hammond Curtiss flew over 1 kilometer (approx. six tenths of a mile), and in 1909 Frenchman Louis Bleriot flew across the English Channel.World War I saw huge advances in flight technology, especially in the weaponization of the air, with the creation of fighters and bombers. By the '20s pilots were regularly flying across the continents, and in 1927 Charles Lindberg completed the first nonstop solo flight across the Atlantic Ocean. World War II saw tremendous improvements in the speed, range, durability, and killing power of aircraft, and by the end of the war jet planes, continent-spanning high-altitude bombers and helicopters were in service.In the modern era, air travel has become commonplace, with a journey from the United States to China - an impossible dream only 75 years ago - being now seen as notable mostly for its tediousness. And although the airborn terrorist attacks of September 11, 2001 have made air travel slightly more perilous, millions of people around the world still take to the air every day. Flight is here to stay.",
+        "help_text": "Allows you to build the Triplane, an Air Unit designed to gain control of the skies, and the Great War Bomber, which can devastate Land Units and Cities.",
+        "era_requirement": "Modern Era",
+        "quote": "\"Aeronautics was neither an industry nor a science. It was a miracle.\"  - Igor Sikorsky",
+        "prereq_techs": [
+            "Steam Power"
+        ],
+        "cost": 3100,
+        "building_unlocks": [
+            "Prora"
+        ],
+        "unit_unlocks": [
+            "Triplane",
+            "Great War Bomber"
+        ]
+    },
+    {
+        "id": 56,
+        "Name": "Railroad",
+        "civilopedia": "The earliest railroads were constructed in European mines in the 16th century. These consisted of wheeled carts that rode upon tracks. They were pulled by men or animals (usually horses or donkeys). The first aboveground steam-powered railroad was constructed in England in 1825, and once the technology proved successful, construction took off around the world. Construction of the first general-purpose American railroad, the Baltimore and Ohio, began in 1828. Within a century every continent in the world had a significant rail network.The importance of railroads to world development cannot be overstated. Before the transcontinental railroad crossed the United States a journey from New York to San Francisco took months. The same journey took seven days by rail and cost just $65 dollars. Once the rail was completed, the European population of the American West and Midwest exploded. Towns located on rail lines grew rich, while those without railroad terminals withered and died.With the invention and mass production of automobiles and trucks in the 20th century, railroads have somewhat diminished in importance, particularly in the automobile-crazy United States. However, they remain an extremely economical and (relatively) environmentally-friendly way to move goods and people, and all indications suggest that they will be making a strong comeback in the near future.",
+        "help_text": "Allows Workers to build Railroads on map tiles. Connecting cities with them will increase  Production, and units traveling along them will move more quickly.",
+        "era_requirement": "Modern Era",
+        "quote": "\"The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.\"  - Thomas Jefferson",
+        "prereq_techs": [
+            "Steam Power",
+            "Dynamite"
+        ],
+        "cost": 3100,
+        "building_unlocks": [
+            "Kremlin",
+            "Neuschwanstein"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 57,
+        "Name": "Plastics",
+        "civilopedia": "Plastic is a lightweight, transparent and tough material that does not conduct electricity well. Plastic comes in many different forms, some tougher, some more flexible, some with a greater or lesser tolerance to heat. Plastic can be molded, pressed or extruded into virtually any shape desired. It's found in every facet of modern life, used in everything from automobile bumpers to prosthetic limbs, from baby food jars to infantry weapons. It's one of the most crucial building-blocks of the 21st century.The first human-made plastic was invented by Englishman Alexander Parkes in 1855. The product, Parkesine, was made from cellulose (plant cell material), and was used as a replacement for ivory, which was becoming ever more difficult to find as the whale population was diminishing world-wide.The first entirely synthetic plastic was Bakelite, invented in 1909 by Belgian-American inventor Leo Hendrik Baekeland. Bakelite was cheap, strong, and durable. It was used to construct radios, telephones, utensil handles, piano keys, and billiard balls. Although quite tough, Bakelite is also quite brittle. It has been largely replaced by cheaper and more flexible plastics like polystyrene, PVC, nylon, and even more exotic variants created in the 20th century.Although relatively cheap at the moment, most plastic requires a lot of petrochemicals to manufacture. As that fuel becomes more expensive, so too will plastic. It is possible that some new miracle material will eventually supplant the ubiquitous plastic sometime in the future, but for now plastic is irreplaceable.",
+        "help_text": "Allows you to build the Research Lab, a building which improves  Science in a City, and Infantry, a basic late-game Land Unit.",
+        "era_requirement": "Modern Era",
+        "quote": "\"Ben, I want to say one word to you, just one word: plastics.\"  - Buck Henry and Calder Willingham, The Graduate",
+        "prereq_techs": [
+            "Radio",
+            "Replaceable Parts"
+        ],
+        "cost": 4100,
+        "building_unlocks": [
+            "Research Lab",
+            "Cristo Redentor"
+        ],
+        "unit_unlocks": [
+            "Infantry",
+            "Pracinha"
+        ]
+    },
+    {
+        "id": 58,
+        "Name": "Electronics",
+        "civilopedia": "Electronics covers the branch of technology which studies the controlled motion of electrons through various forms of media, including vacuums.  This is not the same as Electrical Technology, which is concerned with the generation and distribution of power.  Electronics wasn't recognized as its own field of study until 1950, when it was split off from radio technology.Electronic circuits can be classified into two distinct groups, analog or digital.  Analog circuits are generally simple combinations of basic circuits, utilizing a continuous range of voltage; most modern circuits are rarely ever entirely analog in nature anymore. Digital circuits form the basis of modern computers and programmable logic controllers, as they are the most common physical representation of Boolean algebra (0's and 1's anyone?).The study and development of electronics is deeply tied to that of mathematics, and proficiency in the latter is necessary for the former.  Creating and analyzing complex circuits involves solving linear systems of multiple unknown variables (like voltage and current at given locations), which is why much of today's circuit design is augmented by design automation software packages, a rather \"meta\" practice if you get right down to it.",
+        "help_text": "Allows you to build the Carrier, a ship capable of carrying aircraft, and the Battleship, a powerful late-game ranged Naval Unit.",
+        "era_requirement": "Modern Era",
+        "quote": "\"There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.\"  - Trip Hawkins",
+        "prereq_techs": [
+            "Replaceable Parts",
+            "Flight"
+        ],
+        "cost": 4100,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Carrier",
+            "Battleship"
+        ]
+    },
+    {
+        "id": 59,
+        "Name": "Ballistics",
+        "civilopedia": "Ballistics is the study of motion involving projectiles - mainly bullets, missiles, and bombs. In most cases, the term ballistics arises in relation to the forensic study of weapons and ammunition, particularly involving crime, where it may be necessary to connect a weapon with a recovered bullet to prove guilt or innocence. The more general study of ballistics has, over the past century, led to vast improvements in the accuracy, power, and overall effectiveness of projectile weapons of varying types.",
+        "help_text": "Allows you to build Anti-Aircraft Guns, useful for thwarting enemy aircraft, and the Machine Gun, a powerful single-hex ranged Unit.",
+        "era_requirement": "Modern Era",
+        "quote": "\"Men, like bullets, go farthest when they are smoothest.\" - Jean Paul",
+        "prereq_techs": [
+            "Railroad",
+            "Flight"
+        ],
+        "cost": 4100,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Anti-Aircraft Gun",
+            "Machine Gun"
+        ]
+    },
+    {
+        "id": 60,
+        "Name": "Combustion",
+        "civilopedia": "\"Combustion\" means burning. It's a chemical reaction between substances, one of which is usually oxygen, which often results in the generation of light and heat energy. Here we're speaking specifically about the use of combustion inside of an engine (hence, \"internal combustion\") to create energy to turn a crank or move a piston.There are two different types of internal combustion engines: intermittent-combustion engines and steady flow engines. In an intermittent-combustion engine, a certain amount of fuel and oxygen is injected into the combustion chamber where it ignites and moves a piston or some other mechanical device, after which another discrete amount of fuel and oxygen is once again inserted, and the entire process repeats. Automobile engines are examples of intermittent-combustion engines. In a steady-flow engine, a steady stream of fuel and oxygen is injected into the engine, burning continuously. Jet engines are steady-flow.The first internal combustion engine patent was given to Englishmen Samuel Brown in 1823 for his \"gas vacuum engine,\" which ran on hydrogen and oxygen. The first patent for using a jet engine to power an aircraft was filed in 1921 by Frenchman Maxime Guillaume. Neither of these first attempts was very successful, but they paved the way for technologies which would power the world right up until today, and for the foreseeable future.",
+        "help_text": "Allows you to build the Landship, an incredibly powerful armored Unit that can move after attacking.  Also allows the training of the Destroyer, a fast ship capable of hunting down Submarines.",
+        "era_requirement": "Modern Era",
+        "quote": "\"Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.\"  - Albert Einstein",
+        "prereq_techs": [
+            "Railroad"
+        ],
+        "cost": 4100,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Destroyer",
+            "Landship"
+        ]
+    },
+    {
+        "id": 61,
+        "Name": "Penicillin",
+        "civilopedia": "Penicillin is a group of antibiotics derived from a certain fungus. Antibiotics fight and kill bacteria, tiny life-forms, some of which - plague, syphilis, and leprosy, to name but three - are quite detrimental to human health and well-being. It is believed that the use of a primitive form of penicillin dates back to medieval times, when moldy bread was employed to treat suppurating wounds. The scientific discovery of the antibiotic is attributed to Alexander Fleming in 1928, with the first official medical use some two years later by pathologist Cecil George Paine. As its use has grown, some bacteria have developed a tolerance for penicillin and a wide range of other antibiotics have been invented to deal with the new drug-resistant strains. Still, penicillin and its heirs remain important weapons in the physician's unending battle with the deadly menace of bacteria.",
+        "help_text": "Allows you to build the Marine, a Unit that specializes in amphibious assaults. Also allows you to build the Medical Lab, a building which speeds the  growth of your Cities.",
+        "era_requirement": "Atomic Era",
+        "quote": "\"In nothing do men more nearly approach the gods than in giving health to men.\" - Cicero",
+        "prereq_techs": [
+            "Refrigeration",
+            "Plastics"
+        ],
+        "cost": 5100,
+        "building_unlocks": [
+            "Medical Lab"
+        ],
+        "unit_unlocks": [
+            "Marine"
+        ]
+    },
+    {
+        "id": 62,
+        "Name": "Atomic Theory",
+        "civilopedia": "Atomic theory of matter was first proposed in ancient Greece. The philosophers Leucippus and Democritus proposed that the physical world was composed of an infinite number of extremely small particles, or \"atoms,\" which existed in a void, or vacuum. Atoms combine in different quantities and formations to create everything in existence, from air to gold to human flesh to the world beneath our feet. The men had of course no way to prove their theory, and it was rejected by later Greek philosophers such as Plato and Aristotle, who had what might be called a more spiritual view of existence. That view as adopted by the Church and most of Medieval Europe, and the atomic theory languished for millennia.In the 17th century atomic theory began to make a comeback, as the brilliant Italian scientist Galileo expressed his belief in vacuums and scientists and philosophers tried to separate the religious/spiritual argument from the scientific. In 1658 the Irish chemist Robert Boyle performed a series of experiments on air, after which he concluded that all matter was composed of solid particles arranged into molecules, which combinations gave the matter its different properties. At the turn of the 18th century Isaac Newton further refined the atomic theory, and over the course of the next 100 years chemists made great advances in their knowledge of the composition and properties of matter.In 1808 English chemist and physicist John Dalton published \"A New System of Chemical Philosophy,\" which put the atomic theory on a truly scientific basis. It laid out a coherent picture of how elements combine to form compounds and attempted to provide physical proof of the existence of atoms. By 1869 Russian Dmitry Mendeleyev created a system to arrange the known elements according to their atomic weight in a \"periodic table,\" and over the next decades human knowledge of the properties of matter grew exponentially.In 1895 the German Wilhelm Rontgen discovered X-rays, and in 1896 Frenchman Henri Becquerel discovered radioactivity in uranium. Their work was further advanced by French pioneers Marie and Pierre Curie later in the decade. These would lead to radical alterations/refinements in the basic atomic theory.This research would continue into the 20th century with great success, eventually resulting in various world-shaking practical applications like the x-ray machine and the atom bomb, to name two. Leucippus and Democritus probably would be astonished at where their theory has led their scientific heirs.",
+        "help_text": "Reveals  Uranium and allows you to start working on the Manhattan Project, setting the stage for the production of nuclear weapons.",
+        "era_requirement": "Atomic Era",
+        "quote": "\"The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.\"  - Albert Einstein",
+        "prereq_techs": [
+            "Plastics",
+            "Electronics"
+        ],
+        "cost": 5100,
+        "building_unlocks": [],
+        "unit_unlocks": []
+    },
+    {
+        "id": 63,
+        "Name": "Radar",
+        "civilopedia": "Radar is an object detection system that uses electromagnetic waves to identify faraway objects like ships or airplanes. Coined in 1941, the term \"RADAR\" is an acronym for \"Radio Detection And Ranging.\"In 1904 Christian Hulsmeyer was able to detect the presence of a ship in dense fog.  Later that year he made improvements which allowed the set to determine the object's distance.In August of 1917 inventor Nikola Tesla designed the first primitive radar units, allowing the user to \"determine the relative position or course of a moving object, such as a vessel at sea, the distance traversed by the same, or its speed.\"As the Second World War approached, all of the industrialized world powers were working feverishly on radar. The British were the furthest along at the outbreak of the war, with a system capable of spotting incoming aircraft while still a great distance from vulnerable British cities. (Their research was spurred on by the rumor that the Germans were working on a death ray.) Their system was highly secret, and during the war the British claimed that their human airplane spotters were responsible for their success at intercepting German attacks.By war's end all advanced countries had made major strides in radar technology, and by mid-century the technology was spreading across the world for civilian uses, primarily in air traffic control. With the possible exception of certain advanced stealth aircraft, it is now almost impossible for an airplane to enter the airspace of any industrialized nation without being spotted by some radar somewhere.",
+        "help_text": "Allows you to build the Bomber, a deadly air Unit capable of delivering death from afar, and the Fighter, an air Unit designed to wrest control of the skies from enemy aircraft. Also allows you to build the Paratrooper, a late-game infantry unit capable of paradropping behind enemy lines.",
+        "era_requirement": "Atomic Era",
+        "quote": "\"Vision is the art of seeing things invisible.\"  - Jonathan Swift",
+        "prereq_techs": [
+            "Electronics",
+            "Ballistics"
+        ],
+        "cost": 5100,
+        "building_unlocks": [
+            "Airport"
+        ],
+        "unit_unlocks": [
+            "Bomber",
+            "B17",
+            "Fighter",
+            "Zero",
+            "Paratrooper"
+        ]
+    },
+    {
+        "id": 64,
+        "Name": "Combined Arms",
+        "civilopedia": "Combined arms is a military doctrine first adopted more than a thousand years ago, which involves the combination of different-but complimentary-unit types in an effort to improve the overall efficiency of the force as a whole. In ancient times, the combined arms tactic was utilized by many of the major powers, particularly the Greeks and Romans, who carefully coordinated light and heavy infantry, cavalry, and ranged weapons to create cohesive formations that played off each others' strengths and weaknesses. In the present day, the rise of aircraft-based weaponry has led to even more complex variations on the traditional concept of combined arms. Drone aircraft, satellite-guided missiles, and high-altitude bombers are just a few examples of the expanding toolset available to modern military commanders.",
+        "help_text": "Allows you to build the Tank, a fast and deadly armor Unit, and the Anti-Tank Gun, a weapon specialized in defeating enemy Tanks.",
+        "era_requirement": "Atomic Era",
+        "quote": "\"The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.\" - Ludwig von Mises",
+        "prereq_techs": [
+            "Ballistics",
+            "Combustion"
+        ],
+        "cost": 5100,
+        "building_unlocks": [
+            "Pentagon"
+        ],
+        "unit_unlocks": [
+            "Tank",
+            "Panzer",
+            "Anti-Tank Gun"
+        ]
+    },
+    {
+        "id": 65,
+        "Name": "Ecology",
+        "civilopedia": "Not a single technology in itself, Ecology is an interdisciplinary study of all the various forms of interactions and causations between organisms and their environment, or rather, the study of ecosystems.  The basic tenant of the field is that everything in a given ecosystem - the rocks, soil, birds, bugs, trees, etc. - have an effect on and connection to all the other things in the ecosystem, either directly or through a series of chain relations.  While all these things are connected, ecologists also believe in the concept of holism - that even with all these tiny interactions explained, they cannot account for every possible reaction and the entire system as a whole needs to be evaluated.  Ecology studies how all these things are connected, and how changing one can effect, benefit or destroy another.The modern science of ecology is still a young one, but it did gain a large amount of popularity and momentum during the 1960's environmental movement.  Ecology has grown recently to become concerned with the preservation of biodiversity, and the adverse affects that human development has had on the environments and organisms around them. Long term studies are in effect to record these effects, the current longest running one having started in 1856.Practical applications have developed from these research findings, such as the more efficient and beneficial management of natural resources like wetlands and forests, better community health planning, and even improved city planning practices. The field of ecology has also laid down the basic framework for a deeper understanding of how people interact socially.",
+        "help_text": "Allows you to build the Solar Plant, a building which may only be built in Cities on or next to Desert, and increases  Production. Also allows you to build the Recycling Center, which provides bonus  Aluminum.",
+        "era_requirement": "Atomic Era",
+        "quote": "\"Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.\"  - Rachel Carson",
+        "prereq_techs": [
+            "Atomic Theory",
+            "Penicillin"
+        ],
+        "cost": 6400,
+        "building_unlocks": [
+            "Solar Plant",
+            "Sydney Opera House",
+            "Recycling Center"
+        ],
+        "unit_unlocks": []
+    },
+    {
+        "id": 66,
+        "Name": "Nuclear Fission",
+        "civilopedia": "Nuclear fission is a nuclear reaction in which the nuclei of radioactive atoms break down (undergo fission), releasing neutrons which then crash into other atoms, causing them to break down and release even more neutrons. If there is enough radioactive material the fission may become self-sustaining, releasing a lot of energy at a controlled rate - say, in a nuclear reactor - or in a wildly uncontrolled rate - say, in a nuclear weapon.Nuclear fission produces a lot of energy - many millions of times more than say an equal weight of gasoline - but in the process it produces a good deal of very hard to manage waste. Also, it can kill people: fairly slowly, if they're exposed to the radioactive material, or extremely rapidly if the chain reaction gets out of hand and the material explodes.Nuclear fission occurs rarely in nature, with the last known episode on Earth occurring some 2 billion years ago. Since then the fissile material has decayed, making natural fission all but impossible on this planet.In 1917 New Zealander Ernest Rutherford was the first man to split the atom. In 1934 Italian Enrico Fermi experimented with bombarding uranium with neutrons. In the same year Ida Noddack postulated the idea of nuclear fission - ie, a sustained nuclear reaction. In 1938 German chemists Otto Hahn and Fritz Strassmann successfully created the first actual nuclear chain reaction.With the onset of World War II, the race to create a nuclear bomb went into high gear. After receiving a letter describing the potential deadliness of a nuclear weapon from refugees Albert Einstein and Leo Szilard, American President Franklin Roosevelt formed a scientific and military task force to create such a weapon ahead of the Germans, who were also known to be looking at the problem. Scientists from the United States, Canada and the United Kingdom worked cooperatively on the weapon, in a project codenamed \"The Manhattan Project.\"After five long hard years of feverish work, the Manhattan Project scientists successfully created and tested a nuclear weapon. On August 6 and 9, 1945, the United States of America dropped atomic bombs on the Japanese cities of Hiroshima and Nagasaki. The initial blasts killed approximately 120,000 Japanese within the first day, with another equal amount dying in the following three months of burns, radiation poisoning, and other traumatic injuries. Japan surrendered unconditionally on August 15, 1945.In the years since the Second World War, no other atomic bombs have been deployed in battle (though many have been tested). The United States, Russia, England, and France still have large nuclear stockpiles (with the US and Russia holding the vast majority), while countries like China, Israel, Pakistan, India, and North Korea have also joined the \"nuclear club.\" Currently the US is strenuously attempting to keep Iran from developing these weapons but the ultimate success or failure of this effort is yet unknown.",
+        "help_text": "Allows you to build the Bazooka, the most powerful ranged Unit and Atomic Bombs, the first nuclear weapon in the game (note: you must first have completed the Manhattan Project and have  Uranium available). Also allows you to build the Nuclear Plant, a building which requires  Uranium and increases the  Production of a City.",
+        "era_requirement": "Atomic Era",
+        "quote": "\"I am become Death, the destroyer of worlds.\"  - J. Robert Oppenheimer",
+        "prereq_techs": [
+            "Atomic Theory",
+            "Radar"
+        ],
+        "cost": 6400,
+        "building_unlocks": [
+            "Nuclear Plant"
+        ],
+        "unit_unlocks": [
+            "Atomic Bomb",
+            "Bazooka"
+        ]
+    },
+    {
+        "id": 67,
+        "Name": "Rocketry",
+        "civilopedia": "The earliest known rocket flight is a bit contested, although it is generally believed that it occurred sometime around 1230 A.D. in China, during a military operation.  The first actual recorded flight did occur in China in 1264 as part of an internal-combustion firework.  These early rockets used solid fuel, usually gunpowder, and did not fly very far, perhaps only 2000 feet.The invention of modern rocketry can be attributed directly to Professor Robert Goddard when he postulated that fuel should be burned in a small, separate combustion chamber, the rocket should be built in separable stages, and that the exhaust speed could be increased by using a special hour-glass shaped nozzle called a De Laval nozzle. Up to this point rockets burned all their fuel in one large solid chamber and weren't capable of going exceptionally fast or travelling intercontinental distances.Rockets now commonly use a combination of liquid fuels which are able to accelerate the rocket to hypersonic speeds with great efficiency for a relatively low price.  Besides their obvious military use to propel warheads across great distances, rockets are also used for fireworks, ejection seats, scientific atmospheric research, and of course, spaceflight.",
+        "help_text": "An important technology, Rocketry allows you to build the Apollo Program, a project necessary to win a Science Victory. Also allows you to build the Rocket Artillery military unit, and the Mobile SAM, a fast unit specialized in thwarting enemy aircraft.",
+        "era_requirement": "Atomic Era",
+        "quote": "\"A good rule for rocket experimenters to follow is this: always assume that it will explode.\"  - Astronautics Magazine, 1937",
+        "prereq_techs": [
+            "Radar"
+        ],
+        "cost": 6400,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Mobile SAM",
+            "Rocket Artillery"
+        ]
+    },
+    {
+        "id": 68,
+        "Name": "Computers",
+        "civilopedia": "At its most basic, a computer is a machine which manipulates data or controls according to a set of given instructions.  While the first \"modern\" computer wasn't conceived of until the early 20th century, the earliest computers can be traced back to Al-Jazari's mechanical astronomical clocks in 1206 A.D. and Jacquard's programmable textile loom in 1801.  While both of these machines were programmable, they didn't perform the other function of modern computers - storing data.  The earliest computers used mechanical and analog parts to function and store their data, eventually switching to digital electronics in the 1940's.  There's no exact point at which the modern day computer was decidedly invented; it was rather arrived at by a series of steps and advances, along which came such notable ones as Konrad Zuse's Z Machine and the U.S. Army's ENIAC.Since the switch to electronics, computers have gotten smaller, faster, cheaper, less power hungry, and much more reliable and versatile.   Once taking up entire rooms and even whole city blocks, modern computers are as ubiquitous as the home telephone and can be found not only as personal standalone machines but also imbedded into cars, washing machines, and even woven into cutting edge clothing. Computers have made it possible for scientists to expedite calculations that would take a normal human a lifetime to make, predict weather with great accuracy, send humans to the moon and other spacecraft beyond the reaches of the solar system, and allow a child in Shanghai to play a game with one in England, without ever leaving home.While first seen as a fad or only as a silly plaything for the wealthy, the computer has made an undeniable mark upon history and is here to stay.",
+        "help_text": "Allows you to build the Helicopter Gunship, a unit specialized in fighting enemy tanks.",
+        "era_requirement": "Atomic Era",
+        "quote": "\"Computers are like Old Testament gods: lots of rules and no mercy.\"  - Joseph Campbell",
+        "prereq_techs": [
+            "Radar",
+            "Combined Arms"
+        ],
+        "cost": 6400,
+        "building_unlocks": [
+            "Great Firewall"
+        ],
+        "unit_unlocks": [
+            "Helicopter Gunship"
+        ]
+    },
+    {
+        "id": 69,
+        "Name": "Telecommunications",
+        "civilopedia": "Telecommunication allows for the transmission of data and information over long distances using various types of signaling devices. Early forms of primitive ranged communication, including the use of smoke and signal flags, eventually gave way to telegraphs, and later, the telephone. Scientific research and engineering, particularly in the last 30 years, has led to breakthroughs in our ability to communicate globally. Orbiting satellites now provide a means for the transmission of data even to the most remote areas on Earth. Television, internet, cellular telephones, and GPS are now fully integrated into the daily lives of millions across the world because of telecommunications research.",
+        "help_text": "Allows you to build the Nuclear Submarine, a Naval Unit invisible to most other Units and capable of carrying 2 Missiles. Also allows the construction of the Bomb Shelter, which significantly reduces population loss from a nuclear attack.",
+        "era_requirement": "Information Era",
+        "quote": "\"The more we elaborate our means of communication, the less we communicate.\" - J.B. Priestly",
+        "prereq_techs": [
+            "Ecology"
+        ],
+        "cost": 7700,
+        "building_unlocks": [
+            "Bomb Shelter",
+            "CN Tower",
+            "National Visitor Center"
+        ],
+        "unit_unlocks": [
+            "Nuclear Submarine"
+        ]
+    },
+    {
+        "id": 70,
+        "Name": "Mobile Tactics",
+        "civilopedia": "Mobile tactics are strategies implemented by military forces to allow for quick, highly maneuverable units to get in and out of battle without becoming mired in an ongoing engagement. Mobile tactics are often used by irregular or guerilla units who specialize in hit-and-run attacks aimed at disorienting larger forces.",
+        "help_text": "Allows you to build the Mechanized Infantry, a fast and versatile late game Unit that doesn't require any resources.",
+        "era_requirement": "Information Era",
+        "quote": "\"All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.\" - Sun Tzu",
+        "prereq_techs": [
+            "Ecology",
+            "Nuclear Fission"
+        ],
+        "cost": 7700,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Mechanized Infantry"
+        ]
+    },
+    {
+        "id": 71,
+        "Name": "Advanced Ballistics",
+        "civilopedia": "Ballistics is the science of shooting or throwing stuff great distances with great precision. Advanced ballistics is more of the same, with the distances increased to continent-spanning scale. Modern artillerists can shoot explosive rounds dozens of miles with great accuracy, and missiles can be fired at precise targets half-way around the planet. When embellishments like GPS and laser guidance are included, there is virtually no target anywhere in the world that can't be hit by some weapon somewhere. Whether this is a good thing is open to debate; it largely depends upon whose finger is on the firing button.",
+        "help_text": "Allows you to build the Nuclear Missile, a frightening weapon that requires  Uranium, and is capable of destroying units and cities. Also allows you to build the Guided Missile, an inexpensive single-use Unit that can damage enemy Units, and the SS Booster, one of the Spaceship parts necessary to win a Science Victory.",
+        "era_requirement": "Information Era",
+        "quote": "\"Our scientific power has outrun our spiritual power. We have guided missiles and misguided men.\" - Martin Luther King, Jr.",
+        "prereq_techs": [
+            "Nuclear Fission",
+            "Rocketry"
+        ],
+        "cost": 7700,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "SS Booster",
+            "Nuclear Missile",
+            "Guided Missile"
+        ]
+    },
+    {
+        "id": 72,
+        "Name": "Satellites",
+        "civilopedia": "In the context of a technology, Satellites covers the study and development of artificial, orbital bodies - not naturally occurring ones like the Moon. Man-made satellites had been a major source of inspiration for science fiction writers through the early 1900's, with visionaries like Arthur C. Clarke laying out plans for a network of mass communications satellites long before such things were technologically feasible.Satellites remained the stuff of fiction, however, until 1957, when the Soviet Union successfully launched its first satellite, Sputnik 1.  Not only proving that it was in fact possible to put a manmade object into a sustained orbital path around the Earth, the launch also triggered the start of the Space Race between the Soviets and the United States.  Later in 1957 Sputnik 2 was launched carrying the first living passenger into space, a dog named Laika.  A year later the U.S. launched its first, Explorer 1. From this race between two rivals, thousands of super specialized satellites have been launched into orbit from over fifty different originating countries.  With the obvious militaristic and spy applications aside, satellites are used for mass communication (Clarke was right in the end), GPS and navigation, weather research and observation and entertainment broadcasting to name a few. The largest satellite currently in orbit is the International Space Station.",
+        "help_text": "Allows you to build the SS Cockpit, one of the Spaceship parts necessary to win a Science Victory.",
+        "era_requirement": "Information Era",
+        "quote": "\"Now, somehow, in some new way, the sky seemed almost alien.\"  - Lyndon B. Johnson",
+        "prereq_techs": [
+            "Rocketry"
+        ],
+        "cost": 7700,
+        "building_unlocks": [
+            "Hubble Space Telescope"
+        ],
+        "unit_unlocks": [
+            "SS Cockpit"
+        ]
+    },
+    {
+        "id": 73,
+        "Name": "Robotics",
+        "civilopedia": "While various forms of automatons and machines have been in evidence from as early as the first century A.D., the first fully autonomous machine didn't appear until the mid 20th century.  Science fiction writer Isaac Asimov unknowingly coined the term \"robotics\" in his 1941 short story \"Liar!,\" figuring that the word must already be in use since other ones like \"electronics\" were.  The study of robotics covers all aspects of their electronic, mechanical, and software design, and the different ways in which they sense and interact with the world around them.Simple industrial robots have been in use since the early 1960's, but more powerful and sophisticated ones are always in development.  While definitely helpful in factories performing repetitive precision-driven tasks, robotics are being pushed to create life-like prosthetic limbs, humanoid-style robots walking upright, and robots capable of recognizing and producing humanesque gestures, emotions, and expressions. While the entertainment industry has made billions playing off the fear that robots will suddenly rise up and enslave their former masters, robotics is still grossly limited by the development of A.I., or artificial intelligence.  They may be great at performing a set series of given tasks or instructions, but robots are still not fully capable of autonomous thought or reasoning, limiting their use somewhat in the foreseeable future (so it may be some time before we are conquered by self-aware vacuum cleaners).",
+        "help_text": "An important technology for the Space Race, Robotics allows you to build the Spaceship Factory, a building which speeds the construction of Spaceship parts. It also allows you to build the Missile Cruiser, a Naval Unit capable of carrying 3 Missiles and spotting enemy Submarines.",
+        "era_requirement": "Information Era",
+        "quote": "\"1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law.3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.\"  - Isaac Asimov",
+        "prereq_techs": [
+            "Rocketry",
+            "Computers"
+        ],
+        "cost": 7700,
+        "building_unlocks": [
+            "Spaceship Factory"
+        ],
+        "unit_unlocks": [
+            "Missile Cruiser"
+        ]
+    },
+    {
+        "id": 74,
+        "Name": "Lasers",
+        "civilopedia": "The term \"laser\" was originally spelled \"LASER\", as it is the acronym for \"Light Amplification by Stimulated Emission of Radiation\", basically its own definition.  The first scientific foundations for lasers were laid down by Albert Einstein in 1917 when he re-derived Planck's law of radiation, about the same time science fiction writers coincidentally began to describe a similar possible technology.  The first functional laser wasn't demonstrated until 1960 when the Hughes Research Laboratories introduced laser technology capable of storing data via optical storage devices (like a DVD burner).Since this early laser research many different kinds of specialized lasers have been developed, ones which have been optimized for different functions like maximum firing range, output power, or utilizing different wavelength bands. While originally dubbed \"a solution looking for a problem\", lasers have found their way into thousands of different uses, from consumer electronics and entertainment to law enforcement and military use.  Just try not to look directly into the light.",
+        "help_text": "Allows you to build the Modern Armor, an incredibly fast and powerful Armored Unit, and the Jet Fighter, the most powerful fighter Unit in the game.",
+        "era_requirement": "Information Era",
+        "quote": "\"The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.\"  - The Holy Bible: Romans, 13:12",
+        "prereq_techs": [
+            "Computers"
+        ],
+        "cost": 7700,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Jet Fighter",
+            "Modern Armor"
+        ]
+    },
+    {
+        "id": 75,
+        "Name": "The Internet",
+        "civilopedia": "The ancestry of the Internet lies in the development of ARPANET (Advanced Research Projects Agency Network), funded by the U.S. Department of Defense, for use by its university contractors and research labs in the exchange of information. It soon became a critical piece of the infrastructure for the scientific research community in the United States; tools and applications - such as simple mail transfer protocol (commonly referred to as e-mail) and file transfer protocol (FTP) for longer transmission - were developed in short order.In the early 1980s, the Defense Department adopted the privately-developed transmission control protocol (TCP), which enabled different makes of computers on networks to route and reassemble data packets anywhere in the world. Along with the internet protocol (IP), a global address system, the TCP \"open architecture\" approach was enthusiastically accepted by most researchers and businesses around the world.Within a few years, the network was transferring millions of bits per second, and several commercial networks were flourishing. In 1993 the University of Illinois made freely available \"Mosaic,\" a new type of program for a new Internet technology dubbed the \"World Wide Web.\" Within a few months, a number of corporations such as Netscape and Microsoft had entered the exploding field with browser and server software for use on personal computers. By the late 1990s there were approximately 100,000 Internet service providers around the world. In the first decades of the new century, the Internet was expanding an estimated 100% annually, making it the greatest conduit for information and entertainment in world history.",
+        "help_text": "The Internet automatically doubles the  Tourism output of all your cities, helping you advance toward a Cultural Victory.",
+        "era_requirement": "Information Era",
+        "quote": "\"The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had.\" - Eric Schmidt",
+        "prereq_techs": [
+            "Telecommunications"
+        ],
+        "cost": 8800,
+        "building_unlocks": [],
+        "unit_unlocks": []
+    },
+    {
+        "id": 76,
+        "Name": "Globalization",
+        "civilopedia": "Not a technology or field of study, globalization describes a process by which different regional economies, cultures, languages, information, and whole societies become integrated into a larger, consolidated network.  While often used just to describe economic tendencies in the world market, globalization does take into account everything from migration patterns to the spread of technology and information.  While not recognized as a concept until much later, globalization has been around as early as the first trade routes that were created between distant cities.One of the earliest definitions of globalization was given by an American entrepreneur Charles Taze Russell in 1897, but it wasn't until the 1960's that the word really entered common parlance. The concept of globalization has been a driving force to both private and public sectors, with large banks opening branches across the world and separate governments joining together under one banner like the United Nations.Modern globalization has worked to break down both trade and political barriers between differing nations, in order to increase personal independence and prosperity.  It promotes free trade and the elimination of tariffs, consolidation of intellectual property laws, a more open sharing of news and information, and freer movement for international travel, tourism, and immigration.",
+        "help_text": "With Globalization, each Spy you send to another Civilization as a  Diplomat will increase the number of Delegates you control in the World Congress, bringing you closer to Diplomatic Victory.",
+        "era_requirement": "Information Era",
+        "quote": "\"The new electronic interdependence recreates the world in the image of a global village.\"  - Marshall McLuhan",
+        "prereq_techs": [
+            "Telecommunications"
+        ],
+        "cost": 8800,
+        "building_unlocks": [],
+        "unit_unlocks": []
+    },
+    {
+        "id": 77,
+        "Name": "Particle Physics",
+        "civilopedia": "Particle physics takes us one step deeper into the understanding of the nature of matter and energy than its ancestor, \"atomic theory.\" While the term \"atom\" wasn't coined until 1803 by chemist John Dalton, the idea that all matter can be broken down into smaller and smaller fundamental building blocks can be traced back as far as the 6th century B.C.  Modern particle physics, or more properly the study of quantum mechanics, didn't fully begin until 1838 with the discovery of cathode rays by Michael Faraday, which helped prove that atoms - until then the smallest known objects in science - were in fact composed of even smaller particles.In general, the basic foundation of quantum theory can be summed up by the Standard Model, a categorization of the seventeen species of elementary particles: 12 fermions, 4 vector bosons, and 1 scalar boson (not protons and neutrons as commonly taught in lower levels of schooling - these are actually made up of quarks, different flavors of fermions). Particles associated with matter are categorized as fermions (having a half-integer spin) and particles associated with forces, the bosons, have an integer spin.  From these 17 basic particles, hundreds of other species of composite and fundamental particles can be created.While many particle physicists believe that there still exists some greater understanding to be uncovered, studies in particle physics have shown that it is possible to transmute lead into gold (although not economically so) and that such fantasies of the science fiction world as Dark Matter and the Great Theory of Everything may in fact exist.",
+        "help_text": "Allows you to build the SS Engine, one of the Spaceship parts necessary to win a Science Victory.",
+        "era_requirement": "Information Era",
+        "quote": "\"Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.\"  - Isaac Newton",
+        "prereq_techs": [
+            "Telecommunications",
+            "Mobile Tactics",
+            "Advanced Ballistics"
+        ],
+        "cost": 8800,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "SS Engine"
+        ]
+    },
+    {
+        "id": 78,
+        "Name": "Nuclear Fusion",
+        "civilopedia": "Occurring naturally in stars, nuclear fusion is the act of multiple like-charged atoms joining together to form a heavier, larger one, like two hydrogen atoms fusing to become a helium atom. A byproduct of this joining is a large release or absorption of energy, considerably more than the amount of energy required to fuse the two nuclei in the first place.  Harnessing the power of fusion in a controlled manner has been the focus of energy research since the 1950's, after witnessing the power of an uncontrolled chain of reactions in the first hydrogen bomb.Fusion can be broken down into two grossly oversimplified categories: reactions that produce energy and reactions that consume energy.  Fusion between the lighter elements and any of their isotopes (anything smaller than Iron or atomic weight 26) will generally release energy while fusing nuclei from any of the heavier elements tends to consume energy.  The reverse is actually true for fission.It takes a good amount of energy to have two nuclei overcome their positive charges and fuse together, even when dealing with the lightest element - hydrogen.  However, some scientists believe that by 2020 it may be possible to build a reactor which is not only capable of controlling and mediating such a reaction, but also producing ten times the amount of energy used to create it.  This kind of available energy could revolutionize the entire world's infrastructure and change the way even the smallest technological feats are achieved.",
+        "help_text": "Allows you to build the Giant Death Robot, the strongest unit in the game.",
+        "era_requirement": "Information Era",
+        "quote": "\"The release of atomic energy has not created a new problem. It has merely made more urgent the necessity of solving an existing one.\"  - Albert Einstein",
+        "prereq_techs": [
+            "Advanced Ballistics",
+            "Satellites",
+            "Robotics"
+        ],
+        "cost": 8800,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Giant Death Robot"
+        ]
+    },
+    {
+        "id": 79,
+        "Name": "Nanotechnology",
+        "civilopedia": "Nanotechnology is an all encompassing study involving the control of any matter at the atomic or molecular scale.  While often romanticized to the notion of billions of tiny robots directing the flow of individual atoms, nanotech covers any science revolving around the study or use of particles a few nanometers in size, from the creation of tiny carbon nanotubes and nanoparticle solar cells to DNA research.  A nanometer (the relative size most nanotechnology is created in) is one billionth of a meter in size, about the same scale as the diameter of a marble is to that of the Earth, and it's only been in recent years that the technology capable of research on such a tiny scale has really been available.  Despite its recent emergence, an estimated three to four new nanotech products per week are made publicly available, with applications ranging from clothing and cosmetics to food products and packaging.While many scientists are excited about the possible applications for the development of technology on such a miniscule scale, others are concerned about the health, environmental and ethical implications that this kind of research could produce. Calls for safety and health regulations have been made in some countries, with concerns that the nanoparticles could be accidentally released into the environment or human body and cause inadvertent toxic damage.",
+        "help_text": "Allows you to build the XCOM Squad, and the SS Stasis Chamber, one of the Spaceship parts necessary to win a Science Victory.",
+        "era_requirement": "Information Era",
+        "quote": "\"The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.\"  - Richard Schwartz",
+        "prereq_techs": [
+            "Robotics"
+        ],
+        "cost": 8800,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "SS Stasis Chamber",
+            "XCOM Squad"
+        ]
+    },
+    {
+        "id": 80,
+        "Name": "Stealth",
+        "civilopedia": "The concept or practice of stealth is not a new one in the progress of human development, but modern stealth technology takes the idea of \"not being seen\" to a whole new level.  Stealth technology is really a combination of multiple military disciplines and tactics expanding beyond what the human eye can see, trying to both hide and detect objects by radar, acoustics, thermal readings, or other less readily visible methods.Camouflage uniforms are one of the earliest and more simplistic methods by attempting to make an object blend into the background behind it, but many advances in technology have created the need for more dynamic and sophisticated methods of hiding and detecting hidden objects.  Now thermal chemicals are injected into cloth, ships are fabricated from special radar-absorbing materials, and planes' infrared signatures are hidden with ingenious new exhaust systems.   While it may not always be possible to completely make a given object invisible from all modes of detection, modern stealth vehicles and \"spy\" planes have changed the way militaristic operations are executed, giving countries with the know-how or ability to create these vehicles a huge advantage.",
+        "help_text": "Allows you to build the Stealth Bomber, the most powerful Ranged Unit in the game.",
+        "era_requirement": "Information Era",
+        "quote": "\"Be extremely subtle, even to the point of formlessness.  Be extremely mysterious, even to the point of soundlessness.  Thereby you can be the director of the opponent's fate.\"  - Sun Tzu",
+        "prereq_techs": [
+            "Robotics",
+            "Lasers"
+        ],
+        "cost": 8800,
+        "building_unlocks": [],
+        "unit_unlocks": [
+            "Stealth Bomber"
+        ]
+    },
+    {
+        "id": 81,
+        "Name": "Future Tech",
+        "civilopedia": "It's difficult to write a \"history\" for technology that hasn't actually been discovered yet. But here are some possible big breakthroughs that might dramatically alter the human condition. Sooner or later, medicine will figure out how to cure cancer and other diseases, dramatically increase human life, and directly interface the human brain with machines. Cheap, clean forms of energy will be discovered. Computers will get faster and smaller. Games will get more immersive and realistic. Nasty new weapons will be invented. And a giant killer death robot will be created to destroy all life on the planet, but we will be saved by an army of mutant kung fu cyborgs. The future will indeed be interesting!",
+        "help_text": "Who knows what the future holds?(A repeating technology that will increase your score each time it is researched.)",
+        "era_requirement": "Information Era",
+        "quote": "\"I think we agree, the past is over.\"  - George W. Bush",
+        "prereq_techs": [
+            "The Internet",
+            "Globalization",
+            "Particle Physics",
+            "Nuclear Fusion",
+            "Nanotechnology",
+            "Stealth"
+        ],
+        "cost": 9500,
+        "building_unlocks": [],
+        "unit_unlocks": []
+    }
+]

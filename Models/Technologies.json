@@ -1,0 +1,12 @@
+{
+    "id":"int",
+    "Name":"String",
+    "civilopedia":"String",
+    "help_text":"String",
+    "era_requirement":"String",
+    "quote":"String",
+    "prereq_techs":["String"],
+    "cost":"int",
+    "building_unlocks":["String"],
+    "unit_unlocks":["String"]
+}
