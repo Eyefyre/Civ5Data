@@ -1,0 +1,807 @@
+[
+    {
+        "id": 1,
+        "name": "Tradition",
+        "help_text": "Tradition ist eine gute Wahl f\u00fcr kleine Reiche. Tradition beschleunigt die Grenzerweiterung in St\u00e4dten und bietet 3 Kultur in der Hauptstadt. Schaltet den Bau der H\u00e4ngenden G\u00e4rten frei. Bei \u00dcbernahme aller Politiken im Tradition-Zweig wird in jeder Stadt +15% Wachstum und ein kostenloses Aqu\u00e4dukt in den ersten 4 St\u00e4dten gew\u00e4hrt. Erm\u00f6glicht au\u00dferdem den Kauf Gro\u00dfer Ingenieure mit Glauben ab dem Industriezeitalter.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Aristokratie",
+                "civilopedia": "Aristokratie ist eine Regierungsform, in der eine Gruppe herausragender B\u00fcrger herrscht. Die Mitgliedschaft in dieser Gruppe kann vererbt sein, durch Verdienste oder Wohlstand erworben werden oder alles drei. Der Begriff leitet sich aus dem Griechischen ab und bedeutet so viel \"die Herrschaft der Besten\". Die Grenze zwischen einer Aristokratie und einer Oligarchie ist recht d\u00fcnn, und es h\u00e4ngt vom Betrachter ab, ob eine Regierung eine Aristokratie oder eine Oligarchie ist: Die Regierenden sehen sich vielleicht als Aristokraten an, w\u00e4hrend alle anderen sie f\u00fcr Oligarchen halten.",
+                "help_text": "+15% Produktion beim Bau von Wundern und +1 Zufriedenheit pro 10 B\u00fcrger in einer Stadt.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Oligarchie",
+                "civilopedia": "Oligarchie ist eine Regierungsform, in der ein kleiner Teil der Gesellschaft die gesamte Macht hat. Die Macht kann z. B. entweder bei einer bestimmten Familie bzw. einem bestimmten Stamm liegen oder bei Angeh\u00f6rigen einer bestimmten Religion bzw. Kaste. Einige Stadtstaaten im antiken Griechenland waren Oligarchien, in denen die gesamte Macht in den H\u00e4nden elit\u00e4rer Familien lag. S\u00fcdafrika in der Zeit der Apartheid ist ein j\u00fcngeres Beispiel f\u00fcr eine Oligarchie, in der die wei\u00dfe Minderheit die Macht hielt. Der Irak in der Zeit vor dem 11. September 2001 war ebenfalls eine Oligarchie, in der die Macht von Mitgliedern der Familie und des Stammes Saddam Husseins gehalten wurde.",
+                "help_text": "Stationierte Einheiten kosten keinen Unterhalt und St\u00e4dte mit einer Garnison erhalten +50% Fernkampfst\u00e4rke.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Legalismus",
+                "civilopedia": "Legalismus ist eine Politik, nach der das Verh\u00e4ltnis zwischen dem Herrscher und seinem Volk durch eine Reihe von Gesetzen festgelegt ist, die beide Seiten streng befolgen m\u00fcssen. Wenn das Gesetz gerecht ist und vern\u00fcnftig durchgesetzt wird, wird das Volk zufrieden und die Position des Herrschers sicher sein. Obwohl das auf die meisten Regierungen zuzutreffen scheint, bei denen es sich um Rechtsstaaten handelt, erreichte der Legalismus in China w\u00e4hrend der Zeit der Streitenden Reiche beinahe den Status einer Staatsreligion.",
+                "help_text": "Bietet ein kostenloses Kulturgeb\u00e4ude in Euren ersten 4 St\u00e4dten.",
+                "level": 0,
+                "prereq_policies": [
+                    "Oligarchie"
+                ]
+            },
+            {
+                "name": "Gro\u00dfgrundbesitzer",
+                "civilopedia": "Unter dieser Politik genie\u00dfen diejenigen in einer Nation Macht und Ansehen, die das Land besitzen. Je mehr Land jemand besitzt, desto m\u00e4chtiger ist er. In einigen F\u00e4llen ist der Besitz von Land auf Mitglieder einer bestimmten Klasse, eines Stammes, einer Religion oder sogar eines Geschlechts beschr\u00e4nkt. Die Gro\u00dfgrundbesitzer m\u00fcssen daf\u00fcr sorgen, dass das gemeine Bauernvolk sich nicht \u00fcber sie \u00e4rgert, da solche Situationen h\u00e4ufig mit einer radikalen Neuverteilung des Landes enden, wobei es unter Umst\u00e4nden auch zu Hinrichtungen der ehemaligen Landbesitzer kommen kann.",
+                "help_text": "+10 Wachstum und +2 Nahrung in der Hauptstadt.",
+                "level": 0,
+                "prereq_policies": [
+                    "Legalismus"
+                ]
+            },
+            {
+                "name": "Monarchie",
+                "civilopedia": "Monarchie ist eine Regierungsform, in der die Macht bei einem Individuum liegt. Oft (aber nicht immer) wird die Macht eines Monarchen nach dessen Tod auf einen Erben \u00fcbertragen (es gibt einige gew\u00e4hlte Monarchen, aber nicht viele). Die Monarchie \u00e4hnelt dem Despotismus, doch es gibt einen entscheidenden Unterschied: Der Monarch herrscht innerhalb der Grenzen der Gesetze eines Landes, w\u00e4hrend der Despot \u00fcber dem Gesetz steht. Es ist durchaus m\u00f6glich, dass ein Monarch auch ein Despot ist, aber es ist ebenso m\u00f6glich, dass ein Monarch Teil eines politischen Prozesses ist, der den B\u00fcrgern gro\u00dfe Freiheiten einr\u00e4umt. Gro\u00dfbritannien ist z. B. ein Beispiel f\u00fcr Letzteres.",
+                "help_text": "+1 Gold und -1 Unzufriedenheit f\u00fcr jeweils 2 B\u00fcrger in der Hauptstadt.",
+                "level": 0,
+                "prereq_policies": [
+                    "Legalismus"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Unabh\u00e4ngigkeit",
+        "help_text": "Unabh\u00e4ngigkeit eignet sich am besten f\u00fcr Zivilisationen, die schnelles Wachstum anstreben. Unabh\u00e4ngigkeit bringt 1 Kultur in jeder Stadt. Schaltet den Bau der Pyramiden frei. Bei \u00dcbernahme aller Politiken im Unabh\u00e4ngigkeit-Zweig wird nach Belieben eine kostenlose Gro\u00dfe Pers\u00f6nlichkeit in der N\u00e4he der Hauptstadt gew\u00e4hrt.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Kollektivherrschaft",
+                "civilopedia": "Kollektivherrschaft ist die Politik, bei der jedes Mitglied (oder jedes erwachsene Mitglied oder jedes m\u00e4nnliche, erwachsene Mitglied) einer Gesellschaft am Regierungsprozess teilnimmt, indem es direkt \u00fcber Entscheidungen abstimmt, anstatt durch einen Repr\u00e4sentanten (wie in einer Republik). Obwohl es eine effektive Regierungsform f\u00fcr St\u00e4mme oder kleine D\u00f6rfer ist, wird die Kollektivherrschaft immer schwieriger und unflexibel, je gr\u00f6\u00dfer das Gemeinwesen wird. Wenn die H\u00e4lfte der B\u00fcrger eines Stammes von 100 bei einem Treffen f\u00fcr eine Minute einzeln sprechen m\u00f6chte, k\u00f6nnte das in weniger als einer Stunde geschehen. Wenn die H\u00e4lfte aller B\u00fcrger von New York City einzeln f\u00fcr eine Minute sprechen wollte, w\u00fcrden sie um die 66.000 Stunden (plus einen \u00e4u\u00dferst gro\u00dfen Versammlungsraum) brauchen.",
+                "help_text": "Beschleunigt die Ausbildung von Siedlern um 50% in der Hauptstadt und ein kostenloser Siedler erscheint in der N\u00e4he der Hauptstadt. (Venedig erh\u00e4lt statt des Siedlers einen H\u00e4ndler von Venedig.)",
+                "level": 0,
+                "prereq_policies": [
+                    "Republik"
+                ]
+            },
+            {
+                "name": "Staatsb\u00fcrgerschaft",
+                "civilopedia": "Die Staatsb\u00fcrgerschaft ist die Politik einer Nation, die anerkennt, dass eine bestimmte Gruppe von Menschen, in der Regel basierend auf ihrer ethnischen Herkunft und Zugeh\u00f6rigkeit oder ihrem Geburtsort, Mitglieder dieser Nation sind, und als solche einen gewissen Grad an Schutz sowie einige Rechte und Privilegien verdienen, die \u00fcber denen von Ausl\u00e4ndern stehen. Zum Beispiel kann sich ein Staatsb\u00fcrger im Land frei bewegen, w\u00e4hrend ein Nicht-Staatsb\u00fcrger ausgewiesen oder eingesperrt werden kann, wenn er von den Beh\u00f6rden entdeckt wird.",
+                "help_text": "Die Konstruktionsrate der Gel\u00e4ndefeld-Modernisierungen erh\u00f6ht sich um 25% und ein Arbeiter erscheint in der N\u00e4he der Hauptstadt.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Republik",
+                "civilopedia": "Eine Republik ist eine Regierungsform, in der das Volk oder dessen Repr\u00e4sentanten letztendlich die Macht haben, nicht ein Monarch oder Despot allein. Das Volk oder dessen Repr\u00e4sentanten w\u00e4hlen die Staatsoberh\u00e4upter, doch die Macht dieser Staatslenker kommt ausschlie\u00dflich aus der Zustimmung des Volkes. Einige antike Kulturen hatten eine Form von Republikanismus, vor allem einige griechische Stadtstaaten und Rom (f\u00fcr Teile seiner Geschichte), doch der gr\u00f6\u00dfte Teil der Weltgeschichte wurde von Monarchien gepr\u00e4gt. Die Republik erschien im 18. Jahrhundert wieder auf der B\u00fchne der Weltgeschichte, als die USA sich von der britischen Monarchie l\u00f6sten und eine Republik gr\u00fcndeten. Als sie Unabh\u00e4ngigkeit von der Alten Welt erlangten, wurden die meisten neuen Nationen in Mittel- und S\u00fcdamerika als Republiken gegr\u00fcndet (Mexiko versuchte sich eine Weile als Monarchie, doch das hielt nicht lange vor). Im 20. Jahrhundert wurden aus den meisten europ\u00e4ischen Regierungen Republiken, entweder nach dem Ersten oder dem Zweiten Weltkrieg. Auch viele asiatische Nationen folgten sowie gro\u00dfe Teile Afrikas, nachdem sie sich von ihren Kolonialherren gel\u00f6st hatten. Heute h\u00e4ngen die meisten Nationen der Welt irgendeiner Form von Republikanismus an - oder geben zumindest vor, es zu tun.",
+                "help_text": "+1 Produktion in jeder Stadt und +5% Produktion in St\u00e4dten beim Errichten von Geb\u00e4uden.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Repr\u00e4sentation",
+                "civilopedia": "Repr\u00e4sentation ist eine Politik, bei der die B\u00fcrger eines Staates Repr\u00e4sentanten f\u00fcr die Regierung des Landes w\u00e4hlen. Dies kann als logische Folge der Kollektivherrschaft gesehen werden, da diese Regierungsform ab einer bestimmten Bev\u00f6lkerungsgr\u00f6\u00dfe nicht mehr umsetzbar ist. Bei einer repr\u00e4sentativen Regierungsform wird das Land in kleinere, besser zu organisierende Bezirke unterteilt, von denen alle einen oder mehrere ans\u00e4ssige Einwohner w\u00e4hlen, die f\u00fcr eine bestimmte Zeit die Interessen des Bezirks in der Regierung repr\u00e4sentieren sollen. Die Repr\u00e4sentanten bilden ein Parlament oder ein anderes Beratungsorgan und regieren so das Land. Die meisten repr\u00e4sentativen Regierungsformen sind Republiken, was jedoch nicht zwingend notwendig ist. Manche repr\u00e4sentative Regierungen w\u00e4hlen f\u00fcr eine bestimmte Amtsperiode oder auf Lebenszeit K\u00f6nige und andere Adlige, die \u00fcber sie herrschen sollen.",
+                "help_text": "Jede von Euch gegr\u00fcndete Stadt erh\u00f6ht die Kulturkosten der Politiken um 33% weniger als \u00fcblich. Leitet zudem ein Goldenes Zeitalter ein.",
+                "level": 0,
+                "prereq_policies": [
+                    "Staatsb\u00fcrgerschaft"
+                ]
+            },
+            {
+                "name": "Meritokratie",
+                "civilopedia": "Eine Meritokratie ist ein System, in dem die Talentiertesten und F\u00e4higsten Anstellungen bekommen und eher in der Regierungsb\u00fcrokratie aufsteigen als beispielsweise pers\u00f6nliche Freunde des derzeitigen Herrschers (oder Abgeordneten) oder Mitglieder eines bestimmten Stammes, einer Kaste oder Religion. Viele langlebige Regierungen wechseln immer wieder von einer Form der Meritokratie zu einer weniger sinnvollen Methode, die Leute auszuw\u00e4hlen, die das Sagen haben. Zuerst werden die Funktion\u00e4re aufgrund ihrer F\u00e4higkeit gew\u00e4hlt, dann schleichen sich \u00fcber die Jahre Patronat oder Beg\u00fcnstigung ins System ein und die Regierung wird immer ineffektiver und korrupt. Letztendlich wird es so schlimm, dass die B\u00fcrokratie verworfen oder reformiert wird und erneut f\u00e4higere Funktion\u00e4re ernannt werden. Dieses Muster wiederholt sich, bis die Sonne explodiert und alles Leben vom Planeten gefegt wird.",
+                "help_text": "+1 Zufriedenheit f\u00fcr jede Eurer St\u00e4dte, die mit der Hauptstadt verbunden ist und -5% Unzufriedenheit von B\u00fcrgern in nicht besetzten St\u00e4dten.",
+                "level": 0,
+                "prereq_policies": [
+                    "Staatsb\u00fcrgerschaft"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Ehre",
+        "help_text": "Ehre erh\u00f6ht die Effektivit\u00e4t der Armee auf mehrere Arten. Ehre f\u00fchrt zu einem Kampfbonus von +33% gegen Barbaren und Nachricht an den Spieler, wenn neue Barbarenlager in bereits erkundetem Gebiet entstehen. Das Reich erh\u00e4lt Kultur f\u00fcr jeden eliminierten Barbaren. Schaltet den Bau der Zeus-Statue frei. Bei \u00dcbernahme aller Politiken im Ehre-Zweig wird Gold f\u00fcr jede ausgeschaltete Feindeinheit gew\u00e4hrt. Erm\u00f6glicht ebenfalls den Kauf Gro\u00dfer Gener\u00e4le mit Glauben ab dem Industriezeitalter.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Kriegerkodex",
+                "civilopedia": "Einen Kriegerkodex haben milit\u00e4rische Organisationen, deren Soldaten eine engere Verbindung zur Armee und ihren Kameraden sp\u00fcren als zu irgendetwas anderem. Der Soldat ist bereit, wenn nicht sogar gewillt, zu k\u00e4mpfen und sein Leben f\u00fcr die Armee zu geben. Er befolgt Befehle, ohne sie zu hinterfragen, und stellt das Wohl des Milit\u00e4rs \u00fcber sein eigenes oder gar das Wohl der Nation als solche. Derartige Organisationen k\u00f6nnen sehr gef\u00e4hrlich sein, wenn es den Anf\u00fchrern der jeweiligen Nation nicht gelingt, die Kontrolle \u00fcber sie zu behalten. Einige Historiker vertreten die Ansicht, dass in Japan vor dem Zweiten Weltkrieg die kaiserliche Armee und Marine fast vollst\u00e4ndig der staatlichen Kontrolle entglitten waren und ihre militaristischen Aktionen das Land in den letztendlich katastrophalen Konflikt mit den USA trieben.",
+                "help_text": "+15% Produktion bei der Ausbildung von Nahkampfeinheiten und au\u00dferhalb der Hauptstadt erscheint ein Gro\u00dfer General. Gro\u00dfe Gener\u00e4le werden 50% schneller erlangt.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Disziplin",
+                "civilopedia": "In einer milit\u00e4rischen Struktur bezieht sich Disziplin auf die Bereitschaft eines Soldaten, rechtm\u00e4\u00dfigen Befehlen zu folgen, vorgesetzte Offiziere zu respektieren und sein Leben aufs Spiel zu setzen oder bei Bedarf sogar zu sterben. Von disziplinierten Soldaten wird erwartet, dass sie die W\u00fcrde ihrer Uniform wahren, wenn sie dienstfrei haben, und die Schwachen und Hilflosen besch\u00fctzen. Verst\u00f6\u00dfe gegen die Disziplin k\u00f6nnen zu milit\u00e4rischen Strafen f\u00fchren oder sogar vor dem Kriegsgericht enden und eine Entlassung zur Folge haben.",
+                "help_text": "+15% Kampfst\u00e4rke f\u00fcr Nahkampfeinheiten, wenn sich in einem benachbarten Gel\u00e4ndefeld eine weitere Milit\u00e4reinheit befindet.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Milit\u00e4rtradition",
+                "civilopedia": "Milit\u00e4rtradition ist die Politik der Ehrung und der Romantisierung des Dienstes im Milit\u00e4r einer Nation. Soldaten und Veteranen werden verehrt, w\u00e4hrend solche, die nicht im Milit\u00e4r gedient haben, zweitklassig oder sogar unw\u00fcrdig sind. Das moderne Israel hat eine ma\u00dfgebliche Milit\u00e4rtradition, wie auch das viktorianische England und die s\u00fcdlichen Vereinigten Staaten vor dem B\u00fcrgerkrieg.",
+                "help_text": "Milit\u00e4reinheiten gewinnen im Kampf 50% mehr Erfahrung.",
+                "level": 0,
+                "prereq_policies": [
+                    "Kriegerkodex"
+                ]
+            },
+            {
+                "name": "Kriegerkaste",
+                "civilopedia": "In einer Gesellschaft mit einer Kriegerkaste geh\u00f6ren alle Mitglieder des Milit\u00e4rs einem bestimmten Stamm, einer Nationalit\u00e4t, einer Religion oder einer anderen sozio\u00f6konomischen Untergruppe an. B\u00fcrger, die nicht dieser Kaste angeh\u00f6ren, d\u00fcrfen dem Milit\u00e4r nicht beitreten und h\u00e4ufig auch keinerlei Waffen tragen, da die Kriegerkaste verhindern will, dass die B\u00fcrger die Waffen gegen sie einsetzen. Ein Gro\u00dfteil des feudalen Japan unterstand einem Kriegerkasten-System, wie auch das antike Sparta.",
+                "help_text": "F\u00fcr jede Garnisonsstadt steigt die lokale Stadt-Zufriedenheit um 1 und die Kultur um 2.",
+                "level": 0,
+                "prereq_policies": [
+                    "Disziplin"
+                ]
+            },
+            {
+                "name": "Berufsarmee",
+                "civilopedia": "Eine Berufsarmee ist eine milit\u00e4rische Organisation, die auch in Friedenszeiten aufrecht gehalten wird. Soldaten werden von der Regierung f\u00fcr ihre Dienste bezahlt und verbringen ihre Zeit damit, sich auf Eins\u00e4tze vorzubereiten oder diese durchzuf\u00fchren. Die ersten Armeen waren keine Berufsarmeen. Wenn ein Krieg bevorstand, riefen die Staatsoberh\u00e4upter alle k\u00f6rperlich f\u00e4higen M\u00e4nner zum Dienst, die dann auch ihre Waffen schulterten und in den Kampf zogen. Diese Amateursoldaten waren oft nicht besonders gut ausgebildet und mussten meistens ihre eigenen Waffen und R\u00fcstungen mitbringen, sodass deren Qualit\u00e4t oft nicht sehr hoch war. Viele dieser Soldaten desertierten auch, wenn sie sich um die Ernte k\u00fcmmern mussten, also wurden die Schlachten in den Sommer gelegt. Wenn der Sieg bis zur Ernte nicht errungen wurde, wurde der Krieg f\u00fcr ein Jahr ausgesetzt. Berufsarmeen bilden sich, wenn eine Gesellschaft wohlhabend genug geworden ist, um eine gro\u00dfe Anzahl an Menschen zu unterhalten, die nicht auf dem Feld arbeiten oder andere produktive Arbeit leisten. Die Soldaten werden in der Regel in Kasernen untergebracht und von der Zivilbev\u00f6lkerung ferngehalten, um Reibungen zu vermeiden, und der Staat sorgt f\u00fcr Verpflegung, Waffen, R\u00fcstung und Ausbildung. Sie sind fast immer effektiver als Amateure. Moderne Kriegsf\u00fchrung ist unglaublich komplex geworden und Soldaten t\u00f6ten mit extrem komplizierten Waffen, f\u00fcr deren effektiven Gebrauch ein erhebliches Training notwendig ist. Amateursoldaten sind solchen Anforderungen einfach nicht gewachsen, und die meisten Staaten leisten sich die ein oder andere Form einer professionellen Streitkraft.",
+                "help_text": "Goldkosten f\u00fcr die Modernisierung von Milit\u00e4reinheiten sinken um 33% und Kasernen, Waffenkammern und Milit\u00e4rakademien werden 50% schneller gebaut.",
+                "level": 0,
+                "prereq_policies": [
+                    "Kriegerkaste"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Fr\u00f6mmigkeit",
+        "help_text": "Fr\u00f6mmigkeit l\u00e4sst den Glauben eines Reiches florieren. Fr\u00f6mmigkeit reduziert die Bauzeit von Schreinen und Tempeln um die H\u00e4lfte. Schaltet den Bau der Gro\u00dfen Moschee von Djenn\u00e9 frei. Bei \u00dcbernahme aller Politiken erscheint ein Gro\u00dfer Prophet und Heilige St\u00e4tten produzieren +3 Kultur.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Organisierte Religion",
+                "civilopedia": "Man spricht von einer organisierten Religion, wenn viele Leute die gleichen religi\u00f6sen Praktiken aus\u00fcben und die gleichen Glaubenss\u00e4tze teilen. In der Religion kann es Priester geben, die sich bei einer h\u00f6heren Macht f\u00fcr die Gl\u00e4ubigen einsetzen und die Regeln der Religion festlegen bzw. interpretieren. Es kann eine komplizierte Hierarchie unter den Priestern und anderen religi\u00f6sen Anf\u00fchrern geben. Die Religion kann Tempel oder Heiligt\u00fcmer haben, in denen Leute zum Beten und Gottesdienst zusammenkommen. In der Regel stellen die Anh\u00e4nger Geld bereit, um die Religion, ihre Priester und ihre Geb\u00e4ude zu unterst\u00fctzen. In der Regel ist organisierte Religion eine stabilisierende Kraft in einer Kultur. Ein Volk, das gemeinsam einer Religion angeh\u00f6rt, hat etwas Wichtiges gemein. Doch auch wenn es unwahrscheinlicher ist, dass Fremde sich gegenseitig umbringen, kann Religion recht entzweiend sein. In der Geschichte haben viele Religionen andere Religionen als Bedrohung oder Abartigkeit angesehen und mehr als ein Krieg ist dar\u00fcber ausgebrochen, wer den richtigen Gott anbetet.",
+                "help_text": "+1 Glauben f\u00fcr Schreine und Tempel.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Mandat des Himmels",
+                "civilopedia": "Die Politik \"Mandat des Himmels\" besagt, dass die derzeitigen Herrscher eines Landes an der Macht sind, weil der \"Himmel\" (oder die G\u00f6tter) es so will und diese unterst\u00fctzt. Den Herrschern zu widersprechen ist nicht nur verr\u00e4terisch, sondern auch eine S\u00fcnde. Solche Systeme f\u00f6rdern die Unterst\u00fctzung der Herrscher enorm, aber sind nicht ganz ohne Risiko. Wenn das Land von einer Naturkatastrophe heimgesucht wird - Hungersnot, \u00dcberschwemmung, Erdbeben, Hurrikan, Froschregen usw. - kann dies als Zeichen interpretiert werden, dass der Himmel mit den Anf\u00fchrern unzufrieden ist und ihnen sein \"Mandat\" entzogen hat. Das gibt den B\u00fcrgern das Recht, die s\u00fcndigen Herrscher zu st\u00fcrzen und sie durch neue zu ersetzen, die dem Himmel eher zusagen.",
+                "help_text": "20% Rabatt auf alle religi\u00f6sen Einheiten und Geb\u00e4ude mit Glauben.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Theokratie",
+                "civilopedia": "In einem theokratisch organisierten Staat haben die religi\u00f6sen Anf\u00fchrer die absolute Macht im Land inne. Eigentlich hat der Gott der jeweiligen Religion die Macht und regiert durch g\u00f6ttliche Eingebung mit Hilfe der religi\u00f6sen Anf\u00fchrer. Theokratien sind oft militaristisch, da die religi\u00f6sen Anf\u00fchrer die Armee des Landes als Mittel sehen, um die eigene Religion in andere, heidnische Staaten zu tragen. Moderne Theokratien scheinen die Tendenz zu haben, den Fortschritt zu verdammen, da Luxus und technologische Entwicklungen als Bedrohung f\u00fcr die Fr\u00f6mmigkeit des eigenen Landes (und f\u00fcr die Macht der Anf\u00fchrer) gesehen werden.",
+                "help_text": "Tempel erh\u00f6hen die Goldproduktion einer Stadt um 25%. Heilige St\u00e4tten liefern +3 Gold.",
+                "level": 0,
+                "prereq_policies": [
+                    "Organisierte Religion"
+                ]
+            },
+            {
+                "name": "Reformation",
+                "civilopedia": "Als Reformation bezeichnet man eine umfassende Bewegung zur Reform von religi\u00f6sen Organisationen oder Glaubenssystemen, die einen moralischen Verfall erlitten haben oder den eigenen Prinzipien nicht mehr treu sind. Die protestantische Reformation war eine Bewegung, welche die Reform der r\u00f6misch-katholischen Kirche zum Ziel hatte und 1517 mit der Ver\u00f6ffentlichung der 95 Thesen durch Martin Luther begann, in denen er die Verfehlungen der katholischen Kirche auflistete, so wie er sie sah. Die Bewegung l\u00f6ste rund 130 Jahre schrecklicher, blutiger Religionskriege in ganz Europa und der Neuen Welt aus. Die Christenheit wurde dadurch permanent in verschiedene Organisationen aufgesplittert, und die b\u00fcrgerliche Macht konnte endg\u00fcltig die Oberhand \u00fcber die religi\u00f6sen Instanzen im Staat gewinnen.",
+                "help_text": "Wenn Ihr eine Religion gegr\u00fcndet habt, erhaltet Ihr einen Bonus-s-Glaubenssatz.",
+                "level": 0,
+                "prereq_policies": [
+                    "Religi\u00f6se Toleranz"
+                ]
+            },
+            {
+                "name": "Religi\u00f6se Toleranz",
+                "civilopedia": "Religionsfreiheit ist die Politik eines Staates, der nicht festlegt, welche Religionen seine Mitglieder aus\u00fcben. Alle Religionen sind willkommen und der spirituelle Markt hat die freie Wahl. Obwohl sie vermutlich aus nobleren Gr\u00fcnden eingef\u00fchrt wurde, schr\u00e4nkt Religionsfreiheit h\u00e4ufig die Macht jeder einzelnen Religion ein. In Staaten mit nur einer Religion \u00fcben die Oberh\u00e4upter dieser Religion gro\u00dfen Einfluss aus (wie z. B. der moderne Iran zeigt). Staaten mit Religionsfreiheit bem\u00fchen sich in der Regel, alle Religionen gleich zu behandeln, damit letztendlich keine davon die Vorherrschaft \u00fcbernimmt.",
+                "help_text": "St\u00e4dte mit einer Mehrheitsreligion erhalten auch den Pantheon-Glaubenssatz-Bonus der zweitbeliebtesten Religion.",
+                "level": 0,
+                "prereq_policies": [
+                    "Organisierte Religion"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Patronat",
+        "help_text": "Patronat erh\u00f6ht die Vorteile der Freundschaft zwischen Stadtstaaten. Durch das Patronat sinkt der Einfluss auf Stadtstaaten 25% langsamer als normalerweise. Schaltet den Bau der Verbotenen Stadt frei. Bei \u00dcbernahme aller Politiken im Patronat-Zweig schenken Euch verb\u00fcndete Stadtstaaten von Zeit zu Zeit Gro\u00dfe Pers\u00f6nlichkeiten.",
+        "era_requirement": "Klassik",
+        "policies": [
+            {
+                "name": "Philanthropie",
+                "civilopedia": "Philanthropie ist eine Politik, bei der die reichsten B\u00fcrger einer Nation einen Teil ihres Reichtums dem Volk zur\u00fcckgeben, was oft in Form von Bibliotheken, Museen, Krankenh\u00e4usern oder Stipendien geschieht. Anders als beim Patronat, bei dem ein B\u00fcrger Kunstwerke f\u00fcr sich selbst und andere seiner Klasse in Auftrag gibt, dient die Philanthropie meist auch den \u00e4rmeren Mitgliedern der Gesellschaft. Der schottischst\u00e4mmige Amerikaner Andrew Carnegie war einer der gr\u00f6\u00dften Philanthropen in der Geschichte. Den Gro\u00dfteil seines Lebens hatte Carnegie als \u00e4u\u00dferst skrupelloser Gesch\u00e4ftsmann verbracht und mit Hilfe der in den Minen und Stahlwerken schuftenden Arbeiter das Unternehmen US Steel gegr\u00fcndet und das zweitgr\u00f6\u00dfte Verm\u00f6gen in der Geschichte erlangt. Nach dem Verkauf des Unternehmens 1901 widmete Carnegie jedoch die letzten 19 Jahre seines Lebens dem Bau von Bibliotheken in \u00e4rmeren St\u00e4dten und unterst\u00fctzte fast 3.000 Bildungseinrichtungen in den Vereinigten Staaten, Kanada, Gro\u00dfbritannien, Irland, Australien, Neuseeland und vielen anderen L\u00e4ndern.",
+                "help_text": "Goldgeschenke an Stadtstaaten produzieren 25% mehr Einfluss.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Konsulate",
+                "civilopedia": "Als die Beziehungen zwischen den Nationen formeller wurden, gr\u00fcndete man Konsulate, die dabei helfen sollten, die Interessen der B\u00fcrger eines Landes im Territorium eines anderen Landes zu sch\u00fctzen und den Handel und die Freundschaft zwischen beiden Staaten zu f\u00f6rdern. W\u00e4hrend ein Botschafter als Einzelperson einen Staat repr\u00e4sentiert, kann es in einem Land mehrere Konsuln geben, in der Regel in jeder gr\u00f6\u00dferen Stadt einen. Das Konzept den B\u00fcrgern einer Nation im Ausland Dienste zur Verf\u00fcgung zu stellen stammt von der alten griechischen Praxis ab, dass wohlhabende Kaufleute als \"Proxenos\" in anderen hellenischen Stadtstaaten fungierten, um ihren Kaufmannskollegen zu helfen. Auch wenn die Rolle der Konsulate Ende des 19. Jahrhunderts erweitert wurde und kulturellen und Bildungsaustausch mit umfasste, ist die Aufgabe der Repr\u00e4sentation einer Nation auf lokaler Ebene in einem fernen Land unver\u00e4ndert.",
+                "help_text": "Das Stabilit\u00e4tsniveau f\u00fcr Einfluss wird f\u00fcr alle Stadtstaaten um 20 erh\u00f6ht.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Scholastik",
+                "civilopedia": "Die Scholastik ist eine Lehrform, die in mittelalterlichen Universit\u00e4ten Europas von ca. 1000 bis 1500 n. Chr. zum Einsatz kam. Die Methode legte besonderen Wert auf kritische Argumentation und Er\u00f6rterung. Der Lehrer w\u00e4hlte meist ein Buch aus, das studiert werden sollte, diskutierte dann gemeinsam mit den Studenten \u00fcber dessen Bedeutung, untersuchte andere B\u00fccher zum gleichen Thema oder Kritiken zum Buch und dergleichen, um so ein besseres Verst\u00e4ndnis des Themas zu erreichen, als es durch stures Auswendiglernen m\u00f6glich w\u00e4re. Die Bewegung fu\u00dfte auf der Wiederentdeckung von Werken griechischer Philosophen und dem Versuch, diese in Einklang mit der christlichen Religion zu bringen.",
+                "help_text": "Alle Stadtstaaten, die Verb\u00fcndete sind, liefern einen Wissenschaftsbonus in H\u00f6he von 25% ihrer Produktion.",
+                "level": 0,
+                "prereq_policies": [
+                    "Philanthropie"
+                ]
+            },
+            {
+                "name": "V\u00f6lkerverst\u00e4ndigung",
+                "civilopedia": "V\u00f6lkerverst\u00e4ndigung ist die Politik, bei der die sch\u00f6nsten und am meisten gesch\u00e4tzten Objekte einer Zivilisation an andere Zivilisationen verliehen werden, um Frieden und Verst\u00e4ndigung zwischen allen V\u00f6lkern zu f\u00f6rdern. Eine der best\u00e4ndigsten Formen der V\u00f6lkerverst\u00e4ndigung ist die Weltausstellung, auch bekannt als Expo, die alle zwei bis f\u00fcnf Jahre in einer anderen Stadt abgehalten wird. Die Weltausstellung pr\u00e4sentiert Beispiele aus Kunst, Handwerk, Landwirtschaft und Industrie vieler L\u00e4nder. Die erste Weltausstellung fand 1851 im Crystal Palace im Hyde Park, London, statt. Sie war die Idee von Prinz Albert, K\u00f6nigin Victorias Ehemann. Es gab dort insgesamt um die 13.000 Ausstellungsst\u00fccke bei etwa sechs Millionen Besuchern. Die n\u00e4chste Weltausstellung wird 2010 in Shanghai, China, stattfinden. Es werden um die 70 Millionen Besucher erwartet.",
+                "help_text": "Die Anzahl der von Stadtstaaten verschenkten Ressourcen wird um 100% erh\u00f6ht. Die Zufriedenheit durch geschenkte Luxusg\u00fcter erh\u00f6ht sich um 50%.",
+                "level": 0,
+                "prereq_policies": [
+                    "Scholastik"
+                ]
+            },
+            {
+                "name": "Handelsbund",
+                "civilopedia": "Ein Handelsbund, oft auch bekannt als Handelsgilde, wird gegr\u00fcndet, um wirtschaftliche Interessen und diplomatische Privilegien von H\u00e4ndlern in St\u00e4dten und entlang Handelsrouten zu sch\u00fctzen. Auch wenn diese Zusammenschl\u00fcsse von H\u00e4ndlern keinen offiziellen Rang hatten, hatten einige von ihnen - etwa die Company of Merchant Adventurers of London (gegr\u00fcndet 1407) oder die noch m\u00e4chtigere Hanse (offiziell entstanden um das Jahr 1356) - erheblichen wirtschaftlichen Einfluss und beherrschten bestimmte Handelsrouten f\u00fcr lange Zeitr\u00e4ume. In der fr\u00fchen Renaissance wurden Handelsb\u00fcnde in Stadtstaaten wie Venedig und Genua gegr\u00fcndet, um die Interessen von H\u00e4ndlern bestimmter M\u00e4rkte zu sch\u00fctzen, w\u00e4hrend diese au\u00dfer Landes waren. Diese Handelsb\u00fcnde erreichten ihre Bl\u00fctezeit w\u00e4hrend des 15. und 16. Jahrhunderts, verloren danach jedoch zunehmend an Einfluss, als nationale Regierungen und von der Krone verbriefte Firmen die Regulierungen und diplomatischen Verantwortungen \u00fcbernahmen, die zuvor von den B\u00fcnden gehalten worden waren.",
+                "help_text": "+2 Gold f\u00fcr Handelswege mit Stadtstaaten.",
+                "level": 0,
+                "prereq_policies": [
+                    "Scholastik",
+                    "Konsulate"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "\u00c4sthetik",
+        "help_text": "\u00c4sthetik verbessert die F\u00e4higkeit einer Zivilisation, Kultur zu generieren. Die Einf\u00fchrung der \u00c4sthetik erm\u00f6glicht es, Gro\u00dfe Schriftsteller, K\u00fcnstler und Musiker 25% schneller zu erhalten. Schaltet den Bau der Uffizien frei. Die Einf\u00fchrung aller Politiken verdoppelt den Themen-Bonus, den Ihr durch Eure Museen und Wunder erhaltet, und erm\u00f6glicht den Erwerb von Gro\u00dfen Schriftstellern, K\u00fcnstlern und Musikern mit Glauben ab dem Industriezeitalter.",
+        "era_requirement": "Klassik",
+        "policies": [
+            {
+                "name": "Kulturzentren",
+                "civilopedia": "Ein Kulturzentrum ist ein Geb\u00e4ude, Komplex oder eine Institution, die die Kunst f\u00f6rdert. In manchen F\u00e4llen bedeutet dies die F\u00f6rderung von Museen und Kunstgalerien, die f\u00fcr jeden offen sind. In anderen F\u00e4llen k\u00f6nnen Kulturzentren Spenden anbieten, um die Errichtung oder den Betrieb von privaten Einrichtungen zu ermutigen, an denen Kunstbetrieb herrscht. Sie k\u00f6nnen auch helfen, Talente f\u00fcr staatliche Orchester, Theater, Tanzensembles und Gesangsgruppen zu finden.",
+                "help_text": "Errichtet Monumente, Amphitheater, Opernh\u00e4user, Museen und Funkt\u00fcrme 50% schneller.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Die sch\u00f6nen K\u00fcnste",
+                "civilopedia": "Die sch\u00f6nen K\u00fcnste, im Gegensatz zur Volkskunst und angewandten Kunst, sind diejenigen, die das Ziel verfolgen, \u00e4sthetische Objekte oder Erfahrungen zu gestalten, die mit anderen geteilt werden k\u00f6nnen. Der Begriff \"sch\u00f6ne K\u00fcnste\" kam im Europa des 17. Jahrhunderts in Mode. Zu den f\u00fcnf \"h\u00f6heren sch\u00f6nen K\u00fcnsten\" geh\u00f6ren die bildenden K\u00fcnste Malerei, Bildhauerei und Architektur sowie Musik und Dichtung, daneben gibt es noch Theater und Tanz. Es herrschen intensive Debatten dar\u00fcber, ob Film, Fotografie, Kalligrafie, Mode, Comics und sogar Videospiele \"Kunst\" sind, egal ob sch\u00f6n oder nicht.",
+                "help_text": "50% der nicht ben\u00f6tigten Zufriedenheit werden pro Runde zu der Menge an Kultur hinzugef\u00fcgt, die f\u00fcr Sozialpolitik ausgegeben wird.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Bl\u00fchende K\u00fcnste",
+                "civilopedia": "\"Bl\u00fchende K\u00fcnste\" bezeichnet allgemein eine Phase gesteigerter \u00c4sthetik, charakterisiert durch eine hohe Produktion innovativer Kunst, in der Regel zusammen mit einem Goldenen Zeitalter einer Zivilisation. Neben Fortschritten bei Wissenschaft und Lebensbedingungen haben \"Bl\u00fchende K\u00fcnste\" w\u00e4hrend eines Goldenen Zeitalters Auswirkungen auf alle Formen, Literatur und Musik sowie materialbezogene Kunst. Leider werden diese Zyklen stets unvermeidlich unterbrochen, normalerweise durch \u00e4u\u00dfere Einfl\u00fcsse wie Krieg, Wirtschaftskollaps, religi\u00f6sen Fanatismus oder andere Umst\u00e4nde au\u00dferhalb der Kontrolle der Menschen.",
+                "help_text": "Kultur um 33% in allen St\u00e4dten erh\u00f6ht, die ein Weltwunder gebaut haben, und im Reich beginnt sofort ein Goldenes Zeitalter.",
+                "level": 0,
+                "prereq_policies": [
+                    "Kulturzentren",
+                    "Die sch\u00f6nen K\u00fcnste"
+                ]
+            },
+            {
+                "name": "K\u00fcnstlerisches Genie",
+                "civilopedia": "Als k\u00fcnstlerisches Genie kann man jene bezeichnen, die die Kreativit\u00e4t, Originalit\u00e4t und das K\u00f6nnen haben, Sch\u00f6nheit in eine Kunstform, wie auch immer geartet, zu bringen. K\u00fcnstlerische Genies gibt es auch in den Bereichen Performance, bei der Choreografie, Orchestrierung oder dem Theater. In der Geschichte der Zivilisation gibt es viele literarische, k\u00fcnstlerische und Performance-Genies, die oft launisch, aber in ihrem Themenbereich stets herausragend waren.",
+                "help_text": "Ein Gro\u00dfer K\u00fcnstler erscheint.",
+                "level": 0,
+                "prereq_policies": [
+                    "Die sch\u00f6nen K\u00fcnste"
+                ]
+            },
+            {
+                "name": "Kultureller Austausch",
+                "civilopedia": "Einen inoffiziellen kulturellen Austausch gab es zwar schon seit den Anf\u00e4ngen des Industriezeitalters durch den gegenseitigen Besuch von Studenten, K\u00fcnstlern, Sportlern und anderen Bewohnern unterschiedlicher L\u00e4nder, doch im Zuge des Kalten Krieges wurden solche Programme von den USA und der UDSSR offiziell gef\u00f6rdert, da beide L\u00e4nder die weltweite Vormachstellung ihrer Kultur demonstrieren und das Verst\u00e4ndnis f\u00fcr das jeweilige Wertesystem verbessern wollten. Diese offiziellen Programme erleichterten Reisen und Auftritte von ausgew\u00e4hlten Gruppen im \"Feindgebiet\". Historiker haben diesen Vorgang als \"kulturelles trojanisches Pferd\" bezeichnet, da die Programme letztlich zum Machtverlust der sowjetischen Regierung beitragen sollten.",
+                "help_text": "Erh\u00f6ht den Tourismus-Modifikator f\u00fcr gemeinsame Religion, Handelswege und offene Grenzen um jeweils 15%.",
+                "level": 0,
+                "prereq_policies": [
+                    "Bl\u00fchende K\u00fcnste"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Wirtschaft",
+        "help_text": "Wirtschaft verschafft Reichen einen Bonus, die auf Gold fokussiert sind. Wenn man Wirtschaft w\u00e4hlt, erh\u00f6ht sich der Goldertrag in der Hauptstadt um 25%. Schaltet den Bau von Big Ben frei. Bei \u00dcbernahme aller Politiken des Wirtschaftszweigs wird f\u00fcr jeden Handelsposten +1 Gold gew\u00e4hrt. Erm\u00f6glicht au\u00dferdem den Kauf von Gro\u00dfen H\u00e4ndlern mit Glauben ab dem Industriezeitalter.",
+        "era_requirement": "Mittelalter",
+        "policies": [
+            {
+                "name": "S\u00f6ldnerarmee",
+                "civilopedia": "S\u00f6ldner nehmen nicht aus Pflichtgef\u00fchl oder ihrem Glauben heraus an Konflikten teil, sondern um sich ihren Lebensunterhalt zu verdienen. Sie wurden bereits in der Antike im Krieg eingesetzt, ihren H\u00f6hepunkt erreichte diese Praxis jedoch in der Renaissance mit der Bildung der so genannten Grandes Compagnies, die f\u00fcr den Kampf angeheuert werden konnten. Sie bestanden oft aus Veteranen nationaler Armeen und wurden von charismatischen Kommandanten wie dem Engl\u00e4nder Sir John Hawkwood angef\u00fchrt, der die ber\u00fcchtigte Wei\u00dfe Kompanie gr\u00fcndete. Die Kompanien wurden \u00fcblicherweise in Kriegszeiten von Stadtstaaten oder kleinen K\u00f6nigreichen in Dienst gestellt, bei denen zu wenig Geld oder Soldaten f\u00fcr ein stehendes Heer vorhanden waren. Einige dieser fr\u00fchen S\u00f6ldnertruppen waren auf bestimmte Kampfbereiche wie Kavallerie oder Artillerie spezialisiert, die meisten bestanden jedoch aus deutschen oder schweizer Landsknechten und wurden vor allem w\u00e4hrend der Religionskriege zur Zeit der Reformation h\u00e4ufig eingesetzt. Zur gleichen Zeit dienten im S\u00fcden die Condottieri in den grausamen Kriegen zwischen den italienischen Stadtstaaten, in die auch die P\u00e4pste verstrickt waren. Bis ins 18. Jahrhundert hinein konnten Adlige auf dem Kontinent schottisch-g\u00e4lische Gallowglass-Kompanien anheuern. Heute werden S\u00f6ldner eher als kleine Elitetruppen eingesetzt oder arbeiten f\u00fcr private Sicherheitsunternehmen.",
+                "help_text": "Erm\u00f6glicht den Kauf von Landsknechten.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Unternehmertum",
+                "civilopedia": "Als Unternehmertum bezeichnet man die F\u00e4higkeit und den Willen eines Einzelnen, ein kommerzielles Unternehmen zu entwickeln, zu organisieren und zu verwalten in der Hoffnung auf Profit. In der Geschichte hat das Unternehmertum viele Formen angenommen, von den gro\u00dfen erkundenden H\u00e4ndlern des Italien der Renaissance \u00fcber die von der Regierung bevollm\u00e4chtigten Gesellschaften im Zeitalter der Entdeckung bis hin zu den R\u00e4uberbaronen des Industriezeitalters. Unabh\u00e4ngig von der jeweiligen Form hat die Bereitschaft, die eigenen Mittel zu riskieren, um gr\u00f6\u00dferen Wohlstand zu generieren, die Entwicklung der Zivilisation sicher ebenso vorangetrieben wie jeder andere Faktor.",
+                "help_text": "Gro\u00dfe H\u00e4ndler werden 25% schneller verdient. Ihr erhaltet doppeltes Gold aus Handelsmissionen von Gro\u00dfen H\u00e4ndlern.",
+                "level": 0,
+                "prereq_policies": [
+                    "Wagenz\u00fcge"
+                ]
+            },
+            {
+                "name": "Merkantilismus",
+                "civilopedia": "Merkantilismus ist eine Form des \u00f6konomischen Nationalismus, die eine Nation ermuntert, eine Politik der \"Protektionswirtschaft\" zu verfolgen, um ihre eigenen Exporte zu f\u00f6rdern und Importe aus anderen Nationen einzuschr\u00e4nken. Wenn die \"Handelsbilanz\" einer Nation w\u00e4chst, vermehrt sich ihr Reichtum und Wohlstand, und wenn sie unter null f\u00e4llt (die Nation importiert mehr G\u00fcter, als sie exportiert), werden die Nation und ihr Volk \u00e4rmer und verwundbarer gegen\u00fcber \u00e4u\u00dferen Bedrohungen. Die Theorie war in Westeuropa vom 16. bis zum 18. Jahrhundert beliebt. Heute streben die westlichen Nationen an, ihre Grenzen f\u00fcr den Handel zu \u00f6ffnen, wenn auch mit einem gewissen Grad an Besteuerung oder Quoten, um ihre wichtigsten nationalen Industrien zu sch\u00fctzen.",
+                "help_text": "Der Kauf von Objekten in St\u00e4dten kostet 25% weniger Gold. +1 Wissenschaft pro M\u00fcnzanstalt, Markt, Bank und B\u00f6rse.",
+                "level": 0,
+                "prereq_policies": [
+                    "S\u00f6ldnerarmee"
+                ]
+            },
+            {
+                "name": "Wagenz\u00fcge",
+                "civilopedia": "In verschiedenen Zeiten, als die Stra\u00dfen besser wurden und weniger unter Banditentum litten, ersetzten Wagenz\u00fcge die Karawanen bei Reisen \u00fcber den Landweg. Wagenz\u00fcge waren in der Lage, mehr G\u00fcter zu transportieren, Schutz zu bieten sowie weitere Strecken zur\u00fcckzulegen und wurden deshalb f\u00fcr Handel, Krieg und Migration eingesetzt. Sie wurden im Verlauf der Geschichte zwar sehr oft verwendet, aber mit Einzug des Industriezeitalters verschwanden die Wagenz\u00fcge gr\u00f6\u00dftenteils.",
+                "help_text": "+2 Gold durch alle Eure Landhandelswege. Unterhaltskosten f\u00fcr Stra\u00dfen und Eisenbahnstrecken um 50% reduziert.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Protektionismus",
+                "civilopedia": "Protektionismus ist eine Politik, die versucht, den Handel zwischen Nationen durch Z\u00f6lle, Steuern und andere Methoden zu beschr\u00e4nken. Sie wird von L\u00e4ndern eingesetzt, die versuchen, ausl\u00e4ndische Waren und Dienste aus dem eigenen Markt herauszuhalten, um so die einheimischen Betriebe zu sch\u00fctzen. Protektionismus wird auch von Herrschern verwendet, die den Kontakt der eigenen B\u00fcrger mit ausl\u00e4ndischen Menschen und G\u00fctern verhindern wollen, weil sie glauben, dass fremde Dinge b\u00f6se sind oder nicht wollen, dass die eigenen Untertanen erkennen, wie schlecht ihr Land im Vergleich zu anderen L\u00e4ndern der Welt abschneidet. In Nordkorea hat der Protektionismus bereits groteske Formen angenommen, da die Herrscher des Landes jeglichen Kontakt mit der Au\u00dfenwelt untersagen, um die eigene R\u00fcckst\u00e4ndigkeit zu verschleiern.",
+                "help_text": "+2 Zufriedenheit durch jedes Luxusgut.",
+                "level": 0,
+                "prereq_policies": [
+                    "Merkantilismus",
+                    "Unternehmertum"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Erkundung",
+        "help_text": "Erkundung verbessert Eure F\u00e4higkeit, Euer Reich \u00fcber Ozeane auszudehnen. Die Einf\u00fchrung der Erkundung bringt +1 Fortbewegung f\u00fcr Marineeinheiten und +1 Sicht f\u00fcr Kampfeinheiten der Marine. Schaltet den Bau des Louvres frei. Die Einf\u00fchrung aller Politiken macht verborgene Altertumsst\u00e4tten sichtbar und erm\u00f6glicht den Kauf Gro\u00dfer Admir\u00e4le mit Glauben ab dem Industriezeitalter.",
+        "era_requirement": "Mittelalter",
+        "policies": [
+            {
+                "name": "Maritime Infrastruktur",
+                "civilopedia": "Mit dem Begriff Maritime Infrastruktur beschreibt man die kollektiven Installationen und Dienste, die den Seehandel erleichtern. Dazu geh\u00f6ren Docks, Kais, Lagerh\u00e4user und \u00e4hnliches sowie Hafenarbeiter, Schiffsbauer, Hafenlotsen und andere, die sich um das Andocken und Be- und Entladen von Fracht k\u00fcmmern. Man sch\u00e4tzt, dass im Verlauf der Geschichte einer von sechs Arbeitspl\u00e4tzen direkt oder indirekt mit dem Seehandel zusammenh\u00e4ngt. F\u00fcr Nationen, die Wohlstand und Expansion \u00fcber die Ozeane anstreben, ist eine gesunde maritime Infrastruktur lebenswichtig. Zur Bl\u00fctezeit des Britischen Imperiums wurde gesch\u00e4tzt, dass die Krone fast ein Drittel ihrer Ausgaben f\u00fcr die Erweiterung und Verbesserung der H\u00e4fen in aller Welt ausgab, die der riesigen Handelsflotte des Imperiums dienten.",
+                "help_text": "+3 Produktion in allen K\u00fcstenst\u00e4dten.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Marinetradition",
+                "civilopedia": "Nationen mit einer tief verankerten Marinetradition sch\u00e4tzen die eigene Marine mehr als alle anderen Milit\u00e4rbereiche (vor allem, da es sich meistens um Inselstaaten handelt). Der Marinedienst wird von der herrschenden Klasse erwartet, und Marineoffiziere genie\u00dfen ein h\u00f6heres Ansehen als Offiziere der Armee oder der Luftwaffe. Gro\u00dfbritannien hat eine der \u00e4ltesten und st\u00e4rksten Marinetraditionen in ganz Europa. Die britischen Schiffe waren meist den Schiffen anderer Nationen \u00fcberlegen, und auf hoher See fanden sich keine besseren Offiziere und Matrosen als jene der Briten. Dies verschaffte der britischen Marine einen erheblichen moralischen Vorteil in Seeschlachten.",
+                "help_text": "+1 Zufriedenheit f\u00fcr jeden Hafen, Seehafen oder Leuchtturm.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Handelsmarine",
+                "civilopedia": "Eine Handelsmarine ist eine Gruppe von Handelsschiffen, die in Zeiten des Krieges zum Einsatz gezwungen werden k\u00f6nnen, um Milit\u00e4rg\u00fcter und Vorr\u00e4te einer Nation zu transportieren, h\u00e4ufig unter dem Schutz der Marine dieser Nation. \u00dcber viele Jahre hinweg verf\u00fcgten die Briten \u00fcber die gr\u00f6\u00dfte und beste Flotte von Handelsmarine-Schiffen in der Weltgeschichte. Die britische Handelsmarine wurde 1835 eingef\u00fchrt und erlitt gro\u00dfe Verluste im Ersten und Zweiten Weltkrieg. Fast 15.000 Handelsseeleute verloren ihr Leben im Ersten Weltkrieg, und im Zweiten Weltkrieg starben sogar 30.000 von ihnen.",
+                "help_text": "+1 Gold f\u00fcr jeden Hafen, Seehafen oder Leuchtturm. +4 Produktion und +4 Kultur in der Stadt mit der Ostindien-Kompanie.",
+                "level": 0,
+                "prereq_policies": [
+                    "Marinetradition",
+                    "Maritime Infrastruktur"
+                ]
+            },
+            {
+                "name": "Navigationsschule",
+                "civilopedia": "1418 gr\u00fcndete Prinz Heinrich von Portugal bei Sagres die erste Schule f\u00fcr das Studium der ozeanischen Navigation, zusammen mit einem astronomischen Observatorium. Hier wurden portugiesische Seefahrer in Navigation, Kartenerstellung, Wissenschaft der Gezeiten und Str\u00f6mungen sowie anderen F\u00e4higkeiten unterrichtet, um sie besser darauf vorzubereiten, die K\u00fcsten Afrikas entlang zu segeln, wo Heinrich eine Reihe von H\u00e4fen einrichten wollte, die zu den Reicht\u00fcmern des Fernen Ostens f\u00fchren sollten. Als um 1600 die Erkundung und Kolonialisierung einen fieberhaften Aufschwung erlebte, folgten die meisten europ\u00e4ischen Monarchen Heinrichs Beispiel und gr\u00fcndeten Navigationsschulen.",
+                "help_text": "Ein Gro\u00dfer Admiral erscheint. +2 Fortbewegung f\u00fcr alle Gro\u00dfen Admir\u00e4le. Gro\u00dfe Admir\u00e4le werden 50% schneller verdient.",
+                "level": 0,
+                "prereq_policies": [
+                    "Marinetradition"
+                ]
+            },
+            {
+                "name": "Schatzflotten",
+                "civilopedia": "Zu verschiedenen Zeiten haben Nationen, die gro\u00dfe Mengen an Sch\u00e4tzen und Handelswaren transportierten, sich auf Konvois verlassen, um die Chancen zu erh\u00f6hen, dass die Fracht tats\u00e4chlich am Zielort ankommt. Der ber\u00fchmteste war die spanische Schatzflotte, die von 1566 bis 1790 Gold, Silber, Gew\u00fcrze, Tabak, Perlen und andere Reicht\u00fcmer von den Westindischen Inseln zu den spanischen H\u00e4fen in Europa brachte. Die Pl\u00fcnderung des spanischen Havannas durch franz\u00f6sische Freibeuter und Angriffe auf einzelne Galeonen durch englische Seer\u00e4uber veranlassten die Spanier, Konvois zwischen der Neuen Welt und Europa einzurichten. Auch wenn die Meere jetzt relativ sicher vor Piraten sind, organisieren Nationen zu Kriegszeiten immer noch Konvois, um die Chancen zu erh\u00f6hen, dass ihre Handelsschiffe intakt ankommen.",
+                "help_text": "+4 Gold durch all Eure Seehandelswege.",
+                "level": 0,
+                "prereq_policies": [
+                    "Handelsmarine"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Rationalismus",
+        "help_text": "Rationalismus erh\u00f6ht die F\u00e4higkeit, Wissenschaft zu verwenden und zu generieren. Rationalismus erh\u00f6ht die Wissenschaft um 10%, solange das Reich gl\u00fccklich ist. Schaltet den Bau des Porzellanturms frei. Bei \u00dcbernahme aller Politiken im Rationalismus-Zweig wird eine kostenlose Technologie gew\u00e4hrt. Au\u00dferdem wird der Erwerb Gro\u00dfer Wissenschaftler mit Glauben ab dem Industriezeitalter erm\u00f6glicht.",
+        "era_requirement": "Renaissance",
+        "policies": [
+            {
+                "name": "S\u00e4kularismus",
+                "civilopedia": "S\u00e4kularismus ist eine Weltanschauung, nach der die Regierung v\u00f6llig unabh\u00e4ngig von religi\u00f6sen Einfl\u00fcssen sein sollte. Religion sollte nicht in der Schule gelehrt werden und auch nicht dar\u00fcber entscheiden, ob ein B\u00fcrger in der Regierung mitwirken oder zum Milit\u00e4r gehen darf. S\u00e4kularisten m\u00fcssen dabei nicht notgedrungen an kein h\u00f6heres Wesen glauben - sie finden einfach, dass es f\u00fcr beide Institutionen schlecht ist, wenn Religion und Regierung vermischt werden. Die Vereinigten Staaten sind ein gr\u00f6\u00dftenteils s\u00e4kularisiertes Land, obwohl Zeichen der Religion seiner fr\u00fchen Einwanderer noch heute auf Geldscheinen, beim Amtseid der Pr\u00e4sidenten, im Justizsystem und vielen anderen Bereichen zu finden sind, was nicht selten zur Ver\u00e4rgerung der B\u00fcrger f\u00fchrt, die dieser Religion nicht angeh\u00f6ren.",
+                "help_text": "+2 Wissenschaft pro Spezialist.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Humanismus",
+                "civilopedia": "Humanismus ist die Philosophie, die besagt, dass der Mensch die wichtigste Sache der Welt ist. Es gibt keine \"h\u00f6heren Wesen\" oder \u00fcbersinnliche M\u00e4chte, denen die Menschen Gehorsam schuldig sind oder die uns f\u00fchren oder Weisheit gew\u00e4hren. Es gibt nur uns. Den Humanismus gibt es in der einen oder anderen Form seit der griechischen Antike, und er findet sich auch in asiatischen und indischen Schriften von vor zwei- oder dreitausend Jahren. In der Renaissance tauchte er erneut auf und ist bis heute eine m\u00e4chtige philosophische Kraft.",
+                "help_text": "Gro\u00dfe Wissenschaftler werden 25% schneller verdient.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Freidenkertum",
+                "civilopedia": "Freidenkertum ist der Glaube, dass Wissen durch die Anwendung von Wissenschaft und Vernunft erworben werden soll, anstatt aus Traditionen und religi\u00f6sem Dogma. Theorien sollten wissenschaftlich und logisch gepr\u00fcft werden. Wenn etwas nicht bewiesen werden kann, ist es albern, daran zu glauben. Blindes Vertrauen ist der Erzfeind von Freidenkern \u00fcberall. Freies Denken ist ein entscheidender Teil der buddhistischen Tradition. Im \"Kalama Sutta\" sagt der Buddha: \"Akzeptiert nichts aus einfacher Tradition heraus. Akzeptiert nichts, weil es mit Euren heiligen Schriften \u00fcbereinstimmt. Aber wenn Ihr etwas selbst wisst - dann richtet Euer Leben danach aus.\"",
+                "help_text": "+1 Wissenschaft pro Handelsposten und +17% Wissenschaft von Universit\u00e4ten.",
+                "level": 0,
+                "prereq_policies": [
+                    "Humanismus"
+                ]
+            },
+            {
+                "name": "Souver\u00e4nit\u00e4t",
+                "civilopedia": "Souver\u00e4nit\u00e4t, oder auch \"Volkssouver\u00e4nit\u00e4t\", ist die Vorstellung, dass der Staat dem Volk geh\u00f6rt und die Herrscher somit \"Diener\" des Volkes sind. Die Macht geht vom Volk aus und jene, die herrschen, tun dies nur durch den Willen des Volkes. Das extreme Gegenteil einer Volkssouver\u00e4nit\u00e4t ist eine Theokratie, bei der ein Herrscher seine Macht durch Gott erh\u00e4lt und nicht vom Volk. Staaten mit Volkssouver\u00e4nit\u00e4t halten \u00fcblicherweise regelm\u00e4\u00dfig Wahlen ab, bei denen das Volk seinen Willen ausdr\u00fccken kann und hoffentlich den besten Kandidaten w\u00e4hlt - und nicht zum Beispiel den besten L\u00fcgner.",
+                "help_text": "+1 Gold von Wissenschaftsgeb\u00e4uden.",
+                "level": 0,
+                "prereq_policies": [
+                    "S\u00e4kularismus"
+                ]
+            },
+            {
+                "name": "Wissenschaftliche Revolution",
+                "civilopedia": "Eine wissenschaftliche Revolution ist eine Zeit, in der schnelle Entwicklungen im Bereich Wissen oder Technologie die aktuelle Weltanschauung ver\u00e4ndern und so noch weitere Fortschritte in der Wissenschaft hervorbringen. Im 16. Jahrhundert fand in gro\u00dfen Teilen Europas eine wissenschaftliche Revolution statt, nachdem die Werke \"Von den Umdrehungen der Himmelsk\u00f6rper\" von Nikolaus Kopernikus und \"\u00dcber den Bau des menschlichen K\u00f6rpers\" von Andreas Vesalius erschienen waren. In beiden F\u00e4llen wurden f\u00fcr die damalige Zeit sehr moderne wissenschaftliche Methoden angewandt, um Teile der Umwelt zu untersuchen und so falsche Theorien zu berichtigen, von denen einige noch auf die alten Griechen zur\u00fcckgingen. Nach dem Erfolg beider B\u00fccher begannen Wissenschaftler damit, ihre Umgebung m\u00f6glichst genau zu untersuchen und lie\u00dfen so das Wissen der Menschheit in den n\u00e4chsten Jahrhunderten erheblich anwachsen.",
+                "help_text": "Erh\u00f6ht den Wissenschaftsertrag aus Forschungsabkommen um 50%.",
+                "level": 0,
+                "prereq_policies": [
+                    "Souver\u00e4nit\u00e4t"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Freiheit",
+        "help_text": "Freiheit eignet sich am besten f\u00fcr kleine, fokussierte Reiche. Es gibt daf\u00fcr Bonusse auf Gro\u00dfe Pers\u00f6nlichkeiten und Spezialisten. Wenn Freiheit eingef\u00fchrt wird, steigt die Geburtenrate Gro\u00dfer Pers\u00f6nlichkeiten um 25%. Bei \u00dcbernahme aller Politiken im Freiheit-Zweig steigt der Grundertrag Gro\u00dfer Gel\u00e4ndefeld-Modernisierungen um 100% und die Dauer von Goldenen Zeitaltern um 50%. Kann Gro\u00dfe K\u00fcnstler mit Glauben kaufen. [COLOR_WARNING_TEXT]Dieser Zweig kann nicht gleichzeitig mit Autokratie oder Ordnung aktiviert sein!",
+        "era_requirement": "Industriezeitalter",
+        "policies": [
+            {
+                "name": "Avantgarde",
+                "civilopedia": "Der franz\u00f6sische Begriff f\u00fcr \"Vorhut\" bezieht sich auf Werke oder Ideen, die innovativ oder au\u00dfergew\u00f6hnlich kreativ sind, vor allem in Bezug auf Kunst, Musik und Politik. Kennzeichnend ist die \u00dcberschreitung von Grenzen, die als allgemein akzeptierte Normen oder Status Quo gelten, wie auch radikale soziale Reformen. Demokratische Gesellschaften neigen dazu, st\u00e4rkeren sozialen Ausdruck zuzulassen und derart innovative kulturelle Vorst\u00f6\u00dfe zu ermutigen.",
+                "help_text": "Die Geburtenrate f\u00fcr Gro\u00dfe Pers\u00f6nlichkeiten steigt um 25%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Kreativer Ausdruck",
+                "civilopedia": "Ganz allgemein gesagt ist Kreativer Ausdruck lediglich das Ausdr\u00fccken von Ideen und Emotionen durch Kunst. Enger gefasst bezieht sich der Begriff auf die F\u00e4higkeit, Kunst frei von Einflussnahme durch die Regierung durch Zensur, Besteuerung oder andere rechtliche Einschr\u00e4nkungen zu schaffen.",
+                "help_text": "+1 Kultur durch jedes Gro\u00dfe Werk (aber keine Auswirkung auf Tourismus).",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Zivilgesellschaft",
+                "civilopedia": "In einer Zivilgesellschaft arbeiten die Menschen freiwillig daran, die Welt um sie herum zu verbessern. Sie treten st\u00e4dtischen Organisationen bei. Sie heben den M\u00fcll vor ihren H\u00e4usern und Arbeitsst\u00e4tten auf. Sie nehmen streunende Haustiere auf. Sie nehmen an Treffen der Schulbeh\u00f6rde und Wahlen teil. L\u00e4nder mit aktiven Zivilgesellschaften sind in der Regel sauberer, effizienter und gl\u00fccklicher als solche ohne.",
+                "help_text": "Spezialisten konsumieren nur noch halb so viel Nahrung.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Freiwilligenarmee",
+                "civilopedia": "Die Mitglieder einer stehenden Freiwilligenarmee bestehen aus Berufssoldaten und nicht aus Pflichtdienstleistenden. Man findet Freiwilligenarmeen normalerweise in Demokratien. Das Freiwilligen-Milit\u00e4r bietet gute Bezahlung, Anreize und Vorz\u00fcge f\u00fcr die Rekrutierung und h\u00e4lt an ihren Mitgliedern fest. In den meisten L\u00e4ndern mit Freiwilligenarmeen gibt es auch Rekrutierungsgesetze f\u00fcr nationale Notf\u00e4lle.",
+                "help_text": "6 Einheiten ben\u00f6tigen keinen Unterhalt. Ihr erhaltet sofort 6 Einheiten Fremdenlegion-Infanterie.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Geheimaktion",
+                "civilopedia": "Dem amerikanischen Verteidigungsministerium zufolge ist eine Geheimaktion eine Operation, die geplant und ausgef\u00fchrt wird, um die Identit\u00e4t der Auftraggeber zu verbergen oder glaubhafte Leugnung m\u00f6glich zu machen. Sie ist dazu gedacht, politischen, milit\u00e4rischen, wirtschaftlichen oder diplomatischen Effekt ohne Nachwirkungen zu erzielen, weder vom Ziel noch von der B\u00fcrgerschaft der eigenen Nation. Geheimaktionen gibt es in vielerlei m\u00f6glichen Formen, von Attentaten bis hin zu Spionage bei milit\u00e4rischen Operationen, doch immer verdeckt.",
+                "help_text": "Chance auf Wahlmanipulation in Stadtstaaten verdoppelt.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Urbanisierung",
+                "civilopedia": "Urbanisierung oder \"Verst\u00e4dterung\" ist das physikalische Wachstum von St\u00e4dten als Folge von Migration der Landbev\u00f6lkerung oder vorst\u00e4dtische Konzentration in den St\u00e4dten. Die Urbanisierung ist eng verbunden mit der Industrialisierung, Modernisierung und soziologischen Rationalisierung, die alle w\u00e4hrend des Zeitalters der Industrialisierung begannen und sich im Informationszeitalter beschleunigten. Die Vereinten Nationen haben festgestellt, dass 2006 etwa die H\u00e4lfte der Weltbev\u00f6lkerung in urbanen Gegenden lebten; die Vorhersage ist, dass bis 2050 bis zu 85% der Menschheit urbanisiert sind.",
+                "help_text": "+1 lokale Zufriedenheit durch jede Wasserm\u00fchle, jedes Krankenhaus und medizinische Labor.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Kapitalismus",
+                "civilopedia": "Kapitalismus ist ein Wirtschaftssystem, das auf privater Produktion und dem Eigentum von G\u00fctern basiert, angetrieben von der Produktion von G\u00fctern und Dienstleistungen f\u00fcr Profit. Es gibt verschiedene Arten von Kapitalismus, wie den \"Laissez-faire\"-Kapitalismus, den Wohlfahrtskapitalismus und den Staatskapitalismus. Die meisten modernen Staaten haben eine gemischte Kapitalismusform, mit unterschiedlich starker Regierungskontrolle und marktabh\u00e4ngiger Unternehmerschaft.",
+                "help_text": "+1 lokale Zufriedenheit durch jede M\u00fcnzanstalt, Bank und B\u00f6rse.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Wirtschaftsunion",
+                "civilopedia": "Eine Wirtschaftsunion ist ein Handelsblock bestehend aus einem gemeinsamen Markt und einer Zollunion. Teilnehmerl\u00e4nder haben eine gemeinsame Politik in Sachen Produktregulationen, Handelsfreiheit \u00fcber Grenzen hinweg, Geb\u00fchren und Steuern sowie eine gemeinsame externe Handelspolitik. In manchen F\u00e4llen kann die Union auch eine gemeinsame W\u00e4hrung haben oder unterst\u00fctzen. Die erfolgreichsten Wirtschaftsunionen bisher sind die 1993 gegr\u00fcndete Europ\u00e4ische Union und die 1973 gegr\u00fcndete Karibische Gemeinschaft.",
+                "help_text": "+3 Gold durch alle Eure Handelswege mit anderen Zivilisationen, die der Ideologie Freiheit folgen.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Ihre beste Stunde",
+                "civilopedia": "Im Juni 1940, nach der Niederlage Frankreichs gegen Deutschland, hielt der britische Premierminister Winston Churchill eine Rede vor dem Parlament, in dem er diesen Ausdruck benutzte und sich auf den anhaltenden Widerstand gegen den Totalitarismus durch Britannien und den Commonwealth bezog. Dieser markante Ausdruck beschreibt seither, wenn eine demokratische Nation all ihre Ressourcen einsetzt, um einen Sieg um jeden Preis zu erringen, selbst wenn das bedeutet, alleine gegen eine \u00fcberw\u00e4ltigende \u00dcbermacht zu stehen. Der Ausdruck wurde gelegentlich auch w\u00e4hrend des Kalten Krieges zitiert, wo er den Beiklang trug, dass ein Gegner unvers\u00f6hnlich der Vorstellung von Freiheit entgegensteht.",
+                "help_text": "Kampfst\u00e4rke von St\u00e4dten um 33% erh\u00f6ht.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Allgemeines Wahlrecht",
+                "civilopedia": "Viele politische Streits befassten sich mit dem Wahlrecht (im Gegensatz zur M\u00f6glichkeit, ein wichtiger Unterschied) in \u00f6ffentlichen Wahlen in einer Demokratie. Wo allgemeines Wahlrecht existiert, darf das Wahlrecht nicht von Geschlecht, Rasse, Glauben, Wohlstand und Besitz oder sozialem Status eingeschr\u00e4nkt sein. In den meisten westlichen Nationen folgte das allgemeine Wahlrecht dem allgemeinen Wahlrecht f\u00fcr M\u00e4nner ein oder zwei Jahrzehnte sp\u00e4ter nach. Neuseeland war 1893 die erste Nation, die ein allgemeines Wahlrecht erreichte.",
+                "help_text": "Spezialisten in St\u00e4dten generieren nur halb so viel Unzufriedenheit. Goldene Zeitalter dauern 50% l\u00e4nger.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "New Deal",
+                "civilopedia": "Der New Deal bestand aus einer Reihe von Wirtschaftsprogrammen, die entweder per Anordnung des Pr\u00e4sidenten oder per Gesetz verordnet wurden, mit denen die Regierung der Vereinigten Staaten den Auswirkungen der Weltwirtschaftskrise entgegenwirken wollten. Statt Banken und Schl\u00fcsselindustrien zu verstaatlichen, wie manche Regierungschefs das taten, hoffte Pr\u00e4sident Franklin D. Roosevelt den Mittellosen Erleichterung zu bieten, um eine wirtschaftliche Erholung durch f\u00f6deral finanzierte Konstruktions- und Arbeitsprogramme zu erzielen und finanzielle Reformen anzusto\u00dfen. Die Geschichte hat den New Deal als gr\u00f6\u00dftenteils erfolgreich eingestuft, andere Staaten haben in j\u00fcngeren Wirtschaftskrisen \u00e4hnliche Ma\u00dfnahmen ergriffen.",
+                "help_text": "Wahrzeichen und Modernisierungen Gro\u00dfer Pers\u00f6nlichkeiten produzieren +4 des entsprechenden Ertrags.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Arsenal der Demokratie",
+                "civilopedia": "\"Arsenal der Demokratie\" ist ein Ausdruck, den Pr\u00e4sident Franklin D. Roosevelt im Dezember 1940 w\u00e4hrend einer Radiosendung gebrauchte, um Amerikas Rolle im Kampf gegen den Totalitarismus zu beschreiben. Die inoffizielle Politik der Vereinigten Staaten w\u00e4hrend des Zweiten Weltkriegs und der folgenden Zeit des Kalten Kriegs gegen den Kommunismus, das \"Arsenal\" bezieht sich auf die Einbeziehung der privaten Industrie eines Landes zur Produktion von milit\u00e4rischem Material f\u00fcr die Nation und andere Nationen mit dem Ziel, einen gemeinsamen Gegner zu besiegen. Die Hersteller in Privatbesitz werden in der Regel auf \"Bezahlen-bei-Abholung\"-Basis zum \u00fcblichen Marktwert entsch\u00e4digt.",
+                "help_text": "+15% Produktion beim Bau von Milit\u00e4reinheiten. +15 Einfluss von Milit\u00e4reinheiten-Geschenken an Stadtstaaten.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Medienkultur",
+                "civilopedia": "Medienkultur bezieht sich auf die aktuelle westliche kapitalistische Gesellschaft, die im sp\u00e4ten 20. Jahrhundert entstanden und gekennzeichnet ist durch gesteigerten Materialismus angespornt durch die Massenmedien. Medienkultur mit ihrem Schwerpunkt auf Werbung und Public Relations wurde von Kritikern als ein System betrachtet, das darauf ausgerichtet ist, die Massen zu manipulieren, vor allem in Bezug auf die Repr\u00e4sentation und Reproduktion von vorherrschenden Ideologien. Gelehrte wie Theodor Adorno und Hannah Arendt haben ausf\u00fchrlich \u00fcber den Einfluss der Medienkultur auf Demokratie und Kapitalismus geschrieben.",
+                "help_text": "+34% Tourismus generiert von St\u00e4dten mit einem Funkturm.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Vertragliche Organisationen",
+                "civilopedia": "Eine Vertragsorganisation ist ein internationaler Milit\u00e4rpakt zum Zweck der kollektiven Sicherheit. In der Regel umfasst sie gemeinsame Befehlsstrukturen, Forschungsprogramme und Waffenproduktion sowie profanere milit\u00e4rische Angelegenheiten. Die North Atlantic Treaty Organization (NATO), die 1949 gebildet wurde, ist die bekannteste unter ihnen, aber es gibt auch andere in S\u00fcdamerika, Afrika und anderswo. Auch wenn schon fr\u00fcher Verteidigungspakte und Milit\u00e4rallianzen \u00fcblich waren, erreichten sie jedoch nicht das Ausma\u00df an Integration moderner Organisationen.",
+                "help_text": "Ihr erhaltet 4 Einfluss zus\u00e4tzlich pro Runde (bei Standardgeschwindigkeit) bei Stadtstaaten, mit denen ihr einen Handelsweg habt.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Beschaffung von Raumfahrt",
+                "civilopedia": "Die meisten Raumfahrtprogramme haben eine f\u00fcr die Beschaffung zust\u00e4ndige Abteilung, \u00e4hnlich der im Stennis Space Center der NASA, die mit dem Einkauf bestimmter Materialien und Dienste beauftragt ist, die wirtschaftlich nicht kostendeckend sind und von der Regierung zur Verf\u00fcgung gestellt werden, zum Beispiel kleine Werkzeuge, Treibstoffe und Chemikalien, Nahrung und Toilettenartikel f\u00fcr Raumfl\u00fcge, Computerkomponenten und \u00e4hnliches. Die Abteilung f\u00fcr Beschaffung stellt Regulierungen auf f\u00fcr den Einkauf, kontrolliert Material, evaluiert Dienste und sie hat oft verschiedene Zweige, um Auftr\u00e4ge an gr\u00f6\u00dfere Unternehmen und andere an kleinere Firmen zu vergeben. Da es sich um eine Regierungsbeh\u00f6rde handelt, gibt es Prozeduren f\u00fcr die Budget-\u00dcbersicht und Regulierung, um das Raumfahrtprogramm erschwinglich zu machen.",
+                "help_text": "Kauf von Raumschiffteilen mit Gold m\u00f6glich.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Allgemeine medizinische Versorgung",
+                "civilopedia": "Die allgemeine medizinische Versorgung ist ein staatlich finanziertes System, das allen B\u00fcrgern durch bestimmte Zusch\u00fcsse gleichen Zugang zur Gesundheitsversorgung und ein einheitliches Gesundheitssystem sichern soll. Norwegen war 1912 das erste Land, das ein nahezu einheitliches Gesundheitssystem einf\u00fchrte. Laut Weltgesundheitsorganisation stieg die Zahl der L\u00e4nder, die eine Form eines solchen Systems anbieten, bis 2010 auf 32.",
+                "help_text": "+1 lokale Zufriedenheit durch jedes nationale Wunder.",
+                "level": 1,
+                "prereq_policies": []
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Ordnung",
+        "help_text": "Ordnung ist die beste Wahl f\u00fcr gro\u00dfe, ausgedehnte Reiche. Dabei w\u00e4chst die St\u00e4rke des Reichs basierend auf der Anzahl der enthaltenen St\u00e4dte. Wenn Ordnung eingef\u00fchrt wird, steigt die Zufriedenheit der St\u00e4dte um +1 pro Stadt. Bei \u00dcbernahme aller Politiken im Ordnung-Zweig wird pro Stadt +2 Nahrung, Produktion, Wissenschaft, Gold und Kultur gew\u00e4hrt. Kann Gro\u00dfe Ingenieure mit Glauben kaufen. [COLOR_WARNING_TEXT]Dieser Zweig kann nicht gleichzeitig mit Freiheit oder Autokratie aktiviert sein!",
+        "era_requirement": "Industriezeitalter",
+        "policies": [
+            {
+                "name": "Volksheld",
+                "civilopedia": "Auch wenn viele Interpretationen f\u00fcr einen \"Volkshelden\" m\u00f6glich sind, in der Sowjetunion war dieser Begriff reserviert f\u00fcr diejenigen, die f\u00fcr pers\u00f6nliche Heldentaten im Dienste des sowjetischen Staats und der Gesellschaft als \"Held der Sowjetunion\" ausgezeichnet wurden. Diese Auszeichnung wurde 1934 eingef\u00fchrt und in der Regel f\u00fcr heldenhaften Milit\u00e4reinsatz verliehen (allein w\u00e4hrend des Zweiten Weltkriegs mehr als 11.000-mal); sie ging auch an Parteimitglieder, Kosmonauten, Forscher und gelegentlich an Ausl\u00e4nder f\u00fcr den Dienst am Staat. In den 1970ern verlor der \"Volksheld\" stark an Wert, als man damit begann, ihn auch an B\u00fcrokraten und Milit\u00e4roffiziere zum langj\u00e4hrigen Dienstjubil\u00e4um zu verleihen, statt f\u00fcr besondere Heldentaten. Nichtsdestotrotz diente die Auszeichnung der politischen Ordnung, da sie ein Ziel f\u00fcr pers\u00f6nliche Errungenschaften innerhalb des kommunistischen Staats setzte.",
+                "help_text": "Die Geburtenrate f\u00fcr Gro\u00dfe Pers\u00f6nlichkeiten steigt um 25%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Sozialistischer Realismus",
+                "civilopedia": "Die sozialistische Realismusbewegung, ein Stil des \"realistischen Ausdrucks\", der in Sowjetrussland entstand und in den kommunistischen L\u00e4ndern auf der ganzen Welt dominant wurde, f\u00f6rderte den Triumph des Sozialismus durch Kunst, Fotografie, Film und \u00f6ffentliche Monumente. Neben dem klassischen sozialistischen Architekturstil war der sozialistische Realismus sechzig Jahre lang der einzige von der Partei genehmigte Stil f\u00fcr \u00f6ffentliche Kunst in der Sowjetunion. Die dramatischen und minimalistischen Monumente, die daraus entstanden, wurden als m\u00e4chtige Propagandawerkzeuge angesehen, um die Diktatur des Proletariats zu f\u00f6rdern und als physische Darstellungen der kommunistischen Lehre.",
+                "help_text": "+2 lokale Zufriedenheit durch Monumente. Monumente werden doppelt so schnell gebaut.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Wolkenkratzer",
+                "civilopedia": "Zu Beginn der Sowjetherrschaft in Russland versuchte der Staat durch die Konstruktion massiver Projekte Prestige und Stolz f\u00fcr sein Volk zu erlangen, als Best\u00e4tigung der sowjetischen \u00dcberlegenheit und Organisation. Das erste Wolkenkratzer-Projekt waren die \"Sieben Schwestern\" in Moskau, eine Gruppe aus sieben Geb\u00e4uden im stalinistischen Architekturstil, einer ausgearbeiteten Mischung aus russischem Barock und gotischem Stil. Auch wenn der Bau durch den Ausbruch des Krieges 1941 unterbrochen wurde, stellte man die massiven T\u00fcrme schlie\u00dflich 1956 mit Hilfe amerikanischer Technologie und Methoden fertig. Danach erbaute die Sowjetunion Dutzende moderner Wolkenkratzer in seinen Republiken und Satellitenstaaten, von Warschau bis zur Hauptstadt der Provinz Kasachstan.",
+                "help_text": "Goldkosten f\u00fcr den Kauf von Geb\u00e4uden um 33% reduziert.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Patriotischer Krieg",
+                "civilopedia": "Im Verlauf der Geschichte bezeichnete man als \"patriotischen Krieg\" die Konflikte, bei denen sich laut kommunistischer Doktrin das Proletariat erhoben hat, um sich selbst gegen eine fremde Bedrohung zu verteidigen. Allgemeiner bezieht sich der Begriff auf einen Krieg zur Verteidigung des Vaterlandes. Zuerst nannte man den allgemeinen Aufstand der russischen Landbev\u00f6lkerung gegen Napoleons Invasion 1812 so, sp\u00e4ter wurde die verlustreiche Verteidigung Russlands gegen Deutschland im Zweiten Weltkrieg so bezeichnet.",
+                "help_text": "+15% Angriffsbonus beim Kampf in freundlich gesinntem Gebiet.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Doppelagenten",
+                "civilopedia": "Doppelagenten bei der Spionageabwehr sind Angestellte oder Mitglieder einer feindlichen Organisation, die sich bereit erkl\u00e4rt haben, diese auszuspionieren, in Wirklichkeit aber loyal bleiben und ihre Auftraggeber ausspionieren. Der Einsatz von Doppelagenten zur Durchdringung feindlicher Agentenkreise hat eine lange Geschichte, erlangte aber w\u00e4hrend des Zweiten Weltkriegs und des Kalten Kriegs gr\u00f6\u00dfere Bedeutung. Der britische MI5 erwies sich als besonders geschickt bei der \"Umpolung\" von feindlichen Agenten, w\u00e4hrend die Sowjetunion zu Zeiten des Kalten Kriegs erfolgreich Geheimdienstoperationen sowohl von der CIA als auch vom britischen Geheimdienst infiltrieren konnte.",
+                "help_text": "Spione haben eine doppelt so hohe Chance, feindliche Spione zu fangen, die versuchen, eine Technologie zu stehlen.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Jungpioniere",
+                "civilopedia": "Eine Organisation f\u00fcr Kinder, die die Parteien in verschiedenen kommunistischen Nationen unterhielten. Normalerweise traten die Kinder in der Grundschule den Jungpionieren bei und blieben dort, bis sie erwachsen waren. Das Ziel der Organisation, angelehnt an die Pfadfinderbewegungen im Westen, war die Indoktrination der jungen Menschen mit der Philosophie und den Grunds\u00e4tzen des Kommunismus und des Kampfes der Arbeiterklasse und der Soldaten. Das russische Programm war so erfolgreich, dass es bis 1990 in mehr als 30 L\u00e4ndern nachgeahmt wurde. Viele dieser Organisationen bestehen heute noch, wie die in Russland selbst (jetzt die nicht offiziellen \"Pioniere der Kommunistischen Partei\") bis zu denen in L\u00e4ndern wie Kuba und Vietnam.",
+                "help_text": "+1 lokale Zufriedenheit durch jede Werkstatt, Fabrik und jedes Sonnen-/Kern-/Wasserkraftwerk.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Akademie der Wissenschaften",
+                "civilopedia": "Eine Akademie der Wissenschaften ist eine vom Staat gef\u00f6rderte Bildungsinstitution oder Forschungsgesellschaft, die sich den Wissenschaften und/oder der Technologie widmet. Die ber\u00fchmteste unter ihnen, die russische - sp\u00e4ter sowjetische - Akademie der Wissenschaften wurde 1724 von Peter dem Gro\u00dfen im Rahmen seiner Bem\u00fchungen, sein Reich zu modernisieren, gegr\u00fcndet. 1917 kam die Akademie unter sowjetische Kontrolle und wurde beauftragt, sich mit Fragen der Konstruktion und sozialen Angelegenheiten zu besch\u00e4ftigen. Ab 1928 mischte sich das Sowjet-Politb\u00fcro immer st\u00e4rker in die Lehren und Forschungen der sowjetischen Akademie der Wissenschaften ein und behinderte den wissenschaftlichen Fortschritt der Sowjetunion \u00fcber Jahrzehnte.",
+                "help_text": "+1 lokale Zufriedenheit durch jede \u00f6ffentliche Schule, jedes Observatorium und Forschungslabor.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Parteif\u00fchrung",
+                "civilopedia": "In einem ordentlichen sozialistischen Staat liegt die Macht beim Volk, doch selbst Marx hat erkannt, dass eine Art Parteienhierarchie f\u00fcr einen effektiven Betrieb des Staatsdienstes erforderlich ist und um sicherzustellen, dass die proletarische Ordnung selbst bewahrt wird. Aus diesem Grund argumentierten die Bolschewiken 1917, dass eine Gruppe aus B\u00fcrokraten einer zentralisierten politischen Partei vorstehen sollten, die das neue Sowjetrussland verwalten sollte. Mit der Zeit, wenn sich die kommunistische Revolution in der ganzen industriellen Welt ausbreiten w\u00fcrden, w\u00fcrde die Notwendigkeit der Parteif\u00fchrung sinken und sie k\u00f6nnte aufgel\u00f6st werden. Die Geschichte hat das Gegenteil bewiesen.",
+                "help_text": "+1 Nahrung, Produktion, Wissenschaft, Gold und Kultur pro Stadt.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Umsiedlung",
+                "civilopedia": "Erzwungene Umsiedlung, oder im Sowjet-Jargon \"Bev\u00f6lkerungstransfer\", gab es in verschiedener Form: Deportationen von \"antisowjetischen\" Gruppen (\"Volksfeinden\"), Deportationen von ethnischen Gruppen, Arbeitskraft-Transfers oder erzwungene Umsiedlung in \"ethnisch bereinigte\" Regionen. Zu ihrer Bl\u00fctezeit unter Stalins Herrschaft betrafen die unfreiwilligen Umsiedlungsprogramme, normalerweise in unbev\u00f6lkerte Gegenden des asiatischen Teils Russlands, die Polen, Balten, Finnen, Rum\u00e4nen, Tataren, Kalmyk, Tschechen und Dutzende weitere V\u00f6lker. Die kommunistische F\u00fchrung hielt das f\u00fcr eine effektive und relativ humane Methode, Ordnung in ein so riesiges und unterschiedliches Land zu bringen.",
+                "help_text": "Neue St\u00e4dte starten mit 3 Bev\u00f6lkerung zus\u00e4tzlich.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Kulturrevolution",
+                "civilopedia": "Die Gro\u00dfe Proletarische Kulturrevolution war eine Volksbewegung, die von 1966 bis 1976 in der Volksrepublik China stattfand. Die von Mao Tse-tung und der kommunistischen Partei gestartete Kulturrevolution sollte das gemeine Volk umerziehen, indem sie kapitalistische, traditionelle und religi\u00f6se Elemente entfernte oder unterdr\u00fcckte, durch Haftstrafen und notfalls mit Gewalt. Der kulturelle Kampf zog sich durch alle Gesellschaftsschichten, Studenten, das Milit\u00e4r, die Partei und Landarbeiter und sie z\u00f6gerte Chinas neues Auftreten in Weltangelegenheiten \u00fcber Jahrzehnte hinaus.",
+                "help_text": "+34% Tourismus f\u00fcr andere Zivilisationen mit Ordnung.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Arbeiter-Fakult\u00e4t",
+                "civilopedia": "Die Arbeiterklasse war nach der marxistischen Theorie die herrschende Klasse in Russland beim \u00dcbergang vom Sozialismus zum vollen Kommunismus. So genossen die Arbeiter gleichberechtigten Zugang zu allen Annehmlichkeiten des modernen Lebens von H\u00e4usern bis zu Erholungsanlagen in einer kommunalen Gesellschaft. Die sichtbarsten Anlagen f\u00fcr Arbeiter waren die kommunalen Wohnkomplexe, wo zwei bis sieben Migrantenfamilien, die aus l\u00e4ndlichen Gegenden in die sich rapide industrialisierenden St\u00e4dte zogen, eine Wohnung beziehen konnten, in der jede Familie ein eigenes Schlafzimmer hatte. Alles andere, K\u00fcche, Wohnzimmer, Bad, Telefon und Fernseher mussten sich die Bewohner teilen.",
+                "help_text": "Fabriken erh\u00f6hen die Wissenschaftsproduktion von St\u00e4dten um 25%. Fabriken werden doppelt so schnell gebaut.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "F\u00fcnfjahresplan",
+                "civilopedia": "Die F\u00fcnfjahrespl\u00e4ne Sowjetrusslands waren eine Reihe von wirtschaftlichen Entwicklungsrichtlinien, die von einer staatlichen Planungskommission ausgearbeitet wurden, die von der kommunistischen Partei eingesetzt wurde. Der erste wurde 1928 gestartet, der letzte war noch am Laufen, als sich die Sowjetunion 1991 aufl\u00f6ste. Die Erf\u00fcllung des Plans wurde zum Hauptmotivationsfaktor in der sowjetischen B\u00fcrokratie, der dies ziemlich schwer fiel. Der urspr\u00fcngliche Erfolg der fr\u00fchen Pl\u00e4ne hat jedoch andere kommunistische Nationen wie Maos China und selbst einige kapitalistische Staaten motiviert, diese Methode der F\u00f6rderung und Koordination der wirtschaftlichen Entwicklung zu \u00fcbernehmen.",
+                "help_text": "+2 Produktion pro Stadt und +1 Produktion f\u00fcr jede Mine und jeden Steinbruch.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Diktatur des Proletariats",
+                "civilopedia": "In der marxistischen gesellschaftspolitischen Theorie bezieht sich die Diktatur des Proletariats auf einen sozialistischen Staat, in dem die Arbeiterklasse die direkte Kontrolle \u00fcber die politische Macht hat. \"Diktatur\" bezeichnet in diesem Fall nicht die \u00fcbliche Definition, sondern gemeint ist, dass eine gesamte soziale Schicht die Kontrolle \u00fcber die Nation hat. Ob Kapitalisten oder anderen in einem derartigen politischen System Privilegien entzogen w\u00fcrden oder nicht, h\u00e4ngt laut Marx und Engels davon ab, wie die besonderen Umst\u00e4nde zu dieser Zeit sind. Eine derartige politische Ordnung einzuf\u00fchren k\u00f6nne Gewalt nach sich ziehen, aber mit welchen Mitteln auch immer w\u00fcrde am Ende das Proletariat das B\u00fcrgertum verdr\u00e4ngen.",
+                "help_text": "+34% Tourismus f\u00fcr Zivilisationen, die weniger Zufriedenheit haben.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Eiserner Vorhang",
+                "civilopedia": "Der Eiserne Vorhang war die symbolische, ideologische und physikalische Grenze, die den dekadenten Westen von der \"disziplinierten\" Sowjetunion nach dem Zweiten Weltkrieg bis zum Ende des Kalten Krieges trennte. Der Begriff wurde zum ersten Mal von Winston Churchill in einer Rede im M\u00e4rz 1946 verwendet, um die Best\u00fcrzung \u00fcber die fortgesetzte Besetzung und Unterdr\u00fcckung verschiedener osteurop\u00e4ischer L\u00e4nder zum Ausdruck zu bringen. Auch wenn anfangs dar\u00fcber gespottet wurde, akzeptierte man nach und nach Churchills Ansicht, dass der Eiserne Vorhang nur dazu diente, die eigenen Leute drinnen und Informationen drau\u00dfen zu halten, und die Metapher f\u00fcr den europ\u00e4ischen kommunistischen Block wurde allgemein gel\u00e4ufig.",
+                "help_text": "Kostenloses Gerichtsgeb\u00e4ude bei Eroberungen von St\u00e4dten. Interne Handelswege bringen 50% mehr Nahrung oder Produktion.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Raumfahrtpioniere",
+                "civilopedia": "Die Sowjetunion hat ihrem Raumfahrtprogramm erhebliche Ressourcen zur Verf\u00fcgung gestellt, denn man sah es als Rennen gegen die Vereinigten Staaten an und als Chance, der Welt die eigene wissenschaftliche und technologische \u00dcberlegenheit zu beweisen. Eine Reihe mutiger Kosmonauten waren die ersten menschlichen Wesen, die das Weltall erreichten und die Erde in kleinen Kapseln umkreisten. Im April 1961 war Yuri Gagarin der erste Mensch, der mit Wostok-1 den Orbit erreichte und die Welt 108 Minuten lang umkreiste. Die erste Frau, die ins Weltall geschickt wurde, war Valentina Tereschkowa 1963, sie war fast drei Tage lang im Erdorbit.",
+                "help_text": "Raumschiffteile k\u00f6nnen mit Gro\u00dfen Ingenieuren fertiggestellt werden. Ein Gro\u00dfer Ingenieur und ein Gro\u00dfer Wissenschaftler erscheinen vor der Hauptstadt.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Allgemeine medizinische Versorgung",
+                "civilopedia": "Die allgemeine medizinische Versorgung ist ein staatlich finanziertes System, das allen B\u00fcrgern durch bestimmte Zusch\u00fcsse gleichen Zugang zur Gesundheitsversorgung und ein einheitliches Gesundheitssystem sichern soll. Norwegen war 1912 das erste Land, das ein nahezu einheitliches Gesundheitssystem einf\u00fchrte. Laut Weltgesundheitsorganisation stieg die Zahl der L\u00e4nder, die eine Form eines solchen Systems anbieten, bis 2010 auf 32.",
+                "help_text": "+1 lokale Zufriedenheit durch jedes nationale Wunder.",
+                "level": 1,
+                "prereq_policies": []
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Autokratie",
+        "help_text": "Autokratie ist etwas f\u00fcr militaristische Zivilisationen, die davon tr\u00e4umen, die Welt zu erobern. Bei Autokratie sinken die Gold-Unterhaltskosten f\u00fcr Einheiten um 33%, sodass das Reich ein gr\u00f6\u00dferes Milit\u00e4r unterhalten kann. Ergibt 10 Kultur als Pl\u00fcndergut f\u00fcr jeden Punkt Kultur, der in der eingenommenen Stadt produziert wird. Bei \u00dcbernahme aller Politiken im Autokratie-Zweig wird allen Milit\u00e4reinheiten 50 Runden lang ein Angriffsbonus von 25% gew\u00e4hrt. Kann Gro\u00dfe Gener\u00e4le und Gro\u00dfe Admirale mit Glauben kaufen. [COLOR_WARNING_TEXT]Dieser Zweig kann nicht gleichzeitig mit Freiheit oder Ordnung aktiviert sein!",
+        "era_requirement": "Industriezeitalter",
+        "policies": [
+            {
+                "name": "Elitestreitkr\u00e4fte",
+                "civilopedia": "Seitdem die hethitischen und assyrischen K\u00f6nige Palastwachen gebildet haben, geh\u00f6ren zu jeder Armee Elitestreitkr\u00e4fte, spezialisierte Milit\u00e4reinheiten, die ausgebildet werden, um unkonventionelle, h\u00f6chst riskante Kampfeins\u00e4tze zu begehen. Elitestreitkr\u00e4fte gewannen im Zweiten Weltkrieg an Bedeutung, vor allem bei den totalit\u00e4ren Nationen. Der deutsche Sonderverband Brandenburg und Skorzenys SS-Fallschirmj\u00e4ger-Bataillon hatten verheerende Auswirkungen; das faschistische Italien verf\u00fcgte \u00fcber mehrere spezialisierte Marineeinheiten. Nach dem Krieg haben Einheiten wie die russischen Speznas und die amerikanischen Seals diese Tradition unbarmherziger Effizienz fortgef\u00fchrt.",
+                "help_text": "Verwundete Milit\u00e4reinheiten verursachen 25% mehr Schaden als normal.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Mobilisierung",
+                "civilopedia": "Der Begriff \"Mobilisierung\" wurde im milit\u00e4rischen Zusammenhang erstmals in den 1850ern verwendet, um die Versammlung von Truppen und Vorr\u00e4ten zur Kriegsvorbereitung durch das zaristische Russland zu beschreiben. Die Mobilisierung institutionalisierte die Massenerhebung von Soldaten aus der B\u00fcrgerschaft, die zum ersten Mal w\u00e4hrend der franz\u00f6sischen Revolutionskriege stattfand. Diese Praxis ver\u00e4nderte die Natur der Kriegsf\u00fchrung, denn neue Kommunikationsarten und Transportm\u00f6glichkeiten machten zusammen mit den Ver\u00e4nderungen bei milit\u00e4rischen Rekrutierungen den Aufbau massiver Armeen m\u00f6glich, die bereit waren, der ebenso massiven Armee des Gegners entgegengeworfen zu werden.",
+                "help_text": "Goldkosten f\u00fcr den Kauf von Einheiten sinken um 33%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Einheitsfront",
+                "civilopedia": "Eine Einheitsfront ist ein System, bei dem Revolution\u00e4re die Staatsgrenzen ignorieren und ihre Ziele gemeinsam mit Sinnesgenossen aus anderen L\u00e4ndern verfolgen. Das System wurde von Kommunisten entwickelt, die versuchten, die bolschewistische Revolution in andere L\u00e4nder Europas und in die ganze Welt zu tragen. Mit ihrem Schlachtruf \"Arbeiter aller L\u00e4nder vereinigt euch\" hofften die Anh\u00e4nger der Bewegung, dass die unteren Klassen der L\u00e4nder der Welt verstehen w\u00fcrden, dass sie mehr miteinander gemeinsam hatten als mit den Herrschern der jeweiligen Staaten. Die Arbeiter sollten sich erheben, die kapitalistischen Unterdr\u00fccker st\u00fcrzen und die Welt in ein Arbeiterparadies verwandeln. Dies geschah jedoch nie und die Bewegung scheiterte letztendlich. Doch das Konzept einer Einheitsfront hat im aktuellen kulturellen Konflikt zwischen den Religionen wieder eine neue Bedeutung erhalten.",
+                "help_text": "Militaristische Stadtstaaten gew\u00e4hren doppelt so oft Einheiten bei Krieg gegen einen gemeinsamen Feind.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Futurismus",
+                "civilopedia": "Aus einer K\u00fcnstlerbewegung des fr\u00fchen 20. Jahrhunderts in Italien entwickelte sich der Futurismus in den 1920er und 30er Jahren zu einer sozialen Bewegung. Der Futurismus legte Wert auf zeitgen\u00f6ssische Konzepte der Zukunft, wie etwa Jugendgewalt, Technologie, Industrialisierung und schnelle Fortbewegungsarten wie das Automobil oder Flugzeug. Auch wenn es vor allem eine philosophische und k\u00fcnstlerische Bewegung war, wurde sie politisiert, als zahlreiche Futuristen den italienischen Faschismus begr\u00fc\u00dften in der Hoffnung, die in ihren Augen veraltete, b\u00e4uerliche und r\u00fcckst\u00e4ndige Welt zu modernisieren. Der Futurismus erlangte zwar seinen st\u00e4rksten Ausdruck in Italien, brachte jedoch vergleichbare Bewegungen in England, Frankreich und vor allem Russland hervor.",
+                "help_text": "+250 Tourismus mit allen bekannten Zivilisationen, wenn ein Gro\u00dfer Schriftsteller, K\u00fcnstler oder Musiker geboren wird.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Industriespionage",
+                "civilopedia": "Industriespionage, die eher zu wirtschaftlichen Zwecken als aus Gr\u00fcnden der reinen nationalen Sicherheit durchgef\u00fchrt wird, bezeichnet die Bem\u00fchungen von Unternehmen, Geheimnisse und vertrauliche Informationen \u00fcber andere Unternehmen, in der Regel Konkurrenz, aufzudecken. Die modernen Anf\u00e4nge der Industriespionage liegen in den 1820ern, als Frankreich staatlich unterst\u00fctzte Bem\u00fchungen startete, britische Manufaktur-Erfindungen und -Prozesse zu stehlen, um mit Englands explosiver industrieller Entwicklung Schritt halten zu k\u00f6nnen. Diese Form der \"Spionage\" tritt in der Regel auf, wenn eine Nation einem gravierenden Nachteil im Sachen kommerzieller wirtschaftlicher Entwicklung ins Auge blickt, wie die gut dokumentierte sowjetische Industriespionage im Westen bis in die 1980er.",
+                "help_text": "Spione stehlen Technologien doppelt so schnell wie normal.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Militarismus",
+                "civilopedia": "Militarismus ist definiert als \"der Glaube oder das Verlangen einer Regierung oder eines Volkes, dass die Nation eine starkes, leistungsf\u00e4higes Milit\u00e4r haben und darauf vorbereit sein muss, es aggressiv einzusetzen\". Militarismus ist ein bedeutendes Element der Politik der meisten imperialistischen oder auf Expansion bedachten Nationen in der ganzen Geschichte. Diese Philosophie enth\u00e4lt viele Komponenten, darunter die Idealisierung pers\u00f6nlicher milit\u00e4rischer Leistungen und Regierungsrichtlinien, die einen erheblichen Teil der Ressourcen einer Nation f\u00fcr den Unterhalt und die Erweiterung der milit\u00e4rischen Streitkr\u00e4fte vorsehen.",
+                "help_text": "+2 lokale Zufriedenheit durch jede Kaserne, Waffenkammer und Milit\u00e4rakademie.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Befestigte Grenzen",
+                "civilopedia": "Schon vor langer Zeit, wie beim Bau der Gro\u00dfen Mauer, wollten autokratische Nationen durch weitreichende Befestigungen entlang der Grenzen die Gefahr durch Invasoren eingrenzen - ebenso wie die Auswanderung der eigenen Leute. W\u00e4hrend sich die milit\u00e4rische Baukunst seit dem Hadrianswall in Britannien bis zur Bar-Lew-Linie durch den Sinai stark gewandelt hat, blieb das Konzept gleich: stark befestigte Punkte, verbunden durch weniger starke Befestigungen und gesch\u00fctzt durch Hindernisse zur Personenabwehr wie Pf\u00e4hle, Gruben, Draht und Minen. Die im Moment abschreckendste Grenzbefestigung ist die koreanische entmilitarisierte Zone, ein Beispiel f\u00fcr das Ergebnis sich gegen\u00fcberstehender Grenzbefestigungen.",
+                "help_text": "+1 lokale Zufriedenheit durch jede Burg, jeden Milit\u00e4rst\u00fctzpunkt und jedes Arsenal.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Blitzkrieg",
+                "civilopedia": "Der weltweit unter dem deutschen Begriff bekannte Blitzkrieg ist eine Strategie, die sich auf motorisierte Kr\u00e4fte konzentriert, um einen rasanten Durchbruch durch feindliche Linien zu erzielen. Durch kombinierten Einsatz von Waffen und taktischen Luftstreitkr\u00e4ften versucht man beim Blitzkrieg, den Gegner aus dem Gleichgewicht zu werfen, tief ins Hinterland einzudringen und Einheiten anzugreifen, die den Durchbruch flankieren. Der Blitzkrieg war in Polen, Frankreich und Russland so effektiv, dass ihn die Sowjetunion und die westlichen Alliierten \u00fcbernahmen, um Deutschland schlie\u00dflich zu besiegen.",
+                "help_text": "+3 Bewegung f\u00fcr Gro\u00dfe Gener\u00e4le. Gepanzerte Einheiten haben +15% Angriff, +1 Bewegung und ignorieren KTZ.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Polizeistaat",
+                "civilopedia": "Jede Regierung, egal ob links oder rechts, die unnachgiebige und repressive Kontrolle \u00fcber das soziale, wirtschaftliche, kulturelle und politische Leben seiner B\u00fcrger aus\u00fcbt, kann man als Polizeistaat bezeichnen. Ein Polizeistaat ist oft charakterisiert durch Totalitarismus und Militarismus, eingeschr\u00e4nkte zivile Freiheiten und ein gro\u00df ausgebautes internes Sicherheitssystem, das die pers\u00f6nlichen Aktivit\u00e4ten \u00fcberwacht. Der Begriff wurde laut Oxford Dictionary zum ersten Mal 1851 in verschiedenen obskuren Deutschen Traktaten verwendet. In den 1930ern wurde er von der Presse benutzt, um die totalit\u00e4ren und kommunistischen Regierungen dieser Zeit zu beschreiben.",
+                "help_text": "+3 lokale Zufriedenheit pro Gerichtsgeb\u00e4ude. Gerichtsgeb\u00e4ude werden in der H\u00e4lfte der \u00fcblichen Zeit gebaut.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Nationalismus",
+                "civilopedia": "Nationalismus ist die Politik, bei der die Bedeutung und Einzigartigkeit des Staates hervorgehoben wird. Der Staat gilt als Mutter und Vater des Volkes und wird von diesem geliebt. \u00dcberall weht die Nationalflagge \u00fcber den H\u00e4usern und jeder kommt am Nationalfeiertag zur gro\u00dfen Milit\u00e4rparade. Nationalistische Staaten sind oft ziemlich m\u00e4chtig, da das Volk unerm\u00fcdlich f\u00fcr den Fortschritt des eigenen Landes arbeitet. Da jedoch jegliche Kritik am Staat oft unterdr\u00fcckt wird, ist seine F\u00e4higkeit eingeschr\u00e4nkt, sich zu ver\u00e4ndern, wenn mal etwas schiefl\u00e4uft.",
+                "help_text": "Reduziert die Gold-Unterhaltskosten f\u00fcr Einheiten um 33%.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Dritte Alternative",
+                "civilopedia": "Die Dritte Alternative, oder Dritte Position, ist eine nationalpolitische Philosophie, die betont, dass sie sowohl in Opposition zum Kapitalismus als auch zum Kommunismus steht. Stattdessen fasst sie radikale Ans\u00e4tze beider Ideen zusammen. Die Anh\u00e4nger dieser Richtung wollen Produktion im Staatsbesitz und die Verteilung von G\u00fctern und Diensten an \"produktive Mitglieder der Gesellschaft\", friedliche Trennung von ethnischen und radikalen Gruppen innerhalb des Staates und seit Kurzem radikalen Umweltschutz. Viele Politwissenschaftler argumentierten, dass die Bewegung, die nach dem Zweiten Weltkrieg in L\u00e4ndern wie Argentinien und S\u00fcdafrika entstanden ist, keine dritte Alternative ist, sondern eher eine Mutation von Neo-Faschismus und Ultra-Nationalismus.",
+                "help_text": "Die Menge an strategischen Ressourcen verdoppelt sich. +5 Nahrung und +5 Wissenschaft in der Hauptstadt.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Absoluter Krieg",
+                "civilopedia": "Der absolute Krieg ist eine Milit\u00e4rstrategie, bei der ein Staat jegliche vorhandene Ressource unter seiner Kontrolle f\u00fcr den Krieg einsetzt. Die gesamte Bev\u00f6lkerung wird f\u00fcr den Konflikt mobilisiert und alle nicht lebenswichtigen Aktivit\u00e4ten werden f\u00fcr die Dauer der Auseinandersetzung eingestellt. Wenn auch der feindliche Staat diese Kriegspraxis anwendet, gelten alle Aspekte dieses Staates als legitime milit\u00e4rische Ziele und so gut wie alles, was die M\u00f6glichkeit des Feindes schw\u00e4cht, den Konflikt fortzuf\u00fchren, ist akzeptabel. St\u00e4dte k\u00f6nnen bombardiert, unbewaffnete Schiffe versenkt, Brunnen vergiftet und Felder verbrannt werden. Der absolute Krieg ist ohne Zweifel die schrecklichste Art der Kriegsf\u00fchrung, da er \u00fcblicherweise der Zivilbev\u00f6lkerung eines Landes oder beider L\u00e4nder gro\u00dfes Leid zuf\u00fcgt.",
+                "help_text": "+25% Produktion beim Bau von Milit\u00e4reinheiten und neue Milit\u00e4reinheiten beginnen mit 15 Erfahrung.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Personenkult",
+                "civilopedia": "Ein Personenkult entsteht, wenn eine Person bewusst die Medien, Propaganda und andere Mittel einsetzt, um ein idealisiertes, heroisches und/oder gottgleiches Image zu schaffen. Der Soziologe Max Weber entwickelte eine dreiteilige Klassifizierung von Autorit\u00e4t, in der der Personenkult als eine Form der Autorit\u00e4t hervortritt. Autokratische Herrscher von absolutistischen Monarchen der Aufkl\u00e4rung bis zu modernen totalit\u00e4ren Diktatoren haben versucht, Gehorsam und Hingabe ihrer Untertanen durch Manipulation der Nachrichten und Unterhaltungsindustrie zu f\u00f6rdern - manche erfolgreicher als andere.",
+                "help_text": "+50% Tourismus bei Zivilisationen, die einen gemeinsamen Feind bek\u00e4mpfen.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Diplomatie durch Kanonenboote",
+                "civilopedia": "Bei internationalen Beziehungen bedeutet \"Kanonenboot-Diplomatie\" die Verfolgung von au\u00dfenpolitischen Zielen durch auff\u00e4llige Demonstration \u00fcberw\u00e4ltigender milit\u00e4rischer Macht, wobei die Zurschaustellung der st\u00e4rkeren Nation eine unterschwellige Drohung mit offenen Feindseligkeiten ist. Der Begriff wurde gebr\u00e4uchlich w\u00e4hrend der Phase des europ\u00e4ischen Imperialismus, als die Kolonialm\u00e4chte die Pr\u00e4senz von Kriegsschiffen nutzten, um Zugest\u00e4ndnisse von ans\u00e4ssigen K\u00f6nigreichen zu erzwingen. Diese Politik erwies sich als sehr erfolgreich, besonders wenn sie von militaristischen Autokratien eingesetzt wurde ... bis es den Einheimischen gelang, moderne Waffen zu erlangen.",
+                "help_text": "Kanonenboot-Diplomatie Ihr erhaltet 6 Einfluss (bei Standardgeschwindigkeit) pro Runde bei Stadtstaaten, von denen Ihr Tribut fordern k\u00f6nnt. Eure Streitkr\u00e4fte sind 50% effektiver beim Einsch\u00fcchtern von Stadtstaaten.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Clausewitz' Verm\u00e4chtnis",
+                "civilopedia": "Nach den Napoleonischen Kriegen schrieb der preu\u00dfische Offizier Carl von Clausewitz die erste detaillierte Abhandlung \u00fcber Milit\u00e4rtheorie seit Sun Tzu. Obwohl es bis zum Tod von Clausewitz im Jahr 1831 nicht vollendet war, diente sein zehnb\u00e4ndiges Werk \"Vom Krieg\" als Grundlage f\u00fcr die Ausbildung von Generationen von Offizieren in Milit\u00e4rakademien auf der ganzen Welt. Clausewitz betonte die psychologischen und politischen Aspekte des Krieges bez\u00fcglich Strategie und Taktik. Seine Aussage, dass der Krieg die Fortsetzung der Politik mit anderen Mitteln sei, wurde zur Grundlage f\u00fcr autokratische, expansionistische Regierungen in den n\u00e4chsten zwei Jahrhunderten.",
+                "help_text": "25% Angriffsbonus f\u00fcr alle Milit\u00e4reinheiten in den ersten 50 Runden, nachdem diese Politik eingef\u00fchrt wurde.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Allgemeine medizinische Versorgung",
+                "civilopedia": "Die allgemeine medizinische Versorgung ist ein staatlich finanziertes System, das allen B\u00fcrgern durch bestimmte Zusch\u00fcsse gleichen Zugang zur Gesundheitsversorgung und ein einheitliches Gesundheitssystem sichern soll. Norwegen war 1912 das erste Land, das ein nahezu einheitliches Gesundheitssystem einf\u00fchrte. Laut Weltgesundheitsorganisation stieg die Zahl der L\u00e4nder, die eine Form eines solchen Systems anbieten, bis 2010 auf 32.",
+                "help_text": "+1 lokale Zufriedenheit durch jedes nationale Wunder.",
+                "level": 1,
+                "prereq_policies": []
+            }
+        ]
+    }
+]

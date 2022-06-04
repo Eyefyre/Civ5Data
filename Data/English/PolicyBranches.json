@@ -1,0 +1,807 @@
+[
+    {
+        "id": 1,
+        "name": "Tradition",
+        "help_text": "Tradition is best for small empires. Adopting Tradition greatly increases the rate of border expansion in cities and also grants 3 Culture in the Capital. Unlocks building the Hanging Gardens. Adopting all Policies in the Tradition tree will grant +15% Growth and a free Aqueduct in your first 4 cities. It also allows the purchase of Great Engineers with Faith starting in the Industrial Era.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "civilopedia": "Aristocracy is a form of government in which a group of the most prominent citizens rule. Membership to this group may be hereditary, or it may be through merit or wealth or all three. The term is derived from the Greek word aristokratia, meaning \"the rule of the best.\" There is a very thin line between an aristocracy and an oligarchy, and which form a government actually is might very well depend upon one's point of view: the rulers might consider themselves aristocrats, while everybody else sees them as oligarchs.",
+                "help_text": "+15% Production when building Wonders and +1 Happiness for every 10 Citizens in a City.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Oligarchy",
+                "civilopedia": "Oligarchy is a form of government in which a small segment of society has all of the power. Power might be held by a specific family or tribe, or people of a certain religion or from a special caste. Some city-states in ancient Greece were oligarchies, where all power was in the hands of a few elite families. Apartheid South Africa would be a modern oligarchy, the white minority holding all of the power. Pre-9-11 Iraq too was an oligarchy, with power concentrated in the hands of members of Saddam Hussein's family and tribe.",
+                "help_text": "Garrisoned units cost no maintenance and cities with a garrison gain +50% Ranged Combat Strength.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Legalism",
+                "civilopedia": "Legalism is a policy in which the relationship between the ruler and his or her subjects are laid out in a series of laws, which both sides must adhere to strictly. If the law is fair and is properly enforced, the people will be content and the ruler's position will be secure. While this may seem to cover most governments that follow the rule of law, legalism almost achieved the status of a state religion in China during the Warring State Period.",
+                "help_text": "Provides a free culture building in your first 4 cities.",
+                "level": 0,
+                "prereq_policies": [
+                    "Oligarchy"
+                ]
+            },
+            {
+                "name": "Landed Elite",
+                "civilopedia": "Under this policy, the power and prestige in a nation is held by those who own the land. The more land one owns, the more powerful one is. In some cases land ownership may be limited to members of a certain class, tribe, religion, or even gender. Great care must be taken by the landed elite to see to it that the great unwashed mass of peasants don't become angry with them, as such situations often end with a radical redistribution of land, which may or may not be accompanied by the executions of the former landowners.",
+                "help_text": "+10% Growth and +2 Food in the Capital.",
+                "level": 0,
+                "prereq_policies": [
+                    "Legalism"
+                ]
+            },
+            {
+                "name": "Monarchy",
+                "civilopedia": "Monarchy is a form of government where power is vested in an individual. Often, but not always, power passes to the monarch's heir upon the current ruler's death. (There are some elected monarchies, but not many.) Monarchy is similar to despotism, but with one important difference: the monarch rules within the state's laws, while a despot is above all law. It is of course quite possible for a monarch to be a despot - but it is also possible for a monarch to be part of a political process which allows the people a good deal of freedom. Great Britain would be an example of the latter.",
+                "help_text": "+1 Gold and -1 Unhappiness for every 2 Citizens in the Capital.",
+                "level": 0,
+                "prereq_policies": [
+                    "Legalism"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Liberty",
+        "help_text": "Liberty is best for civilizations which desire rapid expansion. Adopting Liberty will provide 1 Culture in every city. Unlocks building the Pyramids. Adopting all policies in the Liberty tree will grant a free Great Person of your choice near the Capital.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Collective Rule",
+                "civilopedia": "Collective rule is the policy in which every member (or every adult member, or every adult male member) of the society takes part in the governing process, voting directly upon decisions rather than through a representative (as in a republic). While perhaps an effective form of government for tribes or small villages, collective rule becomes increasingly more difficult and unwieldy as the polity increases in size. If half of the citizens of a tribe of 100 each wanted to speak for one minute at a meeting, they could do so in under an hour. If half of the citizens of New York City each wanted to speak for one minute, they would need some 66,000 hours (plus a really huge meeting hall).",
+                "help_text": "Speeds the training of Settlers by 50% in the Capital and a free Settler appears near the Capital. (Venice receives a Merchant of Venice instead of a Settler.)",
+                "level": 0,
+                "prereq_policies": [
+                    "Republic"
+                ]
+            },
+            {
+                "name": "Citizenship",
+                "civilopedia": "Citizenship is the policy of a nation that acknowledges that a certain group of people, usually based upon their race or tribe or where they were born, are members of that nation, and as such, deserve a certain amount of protection as well as some rights and privileges, above and beyond those accorded to foreigners. For example, a citizen can often move around the country freely, while a non-citizen may be subject to deportation or imprisonment if discovered by the authorities.",
+                "help_text": "Tile improvement construction rate increased by 25% and a Worker appears near the Capital.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Republic",
+                "civilopedia": "A republic is a form of government in which people or the representatives of the people have ultimate power rather than the power being vested in a monarch or despot. The people or their representatives may elect a leader, but that leader's power derives from the consent of the people. Some classical cultures have had some form of republicanism, notably several Greek city-states and Rome (for part of its history), but for most of world history the monarchy was the most common form of government. The republic reappeared on the world stage in the 18th century, when the United States divorced itself from the British monarchy and set itself up as a republic. As they gained independence from the Old World most of the new nations in Central and South America were formed as republics (Mexico toyed with a monarchy for a while but this didn't survive for long). In the 20th century most of the European governments became republics after one or the other of the World Wars, as did many Asian nations. Many parts of Africa have since followed suit as they have shed their colonial masters. Today, most nations of the world follow (or at least profess to follow) some form of republicanism.",
+                "help_text": "+1 Production in every City and +5% Production in cities when constructing Buildings.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Representation",
+                "civilopedia": "Representation is a policy where the citizens of a nation appoint \"representatives\" to run the government. This might be considered a step up from collective rule, once the population becomes too large to support that government type. In a representative form of government, the country is divided into smaller, more manageable districts (or parishes, or states, or whatever), and each chooses one or more local citizens to represent their interests in the government for a set period of time. The representatives form a parliament or some other kind of deliberative body, and they rule the country. While most representative forms of governments are republics, it is not strictly necessary. Some representative governments elect temporary or permanent kings and other nobility to rule over them.",
+                "help_text": "Each city you found will increase the Culture cost of policies by 33% less than normal. Also starts a Golden Age.",
+                "level": 0,
+                "prereq_policies": [
+                    "Citizenship"
+                ]
+            },
+            {
+                "name": "Meritocracy",
+                "civilopedia": "A meritocracy is a system in which the most talented and worthy are assigned jobs and gain advancement in the government bureaucracy, rather than, say, those who are close personal friends of the current ruler (or congressman), or those from a certain tribe or caste or religion. Many long-lived governments swing back and forth between some form of meritocracy and some less sensible method of choosing those who run things. At first the officials are chosen for their ability, then over the years patronage or privilege creeps into the system and the government becomes increasingly inefficient and corrupt. Eventually things become so bad that the bureaucracy is jettisoned or reformed, and more meritorious officials are once again appointed. This pattern repeats itself until the sun explodes and all life is wiped off of the face of the planet.",
+                "help_text": "+1 Happiness for each City you own connected to the Capital and -5% Unhappiness from Citizens in non-occupied Cities.",
+                "level": 0,
+                "prereq_policies": [
+                    "Citizenship"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Honor",
+        "help_text": "Honor improves the effectiveness of one's army in a variety of ways. Adopting Honor gives a +33% combat bonus VS Barbarians, and notifications will be provided when new Barbarian Encampments spawn in revealed territory. Gain Culture for the empire from each barbarian killed. Unlocks building the Statue of Zeus. Adopting all policies in the Honor tree will grant Gold for each enemy unit killed. It also allows the purchase of Great Generals with Faith starting in the Industrial Era.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Warrior Code",
+                "civilopedia": "The warrior code represents those military organizations in which the soldiers feel a stronger allegiance to the army and their fellow soldiers than to anything else. The soldier is willing - if not eager - to fight and die for the army. He'll follow orders without question, putting the good of the military ahead of his own personal welfare, or indeed the welfare of his nation as a whole. Such organizations can be very dangerous unless the nation's leaders keep an extremely tight grip on it. According to some historians, in pre-World War II Japan, the Imperial Army and Navy were almost entirely out of civilian control, and their militaristic actions dragged that country into the ultimately-disastrous confrontation with the United States.",
+                "help_text": "+15% Production when training Melee units and a Great General appears outside the Capital. Great Generals are earned 50% faster.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Discipline",
+                "civilopedia": "In a military structure, discipline refers to a soldier's willingness to follow legitimate orders, to respect superior officers, and to put their life in jeopardy or even die when required. Disciplined soldiers are expected to uphold the dignity of their uniform when off-duty and to protect the weak and helpless. Lapses in discipline may lead to military punishment or even courts-martial and discharge.",
+                "help_text": "+15% combat strength for melee Units which have another military Unit in an adjacent tile.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Military Tradition",
+                "civilopedia": "Military tradition is the policy of honoring and romanticizing service in the nation's military. Soldiers and veterans are venerated, while those who do not serve in the military are inferior, possibly even dishonorable. Modern Israel has a significant military tradition, as did Victorian England and the pre-Civil War southern United States.",
+                "help_text": "Military Units gain 50% more Experience from combat.",
+                "level": 0,
+                "prereq_policies": [
+                    "Warrior Code"
+                ]
+            },
+            {
+                "name": "Military Caste",
+                "civilopedia": "In a society with a military caste, all members of the military are from a specific tribe, nationality, religion, or other socio-economic subgroup. Citizens who are not part of the caste are forbidden from joining the military and often from carrying any weapons at all, often because the military caste fears that the citizens might use the weapons against them. Much of feudal Japan was under a military caste system, as was ancient Sparta.",
+                "help_text": "Each City with a garrison increases Local City Happiness by 1 and Culture by 2.",
+                "level": 0,
+                "prereq_policies": [
+                    "Discipline"
+                ]
+            },
+            {
+                "name": "Professional Army",
+                "civilopedia": "A professional army is a full-time military organization that remains in being even when the country is at peace. Its soldiers are paid for their services by the state and spend their time training or performing public works when not at war. The earliest armies were not professional. When war was imminent, the country's leaders would issue a call and all able-bodied men would shoulder their weapons and march off to battle. These amateur soldiers usually didn't have much training and were often expected to supply their own weapons and armor, so their quality was not very high. They tended to desert when they had to tend to their crops, so battles were scheduled for the summer. If victory wasn't achieved by harvest, the war would often be called off for a year. Professional armies form when a society has grown wealthy enough to support a large number of men who do not work the fields or perform other productive work. The soldiers are usually housed in barracks and segregated from the civilian population to minimize friction, and the state provides their food, weapons, armor, and training. They are almost always more effective than the amateurs. Modern warfare has grown monumentally complex, and soldiers kill each other with extremely complicated weapons which require substantial training for effective use. Amateur soldiers are simply not up to the task, and most states field some kind of professional force.",
+                "help_text": "Gold cost of upgrading Military Units reduced by 33% and construct Barracks, Armories, and Military Academies 50% faster.",
+                "level": 0,
+                "prereq_policies": [
+                    "Military Caste"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Piety",
+        "help_text": "Piety increases the Faith of empires. Adopting Piety allows you to build Shrines and Temples in half the usual time. Unlocks building the Great Mosque of Djenne. Adopting all Policies in the Piety tree causes a Great Prophet to appear and Holy Sites provide +3 Culture.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Organized Religion",
+                "civilopedia": "Organized religion is one in which a number of people follow the same religious practices and have the same beliefs. The religion may have priests who intercede with higher powers on behalf of the believers or who set/interpret the religion's rules. There may be a complicated hierarchy of priests and other religious leaders. The religion may have temples or other sanctums in which the people pray and worship. Generally the believers contribute money to support the religion, its priests and buildings. Generally, organized religion is a force of stability within a culture. People who share a religion have something important in common, and although strangers are less likely to murder each other. It can also be quite divisive as well - historically many organized religions have seen other religions as threats or abominations, and more than one war has been fought over whose god is God.",
+                "help_text": "+1 Faith from Shrines and Temples.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Mandate of Heaven",
+                "civilopedia": "The mandate of heaven policy says that the current rulers of a country are in power because \"Heaven\" (or the gods) put them there and support them. Dissent against the rulers is not only treasonous, it's also sinful. Such systems greatly promote support for the rulers, but they are not without risk. If the country suffers a natural disaster - famine, flood, earthquake, hurricane, rain of frogs, or whatever - that may be seen as a sign that Heaven is displeased with the leaders and has removed its \"mandate\" from them. This gives the citizens the right to overthrow the sinful rulers and replace them with ones more to Heaven's liking.",
+                "help_text": "20% discount on all purchases of religious units and buildings with Faith.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Theocracy",
+                "civilopedia": "In a theocratic state, the religious leaders hold ultimate power in the country. Actually, the religion's god is in power, and he or she rules through divine guidance of the religious leaders. Theocracies are often militaristic, as the religious leaders see the country's army as a tool to spread the religion to other heathen states. Modern theocracies seem to often fear and hate progress, seeing modern luxuries and advancements as threats to the nation's piety (and perhaps to their power).",
+                "help_text": "Temples increase a city's Gold output by 25%. Holy Sites provide +3 Gold.",
+                "level": 0,
+                "prereq_policies": [
+                    "Organized Religion"
+                ]
+            },
+            {
+                "name": "Reformation",
+                "civilopedia": "Reformation refers to a great movement to reform a religious organization or belief system that is seen to have become corrupt or to have strayed from its guiding principles. The \"Protestant Reformation\" was a movement to reform the Roman Catholic Church. Begun in 1517 when Martin Luther published \"The Ninety-Five Theses\" listing the Church's transgressions as he saw them; the movement sparked some 130 years of horrible, bloody religious warfare across Europe and in the New World. As a result Christianity was permanently fractured into various different organizations and civil authority gained ultimate primacy over religious life.",
+                "help_text": "If you founded a religion, gain a bonus  belief.",
+                "level": 0,
+                "prereq_policies": [
+                    "Religious Tolerance"
+                ]
+            },
+            {
+                "name": "Religious Tolerance",
+                "civilopedia": "Free religion is the policy of a state which does not mandate which religions its members must adhere to. All religions are welcome, and let the spiritual marketplace decide among them. Though perhaps implemented for more noble reasons, free religion often has the effect of limiting the power of any individual religion. In states with one religion, the people in charge of that religion may wield a great deal of power (witness modern Iran). States with free religion generally attempt to treat them all equally, ensuring that none can become ultimately dominant.",
+                "help_text": "Cities with a majority religion also get the Pantheon belief bonus of the second most popular religion.",
+                "level": 0,
+                "prereq_policies": [
+                    "Organized Religion"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Patronage",
+        "help_text": "Patronage enhances the benefits of City-State friendship. Adopting Patronage will cause Influence with City-States to degrade 25% slower than normal. Unlocks building the Forbidden Palace. Adopting all policies in the Patronage tree will cause allied City-States to occasionally gift you Great People.",
+        "era_requirement": "Classical Era",
+        "policies": [
+            {
+                "name": "Philanthropy",
+                "civilopedia": "Philanthropy is the policy where a nation's wealthiest citizens give some portion of their wealth back to the people, often in the form of libraries, museums, hospitals or scholarships. Unlike patronage, where the citizen is paying for the creation of art for himself and others of his class, philanthropy tends to benefit the poorer members of society. Scottish-American Andrew Carnegie was one of the great philanthropists in history. For much of his life Carnegie was an utterly ruthless businessman, creating the US Steel company and making the second largest fortune in history, largely on the backs of the men who slaved in his mines and foundries. Upon selling his business in 1901, Carnegie devoted the last 19 years of his life to building libraries in poor cities, providing funding to some 3,000 in the US, Canada, the United Kingdom, Ireland, Australia, New Zealand, and other countries around the world.",
+                "help_text": "Gold gifts to City-States produce 25% more Influence.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Consulates",
+                "civilopedia": "As relations between nations became more formal, consulates were established to assist and protect the interests of a country's citizens in the territory of another country, and to promote trade and friendship between the two countries. Whereas an ambassador is the singular personal representative from one ruler to another, there can be several consuls in a country, usually one in each major city. The concept of providing service to a nation's citizens while abroad arose out of the ancient Greek practice of wealthy merchants acting as a \"proxenos\" in other Hellenic city-states to aid fellow merchants. Although the role of the consulate expanded in the late 1800s to include cultural and educational exchanges, its role as a nation's representation on the local level in a distant land remains unchanged.",
+                "help_text": "Resting point for Influence with all City-States is increased by 20.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Scholasticism",
+                "civilopedia": "Scholasticism is a style of teaching employed in medieval European universities from around 1000-1500 AD. The method emphasized critical reasoning and debate. The teacher would choose a book for study, and then he and the students would debate the meaning of the book, examine other books on the same topic, examine any criticism of the work, and so forth, by so doing gaining a fuller understanding of the topic than might be gained by rote memorization. The movement was largely fueled by the rediscovery of the works of Greek philosophers and subsequent attempts to integrate them with Christianity.",
+                "help_text": "All City-States which are Allies provide a Science bonus equal to 25% of what they produce for themselves.",
+                "level": 0,
+                "prereq_policies": [
+                    "Philanthropy"
+                ]
+            },
+            {
+                "name": "Cultural Diplomacy",
+                "civilopedia": "Cultural Diplomacy is the policy of lending out a civilization's most beautiful and treasured items to other civilizations in order to promote peace and understanding between all people. One of the most enduring forms of cultural diplomacy is the World's Fair, also known as the Universal Exposition, which is held in a different city every two to five years. The World's Fair features samples of many nations' arts, crafts, agriculture, and industry. The first World's Fair was held in 1851 in the Crystal Palace in Hyde Park, London. It was the brainchild of Prince Albert, husband to Queen Victoria. There were some 13,000 exhibits in total, seen by some six million people. The next World's Fair is scheduled to run in Shanghai, China in 2010. Some 70 million visitors are expected.",
+                "help_text": "Quantity of Resources gifted by City-States increased by 100%. Happiness from gifted Luxuries increased by 50%.",
+                "level": 0,
+                "prereq_policies": [
+                    "Scholasticism"
+                ]
+            },
+            {
+                "name": "Merchant Confederacy",
+                "civilopedia": "More commonly referred to as a commercial league or trading guild, a Merchant Confederacy is created to protect the economic interests and diplomatic privileges of merchants in cities and nations along trade routes. Although these confederations of merchants had no official standing, several \u2013 such as the Company of Merchant Adventurers of London (founded 1407 AD) and the even more powerful Hanseatic League (formed c. 1356) \u2013 had significant economic influence and dominated specific trade routes for lengthy periods. During the early Renaissance, merchant confederations were established in city-states such as Venice and Genoa to protect the interests of traders in certain commodities while abroad. These merchant leagues reached their peak during the 15th and 16th centuries, but declined thereafter as national governments and crown-chartered companies gradually assumed the regulatory and diplomatic responsibilities the leagues had formerly held.",
+                "help_text": "+2 Gold for trade routes with City-States.",
+                "level": 0,
+                "prereq_policies": [
+                    "Scholasticism",
+                    "Consulates"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Aesthetics",
+        "help_text": "Aesthetics improves the civilization's ability to generate Culture. Adopting Aesthetics allows you to earn Great Writers, Artists, and Musicians 25% faster. Unlocks building the Uffizi. Adopting all policies doubles the theming bonus you receive from Museums and Wonders. It also allows the purchase of Great Writers, Artists, or Musicians with Faith starting in the Industrial Era.",
+        "era_requirement": "Classical Era",
+        "policies": [
+            {
+                "name": "Cultural Centers",
+                "civilopedia": "A Cultural Center is any building, complex or institution that promotes the arts. In some cases, this means the sponsorship of museums and art galleries open to all. In some cases, cultural centers may offer donations to encourage the construction or operation of privately-owned venues for performance art, and may help in acquiring talent for civic orchestras, theaters, dance ensembles, and vocal groups.",
+                "help_text": "Construct Monuments, Amphitheaters, Opera Houses, Museums and Broadcast Towers 50% faster.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Fine Arts",
+                "civilopedia": "The Fine Arts, as opposed to folk arts and applied arts, are those pursuits that create aesthetic objects or experiences that can be shared with others. The term \"fine art\" came into vogue in 17th Century Europe; the five \"greater fine arts\" consisted of painting, sculpture, architecture, music and poetry, with the \"minor\" arts including drama and dance. Intense debates rage on whether film, photography, calligraphy, fashion, comics and even videogames are \"art,\" whether fine or not.",
+                "help_text": "50% of excess Happiness added each turn to the amount of Culture that may be spent on Social Policies.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Flourishing of the Arts",
+                "civilopedia": "\"Flourishing of the Arts\" generally refers to a period of heightened aesthetics characterized by great production of innovative art, usually in conjunction with a civilization's Golden Age. Along with advances in science and living conditions, the \"flourishing of the arts\" during a golden age affects all forms, literature and music as well as the material arts. Unfortunately, every such cycle inevitably is broken, usually due to outside influences such as war, economic collapse, religious fanaticism, or other circumstances beyond people's control.",
+                "help_text": "Culture increased by 33% in all cities which have built a World Wonder and the empire immediately enters a Golden Age.",
+                "level": 0,
+                "prereq_policies": [
+                    "Cultural Centers",
+                    "Fine Arts"
+                ]
+            },
+            {
+                "name": "Artistic Genius",
+                "civilopedia": "An artistic genius might be defined as someone who has the creativity, originality and skill to bring about beauty in an art form, whatever it may be. Artistic genius can even be applied to performance, as with choreography, orchestration or theater. The history of civilization is dotted with literary, artistic and performance geniuses, often temperamental but always brilliant in their field.",
+                "help_text": "A Great Artist appears.",
+                "level": 0,
+                "prereq_policies": [
+                    "Fine Arts"
+                ]
+            },
+            {
+                "name": "Cultural Exchange",
+                "civilopedia": "Although there were unofficial cultural exchanges \u2013 the visiting of students, artists, athletes and others on a quid-pro-quo basis between nations \u2013 as early as the beginning of the Industrial Age, such programs became formalized by opposing governments during the Cold War, when the USA and USSR sought to simultaneously display the superiority of their respective cultures worldwide and enhance mutual understanding of their respective value systems. These formal programs eased the restrictions on travel and performance by select groups in \"enemy territory,\" a process that several historians have declared to be a \"cultural Trojan Horse\" because such programs eventually \"eroded\" Soviet rule.",
+                "help_text": "Increases the tourism modifier for shared religion, trade routes, and open borders by 15% each.",
+                "level": 0,
+                "prereq_policies": [
+                    "Flourishing of the Arts"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Commerce",
+        "help_text": "Commerce provides bonuses to empires focused on Gold. Adopting Commerce will boost Gold output in Capital City by 25%. Unlocks building Big Ben. Adopting all Policies in the Commerce tree will grant +1 Gold from every Trading Post. It also allows the purchase of Great Merchants with Faith starting in the Industrial Era",
+        "era_requirement": "Medieval Era",
+        "policies": [
+            {
+                "name": "Mercenary Army",
+                "civilopedia": "Mercenaries - those who take part in a conflict for personal gain or compensation rather than duty or belief - have been a fact of war since ancient times; but the practice reached its height during the Renaissance, when the so-called \"Free Companies\" were formed to fight for hire. Often composed of veterans from national armies and led by a charismatic commander such as the Englishman Sir John Hawkwood, who formed the infamous White Company, these were usually hired during times of war by city-states or small kingdoms that lacked the funds or manpower to maintain standing armies. While some of the early mercenary forces specialized in specific forms of combat - for instance, cavalry or artillery companies - most were formed of German or Swiss landsknecht and saw extensive use during the religious wars of the Reformation. Coincidentally, to the south the condottieri served in the internecine wars between the Italian city-states, including the Papacy. As late as the 1700s Scots-Gaelic Gallowglass companies were available for hire to continental nobles. In modern times, mercenaries tend to be hired in small, elite teams for specific missions, or be part of private security companies.",
+                "help_text": "Allows the purchasing of Landsknechts.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Entrepreneurship",
+                "civilopedia": "Entrepreneurship, from the French term \"to undertake,\" refers to the capability and willingness by an individual to develop, organize and manage a commercial venture in the hopes of making a profit. In history, entrepreneurship has taken many forms, from the great explorer-merchants of Renaissance Italy to the government-chartered companies of the Age of Discovery to the robber barons of the Industrial Age; regardless of the form, the willingness to risk their own funds to generate greater wealth has driven the evolution of civilization as surely as any other factor.",
+                "help_text": "Great Merchants are earned 25% faster. Receive double Gold from Great Merchant trade missions.",
+                "level": 0,
+                "prereq_policies": [
+                    "Wagon Trains"
+                ]
+            },
+            {
+                "name": "Mercantilism",
+                "civilopedia": "Mercantilism is a form of economic nationalism that encourages a nation to engage in policies of \"protectionism\" to promote its own exports and to limit imports from other nations. As a nation's \"balance of trade\" increases, the nation gains in wealth and prosperity, and if it dips below zero (the nation imports more stuff than it exports), the nation and its people grow poorer and more vulnerable to external threats. The theory was popular in Western Europe from the 16th to the 18th centuries. Today most western nations seek to open their borders to trade, albeit often with some level of taxation or quotas to protect their most important national industries.",
+                "help_text": "Purchasing items in Cities requires 25% less Gold. +1 Science from every Mint, Market, Bank, and Stock Exchange.",
+                "level": 0,
+                "prereq_policies": [
+                    "Mercenary Army"
+                ]
+            },
+            {
+                "name": "Wagon Trains",
+                "civilopedia": "In various ages, as roads became better and less prone to banditry, wagon trains replaced caravans in overland trading ventures. Able to carry more goods of more types, to provide shelter, and to travel further, wagon trains were used for commerce, war and migration. Used heavily throughout history, wagon train usage has largely faded with the arrival of the industrial age.",
+                "help_text": "+2 Gold from all your land trade routes. Maintenance paid on Roads and Railroads reduced by 50%.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Protectionism",
+                "civilopedia": "Protectionism is the policy of restraining trade between nations through quotas, taxes and other methods. It is employed by countries who seek to slow or stop foreign goods and services from entering national markets and thereby \"protecting\" the local industries. Protectionism is also used by rulers who wish to limit their citizens' contact with foreign people and goods, either because they think that foreign things are evil, or because they don't want their citizens to know how badly off they are compared with people elsewhere in the world. North Korea is an example of a grotesquely protectionist state, its leaders limiting contact with the outside world to keep the North Koreans unaware of their own backwardness.",
+                "help_text": "+2 Happiness from each Luxury resource.",
+                "level": 0,
+                "prereq_policies": [
+                    "Mercantilism",
+                    "Entrepreneurship"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Exploration",
+        "help_text": "Exploration enhances your abilties to spread your empire over the seas. Adopting Exploration gives +1 Movement for Naval units and +1 Sight for Naval combat units. Unlocks building the Louvre. Adopting all policies allows you to see Hidden Antiquity Sites. It also allows the purchase of Great Admirals with Faith starting in the Industrial Era.",
+        "era_requirement": "Medieval Era",
+        "policies": [
+            {
+                "name": "Maritime Infrastructure",
+                "civilopedia": "Maritime Infrastructure is the term used to describe the collective installations and services that facilitate seaborne mercantile activity. These include the docks, wharves, warehouses and such as well as the stevedores, shipwrights, harbor pilots, and others that handle the docking and loading/unloading of cargo. It has been estimated that throughout history one in every six jobs has been related directly or indirectly to maritime commerce. For those nations seeking wealth and expansion via the oceans, a sound maritime infrastructure is vital. At the height of the British Empire it is estimated that the crown spent almost a third of its revenue in expanding and improving the ports around the globe that serviced the empire's vast merchant fleet.",
+                "help_text": "+3 Production in all coastal Cities.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Naval Tradition",
+                "civilopedia": "Nations with strong naval traditions value their country's navy above all other branches of the military. (For obvious reasons: they're often island nations.) Service in the navy is expected of the ruling class, and naval officers are seen as superior to officers of the army or air force. Great Britain has the longest and strongest naval tradition in Europe. The British ships were known to be superior to other nations' vessels, and the British officers and crew were the best on the water. This gave the British Navy a serious edge in morale in naval warfare.",
+                "help_text": "+1 Happiness for each Harbor, Seaport, or Lighthouse.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Merchant Navy",
+                "civilopedia": "A merchant navy is a group of merchant ships which, in times of war, can be pressed into service and carry a nation's military goods and supplies, often with protection from the nation's navy. For many years the British maintained the largest and best fleet of merchant marine vessels in world history. Implemented in 1835, the British Merchant Navy suffered huge losses in World Wars I and II. Nearly 15,000 merchant seamen lost their lives in World War I, and a staggering 30,000 died in the Second World War.",
+                "help_text": "+1 Gold for each Harbor, Seaport, or Lighthouse. +4 Production and +4 in the city with the East India Company.",
+                "level": 0,
+                "prereq_policies": [
+                    "Naval Tradition",
+                    "Maritime Infrastructure"
+                ]
+            },
+            {
+                "name": "Navigation School",
+                "civilopedia": "In 1418 AD, Prince Henry of Portugal founded the first school for the study of oceanic navigation, along with an astronomical observatory, at Sagres. Here Portuguese pilots were trained in navigation, map-making, the science of tides and currents, and other skills to better enable them to sail the coasts of Africa, where Henry wanted to establish a string of ports leading to the riches of the Far East. As exploration and colonization reached a fevered pitch in the 1600s, most European monarchs followed Henry's lead and established navigation schools.",
+                "help_text": "A Great Admiral appears. +2 Movement for all Great Admirals. Great Admirals are earned 50% faster.",
+                "level": 0,
+                "prereq_policies": [
+                    "Naval Tradition"
+                ]
+            },
+            {
+                "name": "Treasure Fleets",
+                "civilopedia": "At various times, nations transporting large amounts of treasure and trade goods have resorted to convoys of transports to improve the chances that the cargo would actually arrive at its destination. The most famous was the annual Spanish treasure fleet that brought gold, silver, spices, tobacco, pearls and other riches from the West Indies to Spanish ports in Europe from 1566 to 1790 AD. The sack of Spanish Havana by French privateers and attacks on lone galleons by English buccaneers moved the Spanish to institute the convoys between the New World and Europe. Although the seas are relatively safe from pirates now, during wartime maritime nations still organize convoys to improve the chances of merchant ships arriving intact.",
+                "help_text": "+4 Gold from all your sea trade routes.",
+                "level": 0,
+                "prereq_policies": [
+                    "Merchant Navy"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Rationalism",
+        "help_text": "Rationalism improves the ability to use and generate Science. Adopting Rationalism will grant +10% Science while the empire is Happy. Unlocks building the Porcelain Tower. Adopting all Policies in the Rationalism tree will grant a free Technology. It also allows the purchase of Great Scientists with Faith starting in the Industrial Era.",
+        "era_requirement": "Renaissance Era",
+        "policies": [
+            {
+                "name": "Secularism",
+                "civilopedia": "Secularism is the belief that government should be separate from religion and religious faiths. Religions should not be taught in schools, nor should one's religion determine whether he or she can work in the government or serve in the military. Secularists don't necessarily disbelieve in a Supreme Being; they just think that mixing religion and government is ultimately bad for both institutions. The United States is largely a secular country, although traces of its early inhabitants' dominant religion can still be found on the country's money, its leaders' oaths of office, in its judicial system, and so forth, often to the dismay of the citizens who do not belong to that religion.",
+                "help_text": "+2 Science from every Specialist.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Humanism",
+                "civilopedia": "Humanism is the philosophy that says that the human being is the most important thing in the world. There are no \"higher beings\" or supernatural powers that humans owe allegiance to or who give us guidance or wisdom. There's just us. Humanism has been around in one form or another since ancient Greece, and it also appears in Asian and Indian writings some two to three thousand years ago. It made a strong reappearance in the Renaissance, and remains a powerful philosophical force today.",
+                "help_text": "Great Scientists are earned 25% faster.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Free Thought",
+                "civilopedia": "Free thought is the belief that knowledge should be gained through the application of science and reason, rather than from tradition or religious dogma. Theories should be tested scientifically and logically. If something can't be proven, it's foolish to believe in it. Blind faith is the arch enemy of free thinkers everywhere. Free thinking is an important part of Buddhist tradition. In the \"Kalama Sutta,\" the Buddha states, \"Do not accept anything by mere tradition... Do not accept anything because it accords with your scriptures... But when you know for yourselves - then do you live accordingly.\"",
+                "help_text": "+1 Science from every Trading Post and +17% Science from Universities.",
+                "level": 0,
+                "prereq_policies": [
+                    "Humanism"
+                ]
+            },
+            {
+                "name": "Sovereignty",
+                "civilopedia": "Sovereignty, short for \"popular sovereignty,\" is the belief that the state belongs to the people, and that the rulers are \"servants\" to the people. Power derives from the people, and those who rule do so with the people's consent. Popular sovereignty can be most easily contrasted with a theocracy, in which the ruler derives his power from God, not from the people. Nations with popular sovereignty usually have some form of periodic elections in which the people can express their will, hopefully voting for the best candidate, rather than say the tallest or the best liar.",
+                "help_text": "+1 Gold from Science buildings.",
+                "level": 0,
+                "prereq_policies": [
+                    "Secularism"
+                ]
+            },
+            {
+                "name": "Scientific Revolution",
+                "civilopedia": "A scientific revolution is a period when rapid advances in human knowledge or technology overturns the current worldview, as a result triggering yet more advancements in thought and knowledge. Much of Europe underwent a scientific revolution in the 16th century, following the publication of Nicolaus Copernicus' work, \"On the Revolutions of the Heavenly Spheres\" and Andreas Vesalius' \"On the Fabric of the Human Body In Seven Books.\" Both used modern (for the period) scientific practices to examine parts of the world around them and overturned incorrect scientific theories, some dating back to the ancient Greeks. Following the success of these books, the floodgates were opened, and scientists began carefully examining everything around them, and human knowledge increased exponentially over the succeeding centuries.",
+                "help_text": "Boosts Science gained from research agreements by 50%.",
+                "level": 0,
+                "prereq_policies": [
+                    "Sovereignty"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Freedom",
+        "help_text": "Freedom is best for small, focused empires. In particular, it provides bonuses for Great People and Specialists. Upon adopting Freedom, the rate at which Great People are born is increased by 25%. Adopting all Policies in the Freedom tree will increase the base yield from Great Tile Improvements by 100% and length of Golden Ages increased by 50%. May purchase Great Artists with Faith. [COLOR_WARNING_TEXT]This branch cannot be active at the same time as Autocracy or Order.",
+        "era_requirement": "Industrial Era",
+        "policies": [
+            {
+                "name": "Avant Garde",
+                "civilopedia": "French for \"vanguard,\" Avant Garde refers to works or ideas that are innovative or exceptionally creative, particularly with respect to art, music and politics. It is marked by pushing the boundaries of what are commonly accepted norms or the status quo, such as radical social reforms. Democratic societies tend to allow greater social expression, fostering such \"cutting-edge\" cultural advances.",
+                "help_text": "The rate at which Great People are born is increased by 25%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Creative Expression",
+                "civilopedia": "In broadest terms, Creative Expression is merely the expressing of ideas or emotions through art. More narrowly, the term refers to the ability to create art free of government interference through censorship, taxation or other legal limits.",
+                "help_text": "+1 Culture from each Great Work (but Tourism is unchanged).",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Civil Society",
+                "civilopedia": "In a civil society, the people freely and of their own volition work to better the world around them. They join civic organizations. They pick up the trash in front of their homes and places of business. They adopt stray pets. They attend school board meetings and vote in elections. Countries with active civil societies are generally cleaner, more efficient, and happier than those without.",
+                "help_text": "Specialists consume only half the normal amount of Food.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Volunteer Army",
+                "civilopedia": "A standing Volunteer Army is one that draws its manpower from volunteers rather than conscription or mandatory service; generally found in democracies, the voluntary military offers attractive pay, incentives and benefits to recruit and retain its servicemen. Most countries with volunteer armies also have conscription laws in place for use in the event of a national emergency.",
+                "help_text": "6 units are maintenance free. Receive 6 Foreign Legion infantry units immediately.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Covert Action",
+                "civilopedia": "According to the U.S. Department of Defense, a covert action is \"an operation that is so planned and executed as to conceal the identity of or permit plausible denial by the sponsor.\" It is intended to create a political, military, economic or diplomatic effect without repercussions, either from the target or the nation's own citizenry. Covert actions can take many forms, from assassinations to espionage to military operations, but all are marked by secrecy.",
+                "help_text": "Chance of rigging election in City-States doubled.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Urbanization",
+                "civilopedia": "Urbanization, or \"urban draft,\" is the physical growth of cities as a result of rural migration or suburban concentration into cities. Urbanization is closely linked with industrialization, modernization and sociological rationalization, all movements that began during the course of the Industrial Age and have accelerated into the Information Age. The United Nations has stated that roughly half the world's population lived in urban areas at the end of 2006 AD, and projects that by 2050 as much as 85% of humanity will be urbanized.",
+                "help_text": "+1 Local Happiness from every Water Mill, Hospital, and Medical Lab.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Capitalism",
+                "civilopedia": "Capitalism is an economic system based on the private production and ownership of goods, driven by the production of goods and services for profit. There are several types of capitalism, such as laissez-faire capitalism, welfare capitalism, and state capitalism. Most modern states have some form of mixed-capitalism, with varying degrees of government-controlled and market-driven entrepreneurship.",
+                "help_text": "+1 Local Happiness from every Mint, Bank and Stock Exchange.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Economic Union",
+                "civilopedia": "An Economic Union is a trade bloc composed of a common market and a customs union. Participating nations have common policies on production regulations, freedom of commerce across borders, tariffs and taxes, and a joint external trade policy; in some cases, the union may also have or promote a common currency. The most successful economic unions to date have been the European Union formed in 1993 and the Caribbean Community formed in 1973.",
+                "help_text": "+3 Gold from all your trade routes with other civilizations following the Freedom Ideology.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Their Finest Hour",
+                "civilopedia": "In June 1940, following the defeat of France by Germany, British Prime Minister Winston Churchill gave a speech to Parliament in which he used this phrase to refer to the continued resistance to totalitarianism by Britain and the Commonwealth. The iconic phrase has since come to mean any instance where a democratic nation pledges its full resources to victory at all costs, even if it means fighting alone against near overwhelming odds. Occasionally quoted during the Cold War, it also carries the connotation that the foe is implacably opposed to notions of freedom and liberty.",
+                "help_text": "Combat Strength of Cities increased by 33%.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Universal Suffrage",
+                "civilopedia": "Many political struggles have been concerned with gaining the right to vote (as opposed to the opportunity, an important distinction) in public elections in a democracy. Where universal suffrage exists, the right to vote cannot be restricted by gender, race, belief, wealth and property ownership, or social status. In most western nations, full universal suffrage followed universal male suffrage by one or two decades; in 1893 AD, New Zealand was the first nation to achieve universal suffrage.",
+                "help_text": "Specialists in Cities produce half the normal amount of Unhappiness. Golden Ages are 50% longer.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "New Deal",
+                "civilopedia": "The New Deal was a series of economic programs enacted, either by executive order or by law, by the United States government between 1933 and 1936 to counter the effects of the Great Depression. Rather than nationalize banks and key industries as some leaders did, President Franklin Roosevelt hoped to offer relief to those destitute, to bring about economic recovery through federally funded construction and work programs, and to bring about financial reforms. History has judged the New Deal largely successful, and other countries have undertaken a similar approach in recent economic crises.",
+                "help_text": "Landmarks and Great Person improvements produce +4 of the appropriate yield.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Arsenal of Democracy",
+                "civilopedia": "\"Arsenal of Democracy\" was a phrase coined by President Franklin Roosevelt during a radio broadcast in December 1940 to describe America's role in the struggle against totalitarianism. The unofficial policy of the United States during World War II and the ensuing Cold War against Communism, the \"Arsenal\" refers to committing a nation's private industry to producing military materials for the nation and other nations with the goal of defeating a common enemy. The privately-owned manufacturers are compensated at market value, usually on a \"cash-and-carry\" basis.",
+                "help_text": "+15% Production when building Military Units. +15 Influence from Military Unit gifts to City-States.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Media Culture",
+                "civilopedia": "Media Culture refers to the current Western capitalistic society that emerged in the late 20th Century marked by heightened consumerism fostered by the mass media. Media culture, with its emphasis on advertising and public relations, has been considered by critics to be a system centered on the manipulation of the masses, notably in regard to representation and reproduction of dominant ideologies. Scholars such as Theodor Adorno and Hannah Arendt have written extensively on the impact of media culture on both democracy and capitalism.",
+                "help_text": "+34% Tourism generated by cities with a Broadcast Tower.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Treaty Organization",
+                "civilopedia": "A treaty organization is an international military pact created for purposes of collective security; it generally encompasses joint command structures, research programs, and armaments production as well as more mundane military matters. The North Atlantic Treaty Organization (NATO) formed in 1949 AD is the best known of such, but others are in place in South America, Africa and elsewhere. While defensive pacts and military alliances have been common in the past, none reached the level of integration of modern treaty organizations.",
+                "help_text": "Gain 4 more Influence per turn (at Standard speed) with City-States you have a trade route with.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Space Procurements",
+                "civilopedia": "Most space programs have a procurement office, similar to NASA's Stennis Space Center Procurement Site, charged with the purchase of certain materials and services that are not economically viable for the government to supply - such as small tools, fuels and chemicals, foodstuffs and toiletries for space flights, computer components and the like. The procurement office will enforce regulations on purchasing, inspect materials, evaluate services, and often has separate branches for awarding contracts to major corporations and another to small businesses. Being a government agency, procedures are in place for budgetary review and regulation in an effort to make the space program affordable.",
+                "help_text": "May buy Spaceship parts with Gold.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Universal Healthcare",
+                "civilopedia": "Universal Health Care, sometimes referred to as \"social health,\" is a government-funded system intended to provide equal access to health services and improved health outcomes for all citizens through a specific package of benefits. In 1912 AD, Norway was the first country to create a near-universal health care system; according to the World Health Organization, 32 nations offered some form of universal health care in 2010.",
+                "help_text": "+1 Local Happiness from every National Wonder.",
+                "level": 1,
+                "prereq_policies": []
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Order",
+        "help_text": "Order is best for large, sprawling empires, increasing the strength of the empire based on the number of Cities it contains. Adopting Order will increase Happiness by +1 per City. Adopting all Policies in the Order tree will grant +2 Food, Production, Science, Gold, and Culture per city. May purchase Great Engineers with Faith. [COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom or Autocracy.",
+        "era_requirement": "Industrial Era",
+        "policies": [
+            {
+                "name": "Hero of the People",
+                "civilopedia": "Although there are many interpretations possible for \"Hero of the People,\" in the Soviet Union it was reserved for those awarded the \"Hero of the Soviet Union,\" awarded for personal heroic feats in service to the Soviet state and society. Established in 1934, it was usually given for heroic military service (over 11,000 awarded during World War II alone); it has also been given to party officials, cosmonauts, researchers and the occasional foreigner for service to the state. By the 1970s, the \"Hero of the People\" was greatly devalued when it began to be given to bureaucrats and military officers on an anniversary of long-service rather than any specific act of heroism; nonetheless, the award served the political order by setting a goal for personal achievement within the Communist state.",
+                "help_text": "The rate at which Great People are born is increased by 25%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Socialist Realism",
+                "civilopedia": "The Socialist Realism movement, a style of \"realistic expression\" that began in Soviet Russia and became dominant in communist countries around the world, promoted the triumph of socialism through art, photography, film and public monuments. Along with the Socialist Classical style of architecture, Socialist Realism was the only Party approved style of public art in the Soviet Union for sixty years. The dramatic and minimalist monuments that resulted were seen as powerful propaganda tools in promoting the dictatorship of the proletariat and the physical display of communist beliefs.",
+                "help_text": "+2 Local Happiness from Monuments. Build Monuments in half the usual time.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Skyscrapers",
+                "civilopedia": "Early in Soviet rule in Russia, the state sought to gain prestige and pride for its people through the construction of massive projects, which would be validation of Soviet superiority and organization. The first skyscraper project was the \"Seven Sisters\" in Moscow, a group of seven buildings in the Stalinist style of architecture, an elaborate blend of Russian Baroque and Gothic styles; although construction was interrupted by the outbreak of war in 1941, the massive towers were eventually completed in 1956 using American technology and methods. Afterwards, the Soviet Union built dozens of modern skyscrapers in its republics and client states, from Warsaw to the Kazakhstan provincial capital.",
+                "help_text": "Gold cost of purchasing buildings reduced by 33%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Patriotic War",
+                "civilopedia": "Throughout history the term \"Patriotic War\" has designated those conflicts where, according to Communist doctrine, the proletariat has risen to defend itself against a foreign threat. More generally, it refers to a war to defend the homeland, or in this case, the \"Motherland.\" First applied to the general resistance by the Russian peasantry to Napoleon's invasion in 1812 AD, it was more generally used to refer to the costly defense of Russia against Germany in the Second World War.",
+                "help_text": "+15% attack bonus when fighting in friendly territory.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Double Agents",
+                "civilopedia": "Double Agents in counterintelligence espionage are employees or member of an enemy organization who have agreed to spy on it but in fact remain loyal and spy on their controllers. The use of Double Agents to penetrate enemy spy rings has a long history, but came to the fore during World War II and the Cold War. British MI5 proved particularly adept at \"turning\" enemy agents, while during the Cold War the Soviet Union infiltrated both the CIA and British intelligence operations successfully.",
+                "help_text": "Spies twice as likely to capture enemy spies attempting to steal a technology.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Young Pioneers",
+                "civilopedia": "An organization for children operated by the Party in various Communist nations, typically children entered the Young Pioneers in elementary school and continued through adolescence. The goal of the organization, loosely based on the Scouting movement found in the West, was to indoctrinate young people in the philosophy and tenets of communism and the worker's struggle, as well as teaching skills to make them better servants to the state as workers and soldiers. So successful was the Russian program that by the 1990s it had been emulated in over 30 countries; many of these programs remain in operation, from Russia itself (now the non-official \"Pioneers of the Communist Party\") to nations such as Cuba and Vietnam.",
+                "help_text": "+1 Local Happiness from every Workshop, Factory, and Solar/Nuclear/Hydro Plant.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Academy of Sciences",
+                "civilopedia": "An Academy of Sciences is a state-supported institution of learning or research society dedicated to the sciences and/or technology. The most famous, the Russian - later Soviet - Academy was founded in 1724 AD by Peter the Great in his efforts to modernize his empire. In 1917 the academy came under Soviet control, and was tasked with addressing questions of construction and social issues; beginning in 1928 the Soviet Politburo increasingly interfered in the teaching and research of the Soviet Academy of Sciences, hindering the scientific progress of the Soviet Union for decades.",
+                "help_text": "+1 Local Happiness from every Observatory, Public School, and Research Lab.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Party Leadership",
+                "civilopedia": "In an orderly proletarian socialist state, the people have the power; however, even Marx realized that some form of party hierarchy would be necessary for efficient operation of state services and to insure that the proletarian order itself was preserved. For that reason, the Bolsheviks argued in 1917 that a vanguard party of bureaucrats would head a centralized political party that administered the new Soviet Russia. In time, with the spread of the communist revolution throughout the industrial world, the need for a party leadership would wither and it would be dissolved; history proved otherwise.",
+                "help_text": "+1 Food, Production, Science, Gold, and Culture per city.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Resettlement",
+                "civilopedia": "Forced resettlement, or \"population transfer\" in Soviet jargon, took several forms: deportations of \"anti-Soviet\" groups (\"enemies of the people\"), deportations of ethnic groups, labor force transfers, or forced migrations into \"ethnically cleansed\" regions. At their height during Stalin's rule, involuntary resettlement programs, usually into unpopulated areas of Asiatic Russia, involved those of Polish, Baltic, Finnish, Rumanian, Tatar, Kalmyk, Chechen and dozens of other peoples. Communist leaders believed it an efficient and relatively humane manner to bring order to such a vast and diverse land.",
+                "help_text": "New Cities start with an extra 3 Population.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Cultural Revolution",
+                "civilopedia": "The Great Proletarian Cultural Revolution was a social movement conducted from 1966 through 1976 in the People's Republic of China. Begun by Mao Zedong and the Communist Party, the Cultural Revolution sought to re-educate the common people by removing or repressing capitalist, traditional and religious elements, through arrests and violence if necessary. The cultural struggle spread through all levels of society, students, the military, the party and urban workers, delaying China's reemergence in world affairs for decades.",
+                "help_text": "+34% Tourism to other Order civilizations.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Workers' Faculties",
+                "civilopedia": "The working class, according to Marxist theory, was to be the ruling class in Russia from its transition from socialism to full communism. As such, workers were to enjoy equal access to all the amenities of modern life, from housing to recreational facilities, in a communal society. The most visible of the Workers' Facilities were the communal apartment complexes, where two to seven migrant families from rural areas to the rapidly industrializing cities would occupy an apartment, with each family having a bedroom but all else - kitchen, living room, bathroom, telephone and television - shared among the residents.",
+                "help_text": "Factories increase a City's Science output by 25%. Build Factories in half the usual time.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Five-Year Plan",
+                "civilopedia": "The Five-Years Plans of Soviet Russia were a series of economic development guidelines devised by a state planning committee appointed by the Communist Party; the first was initiated in 1928 AD, and the last was in operation when the Soviet Union dissolved in 1991. Fulfilling the plan became the primary motivating factor for the Soviet bureaucracy that became unwieldy attempting to do so. However, the initial successes of the early plans motivated other communist nations, such as Mao's China, and even some capitalist states to adopt this method of promoting and coordinating economic development.",
+                "help_text": "+2 Production per City and +1 Production for every Mine and Quarry.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Dictatorship of the Proletariat",
+                "civilopedia": "In Marxist socio-political theory, the Dictatorship of the Proletariat refers to a social state where the working class has direct control of political power; \"dictatorship\" in this case does not refer to the common definition but rather that an entire social class holds control of the nation. Whether or not capitalists or others were disenfranchised in such a political order would depend, according to Marx and Engels, on specific circumstances at the time. Bringing about such a political order might, or might not, entail violence; but whatever the means, in the end the proletariat would supplant the bourgeoisie.",
+                "help_text": "+34% Tourism to civilizations that have less Happiness.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Iron Curtain",
+                "civilopedia": "The Iron Curtain was the symbolic, ideological and physical boundary that separated the decadent West from the \"orderly\" Soviet Union from the end of World War II to the end of the Cold War. The term itself was first used in a speech by Winston Churchill in March 1946 expressing British dismay at the continued occupation and repression of various East European countries. Although initially derided, Churchill's view that the Iron Curtain served only to keep people in and information out came to be accepted, and the use of the metaphor for the European Communist bloc became universal.",
+                "help_text": "Free Courthouse upon city capture. Internal trade routes provide 50% more Food or Production.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Spaceflight Pioneers",
+                "civilopedia": "The Soviet Union dedicated significant resources to its space program, viewing it as a race against the United States and a chance to prove to the world its scientific and technologic superiority. A number of courageous \"cosmonauts\" were the first human beings to reach space and orbit the Earth in small capsules. In April 1961 Yuri Gagarin was the first man to reach orbit and circled the world for 108 minutes about the spacecraft Vostok 1; the first woman launched into space was Valentina Tereshkova in 1963, orbiting the Earth for almost three days.",
+                "help_text": "May finish Spaceship parts with Great Engineers. A Great Engineer and a Great Scientist appear outside the Capital.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Universal Healthcare",
+                "civilopedia": "Universal Health Care, sometimes referred to as \"social health,\" is a government-funded system intended to provide equal access to health services and improved health outcomes for all citizens through a specific package of benefits. In 1912 AD, Norway was the first country to create a near-universal health care system; according to the World Health Organization, 32 nations offered some form of universal health care in 2010.",
+                "help_text": "+1 Local Happiness from every National Wonder.",
+                "level": 1,
+                "prereq_policies": []
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Autocracy",
+        "help_text": "Autocracy is for militaristic civilizations, dreaming of world conquest. Adopting Autocracy reduces Unit Gold Maintenance costs by 33%, allowing an empire to field a larger military. Receive 10 Culture as plunder for each point of Culture produced in the captured city. Adopting all Policies in the Autocracy tree will grant a 25% attack bonus to all Military Units for 50 turns. May purchase Great Generals and Great Admirals with Faith. [COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom or Order.",
+        "era_requirement": "Industrial Era",
+        "policies": [
+            {
+                "name": "Elite Forces",
+                "civilopedia": "Since the Hittite and Assyrian kings formed palace guards, every army has included Elite Forces, specialized military units trained to conduct unconventional, high-risk combat missions. Elite units came to prominence in World War II, especially in the totalitarian nations; Germany employed the likes of the Brandenburger Regiment and Skorzeny's SS Jager Battalion to devastating effect, while Fascist Italy had several specialized naval units. Since the war, units such as the Russian Spetsnaz and American Seals have carried on that tradition of ruthless efficiency.",
+                "help_text": "Wounded Military Units inflict 25% more damage than normal.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Mobilization",
+                "civilopedia": "The term \"Mobilization\" was first used in military context in the 1850s to describe the assembling of troops and supplies in preparation for war by Tsarist Russia. Mobilization institutionalized the mass levy of soldiers from the citizenry that first occurred during the French Revolutionary Wars. The practice changed the nature of warfare, for new communication and transportation technologies, along with developments in military conscription, made the assembling of massive armies possible, ready to be hurled at an enemy's massive army.",
+                "help_text": "Gold cost of purchasing units reduced by 33%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "United Front",
+                "civilopedia": "A united front is a system in which revolutionaries jettison state boundaries and pursue their objectives with other like-minded individuals in countries everywhere. The system was developed by communists seeking to spread the Bolshevik Revolution to countries across Europe and around the world. The battle cry was, \"Workers of the world unite!,\" and the proponents hoped that the under-classes of the world's nations would realize that they had more in common with each other than they did with their own countries' rulers. The workers would rise up, overthrow their capitalist oppressors, and usher in a world-wide worker's paradise. This didn't actually happen and the movement was ultimately unsuccessful. However, the united front concept is seeing something of a resurgence in the ongoing cultural struggle between the Muslim and non-Muslim worlds.",
+                "help_text": "Militaristic City-States grant units twice as often when you are at war with a common foe.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Futurism",
+                "civilopedia": "Originating as an artistic movement in the early 20th Century in Italy, Futurism evolved into a social movement in the 1920s and 1930s. Futurism emphasized contemporary concepts of the future such as youth violence, technology, industrialism, and rapid modes of transportation such as the automobile and airplane. Although primarily a philosophical and artistic movement, it came to have a political aspect as many futurists embraced Italian Fascism in the hopes of modernizing what they viewed as an archaic, rural, backward world. Although futurism reached its highest expression in Italy, it spawned parallel movements in England, France, and especially Russia as well.",
+                "help_text": "+250 Tourism with all known civs when a Great Writer, Artist or Musician is born.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Industrial Espionage",
+                "civilopedia": "Conducted for economic purposes rather than purely national security reasons, Industrial Espionage refers to the efforts of corporations to discover secrets and confidential information about other corporations, usually competitors. Industrial espionage had its modern beginnings in the 1820s when France initiated state-sponsored efforts to surreptitiously steal British manufacturing inventions and processes, seeking to match England's explosive industrialization. This form of \"spying\" is usually undertaken when a nation faces a severe disadvantage in commercial economic development, such as the well-documented Soviet industrial espionage in the West until the 1980s.",
+                "help_text": "Spies steal technologies at twice the normal rate.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Militarism",
+                "civilopedia": "Militarism is defined as \"the belief or desire of a government or people that the nation maintain a strong military capability and be prepared to use it aggressively.\" Militarism has been a significant element of policy in most imperialistic or expansionist nations throughout history, from Sparta to Nazi Germany. This philosophy has many components that include idealizing personal military accomplishments and government policies that devote a significant portion of the nation's resources to supporting and expanding its military forces.",
+                "help_text": "+2 Local Happiness from every Barracks, Armory and Military Academy.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Fortified Borders",
+                "civilopedia": "As long ago as the construction of the Great Wall, autocratic nations have sought to limit perceived threats from invaders - as well as limit their own people's departure - through extensive fortifications along the borders. While military engineering changed dramatically from time of Hadrian's Wall in Britain to the Bar Lev Line across the Sinai, the precept remains the same, strongpoints linked by lesser fortifications and protected by anti-personnel obstacles such as stakes, pits, wires and mines. Currently the most intimidating border fortifications line the Korean Demilitarized Zone, displaying the result of opposing Fortified Borders.",
+                "help_text": "+1 Local Happiness from every Castle, Arsenal and Military Base.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Lightning Warfare",
+                "civilopedia": "Lightning Warfare, better known by the German term blitzkrieg, is a strategy that concentrates motorized forces to create a high-speed breakthrough of an enemy's lines. Using combined arms and tactical air power, Lightning Warfare seeks to keep an enemy off-balance, penetrating deep into the rear and attacking units flanking the breakthrough. Pioneered by Heinz Guderian and perfected by Erich von Manstein and Erwin Rommel, so effective was the blitzkrieg in Poland, France and Russia that the Soviet Union and Western Allies adopted it to ultimately defeat Nazi Germany.",
+                "help_text": "+3 Movement for Great Generals. Armor units gain +15% attack, +1 Movement and ignore enemy ZOC.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Police State",
+                "civilopedia": "Any government - whether left- or right-wing - that exercises rigid and repressive control over the social, economic, cultural and political life of its citizens can be said to be a Police State. A Police State is often characterized by totalitarianism and militarism, with civil liberties limited and a large internal security system in place to monitor personal activities. The term, according to the Oxford Dictionary, was first used in 1851 in several obscure German tracts; in the 1930s it came to be used in the press to describe the totalitarian and communistic governments of the time.",
+                "help_text": "+3 Local Happiness from every Courthouse. Build Courthouses in half the usual time.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Nationalism",
+                "civilopedia": "Nationalism is the policy that emphasizes the importance and uniqueness of the state. The state is the mother and father of the people, and the people love the state. Everybody has the national flag flying from their home, and everybody attends the founding day parade of military personnel and cool hardware. Nationalist states are often quite powerful, as the people work tirelessly for the state's advancement. However, internal criticism of the state may be stifled, which can limit the state's ability to correct itself if it goes off course.",
+                "help_text": "Reduces Unit Gold Maintenance costs by 33%.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Third Alternative",
+                "civilopedia": "The Third Alternative, or Third Position, is a nationalist political philosophy that emphasizes its opposition to both capitalism and communism, instead synthesizing radical ideas from both. Those following this approach favor state ownership of production and the distribution of goods and services to \"the productive members of society,\" peaceful segregation of ethnic and racial groups within the state, and have recently embraced radical environmentalism. Many political scientists have argued that the movement, which arose in the wake of World War II in countries such as Argentina and South Africa, is not a third alternative, but rather a mutation of neo-fascism and ultra-nationalism.",
+                "help_text": "Quantity of Strategic Resources produced is increased by 100%. +5 Food and +5 Science in Capital.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Total War",
+                "civilopedia": "Total war is a military strategy in which a state uses every resource at its command to wage war. The entire population is mobilized for the struggle, and all non-essential activities are suspended for the duration of the conflict. If the enemy state is also engaged in the same practice than all aspects of that state are legitimate military targets, and virtually anything which weakens the enemy's ability to continue the conflict is acceptable. Cities may be bombed, unarmed vessels sunk, wells poisoned and crops burned. Total war is generally the most terrible of all forms of warfare, as it usually results in a great deal of damage to one or both of the combatants' civilian populations.",
+                "help_text": "+25% Production when building Military Units and new Military Units start with +15 Experience.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Cult of Personality",
+                "civilopedia": "A Cult of Personality arises when an individual consciously uses media, propaganda and other means to create an idealized, heroic and/or god-like public image. Sociologist Max Weber developed a tripartite classification of authority, in which the Cult of Personality figures prominently as one form of authority. Autocratic rulers from the absolute monarchs of the Enlightenment to modern totalitarian dictators have sought to foster obedience and devotion in their subjects through the manipulation of the news and entertainment industries - some more successfully than others.",
+                "help_text": "+50% Tourism to civilizations fighting a common enemy.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Gunboat Diplomacy",
+                "civilopedia": "In international affairs, \"Gunboat Diplomacy\" refers to the pursuit of foreign policy objectives through conspicuous demonstrations of overwhelming military force, with the threat of open hostilities underlying the display by the more powerful nation. The term came into popular usage during the period of European imperialism, as the colonial powers used the presence of warships to force concessions from a native kingdom. The policy proved very successful, especially as employed by militaristic autocracies...until the natives managed to obtain modern weaponry.",
+                "help_text": "Gain 6 more Influence (at Standard speed) per turn with City-States you could demand tribute from. Your military forces are 50% more effective at intimidating City-States.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Clausewitz's Legacy",
+                "civilopedia": "Following the Napoleonic Wars, the Prussian officer Carl von Clausewitz wrote the first definitive exploration of military theory since Sun Tzu. His ten-volume Vom Krieg (On War), although unfinished upon his death in 1831, served as the basis for the training of generations of army officers at military academies around the world. Stressing the psychological and political aspects of war in terms of strategy and tactics, his statement that \"War is the continuation of politics by other means\" would become the foundation of autocratic, expansionist governments for the next two centuries.",
+                "help_text": "Receive a 25% attack bonus to all Military Units for the first 50 turns after this policy is adopted.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Universal Healthcare",
+                "civilopedia": "Universal Health Care, sometimes referred to as \"social health,\" is a government-funded system intended to provide equal access to health services and improved health outcomes for all citizens through a specific package of benefits. In 1912 AD, Norway was the first country to create a near-universal health care system; according to the World Health Organization, 32 nations offered some form of universal health care in 2010.",
+                "help_text": "+1 Local Happiness from every National Wonder.",
+                "level": 1,
+                "prereq_policies": []
+            }
+        ]
+    }
+]

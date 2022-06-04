@@ -1,6 +1,6 @@
 {
     "id":"int",
-    "Name":"String",
+    "name":"String",
     "civilopedia":"String",
     "help_text":"String",
     "era_requirement":"String",

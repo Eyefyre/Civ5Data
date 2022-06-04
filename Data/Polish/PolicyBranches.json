@@ -1,0 +1,807 @@
+[
+    {
+        "id": 1,
+        "name": "Tradycja|Tradycji|Tradycji|Tradycj\u0119|Tradycj\u0105|Tradycji|tradycyjnej|tradycyjnej",
+        "help_text": "Tradycja najlepiej sprawdza si\u0119 w przypadku ma\u0142ych imperi\u00f3w. Przyj\u0119cie tradycji znacznie zwi\u0119ksza tempo rozszerzania si\u0119 granic miast i zapewnia 3 kultury w stolicy. Odblokowuje Wisz\u0105ce Ogrody. Przyj\u0119cie wszystkich ustroj\u00f3w w drzewie tradycji to +15% przyrostu \u017cywno\u015bci i darmowy akwedukt w twoich pierwszych czterech miastach. Pozwala r\u00f3wnie\u017c kupowa\u0107 wielkich in\u017cynier\u00f3w za wiar\u0119, pocz\u0105wszy od epoki przemys\u0142owej.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Arystokracja",
+                "civilopedia": "Arystokracja jest form\u0105 ustroju, w kt\u00f3rym rz\u0105dy sprawuje grupa najmo\u017cniejszych obywateli. Przynale\u017cno\u015b\u0107 do tej grupy mo\u017ce by\u0107 dziedziczna, mo\u017ce wynika\u0107 z zas\u0142ug lub z zamo\u017cno\u015bci, b\u0105d\u017a ze wszystkich tych trzech czynnik\u00f3w naraz. Poj\u0119cie to pochodzi od greckiego s\u0142owa aristokratia oznaczaj\u0105cego \u201erz\u0105dy najlepszych\u201d. Istnieje bardzo cienka granica pomi\u0119dzy arystokracj\u0105 a oligarchi\u0105 i to, z kt\u00f3r\u0105 form\u0105 ustroju mamy do czynienia, mo\u017ce zale\u017ce\u0107 tylko od punktu widzenia: w\u0142adcy mog\u0105 siebie uwa\u017ca\u0107 za arystokrat\u00f3w, podczas gdy wszyscy inni dostrzegaj\u0105 w nich oligarch\u00f3w.",
+                "help_text": "+15% produkcji podczas budowy cud\u00f3w oraz +1 do zadowolenia za ka\u017cdych 10 mieszka\u0144c\u00f3w miasta.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Oligarchia",
+                "civilopedia": "Oligarchia to forma rz\u0105d\u00f3w, w kt\u00f3rej niewielka cz\u0119\u015b\u0107 spo\u0142ecze\u0144stwa posiada pe\u0142ni\u0119 w\u0142adzy. W\u0142adz\u0119 mo\u017ce dzier\u017cy\u0107 wybrana rodzina, plemi\u0119, ludzie okre\u015blonego wyznania b\u0105d\u017a wywodz\u0105cy si\u0119 z konkretnej kasty. Niekt\u00f3re pa\u0144stwa-miasta staro\u017cytnej Grecji stanowi\u0142y oligarchie, w kt\u00f3rych ca\u0142a w\u0142adza spoczywa\u0142a w r\u0119kach paru elitarnych rodzin. Apartheid w RPA m\u00f3g\u0142 s\u0142u\u017cy\u0107 za przyk\u0142ad wsp\u00f3\u0142czesnej oligarchii, w kt\u00f3rej bia\u0142a mniejszo\u015b\u0107 posiada\u0142a pe\u0142n\u0105 w\u0142adz\u0119. Przed 11 Wrze\u015bnia Irak r\u00f3wnie\u017c by\u0142 oligarchi\u0105, z w\u0142adz\u0105 skoncentrowan\u0105 w r\u0119kach cz\u0142onk\u00f3w rodziny i plemienia Saddama Husseina.",
+                "help_text": "Utrzymanie garnizon\u00f3w nic nie kosztuje, a miasta, w kt\u00f3rych skoszarowano jednostki bojowe, otrzymuj\u0105 premi\u0119 +50% do ataku dystansowego.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Legalizm",
+                "civilopedia": "Legalizm jest zasad\u0105 polityczn\u0105, dzi\u0119ki kt\u00f3rej stosunki pomi\u0119dzy w\u0142adc\u0105 a jego poddanymi regulowane s\u0105 przez zestaw praw, kt\u00f3rych obie strony musz\u0105 dok\u0142adnie przestrzega\u0107. Je\u015bli prawo jest sprawiedliwe i w\u0142a\u015bciwie egzekwowane, lud b\u0119dzie zadowolony, a pozycja w\u0142adcy zabezpieczona. Cho\u0107 zasada ta wydaje si\u0119 obejmowa\u0107 wi\u0119kszo\u015b\u0107 rz\u0105d\u00f3w, kt\u00f3re przestrzegaj\u0105 prawa, legalizm osi\u0105gn\u0105\u0142 niemal status obowi\u0105zuj\u0105cej religii w Chinach w Okresie Walcz\u0105cych Kr\u00f3lestw.",
+                "help_text": "Zapewnia darmowy budynek kulturalny w pierwszych 4 miastach.",
+                "level": 0,
+                "prereq_policies": [
+                    "Oligarchia"
+                ]
+            },
+            {
+                "name": "W\u0142a\u015bciciele ziemscy",
+                "civilopedia": "W systemie tym si\u0142a i presti\u017c narodu nale\u017cy do tych, kt\u00f3rzy posiadaj\u0105 ziemie. Im wi\u0119cej ziem kto\u015b posiada, tym jest pot\u0119\u017cniejszy. W niekt\u00f3rych wypadkach posiadanie ziemi mo\u017ce by\u0107 zarezerwowane dla cz\u0142onk\u00f3w pewnej klasy, plemienia, religii lub nawet p\u0142ci. Du\u017cej uwagi wymaga pilnowanie, by wielka, ciemna masa ch\u0142opska nie wpad\u0142a w gniew na swoich pan\u00f3w, takie zaj\u015bcia bowiem cz\u0119sto ko\u0144cz\u0105 si\u0119 radykalnymi zmianami w podziale ziemi, czemu mo\u017ce, cho\u0107 nie musi, towarzyszy\u0107 egzekucja poprzednich jej w\u0142a\u015bcicieli.",
+                "help_text": "+10% do rozwoju i +2 do \u017cywno\u015bci w stolicy.",
+                "level": 0,
+                "prereq_policies": [
+                    "Legalizm"
+                ]
+            },
+            {
+                "name": "Monarchia",
+                "civilopedia": "Monarchia jest form\u0105 rz\u0105d\u00f3w, w kt\u00f3rej w\u0142adza przys\u0142uguje jednostce. Cz\u0119sto, cho\u0107 nie zawsze, po \u015bmierci monarchy w\u0142adza przekazywana jest jego potomkom. (Istniej\u0105 monarchie elekcyjne, lecz nie ma ich wiele). Monarchia podobna jest do despotyzmu, lecz z jedn\u0105 istotn\u0105 r\u00f3\u017cnic\u0105: monarcha rz\u0105dzi w granicach prawa, podczas gdy despota znajduje si\u0119 ponad prawem. Jest oczywi\u015bcie mo\u017cliwe, by monarcha by\u0142 despot\u0105, lecz r\u00f3wnie\u017c jest mo\u017cliwe, \u017ceby stanowi\u0142 on element politycznego procesu zyskiwania przez lud swobody. Przyk\u0142adem tego ostatniego mo\u017ce by\u0107 Wielka Brytania.",
+                "help_text": "+1 z\u0142ota i -1 niezadowolenia za ka\u017cdych 2 obywateli w stolicy.",
+                "level": 0,
+                "prereq_policies": [
+                    "Legalizm"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Wolno\u015b\u0107|Wolno\u015bci|Wolno\u015bci|Wolno\u015b\u0107|Wolno\u015bci\u0105|Wolno\u015bci|Wolno\u015bci|Wolno\u015bci",
+        "help_text": "Wolno\u015b\u0107 to najlepszy wyb\u00f3r dla cywilizacji pragn\u0105cych szybkiej ekspansji. Przyj\u0119cie wolno\u015bci gwarantuje 1 kultury w ka\u017cdym mie\u015bcie. Odblokowuje piramidy. Przyj\u0119cie wszystkich ustroj\u00f3w w drzewie wolno\u015bci oznacza pojawienie si\u0119 w pobli\u017cu stolicy wybranego przez ciebie darmowego wiekiego cz\u0142owieka.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Rz\u0105dy zbiorowe",
+                "civilopedia": "Rz\u0105dy zbiorowe to ustr\u00f3j, w kt\u00f3rym ka\u017cdy cz\u0142onek (albo ka\u017cdy doros\u0142y, albo ka\u017cdy g\u0142osuj\u0105cy doros\u0142y p\u0142ci m\u0119skiej) lub spo\u0142eczno\u015b\u0107 bierze udzia\u0142 w procesie rz\u0105dzenia, g\u0142osuj\u0105c bezpo\u015brednio, a nie przez przedstawiciela (jak w republice). Chocia\u017c mo\u017ce to by\u0107 skuteczna forma w\u0142adzy dla plemion i ma\u0142ych wiosek, rz\u0105dy zbiorowe staj\u0105 si\u0119 trudniejsze i bardziej niewygodne, kiedy mamy do czynienia z wi\u0119ksz\u0105 spo\u0142eczno\u015bci\u0105. Gdyby po\u0142owa obywateli plemiona, sk\u0142adaj\u0105cego si\u0119 ze 100 os\u00f3b, chcia\u0142a przemawia\u0107 na spotkaniu przez minut\u0119, zmie\u015bci\u0142aby si\u0119 w godzinie. Gdyby po\u0142owa mieszka\u0144c\u00f3w Nowego Jorku chcia\u0142a przemawia\u0107 przez minut\u0119, potrzebowa\u0142aby oko\u0142o 66 000 godzin (i bardzo wielk\u0105 sal\u0119 spotka\u0144).",
+                "help_text": "Wsp\u00f3lne rz\u0105dy Przyspiesza szkolenie osadnik\u00f3w o 50% w stolicy. Dodatkowo w stolicy pojawia si\u0119 darmowa jednostka osadnik\u00f3w. (Wenecja otrzymuje w zamian kupca weneckiego).",
+                "level": 0,
+                "prereq_policies": [
+                    "Republika"
+                ]
+            },
+            {
+                "name": "Obywatelstwo",
+                "civilopedia": "Obywatelstwo to koncepcja spo\u0142eczna, odnosz\u0105ca si\u0119 do grupy ludzi, pochodz\u0105cej z tej samej rasy, plemienia lub maj\u0105cej wsp\u00f3lne miejsce urodzenia. Wed\u0142ug tej koncepcji ludzie nale\u017c\u0105cy do tej grupy zas\u0142uguj\u0105 na ochron\u0119 i szerszy zakres praw oraz przywilej\u00f3w, ni\u017c ten, kt\u00f3ry przyznano cudzoziemcom. Na przyk\u0142ad, obywatel cz\u0119sto mo\u017ce swobodnie porusza\u0107 si\u0119 po kraju, a kto\u015b, kto nie jest obywatelem, mo\u017ce zosta\u0107 deportowany lub uwi\u0119ziony, je\u015bli zostanie zauwa\u017cony przez w\u0142adze.",
+                "help_text": "Tempo pracy robotnik\u00f3w zwi\u0119kszone o 25%, a w pobli\u017cu stolicy pojawiaj\u0105 si\u0119 robotnicy.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Republika",
+                "civilopedia": "Republika to ustr\u00f3j polityczny, w kt\u00f3rym przedstawiciele ludu maj\u0105 pe\u0142ni\u0119 w\u0142adzy, w przeciwie\u0144stwie do sytuacji gdzie posiada j\u0105 wy\u0142\u0105cznie monarcha lub despota. Lud lub jego reprezentanci mog\u0105 wybra\u0107 przyw\u00f3dc\u0119, ale jego w\u0142adza ma \u017ar\u00f3d\u0142o w woli ludu. Niekt\u00f3re kultury klasyczne, przede wszystkim wiele greckich pa\u0144stw-miast i Rzym (przez pewien okres w historii), by\u0142y republikami, ale i tak najpopularniejszy ustr\u00f3j od zawsze stanowi\u0142a monarchia. Republika pojawi\u0142a si\u0119 na scenie \u015bwiatowej w XVIII wieku, kiedy Stany Zjednoczone oddzieli\u0142y si\u0119 od korony brytyjskiej i og\u0142osi\u0142y powstanie republiki. Zyskuj\u0105c niezale\u017cno\u015b\u0107 od Starego \u015awiata, wi\u0119kszo\u015b\u0107 nowych narod\u00f3w w \u015arodkowej i Po\u0142udniowej Ameryce stworzy\u0142a republiki (Meksyk przez jaki\u015b czas bawi\u0142 si\u0119 w monarchi\u0119, ale nie potrwa\u0142o to d\u0142ugo). W XX wieku wi\u0119kszo\u015b\u0107 europejskich pa\u0144stw sta\u0142a si\u0119 republikami po I lub II wojnie \u015bwiatowej, podobnie by\u0142o z wieloma pa\u0144stwami azjatyckimi. Od tamtej pory wiele region\u00f3w Afryki pod\u0105\u017cy\u0142o tym samym torem po pozbyciu si\u0119 swoich kolonialnych w\u0142adc\u00f3w. Dzisiaj wi\u0119kszo\u015b\u0107 narod\u00f3w wyznaje (lub przynajmniej twierdzi, \u017ce wyznaje) jaki\u015b rodzaj republikanizmu.",
+                "help_text": "+1 do produkcji w ka\u017cdym mie\u015bcie i +5% do produkcji w miastach wznosz\u0105cych budynki.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Przedstawicielstwo",
+                "civilopedia": "Przedstawicielstwo to ustr\u00f3j, w kt\u00f3rym obywatele wyznaczaj\u0105 swoich przedstawicieli, by sprawowali w\u0142adz\u0119. Mo\u017cna to uzna\u0107 za krok naprz\u00f3d w stosunku do rz\u0105d\u00f3w zbiorowych, podejmowany kiedy populacja staje si\u0119 zbyt liczna, by rz\u0105dy starego typu by\u0142y mo\u017cliwe do utrzymania. Kraj pod rz\u0105dami przedstawicieli jest podzielony na mniejsze, \u0142atwiejsze do zarz\u0105dzania rejony (parafie, stany itp.), a ka\u017cdy z nich wybiera jednego lub wi\u0119cej miejscowych obywateli, kt\u00f3rzy przez okre\u015blony czas b\u0119d\u0105 reprezentowali jego interesy w\u015br\u00f3d w\u0142adz. Przedstawiciele tworz\u0105 parlament albo inny rodzaj cia\u0142a ustawodawczego i rz\u0105dz\u0105 krajem. Wi\u0119kszo\u015b\u0107 tego typu system\u00f3w politycznych stanowi\u0105 republiki, ale s\u0105 wyj\u0105tki od tej regu\u0142y. Niekt\u00f3re w\u0142adze przedstawicielskie wybieraj\u0105 tymczasowych lub sta\u0142ych kr\u00f3l\u00f3w i inn\u0105 szlacht\u0119, kt\u00f3ra ma nimi rz\u0105dzi\u0107.",
+                "help_text": "Ka\u017cde za\u0142o\u017cone przez ciebie miasto zwi\u0119ksza koszt kulturalny przyj\u0119cia ustroju o 33% mniej ni\u017c normalnie. Dodatkowo rozpoczyna z\u0142ot\u0105 er\u0119.",
+                "level": 0,
+                "prereq_policies": [
+                    "Obywatelstwo"
+                ]
+            },
+            {
+                "name": "Merytokracja",
+                "civilopedia": "Merytokracja to system, w kt\u00f3rym najbardziej utalentowani oraz warto\u015bciowi ludzie dostaj\u0105 prac\u0119 i awansuj\u0105 w rz\u0105dowej administracji \u2013 w przeciwie\u0144stwie do systemu, w kt\u00f3rym dostaj\u0105 j\u0105 ci, kt\u00f3rzy s\u0105 osobistymi znajomymi obecnego w\u0142adcy (lub kongresmena) albo ludzie pochodz\u0105cy z okre\u015blonego plemienia, kasty czy wyznania. Wiele d\u0142ugotrwa\u0142ych rz\u0105d\u00f3w oscyluje pomi\u0119dzy rodzajem merytokracji i mniej rozs\u0105dnymi metodami wybierania ludzi do rz\u0105du. Najpierw urz\u0119dnicy s\u0105 wybierani ze wzgl\u0119du na swoje zdolno\u015bci, a z up\u0142ywem lat patronat i przywileje w\u015blizguj\u0105 si\u0119 w system, rz\u0105d za\u015b staje si\u0119 coraz bardziej nieskuteczny i skorumpowany. W ko\u0144cu sytuacja jest tak kiepska, \u017ce biurokracja zostaje usuni\u0119ta lub zreformowana i znowu zatrudnieni zostaj\u0105 zas\u0142u\u017ceni urz\u0119dnicy. Ten cykl b\u0119dzie si\u0119 powtarza\u0142, dop\u00f3ki s\u0142o\u0144ce nie eksploduje, a ca\u0142e \u017cycie nie zniknie z powierzchni planety.",
+                "help_text": "+1 do zadowolenia w ka\u017cdym twoim mie\u015bcie po\u0142\u0105czonym ze stolic\u0105 i -5% do niezadowolenia obywateli w nieokupowanych miastach.",
+                "level": 0,
+                "prereq_policies": [
+                    "Obywatelstwo"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Honor|Honoru|Honorowi|Honor|Honorem|Honorze|Honoru|Honoru",
+        "help_text": "Honor zwi\u0119ksza skuteczno\u015b\u0107 armii na kilka sposob\u00f3w. Przyj\u0119cie honoru zapewnia 33-procentow\u0105 premi\u0119 do walki przeciwko barbarzy\u0144com, a gdy na odkrytym terytorium pojawi\u0105 si\u0119 ich obozy, otrzymasz powiadomienie. Ka\u017cdy zabity barbarzy\u0144ca to dodatkowa kultura dla imperium. Odblokowuje pos\u0105g Zeusa. Przyj\u0119cie wszystkich ustroj\u00f3w w drzewie honoru sprawi, \u017ce zyskasz z\u0142oto za ka\u017cd\u0105 zabit\u0105 jednostk\u0119 wroga. Pozwala r\u00f3wnie\u017c na zakup wielkich genera\u0142\u00f3w za wiar\u0119, pocz\u0105wszy od ery przemys\u0142owej.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Kodeks wojownika",
+                "civilopedia": "Kodeks wojownika zak\u0142ada, \u017ce \u017co\u0142nierz jest bardziej przywi\u0105zany do danej organizacji wojskowej i towarzyszy broni ni\u017c do czegokolwiek innego. Wojownik jest w stanie odda\u0107 swe \u017cycie za armi\u0119. B\u0119dzie wykonywa\u0142 rozkazy bez kwestionowania ich, przedk\u0142ada\u0142 dobro wojska ponad w\u0142asne, a nawet ponad dobro ca\u0142ego swojego narodu. Je\u015bli przyw\u00f3dca kraju nie jest w stanie dobrze kontrolowa\u0107 rozwoju wydarze\u0144, takie organizacje wojskowe mog\u0105 by\u0107 bardzo niebezpieczne. Wed\u0142ug niekt\u00f3rych historyk\u00f3w w Japonii przed II wojn\u0105 \u015bwiatow\u0105 armia imperialna i marynarka by\u0142y prawie ca\u0142kowicie poza cywiln\u0105 kontrol\u0105, co w konsekwencji poci\u0105gn\u0119\u0142o ca\u0142y kraj ku zgubnej konfrontacji ze Stanami Zjednoczonymi.",
+                "help_text": "+15% produkcji podczas szkolenia jednostek walcz\u0105cych w zwarciu, a w pobli\u017cu stolicy pojawia si\u0119 wielki genera\u0142. Wielcy genera\u0142owie pojawiaj\u0105 si\u0119 o 50% szybciej.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Dyscyplina",
+                "civilopedia": "W strukturze wojskowej dyscyplina oznacza ch\u0119\u0107 \u017co\u0142nierzy do wykonywania rozkaz\u00f3w, ich szacunek wobec prze\u0142o\u017conych oraz gotowo\u015b\u0107 do stawiania czo\u0142a niebezpiecze\u0144stwu, a nawet ryzykowania w\u0142asnym \u017cyciem, gdy zajdzie potrzeba. Zdyscyplinowani \u017co\u0142nierze maj\u0105 dba\u0107 o godno\u015b\u0107 munduru nawet poza s\u0142u\u017cb\u0105 oraz broni\u0107 s\u0142abych i bezbronnych. Uchybienia w dyscyplinie mog\u0105 skutkowa\u0107 kar\u0105 wojskow\u0105, a nawet s\u0105dem wojskowym i zwolnieniem ze s\u0142u\u017cby.",
+                "help_text": "Premia +15% do si\u0142y bojowej jednostek walcz\u0105cych w zwarciu, kt\u00f3re s\u0105siaduj\u0105 z sojuszniczymi oddzia\u0142ami.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Tradycja wojskowa",
+                "civilopedia": "Tradycja wojskowa opiera si\u0119 na idealizowaniu s\u0142u\u017cby w narodowym wojsku. \u017bo\u0142nierze oraz weterani s\u0105 czczeni, podczas gdy ci, kt\u00f3rzy w wojsku nie s\u0142u\u017c\u0105, uwa\u017cani s\u0105 za gorszych, a nawet niegodziwych. Wsp\u00f3\u0142czesny Izrael posiada znacz\u0105c\u0105 tradycj\u0119 wojskow\u0105, podobnie jak wiktoria\u0144ska Anglia czy po\u0142udnie Stan\u00f3w Zjednoczonych przed Wojn\u0105 Secesyjn\u0105.",
+                "help_text": "Jednostki wojskowe zyskuj\u0105 50% wi\u0119cej do\u015bwiadczenie w walce.",
+                "level": 0,
+                "prereq_policies": [
+                    "Kodeks wojownika"
+                ]
+            },
+            {
+                "name": "Kasta wojskowa",
+                "civilopedia": "W spo\u0142ecze\u0144stwie posiadaj\u0105cym kast\u0119 wojskow\u0105 wszyscy wojskowi pochodz\u0105 z wybranego plemienia, narodowo\u015bci, s\u0105 przedstawicielami konkretnego wyznania lub innej socjoekonomicznej podgrupy. Mieszka\u0144cy, kt\u00f3rzy nie nale\u017c\u0105 do kasty, nie mog\u0105 wst\u0119powa\u0107 do wojska, a cz\u0119sto nawet w og\u00f3le nosi\u0107 broni \u2013 zwykle dlatego, \u017ce cz\u0142onkowie kasty obawiaj\u0105 si\u0119, \u017ce mieszka\u0144cy ci mogliby wykorzysta\u0107 bro\u0144 przeciwko nim. Feudalna Japonia znajdowa\u0142a si\u0119 pod panowaniem kasty wojskowej, podobnie jak staro\u017cytna Sparta.",
+                "help_text": "Ka\u017cde miasto z garnizonem zyskuje 1 punkt zadowolenia i 2 punkty kultury.",
+                "level": 0,
+                "prereq_policies": [
+                    "Dyscyplina"
+                ]
+            },
+            {
+                "name": "Armia zawodowa",
+                "civilopedia": "Armia zawodowa to pe\u0142noetatowa organizacja militarna, kt\u00f3ra funkcjonuje nawet w czasie pokoju. Jej \u017co\u0142nierze op\u0142acani s\u0105 za swoj\u0105 s\u0142u\u017cb\u0119 przez pa\u0144stwo i gdy nie walcz\u0105 na wojnie, sp\u0119dzaj\u0105 sw\u00f3j czas na treningu b\u0105d\u017a wykonywaniu prac publicznych. Dawniej nie by\u0142o armii zawodowych. Kiedy wojna by\u0142a nieunikniona, przyw\u00f3dcy kraju wyst\u0119powali z or\u0119dziem, by wszyscy sprawni m\u0119\u017cczy\u017ani chwycili za bro\u0144 i ruszyli do boju. Tacy \u017co\u0142nierze byli zwykle niewykwalifikowani, cz\u0119sto te\u017c oczekiwa\u0142o si\u0119 od nich, \u017ce sami zapewni\u0105 sobie bro\u0144 i zbroj\u0119, na skutek czego jako\u015b\u0107 ich or\u0119\u017ca by\u0142a kiepska. Rekruci nierzadko dezerterowali, gdy zbli\u017ca\u0142 si\u0119 czas upraw, wobec czego bitwy odbywa\u0142y si\u0119 latem. Je\u015bli zwyci\u0119stwa nie uda\u0142o si\u0119 osi\u0105gn\u0105\u0107 przed \u017cniwami, wojna by\u0142a przek\u0142adana na przysz\u0142y rok. Zawodowe wojsko formuje si\u0119, gdy spo\u0142ecze\u0144stwo wzbogaci si\u0119 na tyle, by by\u0107 w stanie utrzymywa\u0107 du\u017c\u0105 liczb\u0119 ludzi, kt\u00f3rzy nie pracuj\u0105 na polach ani nic nie produkuj\u0105. \u017bo\u0142nierze zwykle s\u0105 zakwaterowani w koszarach i odizolowani od ludno\u015bci cywilnej, by zminimalizowa\u0107 tarcia mi\u0119dzy obiema grupami. Kraj zapewnia im \u017cywno\u015b\u0107, bro\u0144, ubi\u00f3r i trening. Niemal zawsze s\u0105 oni bardziej efektywni od amator\u00f3w. Wsp\u00f3\u0142czesne wojny sta\u0142y si\u0119 bardzo z\u0142o\u017cone, a \u017co\u0142nierze zabijaj\u0105 si\u0119 nawzajem za pomoc\u0105 niezwykle skomplikowanej broni, kt\u00f3ra wymaga porz\u0105dnego przeszkolenia. Amatorscy \u017co\u0142nierze zwyczajnie nie s\u0105 w stanie sprosta\u0107 zadaniu i wi\u0119kszo\u015b\u0107 kraj\u00f3w utrzymuje jaki\u015b rodzaj zawodowych si\u0142 zbrojnych.",
+                "help_text": "Koszta z\u0142ota za ulepszanie jednostek wojskowych s\u0105 ni\u017csze o 33%, a koszary, zbrojownie i akademie wojskowe powstaj\u0105 o po\u0142ow\u0119 szybciej.",
+                "level": 0,
+                "prereq_policies": [
+                    "Kasta wojskowa"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Pobo\u017cno\u015b\u0107|Pobo\u017cno\u015bci|Pobo\u017cno\u015bci|Pobo\u017cno\u015b\u0107|Pobo\u017cno\u015bci\u0105|Pobo\u017cno\u015bci|pobo\u017cnej|pobo\u017cnej",
+        "help_text": "Pobo\u017cno\u015b\u0107 zwi\u0119ksza wiar\u0119 imperi\u00f3w. Przyj\u0119cie pobo\u017cno\u015bci pozwala ci budowa\u0107 kaplice i \u015bwi\u0105tynie dwa razy szybciej. Odblokowuje Wielki Meczet w D\u017cenne. Przyj\u0119cie wszystkich ustroj\u00f3w w drzewie pobo\u017cno\u015bci powoduje pojawienie si\u0119 wielkiego proroka i sprawia, \u017ce \u015bwi\u0119te miejsca zapewniaj\u0105 +3 kultury.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Hierarchia ko\u015bcielna",
+                "civilopedia": "Religia z wykszta\u0142con\u0105 hierarchi\u0105 to taka, w kt\u00f3rej du\u017ca liczba ludzi kultywuje te same praktyki religijne i ma te same wierzenia. Religia mo\u017ce posiada\u0107 kap\u0142an\u00f3w, kt\u00f3rzy interweniuj\u0105 u si\u0142 wy\u017cszych w imieniu wierz\u0105cych i kt\u00f3rzy ustanawiaj\u0105 lub interpretuj\u0105 zasady religii. Istnie\u0107 mo\u017ce skomplikowana hierarchia kap\u0142an\u00f3w i pozosta\u0142ych przyw\u00f3dc\u00f3w duchowych. Religia mo\u017ce posiada\u0107 \u015bwi\u0105tynie oraz inne sanktuaria, w kt\u00f3rych ludzie modl\u0105 si\u0119 i oddaj\u0105 cze\u015b\u0107 swoim bogom. Na og\u00f3\u0142 wierni ofiarowuj\u0105 pieni\u0105dze, by wspiera\u0107 religi\u0119, jej kap\u0142an\u00f3w oraz budynki. Zhierarchizowana religia jest si\u0142\u0105 stabilizuj\u0105c\u0105 wewn\u0105trz kultury. Przedstawiciele tego samego wyznania maj\u0105 wsp\u00f3lne pogl\u0105dy, a obcy sobie ludzie rzadziej morduj\u0105 si\u0119 nawzajem. Mo\u017ce ona r\u00f3wnie\u017c dzieli\u0107 ludzi \u2013 historycznie, wiele zhierarchizowanych religii postrzega\u0142o pozosta\u0142e jako zagro\u017cenie lub wynaturzenie i niejedna wojna wybuch\u0142a o to, czyj b\u00f3g jest prawdziwy.",
+                "help_text": "+1 do wiary za ka\u017cd\u0105 kaplic\u0119 i \u015bwi\u0105tyni\u0119.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Mandat niebios",
+                "civilopedia": "Zasada mandatu niebios m\u00f3wi, \u017ce obecni rz\u0105dz\u0105cy znajduj\u0105 si\u0119 u w\u0142adzy dlatego, \u017ce \u201eniebo\u201d (lub bogowie) przyzna\u0142o im j\u0105 i wspiera ich. Niezgadzanie si\u0119 z w\u0142adc\u0105 stanowi nie tylko zdrad\u0119, ale r\u00f3wnie\u017c grzech. Takie systemy bardzo sprzyjaj\u0105 uzyskaniu poparcia dla przyw\u00f3dc\u00f3w, lecz jest i druga strona medalu. Je\u015bli kraj spotka kl\u0119ska \u017cywio\u0142owa: g\u0142\u00f3d, pow\u00f3d\u017a, trz\u0119sienie ziemi, huragan, padaj\u0105ce z nieba \u017caby czy cokolwiek innego \u2013 mo\u017ce to by\u0107 postrzegane jako znak, \u017ce niebiosa s\u0105 niezadowolone z rz\u0105dz\u0105cych i ich mandat wygas\u0142. To z kolei daje poddanym prawo do obalenia grzesznych w\u0142adc\u00f3w i zast\u0105pienia ich takimi, kt\u00f3rym niebiosa sprzyjaj\u0105.",
+                "help_text": "Mandat Niebios 20% zni\u017cki na wszystkie zakupy jednostek religijnych i budynk\u00f3w za wiar\u0119.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Teokracja",
+                "civilopedia": "W kraju teokratycznym przyw\u00f3dcy duchowi dzier\u017c\u0105 pe\u0142ni\u0119 w\u0142adzy pa\u0144stwowej. W\u0142a\u015bciwie to b\u00f3g jest u w\u0142adzy i to on rz\u0105dzi, kieruj\u0105c poczynaniami przyw\u00f3dc\u00f3w za pomoc\u0105 swojej boskiej mocy. Teokracja cz\u0119sto ma charakter militarystyczny, poniewa\u017c przyw\u00f3dcy duchowi postrzegaj\u0105 armi\u0119 jako narz\u0119dzie krzewienia wiary po\u015br\u00f3d kraj\u00f3w poga\u0144skich. Wsp\u00f3\u0142czesne pa\u0144stwa teokratyczne cz\u0119sto wydaj\u0105 si\u0119 obawia\u0107 i nienawidzi\u0107 post\u0119pu, postrzegaj\u0105c dostatek i rozw\u00f3j jako zagro\u017cenia dla pobo\u017cno\u015bci narodu (a najpewniej r\u00f3wnie\u017c i w\u0142adzy).",
+                "help_text": "\u015awi\u0105tynie zwi\u0119kszaj\u0105 o 25% ilo\u015b\u0107 z\u0142ota generowanego przez miasto. Miejsca \u015bwi\u0119te daj\u0105 +3 z\u0142ota.",
+                "level": 0,
+                "prereq_policies": [
+                    "Hierarchia ko\u015bcielna"
+                ]
+            },
+            {
+                "name": "Reformacja",
+                "civilopedia": "Poj\u0119cie reformacji odnosi si\u0119 do wielkiego ruchu, maj\u0105cego na celu zreformowanie organizacji ko\u015bcielnej lub systemu wierze\u0144, kt\u00f3ry postrzegany jest jako zepsuty lub kt\u00f3ry odszed\u0142 zbyt daleko od swoich pryncypi\u00f3w. Reformacja protestancka by\u0142a ruchem maj\u0105cym na celu zreformowanie Ko\u015bcio\u0142a rzymskokatolickiego. Zacz\u0119\u0142a si\u0119 w 1517 roku, gdy Marcin Luter og\u0142osi\u0142 swoje \u201e95 tez\u201d, w kt\u00f3rych wymienia\u0142 dostrzegane przez siebie wyst\u0119pki Ko\u015bcio\u0142a. Ruch ten zapocz\u0105tkowa\u0142 130 lat straszliwych, krwawych wojen religijnych tak w Europie, jak i w Nowym \u015awiecie. W ich wyniku chrze\u015bcija\u0144stwo na sta\u0142e zosta\u0142o podzielone na kilka od\u0142am\u00f3w, a w\u0142adza cywilna zyska\u0142a ostatecznie pierwsze\u0144stwo nad religijn\u0105.",
+                "help_text": "Po za\u0142o\u017ceniu religii otrzymasz dodatkowe wierzenie reformacyjne.",
+                "level": 0,
+                "prereq_policies": [
+                    "Tolerancja religijna"
+                ]
+            },
+            {
+                "name": "Tolerancja religijna",
+                "civilopedia": "Wolno\u015b\u0107 wyznania to polityka pa\u0144stwa, kt\u00f3ra nie okre\u015bla, do jakiej religii musz\u0105 nale\u017ce\u0107 cz\u0142onkowie spo\u0142ecze\u0144stwa. Wszystkie religie s\u0105 mile widziane, a duchowy rynek sam co\u015b wybierze spo\u015br\u00f3d nich. Chocia\u017c by\u0107 mo\u017ce wprowadzono ten system ze szlachetnych pobudek, wolno\u015b\u0107 wyznania cz\u0119sto ogranicza w\u0142adz\u0119 pojedynczej religii. W pa\u0144stwach z jedn\u0105 religi\u0105 ludzie, kt\u00f3rzy stoj\u0105 na jej czele, mog\u0105 posiada\u0107 wielk\u0105 w\u0142adz\u0119 (na przyk\u0142ad, we wsp\u00f3\u0142czesnym Iranie). Pa\u0144stwa, gdzie panuje wolno\u015b\u0107 wyznania, zwykle staraj\u0105 si\u0119 traktowa\u0107 wszystkie religie jednakowo, pilnuj\u0105c, by \u017cadna z nich nie sta\u0142a si\u0119 dominuj\u0105c\u0105.",
+                "help_text": "Miasta z religi\u0105 wi\u0119kszo\u015bciow\u0105 otrzymuj\u0105 tak\u017ce premi\u0119 za dogmat panteonu drugiej najpopularniejszej religii.",
+                "level": 0,
+                "prereq_policies": [
+                    "Hierarchia ko\u015bcielna"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Mecenat|Mecenatu|Mecenatowi|Mecenat|Mecenatem|Mecenacie|Mecenatu|Mecenatu",
+        "help_text": "Mecenat zwi\u0119ksza korzy\u015bci p\u0142yn\u0105ce z przyja\u017ani z pa\u0144stwem-miastem. Przyj\u0119cie mecenatu sprawia, \u017ce wp\u0142ywy w pa\u0144stwach-miastach spadaj\u0105 o 25% wolniej ni\u017c zwykle. Odblokowuje Zakazany Pa\u0142ac. Przyj\u0119cie wszystkich ustroj\u00f3w w drzewie mecenatu sprawi, \u017ce sprzymierzone pa\u0144stwa-miasta b\u0119d\u0105 ci od czasu do czasu przekazywa\u0107 wielkiego cz\u0142owieka.",
+        "era_requirement": "Epoka klasyczna|Epoki klasycznej|Epoce klasycznej|Epok\u0119 klasyczn\u0105",
+        "policies": [
+            {
+                "name": "Filantropia",
+                "civilopedia": "O Filantropii m\u00f3wi si\u0119 wtedy, gdy najbogatsi obywatele pa\u0144stwa oddaj\u0105 spo\u0142ecze\u0144stwu cz\u0119\u015b\u0107 swojego bogactwa, sponsoruj\u0105c biblioteki, muzea, szpitale czy stypendia. Inaczej ni\u017c mecenat, w przypadku kt\u00f3rego jeden cz\u0142owiek op\u0142aca tworzenie sztuki dla siebie oraz innych nale\u017c\u0105cych do swojej klasy, filantropia skupia si\u0119 na ofiarowywaniu korzy\u015bci biedniejszym cz\u0142onkom spo\u0142ecze\u0144stwa. Amerykanin szkockiego pochodzenia, Andrew Carnegie, by\u0142 jednym z najwi\u0119kszych filantrop\u00f3w w historii. Przez wi\u0119kszo\u015b\u0107 swojego \u017cycia by\u0142 on ca\u0142kowicie bezwzgl\u0119dnym biznesmenem, tw\u00f3rc\u0105 korporacji US Steel oraz posiadaczem drugiej najwi\u0119kszej fortuny w historii, zbudowanej niewolnicz\u0105 prac\u0105 ludzi w jego kopalniach i hutach. Po sprzedaniu swojego biznesu w 1901 roku, Carnegie po\u015bwi\u0119ci\u0142 ostatnie 19 lat swojego \u017cycia na budowanie bibliotek w biednych miastach. Ufundowa\u0142 ich blisko 3000 w Stanach, Kanadzie, Wielkiej Brytanii, Irlandii, Australii, Nowej Zelandii i innych krajach na ca\u0142ym \u015bwiecie.",
+                "help_text": "Z\u0142oto ofiarowane pa\u0144stwom-miastom daje o 25% wi\u0119ksze wp\u0142ywy.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Konsulaty",
+                "civilopedia": "Gdy stosunki mi\u0119dzy krajami ulega\u0142y coraz wi\u0119kszej formalizacji, zak\u0142adano konsulaty maj\u0105ce zapewnia\u0107 pomoc i chroni\u0107 interesy obywateli danego kraju na terytorium innego pa\u0144stwa, a tak\u017ce promowa\u0107 handel i przyja\u017a\u0144 mi\u0119dzy obydwoma nacjami. Ambasador to pojedynczy przedstawiciel danego w\u0142adcy wysy\u0142any do innego, ale na obszarze jednego pa\u0144stwa mo\u017ce przebywa\u0107 kilku konsul\u00f3w, rezyduj\u0105cych w g\u0142\u00f3wnych miastach. Koncepcja pomagania obywatelom kraju za granic\u0105 narodzi\u0142a si\u0119 w staro\u017cytnej Grecji, gdzie bogaci kupcy dzia\u0142ali jako \u201eproxenos\u201d w innych miastach-pa\u0144stwach Hellady, by pomaga\u0107 innym kupcom. Pod koniec XIX wieku rola konsulatu zosta\u0142a rozszerzona o wymian\u0119 kulturow\u0105 i edukacyjn\u0105, ale nie zmieni\u0142a si\u0119 jego funkcja jako przedstawicielstwa danego kraju na terenie innego pa\u0144stwa.",
+                "help_text": "Plac\u00f3wki zwi\u0119kszaj\u0105ce o 20 wp\u0142ywy w ka\u017cdym pa\u0144stwie-mie\u015bcie.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Scholastyka",
+                "civilopedia": "Scholastyka jest sposobem nauczania wprowadzanym w \u015bredniowiecznej Europie w latach oko\u0142o 1000-1500 n.e. Metoda ta podkre\u015bla istot\u0119 rozumowania i dyskusji. Nauczyciel wybiera ksi\u0105\u017ck\u0119 do przestudiowania, a nast\u0119pnie wraz ze studentami ma przedyskutowa\u0107 jej znaczenie, przebada\u0107 inne ksi\u0105\u017cki na ten sam temat, przebada\u0107 ka\u017cd\u0105 krytyk\u0119 danej pracy itd. w celu zyskania g\u0142\u0119bszego zrozumienia tematu, ni\u017c w wyniku uczenia si\u0119 na pami\u0119\u0107. Ruch ten w znacznej cz\u0119\u015bci nap\u0119dzany by\u0142 powt\u00f3rnym odkryciem prac filozof\u00f3w greckich oraz p\u00f3\u017aniejszymi pr\u00f3bami pogodzenia ich z chrze\u015bcija\u0144stwem.",
+                "help_text": "Wszystkie sojusznicze pa\u0144stwa-miasta zapewniaj\u0105 premi\u0119 do nauki r\u00f3wn\u0105 25% tego, co same wytwarzaj\u0105.",
+                "level": 0,
+                "prereq_policies": [
+                    "Filantropia"
+                ]
+            },
+            {
+                "name": "Dyplomacja kulturowa",
+                "civilopedia": "Dyplomacja kulturowa to polityka udost\u0119pniania najpi\u0119kniejszych i najcenniejszych rzeczy nale\u017c\u0105cych do cywilizacji innym cywilizacjom, w ramach promowania pokoju i zrozumienia mi\u0119dzy wszystkimi lud\u017ami. Jedn\u0105 z najtrwalszych form dyplomacji kulturowej s\u0105 Wystawy \u015awiatowe, znane tak\u017ce jako Expo, kt\u00f3re co dwa albo pi\u0119\u0107 lat s\u0105 organizowane w r\u00f3\u017cnych miastach. Na Expo pokazywane s\u0105 pr\u00f3bki sztuki, rzemios\u0142a, rolnictwa i przemys\u0142u wielu kraj\u00f3w. Pierwsza Wystawa \u015awiatowa odby\u0142a si\u0119 w Kryszta\u0142owym Pa\u0142acu w Hyde Parku w Londynie. By\u0142a pomys\u0142em ksi\u0119cia Alberta, m\u0119\u017ca kr\u00f3lowej Wiktorii. W sumie zawiera\u0142a 13 000 eksponat\u00f3w, kt\u00f3re obejrza\u0142o sze\u015b\u0107 milion\u00f3w ludzi. Nast\u0119pna Wystawa \u015awiatowa ma si\u0119 odby\u0107 w Szanghaju w 2010 roku. Szacuje si\u0119, \u017ce odwiedzi j\u0105 70 milion\u00f3w zwiedzaj\u0105cych.",
+                "help_text": "Ilo\u015b\u0107 surowc\u00f3w darowanych przez pa\u0144stwa-miasta zwi\u0119ksza si\u0119 o 100%. zadowolenie wynikaj\u0105ce z darowanych artyku\u0142\u00f3w luksusowych zwi\u0119ksza si\u0119 o 50%.",
+                "level": 0,
+                "prereq_policies": [
+                    "Scholastyka"
+                ]
+            },
+            {
+                "name": "Konfederacja kupiecka",
+                "civilopedia": "Konfederacje kupieckie, cz\u0119sto nazywane ligami handlowymi lub gildiami kupieckimi, powstaj\u0105, by chroni\u0107 interesy ekonomiczne i przywileje dyplomatyczne kupc\u00f3w w miastach i krajach le\u017c\u0105cych wzd\u0142u\u017c szlak\u00f3w handlowych. Cho\u0107 konfederacje te nie mia\u0142y oficjalnych wp\u0142yw\u00f3w, wiele z nich - jak Company of Merchant Adventurers of London (za\u0142o\u017cona w 1407 r.) czy jeszcze pot\u0119\u017cniejsza Liga Hanzeatycka (stworzona oko\u0142o 1356 r.) - mia\u0142y du\u017ce znaczenie ekonomiczne i przez d\u0142ugie okresy dominowa\u0142y nad niekt\u00f3rymi szlakami handlowymi. W czasach wczesnego renesansu konfederacje kupieckie zak\u0142adano w wolnych miastach takich jak Wenecja czy Genua, by chroni\u0142y interesy znajduj\u0105cych si\u0119 za granic\u0105 kupc\u00f3w handluj\u0105cych konkretnymi towarami. Ligi takie osi\u0105gn\u0119\u0142y szczyt wp\u0142yw\u00f3w w XV i XVI wieku, lecz w p\u00f3\u017aniejszych czasach straci\u0142y na znaczeniu, gdy\u017c rz\u0105dy pa\u0144stwowe i kompanie powo\u0142ywane przez koron\u0119 powoli przej\u0119\u0142y funkcje regulacyjne i dyplomatyczne, jakie pe\u0142ni\u0142y ligi.",
+                "help_text": "+2 do z\u0142ota ze szlak\u00f3w handlowych z pa\u0144stwami-miastami.",
+                "level": 0,
+                "prereq_policies": [
+                    "Scholastyka",
+                    "Konsulaty"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Estetyka|Estetyki|Estetyce|Estetyk\u0119|Estetyk\u0105|Estetyce|estetycznej|estetycznej",
+        "help_text": "Estetyka zwi\u0119ksza zdolno\u015b\u0107 cywilizacji do wytwarzania kultury. Przyj\u0119cie estetyki pozwala ci zdobywa\u0107 wielkich pisarzy, artyst\u00f3w i muzyk\u00f3w o 25% szybciej. Odblokowuje budynek Uffizi. Przyj\u0119cie wszystkich ustroj\u00f3w podwaja premi\u0119 motywu z muze\u00f3w i cud\u00f3w. Umo\u017cliwia tak\u017ce zakup wielkich pisarzy, artyst\u00f3w lub muzyk\u00f3w za wiar\u0119, pocz\u0105wszy od epoki przemys\u0142owej.",
+        "era_requirement": "Epoka klasyczna|Epoki klasycznej|Epoce klasycznej|Epok\u0119 klasyczn\u0105",
+        "policies": [
+            {
+                "name": "Centra kultury",
+                "civilopedia": "Centrum kultury to ka\u017cdy budynek, kompleks lub instytucja promuj\u0105ce sztuk\u0119. Czasami oznacza to sponsorowanie muze\u00f3w i galerii sztuki otwartych dla szerokiej publiczno\u015bci. Niekiedy centra kultury mog\u0105 oferowa\u0107 dotacje wspieraj\u0105ce budow\u0119 lub dzia\u0142alno\u015b\u0107 prywatnych miejsc prezentuj\u0105cych sztuk\u0119 i pomaga\u0107 w znajdowaniu talent\u00f3w dla orkiestr, teatr\u00f3w, grup tanecznych i wokalnych.",
+                "help_text": "Twoje pomniki, amfiteatry, opery, muzea i wie\u017ce transmisyjne powstaj\u0105 dwa razy szybciej.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Sztuki pi\u0119kne",
+                "civilopedia": "Sztuki pi\u0119kne, w przeciwie\u0144stwie do sztuk ludowych, to aktywno\u015b\u0107 maj\u0105ca na celu tworzenie obiekt\u00f3w lub dozna\u0144 estetycznych, kt\u00f3rymi mo\u017cna dzieli\u0107 si\u0119 z innymi. Termin \u201esztuka pi\u0119kna\u201d upowszechni\u0142 si\u0119 w siedemnastowiecznej Europie; za pi\u0119\u0107 g\u0142\u00f3wnych \u201esztuk pi\u0119knych\u201d uwa\u017cano malarstwo, rze\u017ab\u0119, architektur\u0119, muzyk\u0119 i poezj\u0119, a do sztuk \u201epomniejszych\u201d zaliczano dramat i taniec. Trwaj\u0105 burzliwe debaty na temat tego, czy film, fotografi\u0119, kaligrafi\u0119, komiks lub nawet gry wideo mo\u017cna uzna\u0107 za sztuk\u0119 pi\u0119kn\u0105 i za sztuk\u0119 w og\u00f3le.",
+                "help_text": "50% nadwy\u017cki zadowolenia zostaje co tur\u0119 dodane do ilo\u015bci kultury, kt\u00f3r\u0105 mo\u017cna wyda\u0107 na ustroje spo\u0142eczne.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Rozkwit sztuk",
+                "civilopedia": "Rozkwit sztuk, generalnie rzecz bior\u0105c, odnosi si\u0119 do okresu dominacji estetyki, dla kt\u00f3rego charakterystyczne by\u0142o powstawanie innowacyjnych dzie\u0142, zwykle w z\u0142otej erze danej cywilizacji. Wraz z rozwojem nauki i popraw\u0105 warunk\u00f3w \u017cyciowych rozkwit sztuk w z\u0142otej erze wp\u0142ywa na wszystkie dziedziny: literatur\u0119, muzyk\u0119 i wszelkie przejawy kultury materialnej. Niestety, cykl ten zawsze zostaje przerwany, zwykle przez wp\u0142ywy zewn\u0119trzne, takie jak wojna, za\u0142amanie gospodarcze, fanatyzm religijny lub inne okoliczno\u015bci, na kt\u00f3re ludzie nie maj\u0105 wp\u0142ywu.",
+                "help_text": "Kultura ro\u015bnie o 33% we wszystkich miastach, kt\u00f3re wybudowa\u0142y cud \u015bwiata, a imperium automatycznie wchodzi w z\u0142ot\u0105 er\u0119.",
+                "level": 0,
+                "prereq_policies": [
+                    "Centra kultury",
+                    "Sztuki pi\u0119kne"
+                ]
+            },
+            {
+                "name": "Geniusz artystyczny",
+                "civilopedia": "Geniusz artystyczny to kto\u015b, kogo cechuj\u0105 kreatywno\u015b\u0107, oryginalno\u015b\u0107 i umiej\u0119tno\u015bci ukazywania pi\u0119kna za pomoc\u0105 sztuki w dowolnej jej postaci. Geniusz artystyczny mo\u017ce odnosi\u0107 si\u0119 nawet do r\u00f3\u017cnego rodzaju przedstawie\u0144, tworzonych dzi\u0119ki choreografii, aran\u017cacji lub re\u017cyserii. W historii cywilizacji nie brakuje wybitnych pisarzy, artyst\u00f3w i aktor\u00f3w, cz\u0119sto nieposkromionych, ale zawsze genialnych w swej dziedzinie.",
+                "help_text": "Pojawia si\u0119 wielki artysta.",
+                "level": 0,
+                "prereq_policies": [
+                    "Sztuki pi\u0119kne"
+                ]
+            },
+            {
+                "name": "Wymiana kulturowa",
+                "civilopedia": "Cho\u0107 wymiana kulturowa - przyjazdy student\u00f3w, artyst\u00f3w, sportowc\u00f3w i innych ludzi, odbywaj\u0105ce si\u0119 na zasadzie wzajemno\u015bci pomi\u0119dzy krajami - nieoficjalnie odbywa\u0142a si\u0119 ju\u017c w epoce przemys\u0142owej, tego rodzaju programy zosta\u0142y sformalizowane dopiero przez zwalczaj\u0105ce si\u0119 rz\u0105dy podczas zimnej wojny. Wtedy to USA i ZSRR d\u0105\u017cy\u0142y do zaprezentowania \u015bwiatu wy\u017cszo\u015bci swych kultur i wzajemnego zrozumienia ich system\u00f3w warto\u015bci. Te formalne programy spowodowa\u0142y zmniejszenie ogranicze\u0144 podr\u00f3\u017cy i dzia\u0142a\u0144 wybranych grup na \u201eterytorium wroga\u201d. Niekt\u00f3rzy historycy okre\u015blili ten proces mianem \u201ekulturowego konia troja\u0144skiego\u201d, poniewa\u017c takie programy w ko\u0144cu doprowadzi\u0142y do \u201eerozji\u201d w\u0142adzy Zwi\u0105zku Radzieckiego.",
+                "help_text": "Zwi\u0119ksza modyfikator turystyki za wsp\u00f3ln\u0105 religi\u0119, szlaki handlowe i otwarte granice o 15%.",
+                "level": 0,
+                "prereq_policies": [
+                    "Rozkwit sztuk"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Handel|Handlu|Handlowi|Handel|Handlem|Handlu|handlowej|handlowej",
+        "help_text": "Handel gwarantuje premie imperiom koncentruj\u0105cym si\u0119 na z\u0142ocie. Przyj\u0119cie handlu zwi\u0119kszy przych\u00f3d z\u0142ota w stolicy o 25%. Odblokowuje Big Bena. Przyj\u0119cie wszystkich ustroj\u00f3w w drzewie handlu zapewni +1 z\u0142ota z ka\u017cdej plac\u00f3wki handlowej. Umo\u017cliwia tak\u017ce zakup wielkich kupc\u00f3w za wiar\u0119, pocz\u0105wszy od epoki przemys\u0142owej.",
+        "era_requirement": "\u015aredniowiecze|\u015aredniowiecza|\u015aredniowieczu|\u015aredniowiecze",
+        "policies": [
+            {
+                "name": "Armia najemna",
+                "civilopedia": "Najemnicy, bior\u0105cy udzia\u0142 w konflikcie z ch\u0119ci zysku, a nie z obowi\u0105zku lub z powodu przekona\u0144, pojawiali si\u0119 na wojnach ju\u017c w staro\u017cytno\u015bci. Szczyt popularno\u015bci takich dzia\u0142a\u0144 przypada jednak na okres renesansu, kiedy to tak zwane \u201ewolne kompanie\u201d powstawa\u0142y, by walczy\u0107 za pieni\u0105dze. Cz\u0119sto s\u0142u\u017cyli w nich weterani z armii narodowych, a dowodzili nimi tak charyzmatyczni dow\u00f3dcy, jak na przyk\u0142ad Anglik sir John Hawkwood, kt\u00f3ry stworzy\u0142 s\u0142ynn\u0105 Bia\u0142\u0105 Kompani\u0119. Najemnicy zatrudniani byli g\u0142\u00f3wnie podczas wojen, zwykle przez pa\u0144stwa-miasta lub ma\u0142e kr\u00f3lestwa, kt\u00f3rym brakowa\u0142o funduszy lub ludzi, by posiada\u0107 regularne armie. Pierwsze wojska najemne specjalizowa\u0142y si\u0119 w okre\u015blonych rodzajach walki - istnia\u0142y na przyk\u0142ad kompanie jazdy lub artylerii, a w wi\u0119kszo\u015bci z nich s\u0142u\u017cyli niemieccy lub szwajcarscy landsknechci, kt\u00f3rych szczeg\u00f3lnie cz\u0119sto wynajmowano podczas religijnych wojen okresu reformacji. Na po\u0142udniu condottieri s\u0142u\u017cyli w okrutnych wojnach pomi\u0119dzy w\u0142oskimi miastami-pa\u0144stwami, w\u015br\u00f3d kt\u00f3rych znajdowa\u0142 si\u0119 Watykan. Pod koniec XVIII w. szkocko-celtyckie kompanie piechoty ci\u0119\u017ckiej cieszy\u0142y si\u0119 wzi\u0119ciem u kontynentalnej szlachty. Wsp\u00f3\u0142cze\u015bnie najemnik\u00f3w wynajmuje si\u0119 w niewielkich, elitarnych grupach do okre\u015blonych zada\u0144 lub korzysta si\u0119 z us\u0142ug prywatnych firm ochroniarskich.",
+                "help_text": "Umo\u017cliwia zakup landsknecht\u00f3w.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Przedsi\u0119biorczo\u015b\u0107",
+                "civilopedia": "Przedsi\u0119biorczo\u015b\u0107 to zdolno\u015b\u0107 oraz wola jednostki do rozwoju, organizacji i zarz\u0105dzania przedsi\u0119wzi\u0119ciem komercyjnym w nadziei wygenerowania zysku. W historii przedsi\u0119biorczo\u015b\u0107 przyjmowa\u0142a wiele postaci i reprezentowali j\u0105 m.in. wielcy kupcy-odkrywcy z renesansowych W\u0142och, rz\u0105dowe kompanie z czas\u00f3w odkry\u0107 geograficznych czy baronowie wyzyskiwacze z epoki przemys\u0142owej. Niezale\u017cnie od formy przedsiebiorczo\u015bci gotowo\u015b\u0107 do ryzykowania w\u0142asnymi pieni\u0119dzmi w celu ich pomno\u017cenia nap\u0119dza rozw\u00f3j cywilizacyjny r\u00f3wnie mocno, jak pozosta\u0142e czynniki.",
+                "help_text": "Wielcy kupcy pojawiaj\u0105 si\u0119 o 25% szybciej. Otrzymasz dwukrotnie wi\u0119cej z\u0142ota z misji handlowych wielkiego kupca.",
+                "level": 0,
+                "prereq_policies": [
+                    "Karawany woz\u00f3w"
+                ]
+            },
+            {
+                "name": "Merkantylizm",
+                "civilopedia": "Merkantylizm to forma nacjonalizmu gospodarczego, kt\u00f3ry zach\u0119ca nar\u00f3d do anga\u017cowania si\u0119 w polityk\u0119 protekcjonizmu, maj\u0105cego na celu promocj\u0119 w\u0142asnego eksportu i ograniczenie importu z innych kraj\u00f3w. Kiedy \u201er\u00f3wnowaga handlowa\u201d narodu wzrasta, ludzie si\u0119 bogac\u0105 i prosperuj\u0105, a kiedy spada poni\u017cej zera (nar\u00f3d importuje wi\u0119cej ni\u017c eksportuje), pa\u0144stwo i jego obywatele biedniej\u0105 i staj\u0105 si\u0119 bardziej wra\u017cliwi na zagro\u017cenie z zewn\u0105trz. Ta teoria by\u0142a popularna w Europie Zachodniej od XVI do XVIII wieku. Dzisiaj wi\u0119kszo\u015b\u0107 zachodnich nacji stara si\u0119 otworzy\u0107 granice dla handlu, chocia\u017c cz\u0119sto nak\u0142adaj\u0105c pewne podatki lub op\u0142aty maj\u0105ce na celu ochron\u0119 najwa\u017cniejszych, narodowych ga\u0142\u0119zi przemys\u0142u.",
+                "help_text": "Ceny przedmiot\u00f3w w miastach s\u0105 o 25% ni\u017csze. +1 do nauki za ka\u017cd\u0105 mennic\u0119, targ, bank i gie\u0142d\u0119.",
+                "level": 0,
+                "prereq_policies": [
+                    "Armia najemna"
+                ]
+            },
+            {
+                "name": "Karawany woz\u00f3w",
+                "civilopedia": "W kolejnych epokach, gdy drogi stawa\u0142y si\u0119 wygodniejsze i grasowa\u0142o na nich mniej bandyt\u00f3w, karawany woz\u00f3w zyskiwa\u0142y coraz wi\u0119ksz\u0105 popularno\u015b\u0107 w handlu l\u0105dowym. Mog\u0142y przewozi\u0107 wi\u0119cej r\u00f3\u017cnorodnych towar\u00f3w, dawa\u0107 schronienie i przebywa\u0107 du\u017ce odleg\u0142o\u015bci; wykorzystywano je w handlu, na wojnie i podczas migracji. Po nastaniu epoki przemys\u0142owej w znacznym stopniu zrezygnowano z nich na rzecz innych \u015brodk\u00f3w transportu.",
+                "help_text": "+2 z\u0142ota ze wszystkich twoich l\u0105dowych szlak\u00f3w handlowych. Koszt utrzymania dr\u00f3g i linii kolejowych zmniejszony o 50%.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Protekcjonizm",
+                "civilopedia": "Protekcjonizm to polityka kontrolowania handlu pomi\u0119dzy pa\u0144stwami za pomoc\u0105 limit\u00f3w, ce\u0142 i innych metod. Wprowadzany jest przez kraje, kt\u00f3re staraj\u0105 si\u0119 spowolni\u0107 lub zatrzyma\u0107 nap\u0142yw zagranicznych towar\u00f3w i us\u0142ug na w\u0142asny rynek, by w ten spos\u00f3b \u201echroni\u0107\u201d w\u0142asny przemys\u0142. Protekcjonizm stosowany jest r\u00f3wnie\u017c przez w\u0142adc\u00f3w w celu ograniczenia kontakt\u00f3w podw\u0142adnych z lud\u017ami z zagranicy oraz z ich dobrami, b\u0105d\u017a dlatego, i\u017c uwa\u017caj\u0105 je oni za z\u0142e lub nie chc\u0105, by ich lud wiedzia\u0142, jak \u017ale wypada na tle pozosta\u0142ych narod\u00f3w. Korea P\u00f3\u0142nocna jest przyk\u0142adem groteskowo protekcjonistycznego kraju - jej w\u0142adcy ograniczaj\u0105 kontakt ze \u015bwiatem zewn\u0119trznym, by utrzyma\u0107 Korea\u0144czyk\u00f3w w nie\u015bwiadomo\u015bci w\u0142asnego zacofania.",
+                "help_text": "+2 do zadowolenia za ka\u017cdy surowiec luksusowy.",
+                "level": 0,
+                "prereq_policies": [
+                    "Merkantylizm",
+                    "Przedsi\u0119biorczo\u015b\u0107"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Eksploracja|Eksploracji|Eksploracji|Eksploracj\u0119|Eksploracj\u0105|Eksploracji|eksploracyjnej|eksploracyjnej",
+        "help_text": "Eksploracja zwi\u0119ksza twoje mo\u017cliwo\u015bci powi\u0119kszania imperium o obszary morskie. Przyj\u0119cie eksploracji zapewnia +1 ruchu jednostkom morskim i +1 zasi\u0119gu widzenia bojowym jednostkom morskim. Odblokowuje Luwr. Przyj\u0119cie wszystkich ustroj\u00f3w pozwala zobaczy\u0107 ukryte \u015blady przesz\u0142o\u015bci. Umo\u017cliwia tak\u017ce zakup wielkich admira\u0142\u00f3w za wiar\u0119, pocz\u0105wszy od epoki przemys\u0142owej.",
+        "era_requirement": "\u015aredniowiecze|\u015aredniowiecza|\u015aredniowieczu|\u015aredniowiecze",
+        "policies": [
+            {
+                "name": "Infrastruktura morska",
+                "civilopedia": "Infrastruktura morska to termin opisuj\u0105cy instalacje i us\u0142ugi u\u0142atwiaj\u0105ce prowadzenie handlu drog\u0105 morsk\u0105. S\u0105 to mi\u0119dzy innymi doki, nabrze\u017ca, magazyny, a tak\u017ce dokerzy, cie\u015ble okr\u0119towi, piloci portowi i inni ludzie zajmuj\u0105cy si\u0119 dokowaniem i za\u0142adunkiem/wy\u0142adunkiem towar\u00f3w. Szacuje si\u0119, \u017ce w ca\u0142ej historii jedno na sze\u015b\u0107 miejsc pracy by\u0142o zwi\u0105zane bezpo\u015brednio lub po\u015brednio z handlem morskim. Dobra infrastruktura morska jest istotna dla kraj\u00f3w pragn\u0105cych wzbogaci\u0107 si\u0119 i rozwija\u0107 dzi\u0119ki oceanom. Szacuje si\u0119, \u017ce u szczytu pot\u0119gi imperium brytyjskiego korona wydawa\u0142a prawie jedn\u0105 trzeci\u0105 dochod\u00f3w na rozwijanie i ulepszanie port\u00f3w na ca\u0142ym \u015bwiecie, kt\u00f3re obs\u0142ugiwa\u0142y olbrzymi\u0105 flot\u0119 handlow\u0105 imperium.",
+                "help_text": "+3 produkcji we wszystkich miastach na wybrze\u017cu.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Tradycja morska",
+                "civilopedia": "Narody z mocnymi tradycjami morskimi ceni\u0105 swoj\u0105 marynark\u0119 ponad wszystkie pozosta\u0142e ga\u0142\u0119zie wojska. (Z powod\u00f3w oczywistych \u2013 zwykle s\u0105 to pa\u0144stwa wyspiarskie). Od klasy rz\u0105dz\u0105cej oczekuje si\u0119 s\u0142u\u017cby w marynarce, a jej oficerowie uwa\u017cani s\u0105 za wa\u017cniejszych od oficer\u00f3w si\u0142 l\u0105dowych czy lotnictwa. Wielka Brytania posiada najd\u0142u\u017csz\u0105 i najsilniejsz\u0105 tradycj\u0119 morsk\u0105 w Europie. Statki brytyjskie by\u0142y znane ze swojej przewagi nad okr\u0119tami innych pa\u0144stw, a brytyjscy oficerowie oraz za\u0142ogi by\u0142y najbardziej do\u015bwiadczone. Wszystko to dawa\u0142o marynarce brytyjskiej powa\u017cn\u0105 moraln\u0105 przewag\u0119 w walce na morzu.",
+                "help_text": "+1 zadowolenia za ka\u017cd\u0105 przysta\u0144, port lub latarni\u0119 morsk\u0105.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Marynarka handlowa",
+                "civilopedia": "Marynarka handlowa stanowi grup\u0119 statk\u00f3w handlowych, kt\u00f3re w okresie wojny mog\u0105 zosta\u0107 wcielone do s\u0142u\u017cby i przewozi\u0107 nale\u017c\u0105ce do pa\u0144stwa towary wojskowe i zaopatrzenie, cz\u0119sto pod ochron\u0105 marynarki wojennej. Przez wiele lat Brytyjczycy utrzymywali najwi\u0119ksz\u0105 i najlepsz\u0105 flot\u0119 statk\u00f3w handlowych w historii \u015bwiata. Wdro\u017cona w roku 1835, brytyjska marynarka handlowa ponios\u0142a wielkie straty podczas wojen \u015bwiatowych. W pierwszej wojnie \u015bwiatowej \u017cycie straci\u0142o blisko 15 000 marynarzy ze statk\u00f3w handlowych, podczas drugiej wojny \u015bwiatowej zgin\u0119\u0142o ich ponad 30 000.",
+                "help_text": "+1 z\u0142ota za ka\u017cd\u0105 przysta\u0144, port lub latarni\u0119 morsk\u0105. +4 produkcji i +4 w mie\u015bcie z Kompani\u0105 Wschodnioindyjsk\u0105.",
+                "level": 0,
+                "prereq_policies": [
+                    "Tradycja morska",
+                    "Infrastruktura morska"
+                ]
+            },
+            {
+                "name": "Szko\u0142a nawigacji",
+                "civilopedia": "W 1418 r. ksi\u0105\u017c\u0119 Henryk Portugalski za\u0142o\u017cy\u0142 pierwsz\u0105 szko\u0142\u0119 nauczaj\u0105c\u0105 \u017ceglugi morskiej przy obserwatorium astronomicznym w Sagres. Portugalscy nawigatorzy uczyli si\u0119 tam sztuki nawigacji, kartografii, wiedzy o p\u0142ywach i pr\u0105dach morskich oraz innych umiej\u0119tno\u015bci u\u0142atwiaj\u0105cych \u017ceglug\u0119 u wybrze\u017cy Afryki, gdzie Henryk pragn\u0105\u0142 za\u0142o\u017cy\u0107 sie\u0107 port\u00f3w, prowadz\u0105cych do bogactw Dalekiego Wschodu. Gdy epoka odkry\u0107 i kolonizacji wesz\u0142a w szczytow\u0105 faz\u0119 w XVII w., wi\u0119kszo\u015b\u0107 monarch\u00f3w Europy posz\u0142a w \u015blady Henryka i za\u0142o\u017cy\u0142a w\u0142asne szko\u0142y \u017ceglarskie.",
+                "help_text": "Pojawia si\u0119 wielki admira\u0142. +2 ruchu dla wszystkich wielkich admira\u0142\u00f3w. Wielcy admira\u0142owie pojawiaj\u0105 si\u0119 o 50% szybciej.",
+                "level": 0,
+                "prereq_policies": [
+                    "Tradycja morska"
+                ]
+            },
+            {
+                "name": "Floty skarb\u00f3w",
+                "civilopedia": "W pewnych okresach kraje przewo\u017c\u0105ce du\u017ce ilo\u015bci kosztowno\u015bci i towar\u00f3w handlowych organizowa\u0142y konwoje statk\u00f3w, aby zwi\u0119kszy\u0107 szanse dotarcia \u0142adunku do celu. Najs\u0142ynniejsza by\u0142a doroczna hiszpa\u0144ska flota skarb\u00f3w, przewo\u017c\u0105ca z\u0142oto, srebro, przyprawy, tyto\u0144, per\u0142y i inne bogactwa z Indii Zachodnich do port\u00f3w hiszpa\u0144skich w Europie, maj\u0105ca miejsce w latach 1566-1790. Spl\u0105drowanie hiszpa\u0144skiej Hawany przez korsarzy francuskich i ataki na samotne galeony dokonywane przez angielskich pirat\u00f3w zmusi\u0142y Hiszpani\u0119 do organizacji konwoj\u00f3w mi\u0119dzy Nowym \u015awiatem i Europ\u0105. Cho\u0107 obecnie na morzach zagro\u017cenie piractwem jest niewielkie, podczas wojen kraje organizuj\u0105 konwoje, by zwi\u0119kszy\u0107 szanse bezpiecznego dotarcia statk\u00f3w handlowych do celu.",
+                "help_text": "+4 z\u0142ota ze wszystkich morskich szlak\u00f3w handlowych.",
+                "level": 0,
+                "prereq_policies": [
+                    "Marynarka handlowa"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Racjonalizm|Racjonalizmu|Racjonalizmowi|Racjonalizm|Racjonalizmem|Racjonalizmie|racjonalnej|racjonalnej",
+        "help_text": "Racjonalizm zwi\u0119ksza mo\u017cliwo\u015bci u\u017cywania i generowania nauki. Przyj\u0119cie racjonalizmu zapewnia +10% nauki, gdy w imperium panuje zadowolenie. Odblokowuje Porcelanow\u0105 Wie\u017c\u0119. Przyj\u0119cie wszystkich ustroj\u00f3w w drzewie racjonalizmu zapewni darmow\u0105 technologi\u0119. Umo\u017cliwia tak\u017ce zakup wielkich naukowc\u00f3w za wiar\u0119, pocz\u0105wszy od epoki przemys\u0142owej.",
+        "era_requirement": "Renesans|Renesansu|Renesansie|Renesans",
+        "policies": [
+            {
+                "name": "Sekularyzm",
+                "civilopedia": "Sekularyzm opiera si\u0119 na przekonaniu, \u017ce w\u0142adza w kraju powinna by\u0107 oddzielona od religii i wiary. W szko\u0142ach nie powinno by\u0107 lekcji religii. Religia nie powinna te\u017c wp\u0142ywa\u0107 na to, kto mo\u017ce pracowa\u0107 w rz\u0105dzie lub s\u0142u\u017cy\u0107 w wojsku. Sekulary\u015bci niekoniecznie s\u0105 niewierz\u0105cy - po prostu uwa\u017caj\u0105, \u017ce mieszanie religii z w\u0142adz\u0105 pa\u0144stwow\u0105 ostatecznie wychodzi na z\u0142e obu instytucjom. Stany Zjednoczone w du\u017cej mierze s\u0105 krajem sekularnym, chocia\u017c \u015blady dominuj\u0105cej religii ich wczesnych obywateli wci\u0105\u017c daj\u0105 si\u0119 odnale\u017a\u0107 na pieni\u0105dzach, w tre\u015bci zaprzysi\u0119\u017ce\u0144 ich przyw\u00f3dc\u00f3w, w s\u0142owach przysi\u0105g s\u0105dowych itd., cz\u0119sto powoduj\u0105c konsternacj\u0119 obywateli, kt\u00f3rzy podobnej wiary nie wyznaj\u0105.",
+                "help_text": "+2 do nauki od ka\u017cdego specjalisty.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Humanizm",
+                "civilopedia": "Humanizm jest filozofi\u0105, kt\u00f3ra m\u00f3wi, \u017ce istota ludzka jest najwa\u017cniejsza na \u015bwiecie. Nie ma \u017cadnych istot wy\u017cszych ani si\u0142 nadprzyrodzonych, kt\u00f3rym ludzie winni by byli pos\u0142usze\u0144stwo, kt\u00f3re kierowa\u0142yby nimi lub dawa\u0142y im m\u0105dro\u015b\u0107. Jeste\u015bmy tylko my. Humanizm istnieje w takiej czy innej formie od czas\u00f3w staro\u017cytnej Grecji, pojawia si\u0119 r\u00f3wnie\u017c w azjatyckich i hinduskich pismach sprzed dw\u00f3ch, trzech tysi\u0119cy lat. Odrodzi\u0142 si\u0119 z ca\u0142\u0105 moc\u0105 w dobie renesansu i do dzi\u015b stanowi istotn\u0105 koncepcj\u0119 filozoficzn\u0105.",
+                "help_text": "Wielcy naukowcy pojawiaj\u0105 si\u0119 o 25% szybciej.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Wolnomy\u015blicielstwo",
+                "civilopedia": "Wolnomy\u015blicielstwo opiera si\u0119 na pogl\u0105dzie, \u017ce wiedz\u0119 powinno si\u0119 zdobywa\u0107, stosuj\u0105c nauk\u0119 i rozs\u0105dek, a nie czerpa\u0107 j\u0105 z tradycji czy dogmat\u00f3w religijnych. Teorie winny by\u0107 sprawdzane naukowo i za po\u015brednictwem logiki. Je\u015bli co\u015b nie mo\u017ce by\u0107 dowiedzione, g\u0142upot\u0105 jest w to wierzy\u0107. \u015alepa wiara jest najwi\u0119kszym wrogiem wolnomy\u015blicieli. Wolnomy\u015blicielstwo jest wa\u017cn\u0105 cz\u0119\u015bci\u0105 tradycji buddyjskiej. W Kalama Sutrze Budda radzi: \u201eNie przyjmujcie niczego jedynie przez wzgl\u0105d na tradycj\u0119... Nie przyjmujcie niczego, poniewa\u017c tak jest zapisane w \u015bwi\u0119tych ksi\u0119gach... Ale kiedy zrozumiecie to sami - \u017cyjcie z tym w zgodzie\u201d.",
+                "help_text": "+1 do nauki z ka\u017cdego punktu handlowego i +17% do nauki z uniwersytet\u00f3w.",
+                "level": 0,
+                "prereq_policies": [
+                    "Humanizm"
+                ]
+            },
+            {
+                "name": "Niezale\u017cno\u015b\u0107",
+                "civilopedia": "Niezale\u017cno\u015b\u0107, jako skr\u00f3t od \u201eniezale\u017cno\u015bci ludu\u201d, jest przekonaniem, \u017ce kraj nale\u017cy do obywateli, a w\u0142adcy s\u0105 \u201ena us\u0142ugach ludu\u201d. W\u0142adza pochodzi od ludu, a ci, kt\u00f3rzy j\u0105 sprawuj\u0105, czyni\u0105 to za jego przyzwoleniem. Niezale\u017cno\u015b\u0107 ludu to przeciwie\u0144stwo teokracji, w kt\u00f3rej w\u0142adca otrzymuje w\u0142adz\u0119 od boga, nie od ludzi. W pa\u0144stwach zak\u0142adaj\u0105cych niezale\u017cno\u015b\u0107 ludu zwykle odbywaj\u0105 si\u0119 okresowe wybory, dzi\u0119ki kt\u00f3rym ludzie mog\u0105 wyrazi\u0107 swoj\u0105 wol\u0119, g\u0142osuj\u0105c raczej na mo\u017cliwie najlepszego kandydata, ni\u017c na najbardziej przebojowego czy najlepiej k\u0142ami\u0105cego.",
+                "help_text": "+1 z\u0142ota z budynk\u00f3w naukowych.",
+                "level": 0,
+                "prereq_policies": [
+                    "Sekularyzm"
+                ]
+            },
+            {
+                "name": "Rewolucja naukowa",
+                "civilopedia": "Rewolucja naukowa to okres gwa\u0142townego post\u0119pu ludzkiej wiedzy oraz przewrot\u00f3w technologicznych zmieniaj\u0105cych spojrzenie na \u015bwiat, a w efekcie powoduj\u0105cych jeszcze szybszy rozw\u00f3j my\u015bli i wiedzy. Znaczna cz\u0119\u015b\u0107 Europy przeby\u0142a rewolucj\u0119 naukow\u0105 w XVI wieku w wyniku publikacji dzie\u0142a Miko\u0142aja Kopernika \u201eO obrotach sfer niebieskich\u201d oraz \u201eBudowy ludzkiego cia\u0142a\u201d Wesaliusza. Obie ksi\u0105\u017cki by\u0142y wykorzystywane przez pewien okres w \u00f3wczesnej praktyce naukowej do badania otaczaj\u0105cego \u015bwiata, obaliwszy nieprawid\u0142owe teorie naukowe, niekt\u00f3re si\u0119gaj\u0105ce wstecz a\u017c do antycznej Grecji. Sukces tych ksi\u0105\u017cek sprawi\u0142, \u017ce pu\u015bci\u0142y \u201etamy\u201d i naukowcy zacz\u0119li dok\u0142adnie bada\u0107 wszystko wok\u00f3\u0142 siebie, a ludzka wiedza zwi\u0119ksza\u0142a si\u0119 wyk\u0142adniczo w ci\u0105gu kolejnych stuleci.",
+                "help_text": "Zwi\u0119ksza nauk\u0119 zyskiwan\u0105 z um\u00f3w badawczych o 50%.",
+                "level": 0,
+                "prereq_policies": [
+                    "Niezale\u017cno\u015b\u0107"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Swobody|Swob\u00f3d|Swobodom|Swobody|Swobodami|Swobodach|Swob\u00f3d|Swob\u00f3d",
+        "help_text": "Swobody to \u015bwietny wyb\u00f3r dla niewielkich, wyspecjalizowanych cywilizacji. Sprzyjaj\u0105 one narodzinom wielkich ludzi i sprawiaj\u0105, \u017ce praca specjalist\u00f3w przynosi lepsze efekty. Przyj\u0119cie swob\u00f3d zwi\u0119ksza cz\u0119stotliwo\u015b\u0107 narodzin wielkich ludzi o 25%. Przyj\u0119cie wszystkich doktryn z tej dziedziny zwi\u0119kszy korzy\u015bci wynikaj\u0105ce z wielkich ulepsze\u0144 o 100% i wyd\u0142u\u017cy ka\u017cd\u0105 z\u0142ot\u0105 er\u0119 o po\u0142ow\u0119. Za punkty wiary mo\u017cna kupowa\u0107 wielkich artyst\u00f3w. [COLOR_WARNING_TEXT]Swobody nie mog\u0105 by\u0107 przyj\u0119te, gdy wybrano \u0142ad lub autokracj\u0119.",
+        "era_requirement": "Epoka przemys\u0142owa|Epoki przemys\u0142owej|Epoce przemys\u0142owej|Epok\u0119 przemys\u0142ow\u0105",
+        "policies": [
+            {
+                "name": "Awangarda",
+                "civilopedia": "Francuski zwrot \u201eavant garde\u201d odnosi si\u0119 do dzie\u0142 lub idei, cechuj\u0105cych si\u0119 innowacyjno\u015bci\u0105 lub wyj\u0105tkow\u0105 kreatywno\u015bci\u0105, szczeg\u00f3lnie w sztuce, muzyce i polityce. Polega na przesuwaniu granic powszechnie uznanych norm lub status quo, na przyk\u0142ad poprzez radykalne reformy spo\u0142eczne. Spo\u0142ecze\u0144stwa demokratyczne pozwalaj\u0105 na wi\u0119kszy zakres ekspresji spo\u0142ecznej, podsycaj\u0105cej takie skrajne zmiany kulturowe.",
+                "help_text": "Szybko\u015b\u0107 pojawiania si\u0119 wielkich ludzi ro\u015bnie o 25%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Ekspresja kreatywna",
+                "civilopedia": "Szeroko poj\u0119ta ekspresja kreatywna to przedstawianie my\u015bli lub emocji za pomoc\u0105 sztuki. W w\u0119\u017cszym uj\u0119ciu jest to mo\u017cliwo\u015b\u0107 tworzenia sztuki wolnej od wp\u0142yw\u00f3w rz\u0105du, kt\u00f3ry nie ogranicza ekspresji za po\u015brednictwem cenzury, podatk\u00f3w oraz innych narz\u0119dzi prawnych.",
+                "help_text": "+1 kultury za ka\u017cde wielkie dzie\u0142o (ale turystyka pozostaje niezmienna).",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Spo\u0142ecze\u0144stwo obywatelskie",
+                "civilopedia": "W Spo\u0142ecze\u0144stwie obywatelskim mieszka\u0144cy pracuj\u0105 nieprzymuszenie i z w\u0142asnej woli, by ulepsza\u0107 \u015bwiat wok\u00f3\u0142 siebie. Przy\u0142\u0105czaj\u0105 si\u0119 do organizacji obywatelskich. Zbieraj\u0105 \u015bmieci przed swoimi domami i miejscami pracy. Adoptuj\u0105 bezdomne zwierz\u0119ta. Ucz\u0119szczaj\u0105 na spotkania szkolnych zarz\u0105d\u00f3w i g\u0142osuj\u0105 w wyborach. Kraje, w kt\u00f3rych funkcjonuje spo\u0142ecze\u0144stwo obywatelskie, przewa\u017cnie s\u0105 czystsze, dzia\u0142aj\u0105 sprawniej i s\u0105 szcz\u0119\u015bliwsze od innych.",
+                "help_text": "Specjali\u015bci wymagaj\u0105 jedynie po\u0142owy normalnej ilo\u015bci \u017cywno\u015bci.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Armia ochotnicza",
+                "civilopedia": "Armia ochotnicza czerpie zasoby ludzkie z ochotnik\u00f3w, a nie z poboru i s\u0142u\u017cby obowi\u0105zkowej. Ochotnicza s\u0142u\u017cba wojskowa jest najpopularniejsza w demokracjach, zapewnia atrakcyjne wynagrodzenie, dodatki i premie zach\u0119caj\u0105ce rekrut\u00f3w. Wi\u0119kszo\u015b\u0107 kraj\u00f3w posiadaj\u0105cych armie ochotnicze ma te\u017c prawa poboru, z kt\u00f3rych korzysta si\u0119 w przypadku zagro\u017cenia dla kraju.",
+                "help_text": "Utrzymanie 6 jednostek jest darmowe. Natychmiast otrzymasz 6 jednostek piechoty Legii Cudzoziemskiej.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Tajna operacja",
+                "civilopedia": "Wed\u0142ug Departamentu Obrony Stan\u00f3w Zjednoczonych tajna operacja to \u201edzia\u0142anie zaplanowane i przeprowadzone tak, by ukry\u0107 to\u017csamo\u015b\u0107 zleceniodawcy lub nada\u0107 pozory wiarygodno\u015bci jego zapewnieniom o braku wiedzy na temat operacji\u201d. Tajna operacja ma na celu wywo\u0142anie skutku politycznego, wojskowego, gospodarczego lub dyplomatycznego bez reperkusji ze strony celu lub w\u0142asnego narodu. Tajne operacje maj\u0105 r\u00f3\u017cne formy, od zamach\u00f3w i szpiegostwa a\u017c po operacje wojskowe; wszystkie przeprowadzane s\u0105 w \u015bcis\u0142ej tajemnicy.",
+                "help_text": "Szansa na sfa\u0142szowanie wybor\u00f3w w pa\u0144stwach-miastach jest dwukrotnie wi\u0119ksza.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Urbanizacja",
+                "civilopedia": "Urbanizacja, zwana te\u017c planowaniem miast, to fizyczne powi\u0119kszanie miast spowodowane migracj\u0105 z obszar\u00f3w wiejskich lub powstawaniem przedmie\u015b\u0107. Urbanizacja wi\u0105\u017ce si\u0119 \u015bci\u015ble z industrializacj\u0105, modernizacj\u0105 i racjonalizacj\u0105 socjologiczn\u0105; wszystkie te ruchy rozpocz\u0119\u0142y si\u0119 w epoce przemys\u0142owej i rozwin\u0119\u0142y w epoce informacji. ONZ przedstawi\u0142o raport stwierdzaj\u0105cy, \u017ce pod koniec 2006 r. mniej wi\u0119cej po\u0142owa populacji \u015bwiata mieszka\u0142a w miastach, i prognozuj\u0105cy, i\u017c do 2050 r. oko\u0142o 85% ludzi b\u0119dzie mieszka\u0107 w strefach zurbanizowanych.",
+                "help_text": "+1 miejscowego zadowolenia za ka\u017cdy m\u0142yn wodny, szpital i laboratorium medyczne.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Kapitalizm",
+                "civilopedia": "Kapitalizm to ustr\u00f3j gospodarczy oparty na prywatnej produkcji i w\u0142asno\u015bci d\u00f3br, nap\u0119dzany produkcj\u0105 towar\u00f3w i \u015bwiadczeniem p\u0142atnych us\u0142ug. Istnieje kilka rodzaj\u00f3w kapitalizmu, na przyk\u0142ad leseferyzm, kapitalizm opieku\u0144czy i kapitalizm pa\u0144stwowy. Wi\u0119kszo\u015b\u0107 wsp\u00f3\u0142czesnych pa\u0144stw opiera si\u0119 na kapitalizmie mieszanym, z r\u00f3\u017cnymi proporcjami przedsi\u0119biorczo\u015bci kontrolowanej przez rz\u0105d i nap\u0119dzanej przez rynek.",
+                "help_text": "+1 miejscowego zadowolenia za ka\u017cd\u0105 mennic\u0119, bank i gie\u0142d\u0119.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Unia gospodarcza",
+                "civilopedia": "Unia gospodarcza to blok handlowy z\u0142o\u017cony ze wsp\u00f3lnego rynku i unii celnej. Uczestnicz\u0105ce kraje maj\u0105 wsp\u00f3ln\u0105 polityk\u0119 dotycz\u0105c\u0105 regulacji produkcji, wolno\u015bci handlu zagranicznego, c\u0142a i podatk\u00f3w oraz wsp\u00f3ln\u0105 zewn\u0119trzn\u0105 polityk\u0119 handlow\u0105. Czasami taka unia mo\u017ce mie\u0107 lub popiera\u0107 wsp\u00f3ln\u0105 walut\u0119. Najbardziej udane unie gospodarcze to Unia Europejska stworzona w 1993 r. oraz Karaibska Wsp\u00f3lnota i Wsp\u00f3lny Rynek za\u0142o\u017cona w 1973 r.",
+                "help_text": "+3 z\u0142ota ze wszystkich szlak\u00f3w handlowych z innymi cywilizacjami opartymi na ideologii swob\u00f3d.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Godzina pr\u00f3by",
+                "civilopedia": "W czerwcu 1940 r., gdy Niemcy pokona\u0142y Francj\u0119, premier Wielkiej Brytanii Winston Churchill wyg\u0142osi\u0142 w parlamencie przem\u00f3wienie, w kt\u00f3rym u\u017cy\u0142 tego zwrotu, by opisa\u0107 niestrudzony op\u00f3r stawiany totalitaryzmowi przez Wielk\u0105 Brytani\u0119 i Wsp\u00f3lnot\u0119. Te s\u0142ynne s\u0142owa na sta\u0142e wesz\u0142y do s\u0142ownika i opisuj\u0105 sytuacj\u0119, w kt\u00f3rej kraj demokratyczny rzuca swe wszystkie zasoby, by za wszelk\u0105 cen\u0119 odnie\u015b\u0107 zwyci\u0119stwo, nawet je\u017celi oznacza to samotn\u0105 walk\u0119 z przewa\u017caj\u0105cymi si\u0142ami wroga. Tych s\u0142\u00f3w u\u017cywano tak\u017ce podczas zimnej wojny jako stwierdzenia, \u017ce wr\u00f3g sprzeciwia si\u0119 zasadom wolno\u015bci i swob\u00f3d.",
+                "help_text": "Si\u0142a bojowa miast ro\u015bnie o 33%.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Powszechne prawo wyborcze",
+                "civilopedia": "Wiele walk politycznych koncentrowa\u0142o si\u0119 na zdobyciu w\u0142a\u015bciwych g\u0142os\u00f3w (w przeciwie\u0144stwie do mo\u017cliwo\u015bci ich uzyskania, to istotna r\u00f3\u017cnica) w demokratycznych wyborach powszechnych. Tam, gdzie wybory s\u0105 powszechne, w\u0142a\u015bciwy g\u0142os nie mo\u017ce by\u0107 ograniczany przez p\u0142e\u0107, ras\u0119, wyznanie, zamo\u017cno\u015b\u0107 lub stan posiadania i status spo\u0142eczny. W wi\u0119kszo\u015bci kraj\u00f3w zachodnich pe\u0142ne powszechne prawo wyborcze wprowadzono jedn\u0105 lub dwie dekady po prawie wyborczym dla m\u0119\u017cczyzn. W 1893 r. Nowa Zelandia zosta\u0142a pierwszym krajem, w kt\u00f3rym wprowadzono powszechne prawo wyborcze.",
+                "help_text": "Specjali\u015bci w miastach generuj\u0105 po\u0142ow\u0119 zwyk\u0142ej ilo\u015bci niezadowolenia. z\u0142ote ery s\u0105 o 50% d\u0142u\u017csze.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Nowy \u0142ad",
+                "civilopedia": "Nowy \u0142ad to seria program\u00f3w gospodarczych wprowadzonych dekretem lub ustawowo przez rz\u0105d Stan\u00f3w Zjednoczonych w latach 1933-1936, w celu przeciwdzia\u0142ania skutkom wielkiego kryzysu. Zamiast nacjonalizowa\u0107 banki i kluczowe ga\u0142\u0119zie przemys\u0142u, prezydent Franklin Roosevelt chcia\u0142 ul\u017cy\u0107 biednym i pobudzi\u0107 wzrost gospodarczy poprzez finansowane federalnie programy budowy i pracy oraz dokona\u0107 reformy finans\u00f3w. Historia ocenia nowy \u0142ad jako udan\u0105 inicjatyw\u0119, a inne kraje przyj\u0119\u0142y podobne podej\u015bcie podczas ostatnich kryzys\u00f3w gospodarczych.",
+                "help_text": "S\u0142ynne miejsca i ulepszenia wielkich os\u00f3b daj\u0105 +4 odpowiedniego dochodu.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Arsena\u0142 demokracji",
+                "civilopedia": "\u201eArsena\u0142 demokracji\u201d to s\u0142owa u\u017cyte przez prezydenta Franklina Roosevelta podczas przem\u00f3wienia radiowego w grudniu 1940 r., odnosz\u0105ce si\u0119 do roli Ameryki w walce z totalitaryzmem. Ta nieoficjalna polityka Stan\u00f3w Zjednoczonych podczas II wojny \u015bwiatowej i p\u00f3\u017aniejszej zimnej wojny z komunizmem zak\u0142ada przestawienie krajowego sektora prywatnego na produkcj\u0119 materia\u0142\u00f3w wojskowych dla kraju i innych pa\u0144stw d\u0105\u017c\u0105cych do pokonania wsp\u00f3lnego wroga. Prywatne zak\u0142ady otrzymuj\u0105 rekompensat\u0119 w wysoko\u015bci warto\u015bci rynkowej, zwykle na zasadzie \u201ep\u0142a\u0107 i bierz\u201d.",
+                "help_text": "+15 wp\u0142yw\u00f3w z jedn. wojskowych podarowanych pa\u0144stwom-miastom i +15% produkcji podczas ich budowy.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Kultura medialna",
+                "civilopedia": "Kultura medialna to dzisiejsze zachodnie spo\u0142ecze\u0144stwo kapitalistyczne, kt\u00f3re ukszta\u0142towa\u0142o si\u0119 pod koniec XX w., a charakteryzuje si\u0119 wysok\u0105 konsumpcj\u0105 podsycan\u0105 przez mass media. Kultura medialna k\u0142ad\u0105ca nacisk na reklam\u0119 i public relations jest uznawana przez krytyk\u00f3w za system koncentruj\u0105cy si\u0119 na manipulacji masami, g\u0142\u00f3wnie poprzez przedstawianie i odtwarzanie dominuj\u0105cych ideologii. Uczeni, tacy jak Theodor Adorno i Hannah Arendt, wiele napisali o wp\u0142ywie kultury medialnej na demokracj\u0119 i kapitalizm.",
+                "help_text": "+34% turystyki generowanej przez miasta z wie\u017c\u0105 transmisyjn\u0105.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Pakt",
+                "civilopedia": "Pakt to mi\u0119dzynarodowe porozumienie wojskowe stworzone dla wsp\u00f3lnego bezpiecze\u0144stwa; zwykle wi\u0105\u017ce si\u0119 ze wsp\u00f3ln\u0105 struktur\u0105 dowodzenia, programami badawczymi i produkcj\u0105 uzbrojenia, a tak\u017ce z bardziej przyziemnymi sprawami wojskowymi. Organizacja Paktu P\u00f3\u0142nocnoatlantyckiego (NATO) stworzona w 1949 r. to najlepiej znany pakt, ale istniej\u0105 one tak\u017ce w Ameryce Po\u0142udniowej, Afryce i innych miejscach. Pakty obronne i sojusze wojskowe by\u0142y powszechne w przesz\u0142o\u015bci, ale \u017caden nie osi\u0105gn\u0105\u0142 poziomu integracji wsp\u00f3\u0142czesnych pakt\u00f3w.",
+                "help_text": "Zyskujesz o 4 wi\u0119cej wp\u0142yw\u00f3w na tur\u0119 (przy normalnej pr\u0119dko\u015bci) w pa\u0144stwach-miastach, z kt\u00f3rymi utrzymujesz szlak handlowy.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Zaopatrzenie kosmiczne",
+                "civilopedia": "W wi\u0119kszo\u015bci program\u00f3w kosmicznych tworzone jest biuro zaopatrzenia, podobne do Stennis Space Center Procurement Site NASA, odpowiedzialne za zakup materia\u0142\u00f3w i us\u0142ug, kt\u00f3rych nie mo\u017ce zapewni\u0107 rz\u0105d: ma\u0142ych narz\u0119dzi, paliwa i chemikali\u00f3w, \u017cywno\u015bci i przybor\u00f3w toaletowych do lot\u00f3w kosmicznych, cz\u0119\u015bci komputerowych itp. Biuro zaopatrzenia wprowadza zasady zakup\u00f3w, sprawdza materia\u0142y, wycenia us\u0142ugi i cz\u0119sto ma osobne dzia\u0142y przyznaj\u0105ce kontrakty du\u017cym korporacjom i ma\u0142ym firmom. Jako agencja rz\u0105dowa podlega przegl\u0105dowi bud\u017cetu i przepis\u00f3w, co pozwala obni\u017cy\u0107 koszta programu kosmicznego.",
+                "help_text": "Mo\u017cna kupowa\u0107 cz\u0119\u015bci statku kosmicznego za z\u0142oto.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Powszechna s\u0142u\u017cba zdrowia",
+                "civilopedia": "Powszechna s\u0142u\u017cba zdrowia, nazywana czasem socjaln\u0105, to finansowany przez rz\u0105d system maj\u0105cy zapewnia\u0107 wszystkim obywatelom r\u00f3wny dost\u0119p do us\u0142ug zdrowotnych i poprawiaj\u0105cy opiek\u0119 lekarsk\u0105. W 1912 roku niemal powszechny system zdrowotny jako pierwsza stworzy\u0142a Norwegia. Wed\u0142ug \u015awiatowej Organizacji Zdrowia w roku 2010 jaka\u015b forma powszechnej s\u0142u\u017cby zdrowia funkcjonowa\u0142a w 32 krajach.",
+                "help_text": "+1 do lokalnego zadowolenia z ka\u017cdego cudu narodowego.",
+                "level": 1,
+                "prereq_policies": []
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "\u0141ad|\u0141adu|\u0141adowi|\u0141ad|\u0141adem|\u0141adzie|\u0141adu|\u0141adu",
+        "help_text": "\u0141ad sprzyja budowie wielkich, t\u0119tni\u0105cych \u017cyciem imperi\u00f3w, wzmacniaj\u0105c ich fundamenty. Przyj\u0119cie \u0142adu zaowocuje premi\u0105 +1 do zadowolenia za ka\u017cde posiadane miasto. Przyj\u0119cie wszystkich doktryn z tej dziedziny da ci +2 do \u017cywno\u015bci, produkcji, nauki, z\u0142ota i kultury za ka\u017cde posiadane miasto. Za punkty wiary mo\u017cna kupowa\u0107 wielkich in\u017cynier\u00f3w. [COLOR_WARNING_TEXT]\u0141adu nie mo\u017cna przyj\u0105\u0107, gdy wybrano swobody b\u0105d\u017a autokracj\u0119.",
+        "era_requirement": "Epoka przemys\u0142owa|Epoki przemys\u0142owej|Epoce przemys\u0142owej|Epok\u0119 przemys\u0142ow\u0105",
+        "policies": [
+            {
+                "name": "Bohater ludu",
+                "civilopedia": "Cho\u0107 termin \u201ebohater ludu\u201d mo\u017cna wyja\u015bni\u0107 na wiele sposob\u00f3w, w Zwi\u0105zku Radzieckim by\u0142 on zarezerwowany dla ludzi odznaczonych medalem \u201eBohatera Zwi\u0105zku Radzieckiego\u201d, przyznawanego za bohaterskie czyny w s\u0142u\u017cbie radzieckiego pa\u0144stwa i ludu. Odznaczenie to ustanowiono w 1934 r., zwykle przyznawano je za bohatersk\u0105 s\u0142u\u017cb\u0119 wojskow\u0105 (tylko podczas II wojny \u015bwiatowej odznaczono ponad 11 tys. ludzi); za s\u0142u\u017cb\u0119 krajowi otrzymywali je te\u017c partyjni oficjele, kosmonauci, naukowcy, a czasem obcokrajowcy. Do lat 70. XX w. tytu\u0142 \u201ebohatera ludu\u201d uleg\u0142 znacznej dewaluacji, poniewa\u017c przyznawano go biurokratom i oficerom wojska za wieloletni\u0105 s\u0142u\u017cb\u0119, a nie za akt odwagi. Jednak medal spe\u0142nia\u0142 rol\u0119 polityczn\u0105, staj\u0105c si\u0119 celem osobistych osi\u0105gni\u0119\u0107 w pa\u0144stwie komunistycznym.",
+                "help_text": "Szybko\u015b\u0107 pojawiania si\u0119 wielkich ludzi ro\u015bnie o 25%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Socrealizm",
+                "civilopedia": "Ruch socrealizmu, styl \u201eekspresji realistycznej\u201d, kt\u00f3ry zosta\u0142 zapocz\u0105tkowany w radzieckiej Rosji i zdominowa\u0142 kraje komunistyczne na ca\u0142ym \u015bwiecie, g\u0142osi\u0142 zwyci\u0119stwo socjalizmu poprzez sztuk\u0119, fotografi\u0119, film i pomniki. Wraz z architektonicznym stylem klasyczno-socjalistycznym socrealizm by\u0142 przez 60 lat jedynym stylem sztuki publicznej akceptowanym przez parti\u0119. Powsta\u0142e w tym okresie dramatyczne i minimalistyczne monumenty uwa\u017cano za pot\u0119\u017cne narz\u0119dzia propagandy, promuj\u0105ce dyktatur\u0119 proletariatu i fizyczne odzwierciedlenie zasad komunizmu.",
+                "help_text": "+2 miejscowego zadowolenia z pomnik\u00f3w. Budowa pomnik\u00f3w trwa po\u0142ow\u0119 zwyk\u0142ego czasu.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Drapacze chmur",
+                "civilopedia": "We wczesnym okresie rz\u0105d\u00f3w sowieckich w Rosji pa\u0144stwo chcia\u0142o zyska\u0107 presti\u017c i dum\u0119 dla swego narodu, buduj\u0105c masowe projekty, kt\u00f3re dowiod\u0142yby sowieckiej dominacji i organizacji. Pierwszym projektem drapaczy chmur by\u0142o \u201esiedem si\u00f3str\u201d w Moskwie - grupa siedmiu budynk\u00f3w w stalinowskim stylu architektonicznym b\u0119d\u0105cym skomplikowanym po\u0142\u0105czeniem rosyjskiego baroku i gotyku. Cho\u0107 budowa zosta\u0142a przerwana wybuchem wojny w 1941 r., wielkie wie\u017cowce zosta\u0142y doko\u0144czone w 1956 r., z wykorzystaniem ameryka\u0144skiej technologii i metod. P\u00f3\u017aniej w republikach Zwi\u0105zku Radzieckiego i krajach satelickich - od Warszawy po stolic\u0119 Kazachstanu - zbudowano dziesi\u0105tki nowoczesnych drapaczy chmur.",
+                "help_text": "Koszt z\u0142ota za zakup budynk\u00f3w zmniejsza si\u0119 o 33%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Wojna ojczy\u017aniana",
+                "civilopedia": "W historii termin \u201ewojna ojczy\u017aniana\u201d oznacza\u0142 konflikty, w kt\u00f3rych wedle doktryny komunistycznej proletariat stawa\u0142 do wsp\u00f3lnej walki z zagro\u017ceniem zewn\u0119trznym. W szerszym uj\u0119ciu jest to wojna w obronie ojczyzny. Po raz pierwszy nazwano tak og\u00f3lnonarodowy op\u00f3r rosyjskich ch\u0142op\u00f3w podczas inwazji Napoleona w 1812 r., ale tym terminem cz\u0119\u015bciej okre\u015bla si\u0119 kosztown\u0105 obron\u0119 Rosji przed Niemcami podczas II wojny \u015bwiatowej.",
+                "help_text": "+15% premii do si\u0142y ataku podczas walki na sojuszniczym terytorium.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Podw\u00f3jni agenci",
+                "civilopedia": "W kontrwywiadzie podw\u00f3jni agenci to szpiedzy lub cz\u0142onkowie jakiej\u015b organizacji wroga, kt\u00f3rzy zgodzili si\u0119 j\u0105 szpiegowa\u0107, ale tak naprawd\u0119 zachowuj\u0105 swoj\u0105 pierwotn\u0105 lojalno\u015b\u0107 i szpieguj\u0105 swych nowych zleceniodawc\u00f3w. Wykorzystanie podw\u00f3jnych agent\u00f3w do przenikania w struktury szpiegowskie wroga ma d\u0142ug\u0105 histori\u0119, ale szczeg\u00f3lnie du\u017ce znaczenie zyska\u0142o podczas II wojny \u015bwiatowej i zimnej wojny. Brytyjskie MI5 by\u0142o szczeg\u00f3lnie skuteczne w \u201eodwracaniu\u201d agent\u00f3w wroga, a podczas zimnej wojny Zwi\u0105zek Radziecki przenika\u0142 z powodzeniem do struktur CIA i wywiadu brytyjskiego.",
+                "help_text": "Szpiedzy maj\u0105 dwukrotnie wi\u0119ksze szanse schwytania szpieg\u00f3w wroga pr\u00f3buj\u0105cych wykra\u015b\u0107 technologi\u0119.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Pionierzy",
+                "civilopedia": "Organizacja dzieci\u0119ca dzia\u0142aj\u0105ca pod auspicjami partii w wielu krajach komunistycznych. Dzieci zwykle wst\u0119powa\u0142y w jej szeregi w szkole podstawowej i nale\u017ca\u0142y do niej przez ca\u0142y okres dorastania. Celem tej organizacji, czerpi\u0105cej cz\u0119\u015b\u0107 wzorc\u00f3w z zachodniego ruchu skautowskiego, by\u0142a indoktrynacja m\u0142odzie\u017cy filozofi\u0105 i zasadami komunizmu oraz walki robotniczej, a tak\u017ce nauczenie dzieci umiej\u0119tno\u015bci, dzi\u0119ki kt\u00f3rym lepiej s\u0142u\u017cy\u0142yby pa\u0144stwu jako robotnicy i \u017co\u0142nierze. Radziecki program okaza\u0142 si\u0119 tak udany, \u017ce do 1990 r. na\u015bladowano go w ponad 30 krajach; wiele z tych program\u00f3w dzia\u0142a po dzi\u015b dzie\u0144, od samej Rosji (nieoficjalnie tamtejsza organizacja nazywa si\u0119 Pionierzy Partii Komunistycznej\"), a\u017c po Kub\u0119 i Wietnam.",
+                "help_text": "+1 miejscowego zadowolenia za ka\u017cdy warsztat, fabryk\u0119 i elektrowni\u0119 s\u0142oneczn\u0105/atomow\u0105/wodn\u0105.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Akademia nauk",
+                "civilopedia": "Akademia nauk to pa\u0144stwowa instytucja edukacyjna lub stowarzyszenie badawcze zajmuj\u0105ce si\u0119 nauk\u0105 i/lub technologi\u0105. Najs\u0142ynniejsza, rosyjska - p\u00f3\u017aniej radziecka - akademia zosta\u0142a za\u0142o\u017cona w 1724 r. przez Piotra Wielkiego, kt\u00f3ry chcia\u0142 dokona\u0107 unowocze\u015bnienia swego imperium. W roku 1917 akademia znalaz\u0142a si\u0119 w r\u0119kach radzieckich i powierzono jej zadania zwi\u0105zane z budownictwem i kwestiami spo\u0142ecznymi. Od 1928 r. radzieckie politbiuro coraz silniej ingerowa\u0142o w nauczanie i badania prowadzone przez Rosyjsk\u0105 Akademi\u0119 Nauk, co na ca\u0142e dziesi\u0119ciolecia spowolni\u0142o rozw\u00f3j nauki w Zwi\u0105zku Radzieckim.",
+                "help_text": "+1 miejscowego zadowolenia z obserwatorium, szko\u0142y publicznej i laboratorium badawczego.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Przyw\u00f3dztwo partii",
+                "civilopedia": "W uporz\u0105dkowanym socjalistycznym pa\u0144stwie proletariackim to lud sprawuje w\u0142adz\u0119. Jednak nawet Marks zdawa\u0142 sobie spraw\u0119, \u017ce w partii musi istnie\u0107 jaka\u015b hierarchia, by pa\u0144stwo dzia\u0142a\u0142o skutecznie oraz by zapewni\u0107 zachowanie porz\u0105dku proletariackiego. Dlatego bolszewicy w 1917 r. zak\u0142adali, \u017ce awangarda urz\u0119dnik\u00f3w partyjnych kierowa\u0142aby scentralizowan\u0105 parti\u0105 polityczn\u0105 rz\u0105dz\u0105c\u0105 now\u0105 Rosj\u0105 Sowieck\u0105. W miar\u0119 rozpowszechniania si\u0119 rewolucji komunistycznej w uprzemys\u0142owionym \u015bwiecie, przyw\u00f3dztwo partii nie by\u0142oby potrzebne i zosta\u0142oby rozwi\u0105zane; jednak historia potoczy\u0142a si\u0119 inaczej.",
+                "help_text": "+1 \u017cywno\u015bci, produkcji, nauki, z\u0142ota i kultury na ka\u017cde miasto.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Wysiedlenia",
+                "civilopedia": "Przymusowe wysiedlenia, w radzieckim \u017cargonie zwane \u201etransferem ludno\u015bci\u201d, mia\u0142y kilka postaci: deportacji grup \u201eantysowieckich\u201d (\u201ewrog\u00f3w ludu\u201d), deportacji grup etnicznych, przenoszenia si\u0142y roboczej lub przymusowej migracji do region\u00f3w \u201eetnicznie czystych\u201d. Za rz\u0105d\u00f3w Stalina programy przymusowych wysiedle\u0144 wprowadzano na najwi\u0119ksz\u0105 skal\u0119; najcz\u0119\u015bciej do niezamieszkanych region\u00f3w azjatyckiej cz\u0119\u015bci Rosji przesiedlano Polak\u00f3w, Ba\u0142t\u00f3w, Fin\u00f3w, Rumun\u00f3w, Tatar\u00f3w, Ka\u0142muk\u00f3w, Czeczen\u00f3w, a tak\u017ce dziesi\u0105tki innych narodowo\u015bci. Przyw\u00f3dcy komunistyczni uwa\u017cali, \u017ce to skuteczny i wzgl\u0119dnie humanitarny spos\u00f3b zaprowadzania porz\u0105dku w tak rozleg\u0142ym i zr\u00f3\u017cnicowanym kraju.",
+                "help_text": "Nowe miasta zaczynaj\u0105 z populacj\u0105 wi\u0119ksz\u0105 o 3.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Rewolucja kulturalna",
+                "civilopedia": "Wielka proletariacka rewolucja kulturalna by\u0142a ruchem spo\u0142ecznym trwaj\u0105cym w Chi\u0144skiej Republice Ludowej od roku 1966 do 1976. Zapocz\u0105tkowa\u0142 j\u0105 Mao Zedong i partia komunistyczna, a jej celem by\u0142a reedukacja zwyk\u0142ych ludzi poprzez usuni\u0119cie lub represjonowanie elementu kapitalistycznego, tradycyjnego i religijnego za pomoc\u0105 aresztowa\u0144 i, w razie konieczno\u015bci, przemocy. Walka kulturowa trwa\u0142a na wszystkich poziomach spo\u0142ecze\u0144stwa, w\u015br\u00f3d student\u00f3w, wojskowych, cz\u0142onk\u00f3w partii i robotnik\u00f3w, co sprawi\u0142o, \u017ce Chiny przez kilkadziesi\u0105t lat by\u0142y praktycznie nieobecne na \u015bwiatowej scenie politycznej.",
+                "help_text": "+34% turystyki wzgl\u0119dem innych cywilizacji opartych na \u0142adzie.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Udogodnienia robotnicze",
+                "civilopedia": "Wed\u0142ug teorii marksistowskiej klasa robotnicza mia\u0142a by\u0107 klas\u0105 rz\u0105dz\u0105c\u0105 Rosj\u0105, po jej przej\u015bciu z socjalizmu do pe\u0142nego komunizmu. Robotnicy mieli korzysta\u0107 z r\u00f3wnego dost\u0119pu do wszystkich wsp\u00f3\u0142czesnych udogodnie\u0144, od mieszka\u0144 po plac\u00f3wki rekreacyjne, b\u0119d\u0105ce dobrem wsp\u00f3lnym. Najbardziej powszechnymi udogodnieniami dla robotnik\u00f3w by\u0142y wsp\u00f3lne kompleksy mieszkaniowe, w kt\u00f3rych od dw\u00f3ch do siedmiu imigracyjnych rodzin z obszar\u00f3w wiejskich zajmowa\u0142o jedno mieszkanie, ka\u017cda z rodzin mia\u0142a do dyspozycji sypialni\u0119, ale pozosta\u0142e pomieszczenia - kuchnia, salon, \u0142azienka, a tak\u017ce telefon i telewizor - nale\u017ca\u0142y do wszystkich domownik\u00f3w.",
+                "help_text": "Fabryki zwi\u0119kszaj\u0105 o 25% nauk\u0119 generowan\u0105 przez miasto. Fabryki s\u0105 budowane o po\u0142ow\u0119 szybciej.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Plan pi\u0119cioletni",
+                "civilopedia": "W Zwi\u0105zku Radzieckim plany pi\u0119cioletnie by\u0142y zaleceniami rozwoju sporz\u0105dzanymi przez pa\u0144stwowy komitet planowania mianowany przez parti\u0119 komunistyczn\u0105. Pierwszy plan wdro\u017cono w 1928 r., a ostatni reaizowany by\u0142 a\u017c do rozwi\u0105zania Zwi\u0105zku Radzieckiego w roku 1991. Wykonanie planu sta\u0142o si\u0119 g\u0142\u00f3wnym czynnikiem motywacyjnym dla radzieckiej biurokracji, przez co sta\u0142a si\u0119 ona nieporadna w swych dzia\u0142aniach. Mimo tego pocz\u0105tkowe sukcesy pierwszych plan\u00f3w zmotywowa\u0142y inne kraje komunistyczne, jak np. maoistyczne Chiny, a nawet niekt\u00f3re pa\u0144stwa kapitalistyczne, kt\u00f3re zdecydowa\u0142y si\u0119 wprowadzi\u0107 t\u0119 metod\u0119 promocji i koordynacji rozwoju gospodarczego.",
+                "help_text": "+2 produkcji w ka\u017cdym mie\u015bcie i +1 produkcji w ka\u017cdej kopalni i kamienio\u0142omie.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Dyktatura proletariatu",
+                "civilopedia": "Wed\u0142ug marksistowskiej teorii spo\u0142eczno-politycznej dyktatura proletariatu to ustr\u00f3j spo\u0142eczny, w kt\u00f3rym klasa robotnicza sprawuje bezpo\u015bredni\u0105 kontrol\u0119 nad w\u0142adz\u0105 polityczn\u0105; w tym wypadku termin \u201edyktatura\u201d nie jest zgodny z powszechn\u0105 definicj\u0105, chodzi raczej o ca\u0142\u0105 klas\u0119 spo\u0142eczn\u0105 sprawuj\u0105c\u0105 rz\u0105dy w kraju. To, czy kapitali\u015bci lub inne grupy by\u0142y pozbawione prawa g\u0142osu w takim porz\u0105dku spo\u0142ecznym, zale\u017ca\u0142o (wed\u0142ug Marksa i Engelsa) od okoliczno\u015bci. Wprowadzenie takiego systemu mo\u017ce, cho\u0107 nie musi, wi\u0105za\u0107 si\u0119 z u\u017cyciem si\u0142y, ale niezale\u017cnie od u\u017cytych \u015brodk\u00f3w, proletariat ostatecznie wyprze bur\u017cuazj\u0119.",
+                "help_text": "+34% turystyki wzgl\u0119dem cywilizacji maj\u0105cych mniejsze zadowolenie.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "\u017belazna kurtyna",
+                "civilopedia": "\u017belazna kurtyna by\u0142a symboliczn\u0105, ideologiczn\u0105 i fizyczn\u0105 granic\u0105 oddzielaj\u0105c\u0105 \u201edekadencki\u201d Zach\u00f3d od \u201euporz\u0105dkowanego\u201d Zwi\u0105zku Radzieckiego, od zako\u0144czenia II wojny \u015bwiatowej do ko\u0144ca zimnej wojny. Tego terminu po raz pierwszy u\u017cy\u0142 w swym przem\u00f3wieniu Winston Churchill w marcu 1946 r., wyra\u017caj\u0105c brytyjskie niezadowolenie z powodu trwaj\u0105cej okupacji i represji w krajach Europy Wschodniej. Pocz\u0105tkowo wy\u015bmiewano pogl\u0105d Churchilla, i\u017c \u017celazna kurtyna s\u0142u\u017cy\u0142a wy\u0142\u0105cznie zatrzymaniu za ni\u0105 obywateli i informacji, jednak p\u00f3\u017aniej wszyscy zgodzili si\u0119 z nim, a termin ten sta\u0142 si\u0119 metafor\u0105 dla komunistycznej Europy.",
+                "help_text": "Darmowy budynek s\u0105du po zdobyciu miasta. Wewn\u0119trzne szlaki handlowe zapewniaj\u0105 o 50% wi\u0119cej \u017cywno\u015bci lub produkcji.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Pionierzy lot\u00f3w kosmicznych",
+                "civilopedia": "Zwi\u0105zek Radziecki po\u015bwi\u0119ci\u0142 olbrzymie \u015brodki na sw\u00f3j program kosmiczny, postrzegaj\u0105c go jako wy\u015bcig ze Stanami Zjednoczonymi i szans\u0119 na pokazanie \u015bwiatu swej wy\u017cszo\u015bci naukowej i technologicznej. Kilku odwa\u017cnych kosmonaut\u00f3w sta\u0142o si\u0119 pierwszymi lud\u017ami, kt\u00f3rzy w ma\u0142ych kapsu\u0142ach znale\u017ali si\u0119 w kosmosie i na orbicie oko\u0142oziemskiej. W kwietniu 1961 r. Jurij Gagarin jako pierwszy cz\u0142owiek trafi\u0142 na orbit\u0119 i okr\u0105\u017ca\u0142 Ziemi\u0119 przez 108 minut na pok\u0142adzie statku kosmicznego Wostok 1. Pierwsz\u0105 kobiet\u0105 w kosmosie by\u0142a Walentina Tierieszkowa, w 1963 r. przebywa\u0142a na orbicie oko\u0142oziemskiej przez prawie trzy dni.",
+                "help_text": "Wielcy in\u017cynierowie mog\u0105 ko\u0144czy\u0107 cz\u0119\u015bci statku kosmicznego. Ko\u0142o stolicy pojawiaj\u0105 si\u0119 wielki in\u017cynier i wielki naukowiec.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Powszechna s\u0142u\u017cba zdrowia",
+                "civilopedia": "Powszechna s\u0142u\u017cba zdrowia, nazywana czasem socjaln\u0105, to finansowany przez rz\u0105d system maj\u0105cy zapewnia\u0107 wszystkim obywatelom r\u00f3wny dost\u0119p do us\u0142ug zdrowotnych i poprawiaj\u0105cy opiek\u0119 lekarsk\u0105. W 1912 roku niemal powszechny system zdrowotny jako pierwsza stworzy\u0142a Norwegia. Wed\u0142ug \u015awiatowej Organizacji Zdrowia w roku 2010 jaka\u015b forma powszechnej s\u0142u\u017cby zdrowia funkcjonowa\u0142a w 32 krajach.",
+                "help_text": "+1 do lokalnego zadowolenia z ka\u017cdego cudu narodowego.",
+                "level": 1,
+                "prereq_policies": []
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Autokracja|Autokracji|Autokracji|Autokracj\u0119|Autokracji|Autokracji|Autokracji|Autokracji",
+        "help_text": "Autokracja to dobry wyb\u00f3r dla wojowniczych cywilizacji, kt\u00f3rym marzy si\u0119 podb\u00f3j \u015bwiata. Przyj\u0119cie autokracji zmniejsza koszt utrzymania jednostek o 33%, pozwalaj\u0105c na wystawienie wi\u0119kszej armii. Je\u017celi jednostka autokratycznej cywilizacji spl\u0105druje wrogie miasto, jej w\u0142a\u015bciciel otrzyma 10 punkt\u00f3w kultury za ka\u017cdy punkt kultury wytwarzany przez to miasto. Przyj\u0119cie wszystkich doktryn autokratycznych zwi\u0119kszy si\u0142\u0119 ataku ka\u017cdej jednostki wojskowej o 25% na 50 tur. Za niewykorzystane punkty wiary mo\u017cna powo\u0142ywa\u0107 wielkich genera\u0142\u00f3w i admira\u0142\u00f3w. [COLOR_WARNING_TEXT]Autokracja nie mo\u017ce by\u0107 przyj\u0119ta, gdy wybrano \u0142ad lub swobody.",
+        "era_requirement": "Epoka przemys\u0142owa|Epoki przemys\u0142owej|Epoce przemys\u0142owej|Epok\u0119 przemys\u0142ow\u0105",
+        "policies": [
+            {
+                "name": "Wojska specjalne",
+                "civilopedia": "Od czasu gdy kr\u00f3lowie hetyccy i asyryjscy stworzyli stra\u017c pa\u0142acow\u0105, ka\u017cda armia dysponuje wojskami specjalnymi, jednostkami wyszkolonymi do przeprowadzania niekonwencjonalnych, bardzo ryzykownych misji bojowych. Jednostki elitarne zyska\u0142y na znaczeniu podczas II wojny \u015bwiatowej, szczeg\u00f3lnie w krajach totalitarnych. Niemcy wykorzystywali m.in. jednostk\u0119 Brandenburg oraz batalion jager SS Skorzenego z niszczycielskim skutkiem, natomiast faszystowskie W\u0142ochy posiada\u0142y kilka specjalnych jednostek morskich. Od czasu wojny jednostki w rodzaju rosyjskiego specnazu i ameryka\u0144skich oddzia\u0142\u00f3w SEAL, kontynuuj\u0105 tradycj\u0119 bezlitosnej skuteczno\u015bci dzia\u0142ania.",
+                "help_text": "Uszkodzone jednostki wojskowe powoduj\u0105 zniszczenia wi\u0119ksze o 25%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Mobilizacja",
+                "civilopedia": "Termin \u201emobilizacja\u201d zosta\u0142 po raz pierwszy u\u017cyty w kontek\u015bcie militarnym w latach 50. XIX w., by opisa\u0107 gromadzenie wojsk i zasob\u00f3w podczas przygotowa\u0144 carskiej Rosji do wojny. Po raz pierwszy mobilizacja zinstytucjonalizowa\u0142a masowy pob\u00f3r \u017co\u0142nierzy spo\u015br\u00f3d obywateli podczas wojen rewolucyjnej Francji. Ta praktyka zmieni\u0142a charakter prowadzenia wojen, poniewa\u017c nowe technologie \u0142\u0105czno\u015bci i transportu po\u0142\u0105czone z rozbudowanym poborem umo\u017cliwi\u0142y tworzenie wielkich armii, gotowych do starcia z r\u00f3wnie wielkimi armiami wroga.",
+                "help_text": "Suma z\u0142ota za zakup jednostek jest obni\u017cona o 33%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Wsp\u00f3lny front",
+                "civilopedia": "Wsp\u00f3lny front jest systemem, kt\u00f3ry pozwala rewolucjonistom na poszerzanie granic pa\u0144stwowych i osi\u0105ganie swych cel\u00f3w wraz z innymi podobnie my\u015bl\u0105cymi lud\u017ami niezale\u017cnie od przynale\u017cno\u015bci pa\u0144stwowej. System ten zosta\u0142 wymy\u015blony przez komunist\u00f3w, chc\u0105cych rozprzestrzeni\u0107 rewolucj\u0119 bolszewick\u0105 na ca\u0142y \u015bwiat. Ich has\u0142em przewodnim by\u0142o \u201eProletariusze wszystkich kraj\u00f3w, \u0142\u0105czcie si\u0119\u201d. Zak\u0142ada\u0142o ono, \u017ce przedstawiciele ni\u017cszych klas spo\u0142ecznych zdadz\u0105 sobie spraw\u0119 z tego, \u017ce maj\u0105 ze sob\u0105 wi\u0119cej wsp\u00f3lnego ni\u017c z klas\u0105 rz\u0105dz\u0105c\u0105 w\u0142asnych kraj\u00f3w. Robotnicy mieli podnie\u015b\u0107 si\u0119 z kolan, obali\u0107 kapitalistycznych ciemi\u0119\u017cc\u00f3w i rozpocz\u0105\u0107 now\u0105 er\u0119 og\u00f3lno\u015bwiatowej idylli. W rzeczywisto\u015bci si\u0119 to nie uda\u0142o i ruch nie osi\u0105gn\u0105\u0142 swych cel\u00f3w. Jednak\u017ce wsp\u00f3lny front jest ide\u0105, kt\u00f3ra ponownie wychodzi na \u015bwiat\u0142o dzienne w kontek\u015bcie napi\u0119\u0107 kulturowych pomi\u0119dzy \u015bwiatem muzu\u0142ma\u0144skim i niemuzu\u0142ma\u0144skim.",
+                "help_text": "Militarne pa\u0144stwa-miasta daj\u0105 jednostki dwa razy cz\u0119\u015bciej, je\u015bli prowadzisz wojn\u0119 ze wsp\u00f3lnym wrogiem.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Futuryzm",
+                "civilopedia": "Powsta\u0142y jako ruch artystyczny na pocz\u0105tku XX wieku we W\u0142oszech, futuryzm w latach 20. i 30. wyewoluowa\u0142 w ruch spo\u0142eczny. K\u0142ad\u0142 on nacisk na kwestie dotycz\u0105ce w\u00f3wczas przysz\u0142o\u015bci, takie jak: przemoc w\u015br\u00f3d m\u0142odych, technologia, uprzemys\u0142owienie i \u015brodki szybkiej komunikacji jak samoch\u00f3d i samolot. Cho\u0107 by\u0142 on g\u0142\u00f3wnie ruchem filozoficzno-artystycznym, zyska\u0142 r\u00f3wnie\u017c aspekt polityczny - wielu futuryst\u00f3w z entuzjazmem przyj\u0119\u0142o w\u0142oski faszyzm z nadziej\u0105 na modernizacj\u0119 \u015bwiata, kt\u00f3ry uwa\u017cali za archaiczny, prowincjonalny i zacofany. Cho\u0107 futuryzm najlepiej przyj\u0105\u0142 si\u0119 we W\u0142oszech, podobne ruchy powsta\u0142y r\u00f3wnie\u017c w Anglii, Francji, a zw\u0142aszcza Rosji.",
+                "help_text": "+250 do turystyki dla wszystkich znanych cywilizacji przy narodzinach wielkiego pisarza, artysty lub muzyka.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Szpiegostwo przemys\u0142owe",
+                "civilopedia": "Szpiegostwa przemys\u0142owego dokonuje si\u0119 dla cel\u00f3w gospodarczych, a nie z powod\u00f3w bezpiecze\u0144stwa narodowego. Korporacje staraj\u0105 si\u0119 odkry\u0107 tajemnice i poufne informacje innych korporacji, zwykle konkurent\u00f3w. Szpiegostwo przemys\u0142owe pojawi\u0142o si\u0119 w latach 20. XIX w., gdy Francja finansowa\u0142a z pa\u0144stwowych pieni\u0119dzy pr\u00f3by wykradni\u0119cia Brytyjczykom wynalazk\u00f3w i proces\u00f3w technologicznych, dzi\u0119ki czemu mog\u0142aby dokona\u0107 r\u00f3wnie dynamicznej industrializacji kraju. Z tej formy szpiegostwa korzysta si\u0119 zwykle, gdy kraj ma powa\u017cne problemy z rozwojem gospodarczym, jak na przyk\u0142ad ZSRR w latach 80 XX w.",
+                "help_text": "Szpiedzy dwukrotnie szybciej wykradaj\u0105 technologie.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Militaryzm",
+                "civilopedia": "Militaryzm okre\u015bla si\u0119 jako przekonanie lub ch\u0119\u0107 rz\u0105du lub ludzi do utrzymywania silnej armii i gotowo\u015bci jej agresywnego wykorzystania. Militaryzm by\u0142 wa\u017cnym elementem polityki wi\u0119kszo\u015bci kraj\u00f3w imperialistycznych lub ekspansjonistycznych, od Sparty po nazistowskie Niemcy. Ta filozofia ma wiele cz\u0119\u015bci sk\u0142adowych, w\u015br\u00f3d kt\u00f3rych znajduje si\u0119 idealizacja indywidualnych osi\u0105gni\u0119\u0107 wojskowych i polityka rz\u0105du zak\u0142adaj\u0105ca wydawanie znacznych \u015brodk\u00f3w kraju na utrzymanie i rozw\u00f3j si\u0142 zbrojnych.",
+                "help_text": "+2 miejscowego zadowolenia za ka\u017cde koszary, zbrojowni\u0119 i akademi\u0119 wojskow\u0105.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Umocnienia graniczne",
+                "civilopedia": "Ju\u017c w czasach, gdy powsta\u0142 Wielki Mur, kraje autokratyczne pragn\u0119\u0142y zmniejszy\u0107 potencjalne zagro\u017cenie ze strony naje\u017ad\u017ac\u00f3w, a tak\u017ce ograniczy\u0107 emigracj\u0119 w\u0142asnych obywateli - czyniono to za pomoc\u0105 rozleg\u0142ych umocnie\u0144 granicznych. In\u017cynieria wojskowa przesz\u0142a wielkie zmiany od czas\u00f3w Wa\u0142u Hadriana w Anglii po budow\u0119 Linii Bar Lewa przebiegaj\u0105cej przez Synaj, ale koncepcja pozosta\u0142a niezmienna: obszary umocnione po\u0142\u0105czone s\u0105 pomniejszymi fortyfikacjami i chronione przez przeszkody przeciwpiechotne, takie jak pale, do\u0142y, druty i miny. Najwi\u0119ksze wsp\u00f3\u0142czesne umocnienia graniczne, utworzone po obu stronach granicy, znajduj\u0105 si\u0119 w strefie zdemilitaryzowanej oddzielaj\u0105cej od siebie obydwie Koree.",
+                "help_text": "+1 miejscowego zadowolenia z zamku, arsena\u0142u i bazy wojskowej.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Wojna b\u0142yskawiczna",
+                "civilopedia": "Wojna b\u0142yskawiczna, bardziej znana pod niemieck\u0105 nazw\u0105 \u201eblitzkrieg\u201d, to strategia oparta na si\u0142ach zmotoryzowanych dokonuj\u0105cych szybkiego prze\u0142amania linii nieprzyjaciela. Korzystaj\u0105c z po\u0142\u0105czonych rodzaj\u00f3w broni i lotnictwa taktycznego, wojska w wojnie b\u0142yskawicznej maj\u0105 wytr\u0105ci\u0107 przeciwnika z r\u00f3wnowagi, wedrze\u0107 si\u0119 g\u0142\u0119boko na jego ty\u0142y i zaatakowa\u0107 jednostki znajduj\u0105ce si\u0119 na skrzyd\u0142ach wy\u0142omu. Pionierem tej taktyki by\u0142 Heinz Guderian, udoskonalili j\u0105 Erich von Manstein i Erwin Rommel. Blitzkrieg okaza\u0142 si\u0119 tak skuteczny w Polsce, Francji i ZSRR, \u017ce Sowieci i alianci przyj\u0119li t\u0119 sam\u0105 taktyk\u0119, by pokona\u0107 nazistowskie Niemcy.",
+                "help_text": "+3 ruchu dla wielkich genera\u0142\u00f3w. Jednostki pancerne zyskuj\u0105 +15% ataku, +1 ruchu i ignoruj\u0105 wrog\u0105 stref\u0119 kontroli.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Pa\u0144stwo policyjne",
+                "civilopedia": "Ka\u017cdy rz\u0105d, prawicowy i lewicowy, u\u017cywaj\u0105cy surowej i represyjnej kontroli nad \u017cyciem spo\u0142ecznym, gospodarczym, kulturalnym i politycznym swoich obywateli mo\u017cna nazwa\u0107 pa\u0144stwem policyjnym. Pa\u0144stwo policyjne cz\u0119sto charakteryzuje si\u0119 totalitaryzmem i militaryzmem, ograniczeniem swob\u00f3d obywatelskich i rozbudowanym aparatem bezpiecze\u0144stwa, nadzoruj\u0105cym poczynania obywateli. Ten termin, wed\u0142ug Oxford Dictionary, zosta\u0142 po raz pierwszy u\u017cyty w 1851 r. w kilku niemieckich rozprawach; w latach 30. XX w. okre\u015blano nim \u00f3wczesne rz\u0105dy totalitarne i komunistyczne.",
+                "help_text": "+3 miejscowego zadowolenia za ka\u017cdy budynek s\u0105du. Budowa s\u0105du trwa o po\u0142ow\u0119 kr\u00f3cej.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Nacjonalizm",
+                "civilopedia": "Nacjonalizm jest postaw\u0105 spo\u0142eczno-polityczn\u0105, kt\u00f3ra podkre\u015bla znaczenie i unikalno\u015b\u0107 kraju. Kraj staje si\u0119 matk\u0105 i ojcem swojego narodu, a nar\u00f3d kocha sw\u00f3j kraj. Ka\u017cdy ma wywieszon\u0105 na swoim domu flag\u0119 narodow\u0105 i wszyscy ucz\u0119szczaj\u0105 w dniu zwyci\u0119stwa na parad\u0119 wojska i fajnego sprz\u0119tu. Kraje nacjonalistyczne s\u0105 zwykle stosunkowo pot\u0119\u017cne, poniewa\u017c lud pracuje bez wytchnienia nad rozwojem pa\u0144stwa. Niemniej wewn\u0119trzna krytyka mo\u017ce zosta\u0107 zd\u0142awiona, a to prowadzi do ograniczenia zdolno\u015bci kraju do poprawiania b\u0142\u0119d\u00f3w i sprowadza go z dobrej drogi.",
+                "help_text": "Zmniejsza koszt z\u0142ota za utrzymanie jednostek o 33%.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Trzecia droga",
+                "civilopedia": "Trzecia droga albo trzecia pozycja to nacjonalistyczna filozofia polityczna podkre\u015blaj\u0105ca sprzeciw wobec kapitalizmu i komunizmu, ale \u0142\u0105cz\u0105ca radykalne idee obu tych system\u00f3w. Zwolennicy tej filozofii wierz\u0105 w pa\u0144stwow\u0105 w\u0142asno\u015b\u0107 produkcji i dystrybucji towar\u00f3w oraz us\u0142ug dla \u201eproduktywnych cz\u0142onk\u00f3w spo\u0142ecze\u0144stwa\u201d, pokojow\u0105 segregacj\u0119 grup etnicznych i rasowych na terenie kraju, a od niedawna tak\u017ce w radykalne idee ekologiczne. Wielu politolog\u00f3w uwa\u017ca, \u017ce ruch ten, powsta\u0142y po II wojnie \u015bwiatowej w takich krajach jak Argentyna i RPA, nie jest trzeci\u0105 drog\u0105, ale raczej mutacj\u0105 neofaszyzmu i ultranacjonalizmu.",
+                "help_text": "Ilo\u015b\u0107 produkowanych zasob\u00f3w strategicznych ro\u015bnie o 100%. +5 \u017cywno\u015bci i +5 nauki w stolicy.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Wojna totalna",
+                "civilopedia": "Wojna totalna jest strategi\u0105 polegaj\u0105c\u0105 na tym, \u017ce kraj wykorzystuje wszystkie posiadane przez siebie zasoby do prowadzenia wojny. Ca\u0142a populacja zostaje zmobilizowana do walki, a wszystkie nieistotne zaj\u0119cia zostaj\u0105 zawieszone na czas trwania konfliktu. Je\u015bli wrogi kraj przyj\u0105\u0142 t\u0119 sam\u0105 strategi\u0119, w\u00f3wczas wszystkie jego obiekty cywilne staj\u0105 si\u0119 celami wojskowymi i ka\u017cde dzia\u0142anie, kt\u00f3re os\u0142abia zdolno\u015b\u0107 wroga do kontynuowania walki, zostaje uznane za akceptowalne. Miasta mog\u0105 by\u0107 bombardowane, nieuzbrojone statki zatapiane, studnie zatruwane, a uprawy palone. Wojna totalna jest najstraszliwsz\u0105 form\u0105 konfliktu i zwykle powoduje wielkie straty w ludno\u015bci cywilnej po jednej lub obu stronach frontu.",
+                "help_text": "+25% do produkcji jednostek wojskowych. Nowe oddzia\u0142y otrzymuj\u0105 na starcie +15 punkt\u00f3w do\u015bwiadczenia.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Kult jednostki",
+                "civilopedia": "Kult jednostki ma miejsce, gdy jaka\u015b osoba \u015bwiadomie wykorzystuje media, propagand\u0119 i inne \u015brodki celem stworzenia swojego wyidealizowanego, heroicznego i/lub niemal boskiego wizerunku. Socjolog Max Weber opracowa\u0142 tr\u00f3jdzieln\u0105 klasyfikacj\u0119 w\u0142adzy, w kt\u00f3rej kult jednostki uzna\u0142 za jedn\u0105 z postaci w\u0142adzy. Przyw\u00f3dcy autokratyczni, od monarch\u00f3w absolutnych z epoki o\u015bwiecenia po nowo\u017cytnych dyktator\u00f3w totalitarnych, starali si\u0119 nak\u0142oni\u0107 poddanych do pos\u0142usze\u0144stwa i oddania poprzez manipulacj\u0119 mediami i przemys\u0142em rozrywkowym, przy czym efekty takich stara\u0144 bywa\u0142y r\u00f3\u017cne.",
+                "help_text": "+50% turystyki wzgl\u0119dem cywilizacji walcz\u0105cych ze wsp\u00f3lnym wrogiem.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Dyplomacja kanonierek",
+                "civilopedia": "W stosunkach mi\u0119dzynarodowych \u201edyplomacja kanonierek\u201d to realizacja cel\u00f3w polityki zagranicznej pot\u0119\u017cniejszego pa\u0144stwa poprzez otwart\u0105 demonstracj\u0119 przewa\u017caj\u0105cej pot\u0119gi wojskowej, popart\u0105 gro\u017ab\u0105 otwartego ataku. Termin ten pojawi\u0142 si\u0119 w okresie europejskiego imperializmu, gdy mocarstwa kolonialne wykorzystywa\u0142y obecno\u015b\u0107 okr\u0119t\u00f3w wojennych do wymuszania ust\u0119pstw na lokalnych kr\u00f3lestwach. Ta polityka okaza\u0142a si\u0119 bardzo skuteczna, szczeg\u00f3lnie gdy korzysta\u0142y z niej militarystyczne autokracje... dop\u00f3ki tubylcy nie zdobyli nowoczesnego uzbrojenia.",
+                "help_text": "Dodatkowe +6 wp\u0142yw\u00f3w (przy standardowej pr\u0119dko\u015bci) na tur\u0119 w pa\u0144stwach-miastach, od kt\u00f3rych mo\u017cesz domaga\u0107 si\u0119 daniny. Twoje wojska o 50% skuteczniej zastraszaj\u0105 pa\u0144stwa-miasta.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Dziedzictwo Clausewitza",
+                "civilopedia": "Po Wojnach Napoleo\u0144skich pruski oficer Carl von Clausewitz stworzy\u0142 pierwsze szczeg\u00f3\u0142owe teoretyczne opracowanie wojskowo\u015bci od czas\u00f3w Sun Tzu. Jego dziesi\u0119ciotomowe dzie\u0142o pt. \u201eVom Krieg\u201d (\u201eO wojnie\u201d) by\u0142o w momencie \u015bmierci Clausewitza w 1831 r. nadal niesko\u0144czone, a mimo tego s\u0142u\u017cy\u0142o za podstaw\u0119 nauczania ca\u0142ym pokoleniom oficer\u00f3w w akademiach wojskowych na ca\u0142ym \u015bwiecie. Autor podkre\u015bla\u0142 psychologiczny oraz polityczny aspekt wojny, wpisuj\u0105c go w kwestie strategii i taktyki. Jego teza: \u201eWojna to nic innego, jak tylko kontynuacja polityki przy u\u017cyciu innych \u015brodk\u00f3w\u201d leg\u0142a u podstaw autokracji i ekspansjonizmu wielu rz\u0105d\u00f3w w przeci\u0105gu nast\u0119pnych dwustu lat.",
+                "help_text": "Premia 25% do si\u0142y ataku wszystkich jednostek wojskowych przez pierwszych 50 tur od wprowadzenia tej ideologii.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Powszechna s\u0142u\u017cba zdrowia",
+                "civilopedia": "Powszechna s\u0142u\u017cba zdrowia, nazywana czasem socjaln\u0105, to finansowany przez rz\u0105d system maj\u0105cy zapewnia\u0107 wszystkim obywatelom r\u00f3wny dost\u0119p do us\u0142ug zdrowotnych i poprawiaj\u0105cy opiek\u0119 lekarsk\u0105. W 1912 roku niemal powszechny system zdrowotny jako pierwsza stworzy\u0142a Norwegia. Wed\u0142ug \u015awiatowej Organizacji Zdrowia w roku 2010 jaka\u015b forma powszechnej s\u0142u\u017cby zdrowia funkcjonowa\u0142a w 32 krajach.",
+                "help_text": "+1 do lokalnego zadowolenia z ka\u017cdego cudu narodowego.",
+                "level": 1,
+                "prereq_policies": []
+            }
+        ]
+    }
+]

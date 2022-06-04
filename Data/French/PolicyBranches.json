@@ -1,0 +1,807 @@
+[
+    {
+        "id": 1,
+        "name": "Tradition",
+        "help_text": "La tradition convient parfaitement aux petits empires. L'adoption de la tradition augmente consid\u00e9rablement la vitesse d'expansion des fronti\u00e8res d'une ville et fournit 3 Culture \u00e0 la capitale. La tradition d\u00e9bloque \u00e9galement les Jardins suspendus. En adoptant toutes les doctrines traditionnelles, vous recevrez +15% de croissance et un aqueduc gratuit dans vos 4 premi\u00e8res villes. Permet \u00e9galement d'acheter des ing\u00e9nieurs illustres avec de la foi \u00e0 partir de l'\u00e8re industrielle.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Aristocratie",
+                "civilopedia": "L'aristocratie est un type de gouvernement au sein duquel le pouvoir appartient \u00e0 un groupe issu des citoyens les plus ais\u00e9s. Les membres de ce groupe se transmettent leur fonction de fa\u00e7on h\u00e9r\u00e9ditaire, au m\u00e9rite, en fonction des ressources, ou les trois. Le terme vient du mot grec \"aristokratia\" signifiant \"gouvernement des meilleurs\". La diff\u00e9rence est extr\u00eamement t\u00e9nue entre une aristocratie et une oligarchie, et d\u00e9finir un pays comme ayant adopt\u00e9 l'un ou l'autre n'est souvent qu'une question de point de vue : les dirigeants estimeront qu'il s'agit d'une aristocratie, l\u00e0 o\u00f9 le reste du monde y verra une oligarchie.",
+                "help_text": "Production +15% lors de la construction de merveilles et bonheur +1 pour chaque tranche de 10\u00a0 citoyens dans une ville.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Oligarchie",
+                "civilopedia": "L'oligarchie est un type de gouvernement au sein duquel une infime portion de la soci\u00e9t\u00e9 d\u00e9tient la totalit\u00e9 du pouvoir. Ainsi, le pouvoir peut-il \u00eatre d\u00e9tenu par une famille, une tribu, les adeptes d'une religion sp\u00e9cifique, ou les membres d'une caste. Certaines cit\u00e9s-\u00e9tats de la Gr\u00e8ce antique \u00e9taient des oligarchies, au sein desquelles le pouvoir \u00e9tait partag\u00e9 par une poign\u00e9e de familles d'\u00e9lite. L'apartheid sud-africain pourrait \u00eatre consid\u00e9r\u00e9 comme une oligarchie moderne, la minorit\u00e9 blanche d\u00e9tenant la totalit\u00e9 du pouvoir. Avant les attentats du 11 septembre 2001, l'Iraq \u00e9tait une oligarchie, le pouvoir \u00e9tant r\u00e9parti entre les membres de la famille et de la tribu de Saddam Hussein.",
+                "help_text": "Le co\u00fbt d'entretien des unit\u00e9s en garnison est nul et la puissance de combat \u00e0 distance des villes poss\u00e9dant une garnison augmente de 50%.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "L\u00e9galisme",
+                "civilopedia": "Le l\u00e9galisme est une doctrine qui \u00e9tablit que la relation entre le dirigeant et ses sujets est d\u00e9finie par un ensemble de lois auquel chacun doit ob\u00e9ir de mani\u00e8re stricte. Si la loi est juste et correctement appliqu\u00e9e, le peuple sera satisfait et la position du dirigeant assur\u00e9e. Si cette doctrine semble \u00eatre la base de la plupart des gouvernements soumis \u00e0 une l\u00e9gislation, le l\u00e9galisme a atteint le stade d'une quasi-religion d'\u00c9tat en Chine durant la p\u00e9riode des Royaumes combattants.",
+                "help_text": "Vos quatre premi\u00e8res villes profitent d'un b\u00e2timent culturel gratuit.",
+                "level": 0,
+                "prereq_policies": [
+                    "Oligarchie"
+                ]
+            },
+            {
+                "name": "\u00c9lite terrienne",
+                "civilopedia": "Selon cette doctrine, le pouvoir et le prestige d'une nation reviennent aux propri\u00e9taires terriens. Plus un individu poss\u00e8de de terres, plus il est puissant. Dans certains cas, la propri\u00e9t\u00e9 fonci\u00e8re est limit\u00e9e aux membres de certaines classes, tribus ou religions, voire aux membres d'un certain sexe. L'\u00e9lite terrienne doit prendre garde \u00e0 ne pas trop attiser la haine de la \"populace\" au risque de provoquer une redistribution des terres accompagn\u00e9e parfois d'une ex\u00e9cution de leurs anciens propri\u00e9taires.",
+                "help_text": "Croissance +10% et Nourriture +2 dans la capitale.",
+                "level": 0,
+                "prereq_policies": [
+                    "L\u00e9galisme"
+                ]
+            },
+            {
+                "name": "Monarchie",
+                "civilopedia": "La monarchie est un type de gouvernement au sein duquel un individu est investi du pouvoir. Souvent, mais ce n'est pas syst\u00e9matique, le pouvoir est, \u00e0 la mort du monarque, transmis \u00e0 son h\u00e9ritier (il existe quelques monarchies \u00e9lectives, mais elles ne sont gu\u00e8re nombreuses). La monarchie se rapproche du despotisme \u00e0 une exception (majeure) pr\u00e8s : le monarque r\u00e8gne selon les lois de l'\u00c9tat qu'il dirige, alors que le despote est au-dessus des lois. Il est, en pratique, bien facile pour un monarque de r\u00e9gner en despote, mais il arrive \u00e9galement qu'il soit inclus dans un syst\u00e8me politique offrant au peuple davantage de libert\u00e9. Un exemple contemporain de cette tendance serait celui de la Grande-Bretagne.",
+                "help_text": "Or\u00a0+1 et m\u00e9contentement -1 tous les 2\u00a0 citoyens dans la capitale.",
+                "level": 0,
+                "prereq_policies": [
+                    "L\u00e9galisme"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Libert\u00e9",
+        "help_text": "La libert\u00e9 est id\u00e9ale pour les civilisations qui souhaitent s'\u00e9tendre rapidement. Adopter la libert\u00e9 fournit 1\u00a0 Culture dans chaque ville et d\u00e9bloque les Pyramides. Adoptez toutes les doctrines de la libert\u00e9 pour voir appara\u00eetre un personnage illustre de votre choix pr\u00e8s de votre capitale.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Pouvoir collectif",
+                "civilopedia": "Dans un \u00e9tat bas\u00e9 sur le pouvoir collectif, tous les membres (ou plut\u00f4t, tous les membres adultes... ou plut\u00f4t tous les membres adultes m\u00e2les) de la soci\u00e9t\u00e9 participent au processus gouvernemental. Chacun vote directement, sans passer par un repr\u00e9sentant (comme c'est le cas en r\u00e9publique). Si ce r\u00e9gime est efficace lorsqu'il est mis en place par des tribus ou des petits villages, il devient de moins en moins g\u00e9rable \u00e0 mesure que l'\u00e9tat s'agrandit. Si la moiti\u00e9 des membres d'une tribu de cent individus d\u00e9sire s'exprimer chacun durant une minute lors d'un rassemblement, la r\u00e9union dure moins d'une heure. Mais imaginons maintenant que la moiti\u00e9 des New-Yorkais d\u00e9sirent parler chacun une minute, l'\u00e9v\u00e9nement n\u00e9cessiterait quelque 66 000 heures (et une salle de conf\u00e9rence tout bonnement colossale\u00a0!).",
+                "help_text": "La vitesse de formation des colons augmente de 50% dans la capitale et un colon gratuit appara\u00eet \u00e0 proximit\u00e9. (Venise re\u00e7oit un marchand de Venise au lieu d'un colon.)",
+                "level": 0,
+                "prereq_policies": [
+                    "R\u00e9publique"
+                ]
+            },
+            {
+                "name": "Citoyennet\u00e9",
+                "civilopedia": "La citoyennet\u00e9 est la politique mise en place par les nations qui reconnaissent qu'un certain groupe d'individus sont membres de cette nation et, en cela, doivent b\u00e9n\u00e9ficier de protection, de droits et de privil\u00e8ges sup\u00e9rieurs \u00e0 ceux des \u00e9trangers. L'attribution de ce statut d\u00e9pend le plus souvent des origines de l'individu concern\u00e9, de sa race ou de sa tribu d'appartenance. A titre d'exemple, un citoyen peut souvent se d\u00e9placer librement sur le territoire, alors qu'un \u00e9tranger pourrait se voir d\u00e9port\u00e9 ou emprisonn\u00e9 s'il venait \u00e0 \u00eatre d\u00e9couvert par les autorit\u00e9s.",
+                "help_text": "La vitesse de construction des ouvriers augmente de 25% et un ouvrier appara\u00eet pr\u00e8s de la capitale.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "R\u00e9publique",
+                "civilopedia": "La R\u00e9publique est un type de gouvernement au sein duquel le peuple ou ses repr\u00e9sentants d\u00e9tiennent l'int\u00e9gralit\u00e9 du pouvoir, par opposition \u00e0 la monarchie et au despotisme o\u00f9 celui-ci est entre les mains d'une seule et unique personne. Le peuple ou ses repr\u00e9sentants peuvent \u00e9lire un dirigeant, mais les pouvoirs de ce dernier d\u00e9pendent de l'assentiment de ses \u00e9lecteurs. Certaines cultures de la p\u00e9riode classique ont mis en place une forme de r\u00e9publique, et notamment plusieurs cit\u00e9s-\u00e9tats grecques, ainsi que Rome (durant une partie de son histoire). Cependant, \u00e0 l'\u00e9poque, la monarchie restait le syst\u00e8me gouvernemental le plus r\u00e9pandu. La r\u00e9publique refit son apparition au XVIIIe si\u00e8cle, lorsque les \u00c9tats-Unis se dissoci\u00e8rent de la monarchie britannique et d\u00e9finirent leur syst\u00e8me politique. A mesure qu'elles gagnaient leur ind\u00e9pendance par rapport au Vieux Monde, la plupart des nations d'Am\u00e9rique centrale et d'Am\u00e9rique du Sud s'\u00e9tablirent en r\u00e9publique (le Mexique fut un temps une monarchie, mais celle-ci ne dura gu\u00e8re). Au XXe si\u00e8cle, la plupart des gouvernements europ\u00e9ens, ainsi que de nombreux pays asiatiques, sont devenus des r\u00e9publiques apr\u00e8s l'une ou l'autre des guerres mondiales. Depuis, de nombreuses r\u00e9gions d'Afrique, d\u00e9barrass\u00e9es du carcan de la colonisation, ont suivi le mouvement. Aujourd'hui, la plupart des nations du monde ont \u00e9tabli (ou tout du moins le pr\u00e9tendent) une forme de r\u00e9publique.",
+                "help_text": "Villes\u00a0: production +1, et production +5% dans les villes lors de la construction de b\u00e2timents.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Repr\u00e9sentation",
+                "civilopedia": "La repr\u00e9sentation est une doctrine proposant que les citoyens d'une nation nomment des repr\u00e9sentants pour diriger le gouvernement. On peut consid\u00e9rer cette doctrine comme l'\u00e9volution directe du pouvoir collectif, une fois la population devenue trop nombreuse pour ce dernier type de gouvernement. Un \u00e9tat bas\u00e9 sur la repr\u00e9sentation se subdivise en entit\u00e9s administratives plus petites et plus ais\u00e9ment g\u00e9rables (qu'il s'agisse de paroisses, d'\u00e9tats ou autres). Chacune de ces entit\u00e9s choisit ensuite un ou plusieurs citoyens locaux pour repr\u00e9senter ses int\u00e9r\u00eats au gouvernement pendant une p\u00e9riode donn\u00e9e. L'ensemble des repr\u00e9sentants forme un parlement (ou tout autre type de corps d\u00e9lib\u00e9rant) et dirige le pays. Si la majeure partie des gouvernements fonctionnant sur la base de la repr\u00e9sentation sont des r\u00e9publiques, il n'y a l\u00e0 rien de syst\u00e9matique. Certains de ces \u00e9tats \u00e9lisent pour les diriger des rois, reines (permanents ou temporaires) et autres membres de la noblesse.",
+                "help_text": "Pour chaque ville fond\u00e9e, le co\u00fbt en culture des doctrines augmentera 33% moins vite. D\u00e9clenche \u00e9galement un \u00e2ge d'or.",
+                "level": 0,
+                "prereq_policies": [
+                    "Citoyennet\u00e9"
+                ]
+            },
+            {
+                "name": "M\u00e9ritocratie",
+                "civilopedia": "La m\u00e9ritocratie est un syst\u00e8me o\u00f9 les individus les plus talentueux et les plus m\u00e9ritants se voient attribuer des emplois ou des promotions au sein de l'administration gouvernementale. Le m\u00e9rite prime donc sur les liens de proximit\u00e9 au dirigeant actuel (ou au maire d'une grande ville) ou l'appartenance \u00e0 une tribu, caste ou religion sp\u00e9cifique. De nombreux gouvernements ayant eu une long\u00e9vit\u00e9 remarquable n'ont cess\u00e9 d'alterner entre une forme de m\u00e9ritocratie et une autre, moins subtile, de s\u00e9lection des responsables. Au d\u00e9part, les repr\u00e9sentants officiels de l'\u00c9tat sont choisis pour leur comp\u00e9tence, puis, au fil des ann\u00e9es, le n\u00e9potisme vient gangr\u00e9ner le syst\u00e8me d'un gouvernement qui devient de plus en plus inefficace et corrompu. Finalement, le syst\u00e8me p\u00e9riclite \u00e0 un point tel que l'administration est dissoute ou r\u00e9form\u00e9e, et des responsables plus m\u00e9ritants sont de nouveau d\u00e9sign\u00e9s. Ce sch\u00e9ma se r\u00e9p\u00e8te ensuite jusqu'\u00e0 ce que le soleil implose et que toute vie soit balay\u00e9e de la surface de la Terre.",
+                "help_text": "Ville nationale reli\u00e9e \u00e0 la capitale\u00a0: bonheur +1, et m\u00e9contentement -5% gr\u00e2ce aux citoyens des villes non occup\u00e9es.",
+                "level": 0,
+                "prereq_policies": [
+                    "Citoyennet\u00e9"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Honneur",
+        "help_text": "L' honneur am\u00e9liore de diverses fa\u00e7ons l'efficacit\u00e9 de l'arm\u00e9e. Adopter l'honneur octroie un bonus de combat de 33% contre les Barbares, et vous recevez une notification chaque fois que l'un de leurs campements appara\u00eet pr\u00e8s de votre territoire. Votre empire re\u00e7oit de la culture \u00e0 chaque barbare \u00e9limin\u00e9. L'honneur d\u00e9bloque la statue de Zeus. En adoptant toutes les doctrines de l'honneur, vous recevrez de l' or chaque fois que vous \u00e9liminerez une unit\u00e9 ennemie. Permet \u00e9galement d'acheter des g\u00e9n\u00e9raux illustres avec de la foi \u00e0 partir de l'\u00e8re industrielle.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Code du guerrier",
+                "civilopedia": "Le code du guerrier est \u00e0 la base des organisations militaires dans lesquelles les soldats se sentent plus d\u00e9vou\u00e9s \u00e0 l'arm\u00e9e et \u00e0 leurs camarades combattants qu'\u00e0 toute autre chose. Le soldat est pr\u00eat, voire souhaite, se battre et mourir pour son arm\u00e9e. Il ob\u00e9ira aux ordres sans poser de question, \u00e9levant le bien de l'arm\u00e9e au-dessus de son bonheur personnel, ou m\u00eame de celui de la nation toute enti\u00e8re. De telles organisations peuvent \u00eatre extr\u00eamement dangereuses si les dirigeants de l'\u00c9tat ne les contr\u00f4lent pas d'une poigne de fer. Selon certains historiens, dans le Japon d'avant la Seconde Guerre mondiale, l'arm\u00e9e et la marine imp\u00e9riales avaient \u00e9chapp\u00e9 au contr\u00f4le civil, et leurs actions militaires ont entra\u00een\u00e9 le pays dans une confrontation d\u00e9sastreuse avec les \u00c9tats-Unis.",
+                "help_text": "Production +15% lors de la formation d'unit\u00e9s de combat rapproch\u00e9 et un g\u00e9n\u00e9ral illustre appara\u00eet en dehors de la capitale. Vitesse d'apparition des g\u00e9n\u00e9raux illustres am\u00e9lior\u00e9e de 50%.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Discipline",
+                "civilopedia": "Au sein d'une structure militaire, la discipline fait r\u00e9f\u00e9rence \u00e0 la volont\u00e9 ind\u00e9fectible d'un soldat de suivre un ordre l\u00e9gitime, de respecter ses sup\u00e9rieurs et de risquer sa vie (voire de mourir de son plein gr\u00e9) sur commande. On attend des soldats disciplin\u00e9s qu'ils aient une attitude \u00e0 la ville respectueuse de leur uniforme, et qu'ils prot\u00e8gent les plus faibles. Tout manquement \u00e0 la discipline peut mener \u00e0 des sanctions militaires, voire \u00e0 des jugements devant la cour martiale et \u00e0 des radiations.",
+                "help_text": "Puissance de combat +15% pour les unit\u00e9s de combat rapproch\u00e9 si une autre unit\u00e9 militaire se trouve sur une case adjacente.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Tradition militaire",
+                "civilopedia": "La tradition militaire est une doctrine honorant et roman\u00e7ant les services rendus \u00e0 l'arm\u00e9e nationale. Les soldats et les v\u00e9t\u00e9rans sont v\u00e9n\u00e9r\u00e9s, alors que ceux qui n'ont pas servi leur pays \u00e0 la guerre sont consid\u00e9r\u00e9s comme inf\u00e9rieurs, voire comme d\u00e9shonorant pour la patrie. L'Isra\u00ebl moderne poss\u00e8de une tradition militaire forte, comme ce fut en leur temps le cas de l'Angleterre victorienne et du Sud des \u00c9tats-Unis avant la guerre de S\u00e9cession.",
+                "help_text": "Unit\u00e9s militaires\u00a0: EXP gagn\u00e9e en combat +50%.",
+                "level": 0,
+                "prereq_policies": [
+                    "Code du guerrier"
+                ]
+            },
+            {
+                "name": "Caste militaire",
+                "civilopedia": "Dans une soci\u00e9t\u00e9 poss\u00e9dant une caste militaire, tous les membres de l'arm\u00e9e partagent des origines tribales, une religion, une nationalit\u00e9 ou tout autre crit\u00e8re socio-\u00e9conomique sp\u00e9cifique. Les citoyens qui ne font pas partie de cette caste n'ont pas le droit de rejoindre l'arm\u00e9e, voire de porter d'armes (souvent par crainte de les voir se retourner contre la caste en question). La majeure partie du Japon f\u00e9odal ainsi que la Sparte antique avaient adopt\u00e9 un syst\u00e8me de caste militaire.",
+                "help_text": "Dans chaque ville poss\u00e9dant une garnison, +1 Bonheur et +2 Culture.",
+                "level": 0,
+                "prereq_policies": [
+                    "Discipline"
+                ]
+            },
+            {
+                "name": "Arm\u00e9e de m\u00e9tier",
+                "civilopedia": "Une arm\u00e9e de m\u00e9tier est une organisation militaire qui perdure en temps de paix. Ses soldats sont r\u00e9mun\u00e9r\u00e9s par l'\u00c9tat et, lorsqu'ils ne sont pas mobilis\u00e9s, ils passent leurs journ\u00e9es \u00e0 s'entra\u00eener ou \u00e0 s'occuper de travaux publics. Les premi\u00e8res arm\u00e9es n'\u00e9taient pas des arm\u00e9es de m\u00e9tier. Lorsque la guerre \u00e9tait imminente, les dirigeants du pays lan\u00e7aient un appel \u00e0 la mobilisation et tous les hommes physiquement aptes \u00e0 se battre empoignaient leurs armes et partaient en guerre. Ces soldats amateurs n'avaient en g\u00e9n\u00e9ral que peu d'entra\u00eenement, et on attendait souvent d'eux qu'ils apportent leurs propres armes et armures (lesquels \u00e9taient souvent de qualit\u00e9 m\u00e9diocre). Comme ils avaient tendance \u00e0 d\u00e9serter lorsqu'ils devaient s'occuper de leurs terres, les batailles \u00e9taient souvent pr\u00e9vues en \u00e9t\u00e9. Si la victoire n'\u00e9tait pas acquise \u00e0 l'heure des r\u00e9coltes, il n'\u00e9tait pas rare que la guerre soit remise \u00e0 l'\u00e9t\u00e9 suivant. Les arm\u00e9es de m\u00e9tier sont mises en place lorsqu'une soci\u00e9t\u00e9 est devenue assez riche pour assumer financi\u00e8rement un grand nombre d'hommes qui, de fait, ne travailleront pas dans les champs et n'ex\u00e9cuteront aucun autre travail de production. Les soldats sont g\u00e9n\u00e9ralement h\u00e9berg\u00e9s dans des casernes et isol\u00e9s du reste de la population, afin d'\u00e9viter toute tension. L'\u00c9tat leur fournit de la nourriture, des armes, du mat\u00e9riel de protection, ainsi qu'une formation sp\u00e9ciale. Ces soldats de m\u00e9tier sont g\u00e9n\u00e9ralement plus efficaces que des combattants amateurs. La guerre moderne est devenue extr\u00eamement complexe, et les soldats s'entretuent \u00e0 l'aide d'armes de plus en plus sophistiqu\u00e9es n\u00e9cessitant un entra\u00eenement sp\u00e9cifique pour pouvoir \u00eatre utilis\u00e9es efficacement. Les soldats amateurs sont tout bonnement incapables de tenir la distance face \u00e0 des soldats professionnels, et la plupart des \u00c9tats s'offrent les services de combattants de m\u00e9tier.",
+                "help_text": "Le co\u00fbt en or pour l'am\u00e9lioration des unit\u00e9s militaires diminue de 33% et la construction des casernes, d\u00e9p\u00f4ts d'armes et \u00e9coles militaires est 50% plus rapide.",
+                "level": 0,
+                "prereq_policies": [
+                    "Caste militaire"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Pi\u00e9t\u00e9",
+        "help_text": "La pi\u00e9t\u00e9 augmente la foi d'un empire. Adopter la pi\u00e9t\u00e9 diminue de moiti\u00e9 le temps n\u00e9cessaire \u00e0 la construction d'autels et de temples et d\u00e9bloque la Grande mosqu\u00e9e de Djenn\u00e9. L'adoption de toutes les doctrines de la pi\u00e9t\u00e9 entra\u00eene l'apparition d'un proph\u00e8te illustre et augmente de 3 points la culture g\u00e9n\u00e9r\u00e9e par les lieux saints.",
+        "era_requirement": null,
+        "policies": [
+            {
+                "name": "Religion organis\u00e9e",
+                "civilopedia": "La religion organis\u00e9e est une forme de religion au sein de laquelle un certain nombre d'individus partagent les m\u00eames pratiques et croyances religieuses. La religion peut avoir des pr\u00eatres qui interc\u00e8dent aupr\u00e8s des forces sup\u00e9rieures en faveur des croyants ou mettent en place/interpr\u00e8tent les r\u00e8gles de la religion. La hi\u00e9rarchie des pr\u00eatres et autres dirigeants religieux peut parfois \u00eatre un syst\u00e8me complexe. Il arrive que le culte poss\u00e8de des temples ou autres sanctuaires permettant aux croyants de prier ou v\u00e9n\u00e9rer leur dieu. En g\u00e9n\u00e9ral, les fid\u00e8les aident financi\u00e8rement le culte pour qu'il puisse assumer ses pr\u00eatres et ses b\u00e2timents.  Traditionnellement, la religion organis\u00e9e est un gage de stabilit\u00e9 pour une culture. Les individus qui partagent un m\u00eame ensemble de croyances poss\u00e8dent un point commun extr\u00eamement f\u00e9d\u00e9rateur. De ce fait, m\u00eame s'ils sont d'origine diff\u00e9rente, ils sont moins susceptibles de se sauter \u00e0 la gorge. Cela dit, la religion organis\u00e9e peut \u00e9galement s'av\u00e9rer source de discorde : historiquement, nombre de religions organis\u00e9es ont consid\u00e9r\u00e9 les autres cultes comme des menaces, voire d'abjectes abominations, et plus d'une guerre a \u00e9clat\u00e9 pour qu'un camp puisse imposer aux autres son propre dieu.",
+                "help_text": "Autels et temples fournissent +1 Foi.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Mandat du Ciel",
+                "civilopedia": "La doctrine du mandat du Ciel stipule que les dirigeants actuels d'un pays sont au pouvoir parce que le \"Ciel\" (sous-entendu : \"les dieux\") les a d\u00e9sign\u00e9s et les assiste. Les d\u00e9sapprouver n'est pas seulement un acte de trahison, c'est aussi un p\u00e9ch\u00e9. Un tel syst\u00e8me promeut grandement l'assistance aux souverains, mais il n'est pas sans risque pour eux. Si le pays subit une catastrophe naturelle (famine, inondation, tremblement de terre, ouragan, pluie de grenouilles ou autre), le peuple peut percevoir l'\u00e9v\u00e9nement comme un signe de m\u00e9contentement du Ciel vis-\u00e0-vis des dirigeants, comme si les dieux avaient priv\u00e9 ces derniers de leur mandat. Cela donne aux citoyens le droit de renverser les p\u00e9cheurs et de les remplacer par d'autres, plus aux go\u00fbts des dieux.",
+                "help_text": "Diminue de 20% le co\u00fbt en foi des unit\u00e9s et b\u00e2timents religieux.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Th\u00e9ocratie",
+                "civilopedia": "Dans un \u00e9tat th\u00e9ocratique, ce sont les dirigeants religieux qui d\u00e9tiennent le pouvoir (m\u00eame si, en th\u00e9orie, le vrai d\u00e9tenteur du pouvoir est la divinit\u00e9 qu'ils v\u00e9n\u00e8rent et qui les guide). Les th\u00e9ocraties sont souvent des \u00e9tats militaristes, les dirigeants religieux usant de l'arm\u00e9e nationale comme d'un outil pour imposer leur croyance aux pays infid\u00e8les. Les th\u00e9ocraties modernes semblent avoir comme point commun de craindre autant que de ha\u00efr le progr\u00e8s. Elles consid\u00e8rent le confort et les \u00e9volutions modernes comme des menaces \u00e0 la pi\u00e9t\u00e9 nationale (voire \u00e0 leur pouvoir).",
+                "help_text": "Les temples augmentent de 25% la production d' or d'une ville, et les lieux saints rapportent +3 Or.",
+                "level": 0,
+                "prereq_policies": [
+                    "Religion organis\u00e9e"
+                ]
+            },
+            {
+                "name": "R\u00e9forme",
+                "civilopedia": "La r\u00e9forme fait r\u00e9f\u00e9rence \u00e0 un mouvement d'importance visant \u00e0 r\u00e9former une organisation religieuse ou un syst\u00e8me de croyances per\u00e7u comme corrompu ou comme s'\u00e9tant \u00e9loign\u00e9 de ses principes essentiels. La R\u00e9forme protestante visait \u00e0 r\u00e9former l'\u00c9glise catholique romaine. Le mouvement voit le jour en 1517, suite \u00e0 la publication des \"Quatre-vingt-quinze th\u00e8ses\" de Martin Luther. Dans cet ouvrage, ce dernier liste les transgressions de l'\u00c9glise comme lui les per\u00e7oit. La R\u00e9forme durera 130\u00a0longues ann\u00e9es, \u00e9maill\u00e9es de bains de sang religieux \u00e0 travers l'Europe et le Nouveau Monde. Le Christianisme sortit fragment\u00e9 de ce conflit d'une violence inou\u00efe, et l'autorit\u00e9 civile pr\u00e9valut d\u00e8s lors sur la vie religieuse.",
+                "help_text": "Obtention d'une croyance de  suppl\u00e9mentaire pour toute religion fond\u00e9e.",
+                "level": 0,
+                "prereq_policies": [
+                    "Tol\u00e9rance religieuse"
+                ]
+            },
+            {
+                "name": "Tol\u00e9rance religieuse",
+                "civilopedia": "La libert\u00e9 de culte est la politique adopt\u00e9e par un \u00e9tat qui n'impose aucune religion sp\u00e9cifique \u00e0 ses citoyens. Toutes les croyances sont tol\u00e9r\u00e9es, et chacun est libre de \"pr\u00eacher pour sa paroisse\". Si l'intention est noble, cette doctrine a tout de m\u00eame l'effet de limiter l'importance de toutes les religions au sein de la soci\u00e9t\u00e9. Dans les nations poss\u00e9dant une religion d'\u00c9tat, les individus \u00e0 la t\u00eate du culte concern\u00e9 disposent parfois d'un pouvoir immense (voir l'exemple de l'Iran actuel). Dans les nations ayant mis en place la libert\u00e9 de culte, toutes les religions sont trait\u00e9es sur le m\u00eame pied d'\u00e9galit\u00e9, et aucune ne peut devenir dominante.",
+                "help_text": "Les villes pr\u00e9sentant une religion majoritaire obtiennent \u00e9galement un bonus de croyance du panth\u00e9on pour la deuxi\u00e8me religion la plus populaire.",
+                "level": 0,
+                "prereq_policies": [
+                    "Religion organis\u00e9e"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "M\u00e9c\u00e9nat",
+        "help_text": "Le m\u00e9c\u00e9nat augmente les bonus li\u00e9s \u00e0 votre niveau d'amiti\u00e9 aupr\u00e8s des cit\u00e9s-\u00e9tats. En adoptant le m\u00e9c\u00e9nat, l' influence sur les cit\u00e9s-\u00e9tats diminue 25% moins vite qu'\u00e0 l'accoutum\u00e9e et vous d\u00e9bloquez la Cit\u00e9 interdite. En adoptant toutes les doctrines du m\u00e9c\u00e9nat, les cit\u00e9s-\u00e9tats alli\u00e9es vous offriront parfois spontan\u00e9ment des personnages illustres.",
+        "era_requirement": "\u00c8re classique",
+        "policies": [
+            {
+                "name": "Philanthropie",
+                "civilopedia": "La philanthropie est un principe selon lequel les citoyens les plus ais\u00e9s d'une nation reversent une partie de leur richesse au peuple, le plus souvent par le biais de construction de biblioth\u00e8ques, mus\u00e9es, h\u00f4pitaux ou instituts d'enseignement. Contrairement au m\u00e9c\u00e9nat, qui veut que les individus paient pour la r\u00e9alisation d'\u0153uvres dont eux ou d'autres membres de leur classe sociale h\u00e9riteront, la philanthropie tend \u00e0 b\u00e9n\u00e9ficier aux membres les plus d\u00e9munis de la soci\u00e9t\u00e9. L'am\u00e9ricano-\u00e9cossais Andrew Carnegie fut l'un des plus grands philanthropes de l'Histoire. Durant la majeure partie de sa vie, Carnegie fut un homme d'affaires impitoyable. Il cr\u00e9a notamment l'US Steel Company et accumula la seconde plus grande fortune de l'Histoire (majoritairement sur le dos des esclaves qui travaillaient dans ses mines et ses fonderies). Apr\u00e8s avoir vendu son commerce en 1901, Carnegie d\u00e9voua les 19\u00a0derni\u00e8res ann\u00e9es de sa vie \u00e0 b\u00e2tir des biblioth\u00e8ques dans les villes pauvres, en finan\u00e7ant 3\u00a0000 aux \u00c9tats-Unis, au Canada, au Royaume-Uni, en Irlande, en Australie, en Nouvelle-Z\u00e9lande et dans d'autres pays du monde.",
+                "help_text": "Les dons d'or aux cit\u00e9s-\u00e9tats g\u00e9n\u00e8rent 25% d'influence en plus.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Consulats",
+                "civilopedia": "Quand les relations internationales devinrent plus formelles, des consulats furent \u00e9tablis dans chaque pays dans le but d'assister et de prot\u00e9ger les int\u00e9r\u00eats de leurs ressortissants en territoire \u00e9tranger, mais \u00e9galement afin de promouvoir les relations commerciales et l'amiti\u00e9 entre les pays. Au contraire d'un ambassadeur, qui est le repr\u00e9sentant unique de son chef d'\u00e9tat aupr\u00e8s d'un dirigeant \u00e9tranger, on peut trouver plusieurs consuls dans un m\u00eame pays, et g\u00e9n\u00e9ralement un dans chaque grande ville. Le concept de rendre service aux citoyens voyageant \u00e0 l'\u00e9tranger est n\u00e9 en Gr\u00e8ce antique\u00a0; \u00e0 cette \u00e9poque, certains des riches marchands s'\u00e9tant \u00e9tablis dans d'autres cit\u00e9s-\u00e9tats y faisaient office de prox\u00e8nes et venaient en aide \u00e0 leurs pairs. \u00c0 la fin du XIXe si\u00e8cle, le r\u00f4le du consulat s'\u00e9tendit aux \u00e9changes culturels et \u00e9ducatifs, tout en conservant son r\u00f4le de repr\u00e9sentant de la nation \u00e0 un niveau local dans un pays \u00e9tranger.",
+                "help_text": "Seuil d' influence +20 sur toutes les cit\u00e9s-\u00e9tats.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Scolastique",
+                "civilopedia": "La scolastique est une m\u00e9thode d'enseignement employ\u00e9e entre 1000 et 1500\u00a0apr. J.-C. dans les universit\u00e9s m\u00e9di\u00e9vales europ\u00e9ennes. La scolastique met en avant le raisonnement critique et l'argumentation. L'enseignant s\u00e9lectionnait un livre \u00e0 \u00e9tudier, puis lui et ses \u00e9l\u00e8ves d\u00e9battaient de ce que l'ouvrage signifiait, \u00e9tudiaient d'autres \u0153uvres traitant du m\u00eame sujet et les critiques de l'ouvrage lui-m\u00eame, etc. Ainsi, les \u00e9l\u00e8ves acquerraient une compr\u00e9hension plus compl\u00e8te du sujet que s'ils avaient d\u00fb m\u00e9moriser purement et simplement la m\u00eame somme d'informations. Le mouvement fut largement popularis\u00e9 par la red\u00e9couverte des travaux des philosophes grecs, ainsi que par la tentative d'int\u00e9grer leurs id\u00e9es \u00e0 la pens\u00e9e chr\u00e9tienne.",
+                "help_text": "Toutes les cit\u00e9s-\u00e9tats alli\u00e9es octroient un bonus de science \u00e9gal \u00e0 25% de ce qu'elles produisent pour elles-m\u00eames.",
+                "level": 0,
+                "prereq_policies": [
+                    "Philanthropie"
+                ]
+            },
+            {
+                "name": "Diplomatie culturelle",
+                "civilopedia": "La diplomatie culturelle propose de pr\u00eater un objet comptant parmi les plus pr\u00e9cieux et magnifiques d'une nation \u00e0 une autre civilisation, afin de promouvoir la paix et la tol\u00e9rance entre les peuples. L'un des avatars les plus p\u00e9rennes de diplomatie culturelle est l'exposition universelle qui se tient dans une ville diff\u00e9rente tous les deux \u00e0 cinq ans. L'exposition universelle h\u00e9berge chaque fois des \u00e9chantillons de ce que les arts, les artisanats, l'agriculture et l'industrie de diff\u00e9rentes nations peuvent produire. La premi\u00e8re d'entre elles eut lieu en 1851 au Crystal Palace de Londres, au c\u0153ur de Hyde Park. Ce palais d'expositions, con\u00e7u par Joseph Paxton, est n\u00e9 de l'imagination du Prince Albert, mari de la reine Victoria. Il y eut quelque 13 000 \u0153uvres expos\u00e9es, vues par pr\u00e8s de six millions de personnes. La prochaine exposition universelle aura lieu \u00e0 Shanghai, en Chine, en 2010. On y attend environ 70 millions de visiteurs.",
+                "help_text": "La quantit\u00e9 de ressources offertes par les cit\u00e9s-\u00e9tats augmente de 100%. Le bonheur li\u00e9 aux ressources de luxe offertes augmente de 50%.",
+                "level": 0,
+                "prereq_policies": [
+                    "Scolastique"
+                ]
+            },
+            {
+                "name": "Conf\u00e9d\u00e9ration marchande",
+                "civilopedia": "Aussi connue sous le nom de ligue ou guilde commerciale, une conf\u00e9d\u00e9ration marchande a pour but de prot\u00e9ger les int\u00e9r\u00eats \u00e9conomiques et privil\u00e8ges diplomatiques des marchands des villes et des nations travers\u00e9es par des routes commerciales. Bien que ces conf\u00e9d\u00e9rations n'aient rien d'officiel, nombre d'entre elles, \u00e0 l'image de la Compagnie des marchands aventuriers de Londres (fond\u00e9e en 1407) et de la puissante Ligue hans\u00e9atique (form\u00e9e au milieu du XIVe si\u00e8cle), eurent une influence \u00e9conomique importante et domin\u00e8rent certaines routes commerciales pendant de longues ann\u00e9es. Au d\u00e9but de la Renaissance, des conf\u00e9d\u00e9rations marchandes s'\u00e9tablirent dans des cit\u00e9s-\u00e9tats, comme Venise ou G\u00eanes, afin de prot\u00e9ger les int\u00e9r\u00eats des commer\u00e7ants \u00e0 l'\u00e9tranger. Ces ligues attinrent leur apog\u00e9e aux XVe et XVIe si\u00e8cles, avant de d\u00e9cliner progressivement, \u00e0 mesure que les gouvernements nationaux et les compagnies \u00e0 charte s'appropriaient leurs responsabilit\u00e9s diplomatiques et r\u00e9glementaires.",
+                "help_text": "Or +2 pour les routes commerciales \u00e9tablies avec des cit\u00e9s-\u00e9tats.",
+                "level": 0,
+                "prereq_policies": [
+                    "Scolastique",
+                    "Consulats"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Esth\u00e9tique",
+        "help_text": "L' esth\u00e9tique am\u00e9liore l'efficacit\u00e9 avec laquelle la civilisation g\u00e9n\u00e8re de la culture. Adopter l'esth\u00e9tique acc\u00e9l\u00e8re la vitesse de g\u00e9n\u00e9ration d'artistes, de musiciens et d'\u00e9crivains illustres de 25%, et d\u00e9bloque la Galerie des Offices. En adoptant toutes les doctrines, vous doublez le bonus th\u00e9matique des mus\u00e9es et des merveilles. Permet \u00e9galement d'acheter des artistes, musiciens et \u00e9crivains illustres avec de la foi \u00e0 partir de l'\u00e8re industrielle.",
+        "era_requirement": "\u00c8re classique",
+        "policies": [
+            {
+                "name": "Centres culturels",
+                "civilopedia": "Un centre culturel est un b\u00e2timent, un complexe ou une institution ayant pour objectif de promouvoir les arts. Dans certains cas, le m\u00e9c\u00e9nat des mus\u00e9es et des galeries d'art est ouvert \u00e0 tous. Les centres culturels peuvent \u00e9galement faire des dons afin d'encourager la construction ou la gestion de lieux priv\u00e9s destin\u00e9s \u00e0 accueillir des performances artistiques, mais aussi dans le but de faciliter l'acquisition de talents au sein d'orchestres, de troupes de th\u00e9\u00e2tre ou de danse et d'ensembles vocaux.",
+                "help_text": "Construction des monuments historiques, amphith\u00e9\u00e2tres, op\u00e9ras, mus\u00e9es et tours de radiodiffusion 50% plus rapide.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Beaux-arts",
+                "civilopedia": "Les beaux-arts, par opposition \u00e0 l'art populaire et aux arts appliqu\u00e9s, sont les arts qui cherchent \u00e0 cr\u00e9er des exp\u00e9riences ou des objets esth\u00e9tiques pouvant \u00eatre partag\u00e9s avec l'autre. Le terme de \"beaux-arts\" fut utilis\u00e9 en Europe \u00e0 partir du XVIIe si\u00e8cle, les cinq arts sup\u00e9rieurs \u00e9tant la peinture, la sculpture, l'architecture, la musique et la po\u00e9sie. Les arts \"mineurs\", quant \u00e0 eux, comprennent le th\u00e9\u00e2tre et la danse. Des d\u00e9bats font toujours rage aujourd'hui pour d\u00e9terminer si le cin\u00e9ma, la photographie, la calligraphie, la mode, les bandes dessin\u00e9es et m\u00eame les jeux vid\u00e9o peuvent \u00eatre consid\u00e9r\u00e9s comme des \"arts\", qu'ils soient beaux ou non.",
+                "help_text": "50% du bonheur exc\u00e9dentaire sont ajout\u00e9s chaque tour \u00e0 la quantit\u00e9 de culture pouvant \u00eatre d\u00e9pens\u00e9e en doctrines sociales.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Essor des arts",
+                "civilopedia": "L'expression \"essor des arts\" fait g\u00e9n\u00e9ralement r\u00e9f\u00e9rence \u00e0 une p\u00e9riode pendant laquelle l'esth\u00e9tique est mise en valeur et qui se caract\u00e9rise par une importante production d'oeuvres artistiques novatrices, g\u00e9n\u00e9ralement lors de l'\u00e2ge d'or d'une civilisation. Au m\u00eame titre que les progr\u00e8s scientifiques et l'am\u00e9lioration du niveau de vie, l'essor des arts au cours d'un \u00e2ge d'or concerne toutes les formes d'art\u00a0: la litt\u00e9rature, la musique, mais aussi les arts mat\u00e9riels. Les cycles de ce type sont malheureusement destin\u00e9s \u00e0 \u00eatre bris\u00e9s, le plus souvent en raison d'influences ext\u00e9rieures telles que la guerre, l'effondrement \u00e9conomique, le fanatisme religieux ou d'autres circonstances sur lesquelles les populations n'ont aucune prise.",
+                "help_text": "Culture +33% dans toutes les villes ayant construit une merveille mondiale. L'empire entre imm\u00e9diatement dans un \u00e2ge d'or.",
+                "level": 0,
+                "prereq_policies": [
+                    "Centres culturels",
+                    "Beaux-arts"
+                ]
+            },
+            {
+                "name": "G\u00e9nie artistique",
+                "civilopedia": "Un g\u00e9nie artistique est une personne qui poss\u00e8de suffisamment de cr\u00e9ativit\u00e9, d'originalit\u00e9 et d'aptitudes pour int\u00e9grer le Beau dans toute forme d'art. Le g\u00e9nie artistique peut \u00e9galement s'appliquer \u00e0 des performances telles que la chor\u00e9graphie, l'orchestration ou le th\u00e9\u00e2tre. L'histoire de la civilisation est parsem\u00e9e de g\u00e9nies litt\u00e9raires, artistiques et d'interpr\u00e9tation, souvent caract\u00e9riels, mais toujours brillants dans leur domaine.",
+                "help_text": "Apparition d'un artiste illustre.",
+                "level": 0,
+                "prereq_policies": [
+                    "Beaux-arts"
+                ]
+            },
+            {
+                "name": "\u00c9change culturel",
+                "civilopedia": "Bien qu'il ait exist\u00e9 des \u00e9changes culturels non officiels (comme la visite d'\u00e9tudiants, d'artistes, d'athl\u00e8tes ou d'autres personnes sur la base du compromis entre nations) d\u00e8s le d\u00e9but de l'\u00e8re industrielle, de tels programmes d'\u00e9change furent officialis\u00e9s entre des gouvernements oppos\u00e9s au cours de la guerre froide, alors que les \u00c9tats-Unis et l'URSS voulaient tous deux afficher la sup\u00e9riorit\u00e9 de leur mod\u00e8le culturel respectif dans le monde entier, et renforcer la compr\u00e9hension mutuelle de leurs deux syst\u00e8mes de valeurs. Ces programmes officiels all\u00e9geaient les restrictions de voyage pour certains groupes au sein des \"territoires ennemis\", un processus que plusieurs historiens ont qualifi\u00e9 de \"cheval de Troie culturel\", car les \u00e9changes finirent par \"\u00e9roder\" le r\u00e9gime sovi\u00e9tique.",
+                "help_text": "Augmente de 15% les effets du modificateur de tourisme si deux civilisations ont en commun une religion, des routes commerciales et des trait\u00e9s de libre passage.",
+                "level": 0,
+                "prereq_policies": [
+                    "Essor des arts"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Commerce",
+        "help_text": "Le commerce octroie des bonus aux empires dont la production se focalise sur l' or. Adopter le commerce augmente la production d' or de la capitale de 25% et d\u00e9bloque Big Ben. En adoptant toutes les doctrines du commerce, chaque comptoir commercial vous rapportera +1 Or. Permet \u00e9galement d'acheter des marchands illustres avec de la foi \u00e0 partir de l'\u00e8re industrielle.",
+        "era_requirement": "Moyen \u00c2ge",
+        "policies": [
+            {
+                "name": "Arm\u00e9e de mercenaires",
+                "civilopedia": "Les mercenaires, qui prennent part \u00e0 un conflit pour un b\u00e9n\u00e9fice personnel ou une r\u00e9compense plut\u00f4t que par devoir ou par foi, participent aux guerres depuis la nuit des temps. Ils furent toutefois particuli\u00e8rement actifs pendant la Renaissance, avec les fameuses \"Grandes compagnies\" qui formaient des combattants \u00e0 recruter. Souvent compos\u00e9es de v\u00e9t\u00e9rans issus d'arm\u00e9es nationales et dirig\u00e9es par des commandants charismatiques comme l'Anglais Sir John Hawkwood, qui a fond\u00e9 la tristement c\u00e9l\u00e8bre Compagnie Blanche, ces \"Grandes compagnies\" \u00e9taient souvent engag\u00e9es en temps de guerre par des cit\u00e9s-\u00e9tats ou des petits royaumes qui n'avaient pas suffisamment d'hommes ou de fonds pour s'offrir une arm\u00e9e permanente. Tandis que les premi\u00e8res compagnies de mercenaires se sp\u00e9cialis\u00e8rent dans des formes de combat sp\u00e9cifiques, comme la cavalerie ou l'artillerie, la plupart \u00e9taient constitu\u00e9es de lansquenets allemands ou suisses qui furent tr\u00e8s actifs pendant les guerres religieuses de la R\u00e9forme. Par pure co\u00efncidence, au Sud, les condottieres servaient dans les luttes intestines entre les cit\u00e9s-\u00e9tats italiennes, y compris la Papaut\u00e9. Jusqu'au XVIIIe si\u00e8cle, les compagnies ga\u00e9liques \u00e9cossaises se faisaient engager par des nobles du continent. Aujourd'hui, les mercenaires sont recrut\u00e9s en petits groupes d'\u00e9lite pour des missions sp\u00e9cifiques ou sont recrut\u00e9s par des soci\u00e9t\u00e9s de s\u00e9curit\u00e9 priv\u00e9es.",
+                "help_text": "Permet de recruter des lansquenets.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Entreprenariat",
+                "civilopedia": "Le terme \"entreprenariat\" vient du verbe \"entreprendre\" et fait r\u00e9f\u00e9rence \u00e0 l'aptitude et \u00e0 la volont\u00e9 d'un individu \u00e0 d\u00e9velopper, organiser et g\u00e9rer un projet commercial dans l'espoir de faire du profit. Au fil des si\u00e8cles, l'entreprenariat s'est manifest\u00e9 sous diff\u00e9rentes formes : c\u00e9l\u00e8bres marchands et explorateurs italiens \u00e0 la Renaissance, compagnies soutenues par le gouvernement \u00e0 l'\u00e9poque des grandes d\u00e9couvertes, requins de l'industrie \u00e0 l'\u00e8re industrielle... Quelle que soit la forme adopt\u00e9e, la volont\u00e9 de risquer ses propres fonds dans le but de g\u00e9n\u00e9rer une plus grande richesse a balis\u00e9 l'\u00e9volution des civilisations aussi s\u00fbrement que tous les autres facteurs.",
+                "help_text": "Apparition des marchands illustres 25% plus rapide. Vous recevez deux fois plus d'Or \u00e0 l'issue des missions commerciales des marchands illustres.",
+                "level": 0,
+                "prereq_policies": [
+                    "Convois de chariots"
+                ]
+            },
+            {
+                "name": "Mercantilisme",
+                "civilopedia": "Le mercantilisme est une forme de nationalisme \u00e9conomique qui encourage un pays \u00e0 adopter une attitude protectionniste en promouvant ses produits d'exportation tout en limitant ses importations. Lorsque la balance commerciale d'un pays augmente, ce dernier gagne en richesse et en prosp\u00e9rit\u00e9\u00a0; si elle plonge en dessous de z\u00e9ro (si la nation importe plus qu'elle n'exporte), alors le peuple du pays s'appauvrit et devient plus vuln\u00e9rable aux menaces ext\u00e9rieures. Cette th\u00e9orie connut un grand succ\u00e8s en Europe occidentale au cours des XVIe, XVIIe et XVIIIe si\u00e8cles. Aujourd'hui, la majeure partie des nations occidentales cherchent \u00e0 ouvrir leurs fronti\u00e8res au commerce, non sans omettre d'imposer des taxes et autres quotas pour prot\u00e9ger leurs industries nationales majeures.",
+                "help_text": "L'achat d'\u00e9l\u00e9ments dans les villes n\u00e9cessite 25% d'or en moins. +1 Science pour chaque h\u00f4tel de la monnaie, march\u00e9, banque et bourse.",
+                "level": 0,
+                "prereq_policies": [
+                    "Arm\u00e9e de mercenaires"
+                ]
+            },
+            {
+                "name": "Convois de chariots",
+                "civilopedia": "Lorsque l'\u00e9tat des routes commen\u00e7a \u00e0 s'am\u00e9liorer et le banditisme \u00e0 reculer, les caravanes furent peu \u00e0 peu remplac\u00e9es par des convois de chariots. Ces derniers permettaient en effet de transporter un plus grand nombre de biens plus vari\u00e9s, de parcourir de plus grandes distances et offraient un abri aux voyageurs et aux marchandises. Les convois de chariots furent longtemps employ\u00e9s pour le commerce, la guerre et les migrations de populations, mais disparurent progressivement \u00e0 partir de l'\u00e8re industrielle.",
+                "help_text": "Or +2 pour toutes les routes commerciales terrestres. Les co\u00fbts d'entretien li\u00e9s aux routes et aux voies ferr\u00e9es sont r\u00e9duits de 50%.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Protectionnisme",
+                "civilopedia": "Le protectionnisme est une politique \u00e9conomique visant \u00e0 la restriction du commerce international par le biais de quotas, de taxes ou d'autres m\u00e9thodes de ce type. Il est employ\u00e9 par les pays qui cherchent \u00e0 ralentir, voire \u00e0 enrayer totalement le flux d'importation de marchandises et de services afin de prot\u00e9ger les industries locales. Le protectionnisme est \u00e9galement utilis\u00e9 par les dirigeants qui souhaitent limiter les interactions entre leur population et les biens et peuples \u00e9trangers. Soit parce qu'ils sont convaincus que tout ce qui vient de l'\u00e9tranger est l'\u0153uvre du D\u00e9mon, soit parce qu'ils n'ont aucune envie que leurs citoyens se rendent compte \u00e0 quel point ils sont mal lotis par rapport aux autres populations du monde. La Cor\u00e9e du Nord propose un exemple grotesque d'\u00e9tat protectionniste, ses dirigeants limitant tout contact entre la population et le monde ext\u00e9rieur afin de dissimuler le retard socio-\u00e9conomique du pays.",
+                "help_text": "+2 Bonheur pour chaque ressource de luxe.",
+                "level": 0,
+                "prereq_policies": [
+                    "Mercantilisme",
+                    "Entreprenariat"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Exploration",
+        "help_text": "L' exploration am\u00e9liore votre aptitude \u00e0 \u00e9tendre votre empire par-del\u00e0 les mers. Adopter l'exploration octroie 1\u00a0 point de mouvement suppl\u00e9mentaire aux unit\u00e9s navales et 1\u00a0point de champ de vision aux unit\u00e9s militaires navales, et d\u00e9bloque le Louvre. En adoptant toutes les doctrines, vous deviendrez capable de voir les sites antiques cach\u00e9s et vous pourrez acheter des amiraux illustres avec de la foi \u00e0 partir de l'\u00e8re industrielle.",
+        "era_requirement": "Moyen \u00c2ge",
+        "policies": [
+            {
+                "name": "Infrastructures maritimes",
+                "civilopedia": "Les infrastructures maritimes sont les installations et services collectifs qui facilitent l'activit\u00e9 commerciale maritime. Ce terme fait notamment r\u00e9f\u00e9rence aux docks, quais, entrep\u00f4ts et installations du m\u00eame type, ainsi qu'aux dockers, charpentiers de marine, pilotes portuaires et autres personnes charg\u00e9es de l'amarrage, et du chargement et du d\u00e9chargement de la marchandise. On estime que dans l'histoire, un m\u00e9tier sur six fut directement ou indirectement li\u00e9 au commerce maritime. Les nations souhaitant s'enrichir en s'\u00e9tendant par-del\u00e0 les oc\u00e9ans se doivent de poss\u00e9der de solides infrastructures maritimes. \u00c0 l'apog\u00e9e de l'Empire britannique, on estime que la Couronne consacrait environ un tiers de ses recettes \u00e0 l'agrandissement et \u00e0 l'am\u00e9nagement des ports internationaux qui servaient les int\u00e9r\u00eats de l'immense flotte marchande de l'Empire.",
+                "help_text": "Villes c\u00f4ti\u00e8res\u00a0: production +3.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Tradition navale",
+                "civilopedia": "Les nations poss\u00e9dant une forte tradition navale estiment la marine de leur pays plus que toute autre branche de l'arm\u00e9e. Pour des raisons \u00e9videntes, il s'agit souvent de nations insulaires. Il est attendu des dirigeants qu'ils servent dans la marine, et les officiers navals sont consid\u00e9r\u00e9s comme sup\u00e9rieurs \u00e0 leurs homologues des forces a\u00e9riennes. La Grande-Bretagne poss\u00e8de la tradition navale la plus ancienne et la plus puissante d'Europe. Les navires britanniques \u00e9taient plus performants que ceux des autres nations, et les officiers et \u00e9quipages britanniques les plus comp\u00e9tents sur l'eau. Ces atouts donn\u00e8rent \u00e0 la marine britannique un s\u00e9rieux ascendant moral lors des combats navals qu'elle a eu \u00e0 mener.",
+                "help_text": "Bonheur +1 pour chaque port, chantier naval ou phare.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Marine marchande",
+                "civilopedia": "Une marine marchande est une flotte de navires marchands qui, en temps de guerre, peuvent \u00eatre r\u00e9quisitionn\u00e9s afin de transporter des marchandises et du mat\u00e9riel militaires appartenant \u00e0 la nation. Souvent, ces navires sont escort\u00e9s par des vaisseaux de la marine du pays. Pendant de nombreuses ann\u00e9es, les Britanniques ont entretenu la flotte de marine marchande la plus nombreuse et la plus efficace de toute l'Histoire. Mise en place en 1835, la marine marchande britannique a subi de lourdes pertes durant les deux guerres mondiales. Pr\u00e8s de 15\u00a0000\u00a0marins marchands ont perdu la vie durant la premi\u00e8re, et 30\u00a0000 durant la seconde.",
+                "help_text": "Or +1 pour chaque port, chantier naval ou phare. Production et Culture +4 dans la ville accueillant la Compagnie des Indes orientales.",
+                "level": 0,
+                "prereq_policies": [
+                    "Tradition navale",
+                    "Infrastructures maritimes"
+                ]
+            },
+            {
+                "name": "\u00c9cole de Navigation",
+                "civilopedia": "En 1418, le prince Henri du Portugal fonda \u00e0 Sagres la premi\u00e8re \u00e9cole d\u00e9di\u00e9e \u00e0 l'\u00e9tude de la navigation oc\u00e9anique, ainsi qu'un observatoire astronomique. Les marins portugais y \u00e9tudiaient la navigation, la cartographie, la science des courants et des mar\u00e9es, ainsi que d'autres sujets devant leur permettre de naviguer plus s\u00fbrement le long des c\u00f4tes africaines, o\u00f9 Henri souhaitait \u00e9tablir des ports faisant office d'escales vers les richesses de l'Extr\u00eame-Orient. Lorsque les exp\u00e9ditions d'exploration et de colonisation atteignirent leur apog\u00e9e au XVIIe si\u00e8cle, la plupart des monarques europ\u00e9ens suivirent l'exemple d'Henri et fond\u00e8rent \u00e0 leur tour des \u00c9coles de Navigation.",
+                "help_text": "Apparition d'un amiral illustre. D\u00e9placement +2 pour tous les amiraux illustres. G\u00e9n\u00e9ration d'amiraux illustres 50% plus rapide.",
+                "level": 0,
+                "prereq_policies": [
+                    "Tradition navale"
+                ]
+            },
+            {
+                "name": "Flotte des Indes",
+                "civilopedia": "\u00c0 diverses p\u00e9riodes, les nations devant transporter de grandes quantit\u00e9s de tr\u00e9sors et de marchandises organis\u00e8rent des convois afin d'accro\u00eetre les chances des cargaisons d'arriver \u00e0 destination. La flotte la plus c\u00e9l\u00e8bre fut la Flotte des Indes espagnole, qui de 1566 \u00e0 1790, transporta de l'or, de l'argent, des \u00e9pices, du tabac, des perles et d'autres richesses depuis les Indes occidentales jusqu'aux ports espagnols d'Europe. Le sac de la Havane par les corsaires fran\u00e7ais et les attaques de galions isol\u00e9s par les boucaniers anglais incit\u00e8rent l'Espagne \u00e0 syst\u00e9matiser les convois de bateaux entre le Nouveau Monde et l'Europe. Bien que les mers soient aujourd'hui relativement d\u00e9barrass\u00e9es de la menace des pirates, les nations maritimes ont encore recours aux convois dans les secteurs en guerre afin d'accro\u00eetre les chances des navires marchands d'arriver \u00e0 bon port.",
+                "help_text": "Or +4 pour toutes vos routes commerciales maritimes.",
+                "level": 0,
+                "prereq_policies": [
+                    "Marine marchande"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Rationalisme",
+        "help_text": "Le rationalisme am\u00e9liore votre aptitude \u00e0 utiliser et \u00e0 g\u00e9n\u00e9rer de la science. L'adoption du rationalisme augmente de 10% le nombre de points de science tant que l'empire est heureux, et d\u00e9bloque la Tour de porcelaine. En adoptant toutes les doctrines du rationalisme, vous obtenez 2\u00a0technologies gratuites. Permet \u00e9galement d'acheter des scientifiques illustres avec de la foi \u00e0 partir de l'\u00e8re industrielle.",
+        "era_requirement": "Renaissance",
+        "policies": [
+            {
+                "name": "La\u00efcit\u00e9",
+                "civilopedia": "La la\u00efcit\u00e9 est la conviction que le gouvernement se doit d'\u00eatre s\u00e9par\u00e9 de la foi religieuse. Les religions ne doivent pas \u00eatre enseign\u00e9es \u00e0 l'\u00e9cole, et la foi d'un individu ne doit avoir aucune incidence sur l'obtention d'un emploi au sein du gouvernement ou de l'arm\u00e9e. Cela ne signifie pas pour autant que les la\u00efcistes sont forc\u00e9ment ath\u00e9es\u00a0; ils pensent simplement que m\u00e9langer gouvernement et religion finira par nuire aux deux institutions. Les \u00c9tats-Unis sont un exemple de pays fortement la\u00efc, bien que des traces de la religion de leurs premiers habitants subsistent sur la monnaie du pays, dans le serment pr\u00eat\u00e9 par les dirigeants le jour de leur investiture ou dans leur syst\u00e8me juridique. Ces \u00e9l\u00e9ments suscitent d'ailleurs une forte d\u00e9sapprobation chez les citoyens qui n'appartiennent pas \u00e0 cette religion.",
+                "help_text": "Sp\u00e9cialiste\u00a0: science +2.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Humanisme",
+                "civilopedia": "L'humanisme est une philosophie statuant que l'\u00eatre humain est l'\u00e9l\u00e9ment le plus important de notre monde. Il n'existe ni \u00eatre supr\u00eame, ni puissance surnaturelle auxquelles les humains se doivent de pr\u00eater all\u00e9geance. L'\u00eatre humain est son propre guide et la source premi\u00e8re de son savoir. Nous sommes seuls. L'humanisme existe, sous une forme ou une autre, depuis la Gr\u00e8ce antique. Il appara\u00eet \u00e9galement dans des textes indiens et asiatiques vieux de deux \u00e0 trois mille ans. Il a fait une r\u00e9apparition remarqu\u00e9e \u00e0 la Renaissance et reste encore aujourd'hui une force philosophique majeure.",
+                "help_text": "Apparition des scientifiques illustres 25% plus rapide.",
+                "level": 0,
+                "prereq_policies": []
+            },
+            {
+                "name": "Libert\u00e9 de pens\u00e9e",
+                "civilopedia": "La libert\u00e9 de pens\u00e9e est la croyance selon laquelle la connaissance devrait na\u00eetre de l'application des sciences et de la raison plut\u00f4t que de la tradition ou de la religion. Les th\u00e9ories doivent \u00eatre \u00e9prouv\u00e9es scientifiquement et logiquement. Si quelque chose ne peut \u00eatre prouv\u00e9, alors il n'y a aucune raison d'y croire. La foi aveugle est l'ennemie jur\u00e9e des d\u00e9fenseurs de la pens\u00e9e libre. La libert\u00e9 de pens\u00e9e est un pan important de la tradition bouddhiste. Dans le \"Kalama Sutta\", le Bouddha d\u00e9clare, \"Ne vous fiez pas \u00e0 ce qui a \u00e9t\u00e9 acquis du fait de la tradition\u00a0; ni du fait que cela se trouve dans des \u00c9critures\u00a0; en revanche, lorsque vous \u00eates s\u00fbrs de vous\u00a0; alors, vivez selon cette certitude.\"",
+                "help_text": "Comptoirs commerciaux\u00a0: science +1 et science +17% gr\u00e2ce aux universit\u00e9s.",
+                "level": 0,
+                "prereq_policies": [
+                    "Humanisme"
+                ]
+            },
+            {
+                "name": "Souverainet\u00e9",
+                "civilopedia": "La souverainet\u00e9, ou \"souverainet\u00e9 populaire\", repr\u00e9sente la conviction que l'\u00e9tat appartient au peuple, et que les dirigeants sont ses serviteurs. Le pouvoir vient du peuple, et ceux qui dirigent le font avec le consentement de ce dernier. La souverainet\u00e9 populaire est \u00e0 l'oppos\u00e9 direct de la th\u00e9ocratie. Dans cette derni\u00e8re, le dirigeant tient son pouvoir de Dieu. Les nations o\u00f9 r\u00e8gne la souverainet\u00e9 populaire tiennent g\u00e9n\u00e9ralement des \u00e9lections r\u00e9guli\u00e8res durant lesquelles les citoyens expriment leur volont\u00e9, votant pour celui qu'ils estiment \u00eatre le meilleur candidat au poste propos\u00e9 (plut\u00f4t que de donner leur voix au plus imposant ou au manipulateur le plus habile).",
+                "help_text": "Les b\u00e2timents scientifiques vous fourniront +1 Or.",
+                "level": 0,
+                "prereq_policies": [
+                    "La\u00efcit\u00e9"
+                ]
+            },
+            {
+                "name": "R\u00e9volution scientifique",
+                "civilopedia": "Une r\u00e9volution scientifique est une p\u00e9riode de l'Histoire au cours de laquelle d'importantes avanc\u00e9es au niveau de la technologie et du savoir humains modifient radicalement la perspective contemporaine. En cons\u00e9quence, de nouveaux avancements scientifiques et philosophiques cruciaux sont effectu\u00e9s. La majeure partie de l'Europe v\u00e9cut une r\u00e9volution scientifique au XVIe si\u00e8cle suite \u00e0 la publication des ouvrages de Nicolas Copernic, \"Des r\u00e9volutions des sph\u00e8res c\u00e9lestes\", et d'Andr\u00e9 V\u00e9sale, \"Sur le fonctionnement du corps humain\" (en sept tomes). Ces deux \u0153uvres pr\u00f4naient l'usage de pratiques scientifiques modernes (pour l'\u00e9poque) dans le but d'examiner des \u00e9l\u00e9ments du monde environnant et de prouver le caract\u00e8re erron\u00e9 de certaines th\u00e9ories scientifiques (dont certaines remontaient \u00e0 la Gr\u00e8ce antique). Le succ\u00e8s de ces ouvrages ouvrit de nombreuses vannes, et les scientifiques commenc\u00e8rent \u00e0 \u00e9tudier attentivement leur environnement, avec pour cons\u00e9quence un enrichissement exponentiel des connaissances humaines au cours des si\u00e8cles qui suivirent.",
+                "help_text": "La r\u00e9volution scientifique augmente de 50% le nombre de points de science obtenus par le biais d'accords de recherche.",
+                "level": 0,
+                "prereq_policies": [
+                    "Souverainet\u00e9"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "\u00c9galit\u00e9",
+        "help_text": "L' \u00e9galit\u00e9 est adapt\u00e9e aux petits empires \u00e0 la production orient\u00e9e. Elle octroie notamment des bonus li\u00e9s aux personnages illustres et aux sp\u00e9cialistes. En adoptant l'\u00e9galit\u00e9, les personnages illustres apparaissent 25% plus vite. En adoptant toutes les doctrines de l'\u00e9galit\u00e9, vous augmenterez de 100% le rendement de base des grands am\u00e9nagements de cases et la dur\u00e9e des \u00e2ges d'or de 50%. Permet d'acheter des artistes illustres avec la foi non d\u00e9pens\u00e9e. [COLOR_WARNING_TEXT] Cette cat\u00e9gorie de doctrines ne peut pas \u00eatre active en m\u00eame temps que l'autocratie ou l'ordre.",
+        "era_requirement": "\u00c8re industrielle",
+        "policies": [
+            {
+                "name": "Avant-garde",
+                "civilopedia": "L'avant-garde d\u00e9signe les oeuvres et id\u00e9es novatrices ou exceptionnellement cr\u00e9atives, en particulier dans les domaines artistiques, musicaux et politiques. Ce courant repousse les limites d\u00e9finies par les normes commun\u00e9ment admises et rompt avec l'h\u00e9ritage du pass\u00e9, par exemple par le biais de r\u00e9formes sociales radicales. Les soci\u00e9t\u00e9s d\u00e9mocratiques ont tendance \u00e0 autoriser une plus grande expression sociale, favorisant ainsi des avanc\u00e9es culturelles \"de pointe\".",
+                "help_text": "Les personnages illustres apparaissent 25% plus vite.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Expression cr\u00e9ative",
+                "civilopedia": "Au sens g\u00e9n\u00e9ral, l'expression cr\u00e9ative consiste en l'expression d'id\u00e9es ou d'\u00e9motions par le biais de l'art. De mani\u00e8re restrictive, ce terme renvoie \u00e0 la possibilit\u00e9 de faire de l'art sans que le gouvernement n'interf\u00e8re par la censure, la taxation ou d'autres restrictions l\u00e9gales.",
+                "help_text": "Culture +1 pour chaque chef-d'oeuvre (sans impact sur le tourisme).",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Soci\u00e9t\u00e9 civile",
+                "civilopedia": "Dans une soci\u00e9t\u00e9 civile, le peuple travaille librement et de son plein gr\u00e9 pour am\u00e9liorer le monde qui l'entoure. Les citoyens rejoignent des organisations civiques, ramassent les ordures qui jonchent le sol devant leur demeure et leur lieu de travail, adoptent des animaux abandonn\u00e9s, participent aux r\u00e9unions de parents d'\u00e9l\u00e8ves et votent durant les \u00e9lections. Les pays o\u00f9 les soci\u00e9t\u00e9s civiles sont actives sont g\u00e9n\u00e9ralement plus droits, plus efficaces et plus heureux que les autres.",
+                "help_text": "Les sp\u00e9cialistes consomment moiti\u00e9 moins de nourriture.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Arm\u00e9e de volontaires",
+                "civilopedia": "Dans une arm\u00e9e de volontaires, les effectifs se composent de volontaires et ne sont pas issus de la conscription ou du service obligatoire. Ce type d'arm\u00e9e existe g\u00e9n\u00e9ralement dans les d\u00e9mocraties. Le salaire, les primes et les avantages sont g\u00e9n\u00e9ralement attractifs afin de faciliter le recrutement et d'allonger la dur\u00e9e d'engagement. La plupart des pays disposant d'arm\u00e9es compos\u00e9es de volontaires ont adopt\u00e9 des lois de conscription en cas d'\u00e9tat de guerre g\u00e9n\u00e9ralis\u00e9.",
+                "help_text": "Co\u00fbt d'entretien nul pour 6 unit\u00e9s. Obtention imm\u00e9diate de 6 unit\u00e9s de L\u00e9gion \u00e9trang\u00e8re.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Op\u00e9ration secr\u00e8te",
+                "civilopedia": "Le d\u00e9partement de la D\u00e9fense des \u00c9tats-Unis d\u00e9finit une op\u00e9ration secr\u00e8te comme suit\u00a0: \"une op\u00e9ration pr\u00e9par\u00e9e et ex\u00e9cut\u00e9e de telle sorte que l'identit\u00e9 de l'organisateur soit gard\u00e9e secr\u00e8te, ou que ce dernier puisse nier son implication de fa\u00e7on plausible\". Le but d'une op\u00e9ration secr\u00e8te est de provoquer des cons\u00e9quences politiques, militaires, \u00e9conomiques ou diplomatiques sans risques de r\u00e9percussions de la part de la cible ou de la part des citoyens du pays organisateur. Les op\u00e9rations secr\u00e8tes peuvent prendre diverses formes (assassinat, espionnage, op\u00e9rations militaires, etc.), mais ont pour point commun de toutes se d\u00e9rouler dans l'ombre la plus totale.",
+                "help_text": "Deux fois plus de chances de r\u00e9ussir \u00e0 truquer les \u00e9lections dans les cit\u00e9s-\u00e9tats.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Urbanisation",
+                "civilopedia": "L'urbanisation est la croissance physique des villes engendr\u00e9e par l'exode rural et la concentration de population dans les banlieues. L'urbanisation est \u00e9troitement li\u00e9e \u00e0 l'industrialisation, la modernisation et la rationalisation sociologique. Tous ces ph\u00e9nom\u00e8nes, n\u00e9s \u00e0 l'\u00e8re industrielle, se sont acc\u00e9l\u00e9r\u00e9s \u00e0 l'\u00e2ge de l'information. Selon les donn\u00e9es des Nations unies, environ la moiti\u00e9 de la population mondiale vivait dans des zones urbaines \u00e0 la fin de la premi\u00e8re d\u00e9cennie du XXIe si\u00e8cle. En 2050, on estime que l'humanit\u00e9 sera urbanis\u00e9e \u00e0 85%.",
+                "help_text": "Bonheur local +1 pour chaque moulin \u00e0 eau, h\u00f4pital et laboratoire m\u00e9dical.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Capitalisme",
+                "civilopedia": "Le capitalisme est un syst\u00e8me \u00e9conomique bas\u00e9 sur la privatisation des biens et des moyens de production, qui a pour objectif la recherche du profit. Le capitalisme existe sous diff\u00e9rentes formes, les plus r\u00e9pandues \u00e9tant le laissez-faire, le capitalisme social et le capitalisme d'\u00e9tat. La plupart des pays modernes ont aujourd'hui adopt\u00e9 un capitalisme mixte, dans lequel l'entreprenariat dirig\u00e9 par le march\u00e9 et le contr\u00f4le du gouvernement se compl\u00e8tent \u00e0 des degr\u00e9s diff\u00e9rents.",
+                "help_text": "Bonheur local +1 pour chaque h\u00f4tel de la monnaie, banque et bourse.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Union \u00e9conomique",
+                "civilopedia": "Une union \u00e9conomique est un bloc commercial compos\u00e9 d'un march\u00e9 commun et d'une union douani\u00e8re. Les nations membres adoptent une politique commune de r\u00e9gulation de la production, garantissent la libert\u00e9 des \u00e9changes commerciaux au sein de l'union \u00e9conomique, \u00e9tablissent des taxes et des tarifs communs et adoptent une politique commune en mati\u00e8re de commerce ext\u00e9rieur. Dans certains cas, l'union \u00e9conomique peut m\u00eame promouvoir ou instaurer une monnaie unique. Les unions \u00e9conomiques les plus abouties \u00e0 ce jour sont l'Union europ\u00e9enne, fond\u00e9e en 1993, et la Communaut\u00e9 carib\u00e9enne, form\u00e9e en 1973.",
+                "help_text": "Or +3 pour chaque route commerciale \u00e9tablie avec une civilisation ayant adopt\u00e9 l'\u00e9galit\u00e9.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Leur plus belle heure",
+                "civilopedia": "C'est dans un discours devant le Parlement britannique en juin 1940, suite \u00e0 l'annonce de la d\u00e9faite de la France face \u00e0 l'Allemagne, que le Premier ministre Winston Churchill pronon\u00e7a cette phrase. Il faisait par-l\u00e0 r\u00e9f\u00e9rence \u00e0 la r\u00e9sistance constante de la Grande-Bretagne et du Commonwealth face au totalitarisme. Cette phrase embl\u00e9matique fut par la suite utilis\u00e9e pour d\u00e9signer une situation dans laquelle un pays d\u00e9mocratique engage toutes ses ressources dans un conflit afin d'en sortir victorieux, m\u00eame si tous les \u00e9l\u00e9ments sont contre lui. Parfois utilis\u00e9e pendant la guerre froide, cette phrase implique que l'ennemi rejette en bloc toute notion de libert\u00e9.",
+                "help_text": "Villes\u00a0: puissance de combat +33%.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Suffrage universel",
+                "civilopedia": "De nombreux combats politiques ont eu pour th\u00e8me le droit de vote, \u00e0 ne pas confondre avec la possibilit\u00e9 de voter, lors des \u00e9lections publiques organis\u00e9es dans les d\u00e9mocraties. Lorsque les \u00e9lections se font au suffrage universel, le droit de vote ne peut \u00eatre restreint par des crit\u00e8res de genre, de race, de croyance, de richesse, de propri\u00e9t\u00e9 fonci\u00e8re ou de statut social. Dans la plupart des pays occidentaux, le suffrage universel ouvert aux femmes fut instaur\u00e9 une ou deux d\u00e9cennies apr\u00e8s l'adoption du suffrage universel masculin.",
+                "help_text": "Les sp\u00e9cialistes des villes produisent moiti\u00e9 moins de m\u00e9contentement. Les \u00e2ges d'or sont 50% plus longs.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "New Deal",
+                "civilopedia": "Le New Deal est le nom donn\u00e9 \u00e0 une s\u00e9rie de programmes \u00e9conomiques qui, de 1933 \u00e0 1936, furent promulgu\u00e9s, par d\u00e9cret ou par disposition l\u00e9gislative, par le gouvernement des \u00c9tats-Unis dans l'optique de contrer les effets de la crise de 1929. Plut\u00f4t que de nationaliser les banques et les principaux secteurs industriels comme le firent certains dirigeants, le pr\u00e9sident Franklin Roosevelt chercha \u00e0 soutenir les couches les plus pauvres de la population, \u00e0 redynamiser l'\u00e9conomie am\u00e9ricaine via des programmes de grands travaux et de lutte contre le ch\u00f4mage financ\u00e9s par l'\u00e9tat f\u00e9d\u00e9ral, et \u00e0 proc\u00e9der \u00e0 des r\u00e9formes financi\u00e8res. L'histoire tire un bilan positif du New Deal, et d'autres pays adopt\u00e8rent une approche similaire dans les crises \u00e9conomiques r\u00e9centes.",
+                "help_text": "Bonus de production +4 pour tous les monuments et les am\u00e9nagements des personnages illustres.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Arsenal de la d\u00e9mocratie",
+                "civilopedia": "\"L'arsenal de la d\u00e9mocratie\" est une expression qu'utilisa le pr\u00e9sident Franklin Roosevelt en 1940, dans une allocution radiodiffus\u00e9e, pour d\u00e9crire le r\u00f4le des \u00c9tats-Unis dans la lutte contre le totalitarisme. Elle illustra la politique officieuse men\u00e9e par les \u00c9tats-Unis lors de la Deuxi\u00e8me Guerre mondiale, puis contre le communisme lors de la guerre froide. Le mot \"arsenal\" faisait r\u00e9f\u00e9rence aux entreprises priv\u00e9es du pays qui s'engageaient \u00e0 produire du mat\u00e9riel militaire afin de permettre \u00e0 leur patrie et \u00e0 d'autres pays de vaincre un ennemi commun. Les entreprises priv\u00e9es \u00e9taient d\u00e9dommag\u00e9es au prix du march\u00e9, g\u00e9n\u00e9ralement sur un mod\u00e8le de type \"Cash and Carry\".",
+                "help_text": "Production +15% lors de la formation d'unit\u00e9s militaires. Influence +15 par don d'unit\u00e9s militaires \u00e0 des cit\u00e9s-\u00e9tats.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Industrie culturelle",
+                "civilopedia": "L'industrie culturelle renvoie \u00e0 la soci\u00e9t\u00e9 capitaliste occidentale actuelle qui \u00e9mergea \u00e0 la fin du XXe si\u00e8cle, caract\u00e9ris\u00e9e par un consum\u00e9risme aigu encourag\u00e9 par les m\u00e9dias. L'industrie culturelle, o\u00f9 l'accent est mis sur la publicit\u00e9 et les relations publiques, a parfois \u00e9t\u00e9 consid\u00e9r\u00e9e comme un syst\u00e8me focalis\u00e9 sur la manipulation des masses, notamment en ce qui concerne la repr\u00e9sentation et la reproduction des id\u00e9ologies dominantes. Des sp\u00e9cialistes tels que Theodor Adorno et Hannah Arendt ont \u00e9crit de nombreux ouvrages traitant de l'impact de l'industrie culturelle sur la d\u00e9mocratie et le syst\u00e8me capitaliste.",
+                "help_text": "Tourisme +34% pour les villes poss\u00e9dant une tour de radiodiffusion.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Organisation par trait\u00e9",
+                "civilopedia": "Une organisation par trait\u00e9 est un pacte militaire international cr\u00e9\u00e9 aux fins de garantir la s\u00e9curit\u00e9 collective, qui inclut g\u00e9n\u00e9ralement une mise en commun des structures de commandement, des programmes de recherche et de la production d'armement, ainsi que des questions militaires plus courantes. La plus connue est l'Organisation du trait\u00e9 de l'Atlantique Nord, n\u00e9e en 1949. D'autres organisations de ce type furent \u00e9galement form\u00e9es en Am\u00e9rique du Sud, en Afrique et dans d'autres r\u00e9gions du monde. Les alliances militaires et les pactes d\u00e9fensifs \u00e9taient autrefois monnaie courante, mais n'atteignaient en rien le niveau d'int\u00e9gration des organisations modernes.",
+                "help_text": "Quatre points d' influence suppl\u00e9mentaires par tour (en vitesse standard) par cit\u00e9-\u00e9tat partageant une route commerciale avec vous.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Service des achats dans le domaine spatial",
+                "civilopedia": "La plupart des programmes spatiaux disposent d'un service des achats, similaire au Stennis Space Center Procurement Site de la NASA, charg\u00e9 de procurer certains mat\u00e9riels et services que le gouvernement ne pourrait fournir de mani\u00e8re rentable (petits outils, carburants, produits chimiques, denr\u00e9es alimentaires, articles de toilettes pour les vols dans l'espace, composants informatiques, etc.). Selon la r\u00e9glementation, le service des achats ach\u00e8te du mat\u00e9riel, l'inspecte et \u00e9value les services. Il se compose g\u00e9n\u00e9ralement de deux branches distinctes, l'une charg\u00e9e d'attribuer des contrats aux grosses soci\u00e9t\u00e9s, l'autre aux petites entreprises. Le service des achats est une agence gouvernementale. Des proc\u00e9dures assurent une r\u00e9gulation et un contr\u00f4le budg\u00e9taire afin d'assurer la rentabilit\u00e9 des programmes spatiaux.",
+                "help_text": "Permet l'achat de pi\u00e8ces de vaisseau spatial avec de l' or.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Couverture m\u00e9dicale universelle",
+                "civilopedia": "La couverture m\u00e9dicale universelle, ou \"couverture sociale\", est un syst\u00e8me financ\u00e9 par l'\u00e9tat visant \u00e0 fournir un acc\u00e8s \u00e9quitable aux services de sant\u00e9 et de meilleurs soins \u00e0 tous les citoyens, par le biais d'un certain nombre d'avantages sp\u00e9cifiques. C'est la Norv\u00e8ge, en 1912, qui la premi\u00e8re cr\u00e9a un syst\u00e8me de sant\u00e9 quasi universel. D'apr\u00e8s l'Organisation mondiale de la sant\u00e9, en 2010, 32\u00a0pays proposaient une forme de couverture m\u00e9dicale universelle.",
+                "help_text": "Bonheur local +1 pour toutes les merveilles nationales.",
+                "level": 1,
+                "prereq_policies": []
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Ordre",
+        "help_text": "L' ordre est une doctrine convenant aux grands empires expansionnistes, car la puissance de l'empire est d\u00e9termin\u00e9e par le nombre de villes qu'il contient. L'adoption de l'ordre augmente de +1 le bonheur dans chaque ville. En adoptant toutes les doctrines de l'ordre, vous gagnerez +2 Nourriture, Production, Science, Or et Culture par ville. Permet d'acheter des ing\u00e9nieurs illustres avec la foi non d\u00e9pens\u00e9e. [COLOR_WARNING_TEXT]Cette cat\u00e9gorie de doctrines ne peut pas \u00eatre active en m\u00eame temps que l'\u00e9galit\u00e9 ou l'autocratie.",
+        "era_requirement": "\u00c8re industrielle",
+        "policies": [
+            {
+                "name": "H\u00e9ros du peuple",
+                "civilopedia": "Bien que l'expression \"h\u00e9ros du peuple\" puisse \u00eatre interpr\u00e9t\u00e9e de diverses mani\u00e8res, elle \u00e9tait r\u00e9serv\u00e9e en Union sovi\u00e9tique aux personnes recevant la distinction de \"H\u00e9ros de l'Union sovi\u00e9tique\", accord\u00e9e pour services h\u00e9ro\u00efques rendus \u00e0 l'\u00e9tat et \u00e0 la soci\u00e9t\u00e9 sovi\u00e9tique. Institu\u00e9 en\u00a01934, ce titre \u00e9tait g\u00e9n\u00e9ralement accord\u00e9 pour services militaires h\u00e9ro\u00efques (plus de 11\u00a0000\u00a0h\u00e9ros furent distingu\u00e9s lors de la Deuxi\u00e8me Guerre mondiale). Des repr\u00e9sentants du Parti, des cosmonautes, des chercheurs et certains \u00e9trangers re\u00e7urent \u00e9galement ce titre. Le titre de \"h\u00e9ros du peuple\" perdit grandement de sa valeur dans les ann\u00e9es 1970, lorsqu'on commen\u00e7a \u00e0 le d\u00e9cerner \u00e0 des bureaucrates et \u00e0 des officiers de l'arm\u00e9e en remerciement de leurs longs \u00e9tats de service, et non plus pour distinguer d'\u00e9ventuels actes d'h\u00e9ro\u00efsme. Ce titre fut utilis\u00e9 par le Parti afin de constituer un objectif de r\u00e9alisation personnelle au sein des pays communistes.",
+                "help_text": "Les personnages illustres apparaissent 25% plus vite.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "R\u00e9alisme socialiste",
+                "civilopedia": "Le mouvement du r\u00e9alisme socialiste, issu de l'expression r\u00e9aliste, vit le jour en Russie sovi\u00e9tique et se propagea dans tous les pays communistes du monde. Ce mouvement promouvait le triomphe du socialisme \u00e0 travers l'art, la photographie, le cin\u00e9ma et la construction de monuments publics. Avec le style architectural socialiste classique, le r\u00e9alisme socialiste fut pendant soixante ans le seul style d'art approuv\u00e9 par le Parti. Les monuments minimalistes \u00e0 l'intensit\u00e9 dramatique con\u00e7us par les adeptes de ce mouvement furent per\u00e7us comme des outils de propagande destin\u00e9s \u00e0 promouvoir la dictature du prol\u00e9tariat et \u00e0 proposer une repr\u00e9sentation physique des pr\u00e9ceptes communistes.",
+                "help_text": "Bonheur local +2 pour les monuments historiques. Construction des monuments historiques deux fois plus rapide.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Gratte-ciel",
+                "civilopedia": "D\u00e8s les d\u00e9buts du sovi\u00e9tisme en Russie, le gouvernement chercha \u00e0 afficher le prestige et la fiert\u00e9 de son peuple via la mise en oeuvre de grands projets qui devaient d\u00e9montrer l'organisation et la sup\u00e9riorit\u00e9 sovi\u00e9tiques. Le premier projet de gratte-ciel, les \"Sept soeurs de Moscou\", consistait en la construction de sept immeubles \u00e0 l'architecture stalinienne, m\u00e9lange \u00e9labor\u00e9 des styles gothique et baroque russes. Leur construction fut interrompue par l'entr\u00e9e en guerre de l'Union sovi\u00e9tique en 1941. Les \"Sept Soeurs\" furent termin\u00e9es en 1956 \u00e0 l'aide de m\u00e9thodes et de technologies am\u00e9ricaines. L'Union sovi\u00e9tique construisit ensuite des dizaines de gratte-ciel modernes dans ses r\u00e9publiques et pays satellites, de Varsovie \u00e0 la capitale de la province du Kazakhstan.",
+                "help_text": "Le co\u00fbt en or des b\u00e2timents diminue de 33%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Guerre patriotique",
+                "civilopedia": "Au fil des si\u00e8cles, le terme de \"guerre patriotique\" a d\u00e9sign\u00e9 les conflits au cours desquels, selon la doctrine communiste, le prol\u00e9tariat s'est soulev\u00e9 pour se d\u00e9fendre contre une menace \u00e9trang\u00e8re. Plus g\u00e9n\u00e9ralement, ce terme d\u00e9signe une guerre men\u00e9e pour d\u00e9fendre la nation, ou, dans ce cas pr\u00e9cis, la \"m\u00e8re-patrie\". Il fut employ\u00e9 pour la premi\u00e8re fois pour d\u00e9crire la r\u00e9sistance g\u00e9n\u00e9ralis\u00e9e des paysans russes face \u00e0 l'invasion des troupes napol\u00e9oniennes en 1812. Durant la Deuxi\u00e8me Guerre mondiale, l'expression \"guerre patriotique\" fut utilis\u00e9e en r\u00e9f\u00e9rence \u00e0 la r\u00e9sistance des Russes aux attaques allemandes.",
+                "help_text": "Bonus d'attaque en territoire alli\u00e9 +15%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Agents doubles",
+                "civilopedia": "Dans le domaine du contre-espionnage, les agents doubles sont des employ\u00e9s ou des membres d'une organisation ennemie ayant accept\u00e9 d'espionner cette m\u00eame organisation tout en faisant mine de rester fid\u00e8les \u00e0 ses dirigeants. L'utilisation d'agents doubles pour infiltrer les r\u00e9seaux ennemis remonte \u00e0 de nombreuses ann\u00e9es, mais le ph\u00e9nom\u00e8ne connut une recrudescence pendant la Deuxi\u00e8me Guerre mondiale et la guerre froide. Le MI5 britannique \"retourna\" nombre d'agents ennemis et, pendant la guerre froide, l'Union sovi\u00e9tique parvint \u00e0 infiltrer aussi bien la CIA que les services secrets britanniques.",
+                "help_text": "Double les chances de vos espions de capturer les espions ennemis qui tentent de voler une technologie.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Jeunes Pionniers",
+                "civilopedia": "Des mouvements de Jeunes Pionniers furent mis en place par le Parti dans plusieurs pays communistes. En r\u00e8gle g\u00e9n\u00e9rale, les enfants int\u00e9graient les Jeunes Pionniers \u00e0 l'\u00e9cole primaire et y restaient jusqu'\u00e0 la fin de l'adolescence. L'objectif de cette organisation, vaguement inspir\u00e9e du scoutisme occidental, \u00e9tait d'endoctriner les jeunes gens afin de leur inculquer les philosophies et principes du communisme et de la lutte ouvri\u00e8re. On leur apprenait \u00e9galement \u00e0 devenir de meilleurs soldats et de meilleurs travailleurs afin de mieux servir l'\u00c9tat. Le programme russe rencontra un tel succ\u00e8s qu'il s'\u00e9tait en 1990 propag\u00e9 dans plus de 30 pays. Un grand nombre de ces programmes existe toujours, par exemple en Russie (sous le nom de \"Pionniers du parti communiste\", groupe non officiel) ou dans des pays tels que Cuba et le Vi\u00eat Nam.",
+                "help_text": "Bonheur local +1 pour chaque atelier, usine et centrale solaire/nucl\u00e9aire/hydro\u00e9lectrique.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Acad\u00e9mie des sciences",
+                "civilopedia": "Une acad\u00e9mie des sciences est une institution de formation et de recherche financ\u00e9e par l'\u00e9tat et d\u00e9di\u00e9e aux sciences et/ou aux technologies. La plus c\u00e9l\u00e8bre d'entre elles est l'acad\u00e9mie des sciences de Russie, \u00e9galement connue sous le nom d'Acad\u00e9mie des sciences d'URSS, que Pierre le Grand fonda en 1724 dans le but de moderniser son empire. En 1917, l'acad\u00e9mie passa sous contr\u00f4le sovi\u00e9tique, et eut pour mission d'\u00e9tudier les questions sociales et de construction. \u00c0 partir de 1928, le Politburo sovi\u00e9tique se mit \u00e0 interf\u00e9rer dans la mission originelle de l'Acad\u00e9mie des sciences d'URSS, entravant pendant plusieurs d\u00e9cennies les avanc\u00e9es scientifiques de l'Union sovi\u00e9tique.",
+                "help_text": "Bonheur local +1 pour chaque observatoire, \u00e9cole publique et laboratoire de recherche.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Autorit\u00e9 du Parti",
+                "civilopedia": "Au sein d'un \u00e9tat socialiste prol\u00e9tarien disciplin\u00e9, c'est le peuple qui est au pouvoir. Marx r\u00e9alisa cependant que le Parti devait imposer une certaine forme d'autorit\u00e9 afin que les services publics fonctionnent efficacement et afin d'assurer la pr\u00e9servation de l'ordre prol\u00e9taire. C'est pour ces raisons que les Bolch\u00e9viques d\u00e9clar\u00e8rent en 1917 qu'un groupe de bureaucrates allait prendre la t\u00eate d'un parti politique centralis\u00e9 charg\u00e9 d'administrer la nouvelle Russie sovi\u00e9tique. Au fil du temps, la propagation de la r\u00e9volution communiste dans le monde industriel devait peu \u00e0 peu r\u00e9duire ce besoin de hi\u00e9rarchisation et dissoudre l'autorit\u00e9 du Parti\u00a0; ainsi, l'histoire leur donna tort.",
+                "help_text": "Un point suppl\u00e9mentaire de nourriture, de production, de science, d' or et de culture pour chaque ville.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Repeuplement",
+                "civilopedia": "Le repeuplement forc\u00e9, ou \"transfert de population\" dans le jargon sovi\u00e9tique, s'effectua sous diverses formes\u00a0: d\u00e9portation de groupes antisovi\u00e9tiques (les \"ennemis du peuple\"), d\u00e9portations de groupes ethniques, transfert de main-d'oeuvre et migrations forc\u00e9es vers des r\u00e9gions ayant subi un \"nettoyage ethnique\". \u00c0 leur apog\u00e9e sous Staline, les programmes de repeuplement non volontaires organisaient g\u00e9n\u00e9ralement le transfert de Polonais, de Baltes, de Finlandais, de Roumains, de Tatars, de Kalmouks, de Tch\u00e9tch\u00e8nes et de dizaines d'autres peuples vers des r\u00e9gions d\u00e9sertes de la Russie asiatique. Les dirigeants communistes consid\u00e9raient le repeuplement comme une mani\u00e8re efficace et relativement humaine de ramener l'ordre dans un pays si vaste et si diversifi\u00e9.",
+                "help_text": "Les nouvelles villes d\u00e9marrent avec 3 citoyens suppl\u00e9mentaires.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "R\u00e9volution culturelle",
+                "civilopedia": "La grande r\u00e9volution culturelle prol\u00e9tarienne fut un mouvement social men\u00e9 de 1966 \u00e0 1976 en R\u00e9publique populaire de Chine. Instigu\u00e9e par Mao Ts\u00e9-Tung et le parti communiste, la r\u00e9volution culturelle cherchait \u00e0 r\u00e9\u00e9duquer le peuple en \u00e9liminant ou en r\u00e9primant les \u00e9l\u00e9ments capitalistes, traditionnels et religieux, si besoin au moyen d'arrestations ou par le recours \u00e0 la violence. La lutte culturelle se propagea chez les \u00e9tudiants, les militaires, les membres du Parti, les travailleurs urbains et dans toutes les strates de la soci\u00e9t\u00e9, retardant ainsi pendant des d\u00e9cennies la r\u00e9\u00e9mergence de la Chine sur la sc\u00e8ne internationale.",
+                "help_text": "Tourisme +34% pour les autres civilisations ayant adopt\u00e9 l'ordre.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Am\u00e9nagements destin\u00e9s aux ouvriers",
+                "civilopedia": "Selon la th\u00e9orie marxiste, la classe ouvri\u00e8re russe devait prendre le pouvoir pour assurer la transition de la Russie du socialisme au communisme. Les ouvriers devaient donc avoir acc\u00e8s \u00e0 tout le confort de la vie moderne dans une soci\u00e9t\u00e9 communautaire, depuis le logement jusqu'aux infrastructures de loisirs. Les am\u00e9nagements les plus flagrants furent les complexes d'appartements collectifs, dans lesquels deux \u00e0 sept familles de migrants provenant des zones rurales pouvaient occuper un m\u00eame appartement. Chaque famille disposait d'une chambre, mais le reste \u00e9tait utilis\u00e9 par l'ensemble des r\u00e9sidents\u00a0: cuisine, salon, salle de bain, t\u00e9l\u00e9phone et poste de t\u00e9l\u00e9vision.",
+                "help_text": "Les usines augmentent de 25% la production de science de la ville. La construction des usines est deux fois plus rapide.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Plan quinquennal",
+                "civilopedia": "Les plans quinquennaux de l'Union sovi\u00e9tique \u00e9taient une s\u00e9rie de directives encourageant le d\u00e9veloppement \u00e9conomique et con\u00e7ues par un comit\u00e9 gouvernemental de planification nomm\u00e9 par le parti communiste. Le premier plan quinquennal d\u00e9buta en 1928, et le dernier courait encore lorsque l'Union sovi\u00e9tique fut dissoute en 1991. La r\u00e9alisation du plan devint la principale motivation de la bureaucratie sovi\u00e9tique, mais celle-ci rencontra cependant de plus en plus de difficult\u00e9s \u00e0 atteindre les objectifs des plans quinquennaux. C'est le succ\u00e8s des premiers plans, comme ceux de la Chine de Mao, qui incita les autres nations communistes \u00e0 les adopter \u00e0 leur tour. On vit m\u00eame certains pays capitalistes adh\u00e9rer \u00e0 cette m\u00e9thode de promotion et de coordination du d\u00e9veloppement \u00e9conomique.",
+                "help_text": "Production +2 par ville et production +1 pour chaque mine et carri\u00e8re.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Dictature du prol\u00e9tariat",
+                "civilopedia": "Selon la th\u00e9orie socio-politique propre au marxisme, la dictature du prol\u00e9tariat renvoie \u00e0 un \u00e9tat social dans lequel la classe ouvri\u00e8re exerce un contr\u00f4le direct sur le pouvoir politique. Dans ce cas, le terme de \"dictature\" ne doit pas \u00eatre compris dans son acception commune, mais plut\u00f4t dans le sens o\u00f9 c'est une classe sociale dans son ensemble qui dirige la nation. La repr\u00e9sentation ou non dans un tel syst\u00e8me politique des capitalistes ou d'autres courants d\u00e9pend, selon Marx et Engels, des circonstances sp\u00e9cifiques \u00e0 une p\u00e9riode donn\u00e9e. Il n'est pas exclu qu'instaurer une dictature du prol\u00e9tariat puisse parfois engendrer la violence, mais quels que soient les moyens employ\u00e9s, le prol\u00e9tariat doit finir par triompher de la bourgeoisie.",
+                "help_text": "Tourisme +34% pour les civilisations poss\u00e9dant moins de bonheur.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Rideau de fer",
+                "civilopedia": "Le rideau de fer est la fronti\u00e8re symbolique, id\u00e9ologique et physique qui s\u00e9parait l'Ouest d\u00e9cadent de l'Union sovi\u00e9tique \"disciplin\u00e9e\", de la fin de la Deuxi\u00e8me Guerre mondiale jusqu'\u00e0 la fin de la guerre froide. Ce terme fut utilis\u00e9 pour la premi\u00e8re fois par Winston Churchill, dans un discours prononc\u00e9 en mars 1946 pour exprimer la consternation de la Grande-Bretagne face \u00e0 l'occupation de plusieurs pays d'Europe de l'Est et \u00e0 la r\u00e9pression qui s'exer\u00e7ait sur ces derniers. Pour Churchill, le rideau de fer servait uniquement \u00e0 emp\u00eacher les personnes de migrer vers l'Ouest et les informations d'entrer dans le bloc communiste. Son point de vue, au d\u00e9part raill\u00e9, fut finalement pris en compte, et sa m\u00e9taphore pour d\u00e9signer le bloc communiste europ\u00e9en devint universelle.",
+                "help_text": "Un tribunal gratuit pour chaque ville annex\u00e9e. Les routes commerciales internes g\u00e9n\u00e8rent 50% de Nourriture ou de Production suppl\u00e9mentaire.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Pionniers du vol spatial",
+                "civilopedia": "L'Union sovi\u00e9tique consacra une partie importante de ses ressources \u00e0 son programme spatial. En concurrence avec les \u00c9tats-Unis, elle y voyait la chance de prouver au monde la sup\u00e9riorit\u00e9 scientifique et technologique de l'Union sovi\u00e9tique. De courageux cosmonautes furent les premiers \u00eatres humains \u00e0 voyager dans l'espace et \u00e0 se placer dans l'orbite de la Terre \u00e0 bord de petites capsules. En avril 1961, Youri Gagarine fut le premier homme \u00e0 se placer dans l'orbite de la Terre. Il y resta pendant 108 minutes, \u00e0 bord du vaisseau spatial Vostok 1. En 1963, Valentina Tereshkova, la premi\u00e8re femme \u00e0 voyager dans l'espace, resta dans l'orbite de la Terre pendant presque trois jours.",
+                "help_text": "Les ing\u00e9nieurs illustres peuvent finir la construction de pi\u00e8ces de vaisseau spatial. Un ing\u00e9nieur et un scientifique illustres apparaissent en dehors de la capitale.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Couverture m\u00e9dicale universelle",
+                "civilopedia": "La couverture m\u00e9dicale universelle, ou \"couverture sociale\", est un syst\u00e8me financ\u00e9 par l'\u00e9tat visant \u00e0 fournir un acc\u00e8s \u00e9quitable aux services de sant\u00e9 et de meilleurs soins \u00e0 tous les citoyens, par le biais d'un certain nombre d'avantages sp\u00e9cifiques. C'est la Norv\u00e8ge, en 1912, qui la premi\u00e8re cr\u00e9a un syst\u00e8me de sant\u00e9 quasi universel. D'apr\u00e8s l'Organisation mondiale de la sant\u00e9, en 2010, 32\u00a0pays proposaient une forme de couverture m\u00e9dicale universelle.",
+                "help_text": "Bonheur local +1 pour toutes les merveilles nationales.",
+                "level": 1,
+                "prereq_policies": []
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Autocratie",
+        "help_text": "L' autocratie est la doctrine de choix pour les civilisations militaristes r\u00eavant de conqu\u00e9rir le monde. Adopter l'autocratie permet de r\u00e9duire de 33% le co\u00fbt d'entretien en or des unit\u00e9s militaires. Vous recevez 10 Culture en butin pour chaque point de culture produit dans la ville captur\u00e9e. En adoptant toutes les doctrines de l'autocratie, toutes vos unit\u00e9s militaires profiteront d'un bonus d'attaque de 25% pendant 50\u00a0tours. Permet d'acheter des g\u00e9n\u00e9raux et amiraux illustres avec la foi non d\u00e9pens\u00e9e. [COLOR_WARNING_TEXT]Cette cat\u00e9gorie de doctrines ne peut pas \u00eatre active en m\u00eame temps que l'\u00e9galit\u00e9 ou l'ordre.",
+        "era_requirement": "\u00c8re industrielle",
+        "policies": [
+            {
+                "name": "Forces d'\u00e9lite",
+                "civilopedia": "Les rois hittites et assyriens furent les premiers \u00e0 former des gardes de leurs palais au combat d'\u00e9lite. Depuis lors, toutes les arm\u00e9es ont int\u00e9gr\u00e9 des forces d'\u00e9lite, des unit\u00e9s militaires sp\u00e9cialement entra\u00een\u00e9es pour r\u00e9aliser des missions de combat non conventionnelles et \u00e0 haut risque. Les unit\u00e9s d'\u00e9lite prirent une grande importance pendant la Deuxi\u00e8me Guerre mondiale, notamment dans les nations totalitaires\u00a0: en Allemagne, la Panzergrenadier Division \"Brandenburg\" et le bataillon SS des Fallschirmj\u00e4gers de Skorzeny firent des ravages, tandis que l'Italie fasciste disposait de plusieurs unit\u00e9s navales d'\u00e9lite. Les Spetsnaz russes et les SEAL am\u00e9ricains ont ensuite entretenu cette tradition d'efficacit\u00e9 impitoyable.",
+                "help_text": "Unit\u00e9s militaires bless\u00e9es\u00a0: d\u00e9g\u00e2ts +25%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Mobilisation",
+                "civilopedia": "Le terme de \"mobilisation\" fut employ\u00e9 pour la premi\u00e8re fois en contexte militaire dans les ann\u00e9es 1850 pour d\u00e9crire le rassemblement par la Russie tsariste de troupes et de vivres en pr\u00e9paration de la guerre. La mobilisation a institutionnalis\u00e9 la lev\u00e9e en masse de citoyens, ph\u00e9nom\u00e8ne observ\u00e9 pour la premi\u00e8re fois lors des guerres de la R\u00e9volution fran\u00e7aise. Cette pratique modifia radicalement la nature de la guerre\u00a0; les nouvelles technologies de communication et de transport, ainsi que le d\u00e9veloppement de la conscription militaire, rendirent possible le rassemblement d'arm\u00e9es gigantesques, pr\u00eates \u00e0 en d\u00e9coudre avec l'ennemi.",
+                "help_text": "Le co\u00fbt d'achat en or des unit\u00e9s diminue de 33%.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Front uni",
+                "civilopedia": "Un front uni est un syst\u00e8me au sein duquel les r\u00e9volutionnaires font fi des fronti\u00e8res de l'\u00c9tat et poursuivent leurs objectifs en s'alliant aux individus \u00e9trangers de m\u00eames principes. Le syst\u00e8me a \u00e9t\u00e9 d\u00e9velopp\u00e9 par les communistes cherchant \u00e0 \u00e9tendre la r\u00e9volution bolchevique aux pays d'Europe et au reste du monde. Le cri de guerre des militants \u00e9tait \"Travailleurs de tous les pays\u00a0: unissez-vous\u00a0!\", et ses adeptes esp\u00e9raient que les classes d\u00e9favoris\u00e9es du monde entier r\u00e9aliseraient qu'elles avaient plus en commun entre elles qu'avec les dirigeants de leur pays respectif. Apr\u00e8s cette prise de conscience, id\u00e9alement, les travailleurs se seraient lev\u00e9s, auraient renvers\u00e9 leurs oppresseurs capitalistes, puis auraient inaugur\u00e9 une \u00e8re paradisiaque pour les travailleurs du monde. Cela n'arriva pas, et le mouvement fut finalement un \u00e9chec. Aujourd'hui, le syst\u00e8me semble rena\u00eetre quelque peu avec la lutte culturelle opposant les mondes musulman et non-musulman.",
+                "help_text": "Les cit\u00e9s-\u00e9tats militaires fournissent deux fois plus d'unit\u00e9s lorsque vous \u00eates en guerre contre un ennemi commun.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Futurisme",
+                "civilopedia": "Mouvement artistique ayant vu le jour en Italie au d\u00e9but du XXe si\u00e8cle, le futurisme se transforma en v\u00e9ritable mouvement social au cours des ann\u00e9es 20 et 30. Le futurisme mettait en avant une id\u00e9e contemporaine de l'avenir, autour de la violence de la jeunesse, de la technologie, de l'industrialisme et de moyens de transport rapides, comme l'avion et l'automobile. Bien qu'\u00e9tant principalement un mouvement philosophique et artistique, le futurisme en vint \u00e0 adopter une facette politique\u00a0; en effet, de nombreux futuristes se reconnurent dans le fascisme italien, avec l'espoir de parvenir \u00e0 moderniser ce qu'ils consid\u00e9raient comme un monde archa\u00efque, rural et arri\u00e9r\u00e9. M\u00eame si le futurisme connut un fort succ\u00e8s en Italie, il donna \u00e9galement naissance \u00e0 des mouvements parall\u00e8les en Angleterre, en France, et tout particuli\u00e8rement en Russie.",
+                "help_text": "Tourisme +250 aupr\u00e8s de toutes les civilisations connues \u00e0 l'apparition d'un \u00e9crivain, d'un artiste ou d'un musicien illustre.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Espionnage industriel",
+                "civilopedia": "Effectu\u00e9 pour des raisons \u00e9conomiques plut\u00f4t que par s\u00e9curit\u00e9 nationale, l'espionnage industriel fait r\u00e9f\u00e9rence aux efforts d\u00e9ploy\u00e9s par certaines soci\u00e9t\u00e9s pour d\u00e9couvrir les secrets et informations confidentielles d'autres soci\u00e9t\u00e9s, g\u00e9n\u00e9ralement concurrentes. L'espionnage industriel moderne vit le jour dans les ann\u00e9es 1820, lorsque le gouvernement fran\u00e7ais d\u00e9ploya des efforts consid\u00e9rables pour voler les inventions et proc\u00e9d\u00e9s de fabrication d\u00e9velopp\u00e9s par les Britanniques, afin d'\u00e9galer l'essor industriel de ces derniers. Les nations ont g\u00e9n\u00e9ralement recours \u00e0 cette forme d'espionnage lorsqu'elles se trouvent grandement d\u00e9savantag\u00e9es dans leur d\u00e9veloppement \u00e9conomique ou commercial. Jusque dans les ann\u00e9es 1980, l'Union sovi\u00e9tique utilisa notamment l'espionnage industriel pour s'emparer des proc\u00e9d\u00e9s de l'Ouest.",
+                "help_text": "Double la vitesse de vol des technologies des espions.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Militarisme",
+                "civilopedia": "Le militarisme se d\u00e9finit comme \"le souhait d'un gouvernement ou d'une population de voir une nation maintenir une force militaire importante et de se pr\u00e9parer \u00e0 l'utiliser de mani\u00e8re agressive\". Le militarisme fut une constituante forte des doctrines imp\u00e9rialistes ou expansionnistes \u00e0 travers les \u00e2ges, de Sparte \u00e0 l'Allemagne nazie. Cette philosophie se compose de nombreux \u00e9l\u00e9ments, qui incluent notamment l'id\u00e9alisation des succ\u00e8s militaires de la nation et des politiques gouvernementales qui consacrent une part importante des ressources du pays au maintien et \u00e0 l'am\u00e9lioration de ses forces militaires.",
+                "help_text": "Bonheur local +2 pour chaque caserne, d\u00e9p\u00f4t d'armes et \u00e9cole militaire.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Protections frontali\u00e8res",
+                "civilopedia": "Depuis l'\u00e9rection de la Grande muraille, les nations autocrates ont cherch\u00e9 \u00e0 prot\u00e9ger leurs fronti\u00e8res afin de prot\u00e9ger leurs terres d'\u00e9ventuelles invasions et de limiter la fuite de la population. Entre la construction du mur d'Hadrien en Angleterre et celle de la ligne Bar-Lev au Sina\u00ef, les m\u00e9thodes d'ing\u00e9nierie militaire ont consid\u00e9rablement \u00e9volu\u00e9. Les pr\u00e9ceptes sont cependant rest\u00e9s les m\u00eames\u00a0: une protection frontali\u00e8re se compose de places fortes reli\u00e9es par des fortifications moindres et prot\u00e9g\u00e9es par des obstacles antipersonnel tels que des pieux, des fosses, des barbel\u00e9s et des mines. Actuellement, les fronti\u00e8res les plus lourdement prot\u00e9g\u00e9es sont celles de la zone d\u00e9militaris\u00e9e s\u00e9parant la Cor\u00e9e du Nord de la Cor\u00e9e du Sud, un exemple illustrant bien le r\u00e9sultat d'une opposition entre deux protections frontali\u00e8res.",
+                "help_text": "Bonheur local +1 pour chaque ch\u00e2teau, arsenal et base militaire.",
+                "level": 1,
+                "prereq_policies": []
+            },
+            {
+                "name": "Guerre \u00e9clair",
+                "civilopedia": "La guerre \u00e9clair, plus connue sous son \u00e9quivalent allemand de \"Blitzkrieg\", est une strat\u00e9gie qui concentre les forces motoris\u00e9es d'une arm\u00e9e dans l'optique d'effectuer une perc\u00e9e rapide des lignes ennemies. En combinant forces blind\u00e9es et appui tactique a\u00e9rien, la guerre \u00e9clair cherche \u00e0 d\u00e9s\u00e9quilibrer les puissances ennemies en s'enfon\u00e7ant le plus loin possible dans leurs rangs et en attaquant les unit\u00e9s stationn\u00e9es sur les flancs. Imagin\u00e9e par Heinz Guderian et perfectionn\u00e9e par Erich von Manstein et Erwin Rommel, cette tactique fut si efficace en Pologne, en France et en Russie qu'elle fut reprise par l'Union sovi\u00e9tique et les Alli\u00e9s pour vaincre l'Allemagne nazie.",
+                "help_text": "G\u00e9n\u00e9raux illustres : D\u00e9plac. +3. Unit\u00e9s blind\u00e9es : attaque +15%, d\u00e9plac. +1, ignorent zone de contr\u00f4le ennemie.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "\u00c9tat policier",
+                "civilopedia": "Au sein d'un \u00e9tat policier, le gouvernement, qu'il soit de gauche ou de droite, exerce un contr\u00f4le s\u00e9v\u00e8re et r\u00e9pressif sur la vie sociale, \u00e9conomique, culturelle et politique de ses citoyens. Un \u00e9tat policier est souvent totalitaire et militariste, et se caract\u00e9rise par une limitation des libert\u00e9s publiques et la mise en place d'une vaste organisation de s\u00e9curit\u00e9 int\u00e9rieure permettant de surveiller les activit\u00e9s de tout un chacun. Selon l'Oxford Dictionary, ce terme fut utilis\u00e9 pour la premi\u00e8re fois en 1851 dans d'obscurs tracts allemands. Dans les ann\u00e9es 1930, la presse l'utilisa pour d\u00e9signer les gouvernements totalitaires et communistes de l'\u00e9poque.",
+                "help_text": "Bonheur local +3 pour tous les tribunaux. La construction des tribunaux est deux fois plus rapide.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Nationalisme",
+                "civilopedia": "Le nationalisme est une doctrine qui met en valeur l'importance et l'aspect exceptionnel de l'\u00c9tat. Ce dernier est le p\u00e8re et la m\u00e8re du peuple, et le peuple l'aime. Chaque citoyen hisse le drapeau du pays au-dessus de sa maison et assiste \u00e0 la parade organis\u00e9e le jour de la f\u00eate nationale par le personnel militaire exhibant un mat\u00e9riel enj\u00f4leur. Les \u00e9tats nationalistes sont souvent puissants, en cela que le peuple travaille sans rel\u00e2che pour que l'\u00c9tat s'am\u00e9liore. Cependant, la critique au sein du pays est souvent r\u00e9prim\u00e9e, ce qui limite la capacit\u00e9 de la nation \u00e0 redresser la barre si elle prend un mauvais cap.",
+                "help_text": "Co\u00fbt d'entretien en or des unit\u00e9s -33%.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Troisi\u00e8me voie",
+                "civilopedia": "La troisi\u00e8me voie est une philosophie politique issue du nationalisme qui rejette \u00e0 la fois le capitalisme et le communisme, tout en reprenant les id\u00e9es les plus radicales de ces deux doctrines. Les adeptes de la troisi\u00e8me voie pr\u00f4nent un syst\u00e8me de production g\u00e9r\u00e9 par l'\u00c9tat, une distribution des biens et des services aux \"membres productifs de la soci\u00e9t\u00e9\", une s\u00e9gr\u00e9gation pacifique de certains groupes raciaux et ethniques, et, plus r\u00e9cemment, un environnementalisme radical. Pour de nombreux experts politiques, ce mouvement, n\u00e9 \u00e0 la suite de la Deuxi\u00e8me Guerre mondiale dans des pays tels que l'Argentine et l'Afrique du Sud, ne constitue pas une troisi\u00e8me voie, mais plut\u00f4t une mutation du n\u00e9ofascisme et de l'ultranationalisme.",
+                "help_text": "Quantit\u00e9 de ressources strat\u00e9giques produites +100%. Nourriture +5 et science +5 dans la capitale.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Guerre totale",
+                "civilopedia": "Le principe de guerre totale est une strat\u00e9gie militaire qui consiste pour l'\u00e9tat \u00e0 investir jusqu'\u00e0 la derni\u00e8re de ses ressources dans un conflit guerrier. La population enti\u00e8re est mobilis\u00e9e pour la lutte, et toutes les activit\u00e9s dispensables sont suspendues pendant la dur\u00e9e du conflit. Si l'\u00e9tat ennemi applique \u00e9galement cette strat\u00e9gie, alors tout \u00e9l\u00e9ment constitutif de ce dernier est une cible militaire potentielle et l\u00e9gitime. En d\u00e9finitive, tout ce qui permet d'affaiblir la capacit\u00e9 de l'ennemi \u00e0 continuer la guerre est reconnu comme admissible. Il est alors possible de bombarder les villes, de couler des navires non arm\u00e9s, d'empoisonner des points d'eau potable et de br\u00fbler des r\u00e9coltes. La guerre totale est g\u00e9n\u00e9ralement la forme de guerre la plus terrible qui soit, et la plus destructrice pour les populations civiles des bellig\u00e9rants.",
+                "help_text": "+25% Production lors de la formation de nouvelles unit\u00e9s militaires, qui commencent avec +15 Exp\u00e9rience.",
+                "level": 2,
+                "prereq_policies": []
+            },
+            {
+                "name": "Culte de la personnalit\u00e9",
+                "civilopedia": "Le culte de la personnalit\u00e9 na\u00eet lorsqu'une personne utilise de mani\u00e8re consciente m\u00e9dias, propagande et autres moyens de communication dans le but de se cr\u00e9er une image publique id\u00e9alis\u00e9e, h\u00e9ro\u00efque et/ou d\u00e9ifi\u00e9e. Le sociologue Max Weber a propos\u00e9 une classification de l'autorit\u00e9 en trois parties, dans laquelle le culte de la personnalit\u00e9 occupe une place majeure. Des monarques absolus du si\u00e8cle des Lumi\u00e8res aux dictateurs totalitaires de l'\u00e9poque moderne, tous les dirigeants autocrates ont cherch\u00e9 \u00e0 susciter l'ob\u00e9issance et la d\u00e9votion de leurs sujets en manipulant, avec plus ou moins de succ\u00e8s, les domaines du divertissement et de l'information.",
+                "help_text": "Tourisme +50% pour les civilisations combattant un ennemi commun.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Politique de la canonni\u00e8re",
+                "civilopedia": "Sur la sc\u00e8ne internationale, la \"politique de la canonni\u00e8re\" fait r\u00e9f\u00e9rence \u00e0 la r\u00e9alisation par un pays d'objectifs en mati\u00e8re de politique \u00e9trang\u00e8re via des d\u00e9monstrations manifestes de sa puissance militaire, ce d\u00e9ploiement de forces impliquant la menace du d\u00e9clenchement d'hostilit\u00e9s ouvertes. Cette expression apparut pendant la p\u00e9riode de l'imp\u00e9rialisme europ\u00e9en, lorsque les puissances coloniales d\u00e9ployaient des bateaux de guerre afin de forcer les royaumes indig\u00e8nes \u00e0 leur faire des concessions. Cette politique, notamment employ\u00e9e par les autocraties militaires, s'av\u00e9ra tr\u00e8s efficace... mais elle prit fin lorsque les royaumes indig\u00e8nes commenc\u00e8rent \u00e0 moderniser leur armement.",
+                "help_text": "Influence +6 (en vitesse standard) par tour aupr\u00e8s des cit\u00e9s-\u00e9tats desquelles vous pourriez exiger un tribut. Vos forces militaires sont 50% plus efficaces pour intimider les cit\u00e9s-\u00e9tats.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "H\u00e9ritage de Clausewitz",
+                "civilopedia": "Apr\u00e8s les guerres napol\u00e9oniennes, l'officier prussien Carl von Clausewitz r\u00e9digea la premi\u00e8re th\u00e8se sur la guerre depuis Sun Tzu. Son oeuvre Vom Krieg (De la guerre), bien qu'inachev\u00e9e \u00e0 sa mort en 1831, servit de base \u00e0 la formation de g\u00e9n\u00e9rations d'officiers dans les \u00e9coles militaires du monde entier. Soulignant les aspects psychologiques et politiques de la guerre tant au niveau strat\u00e9gique que tactique, son affirmation selon laquelle \"La guerre n'est qu'un prolongement de la politique par d'autres moyens\" deviendra la doctrine des gouvernements autocratiques et expansionnistes des deux si\u00e8cles qui suivirent.",
+                "help_text": "Toutes les unit\u00e9s militaires profitent d'un bonus d'attaque de 25% pendant les 50 tours suivant l'adoption de cette doctrine.",
+                "level": 3,
+                "prereq_policies": []
+            },
+            {
+                "name": "Couverture m\u00e9dicale universelle",
+                "civilopedia": "La couverture m\u00e9dicale universelle, ou \"couverture sociale\", est un syst\u00e8me financ\u00e9 par l'\u00e9tat visant \u00e0 fournir un acc\u00e8s \u00e9quitable aux services de sant\u00e9 et de meilleurs soins \u00e0 tous les citoyens, par le biais d'un certain nombre d'avantages sp\u00e9cifiques. C'est la Norv\u00e8ge, en 1912, qui la premi\u00e8re cr\u00e9a un syst\u00e8me de sant\u00e9 quasi universel. D'apr\u00e8s l'Organisation mondiale de la sant\u00e9, en 2010, 32\u00a0pays proposaient une forme de couverture m\u00e9dicale universelle.",
+                "help_text": "Bonheur local +1 pour toutes les merveilles nationales.",
+                "level": 1,
+                "prereq_policies": []
+            }
+        ]
+    }
+]

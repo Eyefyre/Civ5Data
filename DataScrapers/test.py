@@ -17,4 +17,4 @@ def get_Localization(tag,language):
     localization = cur.fetchall()
     return localization
 
-print(get_Localization("TXT_KEY_BUILDING_FOATING_GARDENS_STRATEGY","English"))
+print(get_Localization("TXT_KEY_POLICY_COLLECTIVE_RULE_HELP","English"))

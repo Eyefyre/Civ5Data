@@ -1,0 +1,15 @@
+{
+    "id": "int",
+    "name": "String",
+    "help_text": "String",
+    "era_requirement": "String",
+    "policies": [
+        {
+            "name": "String",
+            "civilopedia": "String",
+            "help_text": "String",
+            "level": "int",
+            "prereq_policies":["String"]
+        }
+    ]
+}

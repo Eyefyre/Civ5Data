@@ -4,8 +4,8 @@ language_map = {"English": "Language_en_US", "German": "Language_DE_DE", "French
                 "Russian": "Language_RU_RU", "Polish": "Language_PL_PL", "Japanese": "Language_JA_JP", "Korean": "Language_KO_KR", "Chinese": "Language_ZH_HANT_HK"}
 languages = ["English", "German", "French", "Italian", "Spanish",
              "Russian", "Polish", "Japanese", "Korean", "Chinese"]
-text_replacements = ["[ICON_DIPLOMAT]","[ICON_TOURISM]","[ICON_RES_URANIUM]","[TAB]","[NEWLINE]","[COLOR_POSITIVE_TEXT]","[ENDCOLOR]","[ICON_FOOD]","[ICON_PEACE]","[ICON_RES_COW]","[ICON_RES_SHEEP]","[ICON_RES_HORSE]","[ICON_PRODUCTION]","[ICON_RES_FISH]","[ICON_RES_PEARLS]","[ICON_HAPPINESS_1]",
-"[ICON_RESEARCH]","[ICON_RES_DEER]","[ICON_RES_ALUMINUM]","[NEWLINE","[ICON_RES_OIL]","[ICON_RES_COAL]","[ICON_STRENGTH]","[ICON_GREAT_PEOPLE]","[ICON_RES_IVORY]","[ICON_RES_FUR]","[ICON_RES_TRUFFLES]","[ICON_GOLD]","[ICON_RES_MARBLE]","[ICON_OCCUPIED]","[ICON_HAPPINESS_4]","[ICON_GOLDEN_AGE]","[ICON_CULTURE]","[ICON_RES_IRON]"]
+text_replacements = ["[ICON_CAPITAL]","[ICON_CITIZEN]","[ICON_CONNECTED]","[ICON_DIPLOMAT]", "[ICON_TOURISM]", "[ICON_RES_URANIUM]", "[TAB]", "[NEWLINE]", "[COLOR_POSITIVE_TEXT]", "[ENDCOLOR]", "[ICON_FOOD]", "[ICON_PEACE]", "[ICON_RES_COW]", "[ICON_RES_SHEEP]", "[ICON_RES_HORSE]", "[ICON_PRODUCTION]", "[ICON_RES_FISH]", "[ICON_RES_PEARLS]", "[ICON_HAPPINESS_1]",
+                     "[ICON_RESEARCH]", "[ICON_RES_DEER]","[ICON_RANGE_STRENGTH]","[ICON_MOVES]", "[ICON_RES_ALUMINUM]", "[NEWLINE", "[ICON_RES_OIL]","[ICON_INFLUENCE]", "[ICON_RES_COAL]", "[ICON_STRENGTH]", "[ICON_GREAT_PEOPLE]", "[ICON_RES_IVORY]", "[ICON_RES_FUR]", "[ICON_RES_TRUFFLES]", "[ICON_GOLD]", "[ICON_RES_MARBLE]", "[ICON_OCCUPIED]", "[ICON_HAPPINESS_4]", "[ICON_GOLDEN_AGE]", "[ICON_CULTURE]", "[ICON_RES_IRON]","   ","  "]
 con = sqlite3.connect("../DataBases/Civ5DebugDatabase.db")
 cur = con.cursor()
 
@@ -56,12 +56,11 @@ Technologies = cur.fetchall()
 for lang in languages:
     tech_list = []
     for technology in Technologies:
-        print(lang,get_Localization(technology[2], lang))
         cur.execute('SELECT Description FROM Eras where Type = "'+ technology[9] +'";')
         era = cur.fetchone()[0]
         tech = {
             "id": int(technology[0]) + 1,
-            "Name": get_Localization(technology[2], lang),
+            "name": get_Localization(technology[2], lang),
             "civilopedia": get_Localization(technology[3], lang),
             "help_text": get_Localization(technology[4], lang),
             "era_requirement": get_Localization(era, lang),
